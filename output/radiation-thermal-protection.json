@@ -1,0 +1,489 @@
+{
+  "category": "Radiation and Thermal Protection",
+  "last_updated": "2025-12-09",
+  "items": [
+    {
+      "vendor": "NanoSonic, Inc.",
+      "model": "Lightweight Radiation Shielding Composites",
+      "subcategory": "Radiation Shielding - Composite Materials",
+      "trl": {
+        "value": 7,
+        "source_url": "https://techport.nasa.gov/api/projects/102828",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort. Phase II began at TRL 5, reached TRL 7 by completion (June 2022)",
+        "notes": "NASA SBIR Phase II completed, TRL progressed from 5 to 7"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA TechPort and NanoSonic vendor site",
+        "notes": "Areal density data available but not total mass"
+      },
+      "areal_density_g_cm2": {
+        "value": null,
+        "source_url": "https://techport.nasa.gov/api/projects/102828",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA TechPort mentions 71% higher radiation attenuation vs polyethylene but does not provide specific areal density values",
+        "notes": "71% higher radiation attenuation vs polyethylene. Kevlar and Boron Nitride composite"
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://techport.nasa.gov/api/projects/102828",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed passive shielding material, no power required",
+        "notes": "Passive shielding, no power required"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA TechPort and NanoSonic vendor site"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA TechPort and NanoSonic vendor site"
+      },
+      "performance_metrics": {
+        "value": "71% higher attenuation vs polyethylene; structurally survives simulated 50-year SEP and GCR exposure",
+        "source_url": "https://techport.nasa.gov/api/projects/102828",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort. Tested at NASA NSRL/BNL and Colorado State University"
+      },
+      "space_heritage": {
+        "value": "NASA SBIR Phase II (2020-2022), tested at NASA NSRL/BNL and Colorado State University",
+        "source_url": "https://techport.nasa.gov/api/projects/102828",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort. Phase I: Aug 2019-Feb 2020, Phase II: June 2020-June 2022"
+      },
+      "notes": "Multifunctional composite: shielding, micrometeoroid protection, and structural support. Woven Kevlar and Boron Nitride. Partners with Lockheed Martin for commercialization."
+    },
+    {
+      "vendor": "StemRad",
+      "model": "AstroRad Radiation Vest",
+      "subcategory": "Radiation Shielding - Wearable Personal Protection",
+      "trl": {
+        "value": 9,
+        "source_url": "https://stemrad.com/astrorad-4/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site and ISS National Lab. Flight proven on ISS (2019) and Artemis I (2022)",
+        "notes": "Flown on ISS and Artemis I mission"
+      },
+      "mass_kg": {
+        "value": 22.7,
+        "source_url": "https://www.syfy.com/syfy-wire/stemrad-astrorad-vest-space-radiation",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed as 'nearly 50 pounds' from credible source. 50 lbs = ~22.7 kg",
+        "notes": "~50 pounds, not an issue in microgravity"
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://stemrad.com/astrorad-4/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed passive shielding vest from vendor site",
+        "notes": "Passive shielding, no power required"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked StemRad vendor site and ISS National Lab sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked StemRad vendor site and ISS National Lab sources"
+      },
+      "performance_metrics": {
+        "value": "60% radiation reduction overall, 90% reduction in highly sensitive areas (pelvic bone marrow). Tested on Artemis I MARE experiment",
+        "source_url": "https://www.space.gov.il/en/news-space/134153",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from unverified claim. Israeli Space Agency official source confirms 60% overall reduction, 90% in sensitive areas. Original claim about '30.7 mSv' could not be verified"
+      },
+      "space_heritage": {
+        "value": "ISS National Lab testing (2019), Artemis I mission (2022)",
+        "source_url": "https://issnationallab.org/iss360/lockheed-martin-astrorad-vest-ngcrs12/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ISS National Lab and StemRad vendor site. ISS testing Nov 2019, Artemis I 2022"
+      },
+      "notes": "High-density polyethylene (HDPE). Selective protection design for bone marrow, reproductive organs, lungs. Commercial partnership with Lockheed Martin."
+    },
+    {
+      "vendor": "Beyond Gravity",
+      "model": "Multi-Layer Insulation (MLI) Blankets",
+      "subcategory": "Passive Thermal Control - MLI",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.beyondgravity.com/en/satellites/thermal-control-solutions/satellite-insulation",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site. Flight-proven on 700+ satellites including OneWeb, Galileo, JUICE",
+        "notes": "Flight-proven on 700+ satellites including OneWeb, Galileo, JUICE"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Beyond Gravity vendor site",
+        "notes": "Varies by application; high A/m ratio noted"
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://www.beyondgravity.com/en/satellites/thermal-control-solutions/satellite-insulation",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed passive thermal control from vendor site",
+        "notes": "Passive thermal control"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Beyond Gravity vendor site"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Beyond Gravity vendor site"
+      },
+      "temperature_range": {
+        "value": "1K to 1800K",
+        "source_url": "https://www.beyondgravity.com/en/satellites/thermal-control-solutions/satellite-insulation",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site: 'designed for a wide range of temperature requirements (1K - 1800K)'"
+      },
+      "performance_metrics": {
+        "value": "Custom designs for MMOD and ATOX protection",
+        "source_url": "https://www.beyondgravity.com/en/satellites/thermal-control-solutions/satellite-insulation",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site"
+      },
+      "space_heritage": {
+        "value": "700+ satellites, 50 space projects including OneWeb, Galileo, ESA JUICE",
+        "source_url": "https://www.beyondgravity.com/en/satellites/thermal-control-solutions/satellite-insulation",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site: 'More than 700 satellites are currently in space, which our thermal dress protects'"
+      },
+      "notes": "Metal-coated plastic film with low-conductivity spacers. Kapton and aluminized Mylar construction. Custom cuts, fixations, and grounding points."
+    },
+    {
+      "vendor": "Paragon Space Development Corporation",
+      "model": "xRAD Extruded Radiator",
+      "subcategory": "Active Thermal Control - Radiators",
+      "trl": {
+        "value": 8,
+        "source_url": "https://www.paragonsdc.com/paragon-space-development-corporation-named-by-sierra-nevada-corporation-supplier-for-dream-chaser-spacecraft-cargo-system/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 9 to TRL 8. Dream Chaser has not flown as of Dec 2025. xRAD delivered 2019-2022 and is flight qualified for Dream Chaser but awaiting first mission",
+        "notes": "Flight qualified for Dream Chaser spacecraft, awaiting first mission"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Paragon vendor site and ICES conference paper",
+        "notes": "Optimized for mass reduction vs bonded radiators"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Paragon vendor site and ICES conference paper"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Paragon vendor site"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Paragon vendor site"
+      },
+      "performance_metrics": {
+        "value": "12 tube, dual loop extruded aluminum. No bond line thermal resistance",
+        "source_url": "https://ttu-ir.tdl.org/server/api/core/bitstreams/a18c719c-a7b7-43b8-b75f-46a1d26a359c/content",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ICES 2018 conference paper. 12 tube, dual loop, extruded aluminum with friction stir welding"
+      },
+      "space_heritage": {
+        "value": "Dream Chaser spacecraft cargo system (manufactured 2019-2022, awaiting first flight)",
+        "source_url": "https://www.paragonsdc.com/paragon-space-development-corporation-named-by-sierra-nevada-corporation-supplier-for-dream-chaser-spacecraft-cargo-system/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site. First delivery early 2019, deliveries through 2022. Dream Chaser has not flown yet"
+      },
+      "notes": "Patented xRAD technology. Tube and facesheet are single extrusion - structurally inseparable with no bond line. Cost-effective manufacturing."
+    },
+    {
+      "vendor": "Advanced Cooling Technologies (ACT)",
+      "model": "Loop Heat Pipes with Thermal Control Valves",
+      "subcategory": "Active Thermal Control - Heat Pipes",
+      "trl": {
+        "value": 8,
+        "source_url": "https://www.prnewswire.com/news-releases/act-delivers-critical-thermal-management-system-for-nasa-viper-mission-301965258.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 9 to TRL 8. VIPER hardware delivered Oct 2023 and integrated but mission cancelled July 2024 before flight. Flight qualified but not flown",
+        "notes": "NASA VIPER mission hardware delivered and integrated, mission cancelled before flight"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked ACT vendor site and PR announcements"
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://www.prnewswire.com/news-releases/act-delivers-critical-thermal-management-system-for-nasa-viper-mission-301965258.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed passive thermal control valves from vendor announcement. No active power required",
+        "notes": "Passive thermal control valves eliminate power requirement for conventional LHPs"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked ACT vendor site"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked ACT vendor site"
+      },
+      "temperature_range": {
+        "value": "70-250°C (titanium/water LHP)",
+        "source_url": "https://www.1-act.com/industries/space/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site. Titanium/water LHPs operate in 70°C to 250°C range"
+      },
+      "performance_metrics": {
+        "value": "Four LHPs with passive thermal control valves. 100 million hours on orbit heritage. Thermal conductivity 500-1200 W/m·K",
+        "source_url": "https://www.1-act.com/industries/space/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site. VIPER used 4 LHPs. Thermal conductivity from HiK plates: 500-1200 W/m·K"
+      },
+      "space_heritage": {
+        "value": "NASA VIPER mission (delivered 2023, mission cancelled 2024), 100 million hours on orbit",
+        "source_url": "https://www.prnewswire.com/news-releases/act-delivers-critical-thermal-management-system-for-nasa-viper-mission-301965258.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor PR and website. 100M hours on orbit, VIPER hardware delivered but mission cancelled"
+      },
+      "notes": "AS9100:D certified. Passive TCVs enable lunar night survival without power. Hybrid wick design operates against gravity on planetary surfaces. Propylene working fluid for low freezing point (-185.2°C)."
+    },
+    {
+      "vendor": "Ashwin-Ushas Corp, Inc.",
+      "model": "Electrochromic Variable-Emissivity Skins",
+      "subcategory": "Active Thermal Control - Variable Emissivity Coatings",
+      "trl": {
+        "value": 4,
+        "source_url": "https://techport.nasa.gov/api/projects/154323",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort. TRL 4 at Phase II start (Jan 2022), targeting TRL 7-8 by completion (Jun 2024). Current TRL unknown",
+        "notes": "NASA SBIR Phase II target TRL 7-8 by completion (2024)"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://techport.nasa.gov/api/projects/154323",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA TechPort describes as thin (~0.1mm) flexible panels but no mass specified",
+        "notes": "Thin (~0.1mm) flexible panels"
+      },
+      "power_kw": {
+        "value": 0.00003,
+        "source_url": "https://techport.nasa.gov/api/projects/154323",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort. 30 µW/cm² at ±1.5V",
+        "notes": "30 µW/cm² at +/- 1.5V"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://techport.nasa.gov/api/projects/154323",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA TechPort describes as 'inexpensive' but no specific cost data",
+        "notes": "Described as very inexpensive"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA TechPort"
+      },
+      "performance_metrics": {
+        "value": "Emittance variation 0.12 to 0.80, switching time <30s, absorptance ~0.3",
+        "source_url": "https://techport.nasa.gov/api/projects/154323",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort. All numerical values verified"
+      },
+      "space_heritage": {
+        "value": "NASA SBIR Phase II development (Jan 2022-Jun 2024) for Venturi Astrolab lunar rovers",
+        "source_url": "https://techport.nasa.gov/api/projects/154323",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort. Partnership with Venturi Astrolab, UC Irvine, AshChromics. TVAC testing at NASA-JSC"
+      },
+      "notes": "Flexible, thin, cuttable panels. Collaboration with Venturi Astrolab (lunar rover manufacturer), UC Irvine, and AshChromics. TVAC testing at NASA-JSC. For lunar rovers and lander structures."
+    },
+    {
+      "vendor": "RAL Space",
+      "model": "Multi-Layer Insulation (MLI) Blankets",
+      "subcategory": "Passive Thermal Control - MLI",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.ralspace.stfc.ac.uk/Pages/Multi-layer-insulation.aspx",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site. Flight-proven on JWST, Solar Orbiter, Peregrine-1, Rosetta, Urthecast ISS cameras",
+        "notes": "Flight-proven on JWST, Solar Orbiter, Artemis Peregrine-1"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked RAL Space vendor site"
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://www.ralspace.stfc.ac.uk/Pages/Multi-layer-insulation.aspx",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed passive thermal control from vendor site",
+        "notes": "Passive thermal control"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked RAL Space vendor site"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked RAL Space vendor site"
+      },
+      "performance_metrics": {
+        "value": "Bespoke MLI solutions for UK, Europe, and global space sectors",
+        "source_url": "https://www.ralspace.stfc.ac.uk/Pages/Multi-layer-insulation.aspx",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site. Custom bespoke designs"
+      },
+      "space_heritage": {
+        "value": "JWST MIRI instrument, Rosetta, Peregrine-1 (Artemis programme), Urthecast ISS cameras, Solar Orbiter",
+        "source_url": "https://www.ralspace.stfc.ac.uk/Pages/Multi-layer-insulation.aspx",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site. All missions verified"
+      },
+      "notes": "UK-based MLI facility. Custom bespoke designs. Strong heritage on high-profile missions including JWST and Artemis."
+    },
+    {
+      "vendor": "Aerospace Fabrication & Materials (AFM)",
+      "model": "Multi-Layer Insulation (MLI) Blankets",
+      "subcategory": "Passive Thermal Control - MLI",
+      "trl": {
+        "value": 9,
+        "source_url": "https://aerospacefab.com/products/multilayer-insulation/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site. Flight-proven on ISS (lab, airlock, nodes, truss elements)",
+        "notes": "ISS heritage - lab, airlock, nodes, truss elements"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked AFM vendor site"
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://aerospacefab.com/products/multilayer-insulation/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed passive thermal control from vendor site",
+        "notes": "Passive thermal control"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked AFM vendor site"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked AFM vendor site"
+      },
+      "performance_metrics": {
+        "value": "MLI and shields for ISS lab, airlock, nodes, truss elements",
+        "source_url": "https://aerospacefab.com/products/multilayer-insulation/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site"
+      },
+      "space_heritage": {
+        "value": "International Space Station, Big Science missions, individual satellites, constellations",
+        "source_url": "https://aerospacefab.com/products/multilayer-insulation/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor site. ISS heritage and broad mission experience verified"
+      },
+      "notes": "US-based vendor with ISS heritage. Produces MLI for missions, satellites, and constellations."
+    }
+  ]
+}

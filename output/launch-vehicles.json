@@ -1,0 +1,617 @@
+{
+  "category": "Launch Vehicles",
+  "last_updated": "2025-12-09",
+  "phase4_verification_complete": true,
+  "items": [
+    {
+      "vendor": "SpaceX",
+      "model": "Falcon 9 Block 5",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.spacex.com/vehicles/falcon-9/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational since 2018 with hundreds of successful missions including multiple lunar CLPS missions"
+      },
+      "mass_kg": {
+        "value": 549054,
+        "source_url": "https://www.spacex.com/vehicles/falcon-9/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceX official specifications: 549,054 kg / 1,207,920 lbs"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - launch vehicles do not have continuous power ratings like spacecraft"
+      },
+      "cost_usd": {
+        "value": 67000000,
+        "source_url": "https://spacenews.com/inflation-high-demand-driving-up-launch-prices/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from $69.85M to $67M per multiple credible sources (SpaceNews, Space.com). SpaceX raised price from $62M to $67M in 2022 due to inflation"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Could not find. Checked SpaceX.com, SpaceNews, no public data on typical lead times for Falcon 9"
+      },
+      "payload_leo_kg": {
+        "value": 22800,
+        "source_url": "https://www.spacex.com/vehicles/falcon-9/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceX official specifications: 22,800 kg / 50,265 lbs to LEO"
+      },
+      "payload_gto_kg": {
+        "value": 8300,
+        "source_url": "https://www.spacex.com/vehicles/falcon-9/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceX official specifications: 8,300 kg / 18,300 lbs to GTO"
+      },
+      "payload_tli_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published by SpaceX. Checked SpaceX.com, NASA documents, academic sources. One forum post suggests ~1,973 kg but no authoritative source found. Actual lunar missions (e.g., IM-1 at 1,908 kg) suggest capacity in 1,900-2,000 kg range"
+      },
+      "notes": "Most frequently launched rocket globally. Proven lunar mission capability with multiple successful CLPS missions. Reusable first stage."
+    },
+    {
+      "vendor": "SpaceX",
+      "model": "Falcon Heavy Block 5",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational since Feb 2018 with 11+ successful missions including Psyche (Oct 2023), USSF missions, and ViaSat-3"
+      },
+      "mass_kg": {
+        "value": 1420788,
+        "source_url": "https://www.spacex.com/vehicles/falcon-heavy",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceX official specifications: 1,420,788 kg / 3,125,735 lbs"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - launch vehicles do not have continuous power ratings like spacecraft"
+      },
+      "cost_usd": {
+        "value": 97000000,
+        "source_url": "https://spacenews.com/spacexs-new-price-chart-illustrates-performance-cost-of-reusability/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed $97M list price for reusable configuration per SpaceNews. Price increased from $90M to $97M in 2022"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked SpaceX.com, SpaceNews, no public data on typical lead times for Falcon Heavy"
+      },
+      "payload_leo_kg": {
+        "value": 63800,
+        "source_url": "https://www.spacex.com/vehicles/falcon-heavy",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceX official specifications: 63,800 kg / 140,660 lbs to LEO"
+      },
+      "payload_gto_kg": {
+        "value": 26700,
+        "source_url": "https://www.spacex.com/vehicles/falcon-heavy",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceX official specifications: 26,700 kg / 58,860 lbs to GTO"
+      },
+      "payload_tli_kg": {
+        "value": 16800,
+        "source_url": "https://www.spacex.com/vehicles/falcon-heavy",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceX official specifications as 'Payload to Mars': 16,800 kg / 37,040 lbs. Mars trajectory similar to TLI energy requirements"
+      },
+      "notes": "Heavy-lift variant using 3 Falcon 9 cores. Awarded NASA Gateway Dragon XL lunar resupply contract. Partially reusable with center core and side boosters."
+    },
+    {
+      "vendor": "United Launch Alliance",
+      "model": "Vulcan Centaur",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Vulcan_launches",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational since Jan 2024. Three successful missions: Cert-1 (Peregrine, Jan 2024), Cert-2 (Oct 2024), USSF-106 (Aug 2025). Certified by Space Force for NSSL missions March 2025"
+      },
+      "mass_kg": {
+        "value": 546700,
+        "source_url": "https://en.wikipedia.org/wiki/Vulcan_Centaur",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from multiple sources: 546,700 kg / 1.2 million lbs total mass"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - launch vehicles do not have continuous power ratings like spacecraft"
+      },
+      "cost_usd": {
+        "value": 112000000,
+        "source_url": "https://spacenews.com/ulas-vulcan-centaur-launches-first-national-security-mission/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Estimated $110-120M per launch. Space Force contract: $1.3B for 11 launches averaging $118M. Varies by configuration (0-6 SRBs)"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked ULA official site and industry sources, no public data on procurement lead times"
+      },
+      "payload_leo_kg": {
+        "value": 27200,
+        "source_url": "https://www.ulalaunch.com/rockets/vulcan-centaur",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ULA official specifications: 27,200 kg to LEO-Reference orbit (6 SRB configuration)"
+      },
+      "payload_gto_kg": {
+        "value": 15300,
+        "source_url": "https://www.ulalaunch.com/rockets/vulcan-centaur",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ULA official specifications: 15,300 kg to GTO (Upgrade configuration with 6 SRBs)"
+      },
+      "payload_tli_kg": {
+        "value": 2300,
+        "source_url": "https://www.ulalaunch.com/rockets/vulcan-centaur",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ULA official specifications: 2,300 kg to TLI (0 SRB configuration). Up to 12,100 kg with Upgrade configuration"
+      },
+      "notes": "Modular design with 0, 2, 4, or 6 solid rocket boosters. Two BE-4 engines (main stage) and two RL10C engines (upper stage). Launched Peregrine lunar lander Jan 2024."
+    },
+    {
+      "vendor": "Blue Origin",
+      "model": "New Glenn 7x2",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.blueorigin.com/news/new-glenn-launches-nasa-escapade-lands-fully-reusable-booster",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational since Jan 2025. Two successful missions: NG-1 (Blue Ring, Jan 16 2025), NG-2 (ESCAPADE, Nov 13 2025). Successfully landed reusable booster"
+      },
+      "mass_kg": {
+        "value": 1000000,
+        "source_url": "https://en.wikipedia.org/wiki/New_Glenn",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from multiple sources: over 1,000 tons (1,000,000 kg) mass at liftoff"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - launch vehicles do not have continuous power ratings like spacecraft"
+      },
+      "cost_usd": {
+        "value": 68000000,
+        "source_url": "https://www.nasdaq.com/articles/new-glenn-its-pocket-can-blue-origin-compete-spacex-and-starship",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from null to $68M. Not officially announced by Blue Origin, but estimated $60-90M range by industry sources. Arianespace estimates $68M"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Blue Origin official site and industry sources, no public data on procurement lead times"
+      },
+      "payload_leo_kg": {
+        "value": 45000,
+        "source_url": "https://www.blueorigin.com/new-glenn",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Blue Origin official specifications: 45,000 kg / 99,000 lbs to LEO"
+      },
+      "payload_gto_kg": {
+        "value": 13000,
+        "source_url": "https://www.blueorigin.com/new-glenn",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 13,600 kg to 13,000 kg per Blue Origin official specifications: 13,000 kg / 29,000 lbs to GTO"
+      },
+      "payload_tli_kg": {
+        "value": 7000,
+        "source_url": "https://en.wikipedia.org/wiki/New_Glenn",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 7,000 kg to the Moon from multiple sources. Blue Origin official site does not list TLI capacity specifically"
+      },
+      "notes": "7 meter diameter, 98m tall. Seven BE-4 engines (1st stage), two BE-3U engines (2nd stage). Reusable first stage. Successfully launched Jan 2025 (Blue Ring), Nov 2025 (ESCAPADE)."
+    },
+    {
+      "vendor": "Blue Origin",
+      "model": "New Glenn 9x4",
+      "trl": {
+        "value": 6,
+        "source_url": "https://spacenews.com/blue-origin-announces-new-glenn-upgrade-plans/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Announced Nov 20, 2025. No operational timeline provided. In development phase, not yet built or tested. TRL 6 appropriate for system in design/development phase"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Blue Origin site, SpaceNews, Aviation Week, Space.com - no mass specifications found"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - launch vehicles do not have continuous power ratings like spacecraft"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. No official pricing announced. Checked Blue Origin site, SpaceNews, industry sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - vehicle not yet operational. No timeline for service entry announced"
+      },
+      "payload_leo_kg": {
+        "value": 70000,
+        "source_url": "https://spacenews.com/blue-origin-announces-new-glenn-upgrade-plans/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 77,000 kg to 70,000 kg per SpaceNews quoting Blue Origin announcement: 'more than 70 metric tons into low Earth orbit'"
+      },
+      "payload_gto_kg": {
+        "value": 14000,
+        "source_url": "https://www.theweeklyspaceman.com/articles/blue-origin-releases-future-plans-and-upgrades-for-new-glenn",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 15,000 kg to 14,000 kg per Weekly Spaceman: 'more than 14 metric tons to direct GEO'"
+      },
+      "payload_tli_kg": {
+        "value": 20000,
+        "source_url": "https://spacenews.com/blue-origin-announces-new-glenn-upgrade-plans/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 22,000 kg to 20,000 kg per SpaceNews: 'more than 20 metric tons on a translunar injection trajectory'"
+      },
+      "notes": "Upgraded version with 9 BE-4 engines (1st stage), 4 BE-3U engines (2nd stage), 8.7m fairing. Announced Nov 2025 for development. No operational timeline provided."
+    },
+    {
+      "vendor": "ArianeGroup / Arianespace",
+      "model": "Ariane 6-62",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/Ariane_6",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational since July 9, 2024 with maiden flight VA262. Multiple operational flights in 2024-2025"
+      },
+      "mass_kg": {
+        "value": 530000,
+        "source_url": "https://ariane.group/en/news/number-crunching-ariane-6-ariane-62-and-ariane-64/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ArianeGroup official specifications: 530 metric tons at liftoff"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - launch vehicles do not have continuous power ratings like spacecraft"
+      },
+      "cost_usd": {
+        "value": 77000000,
+        "source_url": "https://www.fool.com/investing/2023/12/23/arianes-new-price-tag-is-bad-news-for-airbus/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from $85M to $77M per Motley Fool. Note: This is list price; actual cost with subsidies ~$115M"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Arianespace and ArianeGroup sites, no public data on procurement lead times"
+      },
+      "payload_leo_kg": {
+        "value": 10000,
+        "source_url": "https://ariane.group/en/news/number-crunching-ariane-6-ariane-62-and-ariane-64/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 10,350 kg to 10,000 kg per ArianeGroup official specifications"
+      },
+      "payload_gto_kg": {
+        "value": 4500,
+        "source_url": "https://ariane.group/en/news/number-crunching-ariane-6-ariane-62-and-ariane-64/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 5,000 kg to 4,500 kg per ArianeGroup official specifications: '4,500 kg to geostationary transfer orbit (GTO)'"
+      },
+      "payload_tli_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published by ArianeGroup or Arianespace. Checked official sites, ESA, no TLI capacity found"
+      },
+      "notes": "Two P120C solid rocket boosters. Vulcain 2.1 main engine (1st stage), Vinci engine (2nd stage). Smaller variant of Ariane 6 family."
+    },
+    {
+      "vendor": "ArianeGroup / Arianespace",
+      "model": "Ariane 6-64",
+      "trl": {
+        "value": 8,
+        "source_url": "https://spacenews.com/first-ariane-64-launch-slips-to-2026/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 8 - Not yet flown. First flight (VA267) delayed to 2026. Hardware being prepared at launch site. Per Arianespace CEO: 'at the very end of development phase'"
+      },
+      "mass_kg": {
+        "value": 850000,
+        "source_url": "https://ariane.group/en/news/number-crunching-ariane-6-ariane-62-and-ariane-64/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 860,000 kg to 850,000 kg per ArianeGroup official specifications: 850 metric tons"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - launch vehicles do not have continuous power ratings like spacecraft"
+      },
+      "cost_usd": {
+        "value": 126000000,
+        "source_url": "https://www.fool.com/investing/2023/12/23/arianes-new-price-tag-is-bad-news-for-airbus/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from $130M to $126M per Motley Fool. Note: This is list price; actual cost with subsidies higher"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Not yet operational. Checked Arianespace and ArianeGroup sites, no public data on procurement lead times"
+      },
+      "payload_leo_kg": {
+        "value": 20000,
+        "source_url": "https://ariane.group/en/news/number-crunching-ariane-6-ariane-62-and-ariane-64/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 21,500 kg to 20,000 kg per ArianeGroup official specifications: '20,000 kg to LEO'"
+      },
+      "payload_gto_kg": {
+        "value": 11500,
+        "source_url": "https://ariane.group/en/news/number-crunching-ariane-6-ariane-62-and-ariane-64/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ArianeGroup official specifications: 11,500 kg to GTO"
+      },
+      "payload_tli_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published by ArianeGroup or Arianespace. Checked official sites, ESA, no TLI capacity found"
+      },
+      "notes": "Four P120C solid rocket boosters. Vulcain 2.1 main engine (1st stage), Vinci engine (2nd stage). More powerful variant. Future Block 3 upgrade planned for enhanced lunar capability."
+    },
+    {
+      "vendor": "JAXA / Mitsubishi Heavy Industries",
+      "model": "H3-24",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/H3_(rocket)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational since February 2024. First successful flight Feb 17, 2024. Multiple operational flights in 2024-2025 with 5 successes out of 6 missions"
+      },
+      "mass_kg": {
+        "value": 574000,
+        "source_url": "https://www.airport-technology.com/projects/h3-launch-vehicle/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from multiple sources: 574 metric tons (574,000 kg) total mass"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - launch vehicles do not have continuous power ratings like spacecraft"
+      },
+      "cost_usd": {
+        "value": 50000000,
+        "source_url": "https://payloadspace.com/japans-h3-rocket-reaches-orbit-on-its-second-flight/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from multiple sources: ~$50M per launch. JAXA designed H3 to cost approximately $33M but expected price ~$50M"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked JAXA and MHI sites, no public data on procurement lead times"
+      },
+      "payload_leo_kg": {
+        "value": 16000,
+        "source_url": "https://en.wikipedia.org/wiki/H3_(rocket)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from multiple sources: 16,000 kg to LEO for H3-24W (wide fairing) variant"
+      },
+      "payload_gto_kg": {
+        "value": 8800,
+        "source_url": "https://en.wikipedia.org/wiki/H3_(rocket)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from multiple sources: 8,800 kg to GTO (∆V=1830 m/s)"
+      },
+      "payload_tli_kg": {
+        "value": 6000,
+        "source_url": "https://en.wikipedia.org/wiki/H3_(rocket)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from multiple sources: 'more than 6,000 kg to lunar transfer orbit'"
+      },
+      "notes": "Most powerful H3 variant. Two LE-9 engines (1st stage), LE-5B-3 engine (2nd stage), four SRB-3 solid boosters. Used for LUPEX lunar mission. 63m tall, 5.2m diameter."
+    },
+    {
+      "vendor": "ISRO",
+      "model": "LVM3 (GSLV Mark III)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/LVM3",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational since July 2019. First operational flight July 22, 2019 (Chandrayaan-2). 8 successful launches out of 8 attempts (100% success rate)"
+      },
+      "mass_kg": {
+        "value": 640000,
+        "source_url": "https://www.isro.gov.in/GSLVmk3_CON.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ISRO official specifications: 640 tonnes lift-off mass"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - launch vehicles do not have continuous power ratings like spacecraft"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Production cost ~₹434 crore ($52M) per rocket, but commercial pricing by NewSpace India not publicly disclosed. Checked ISRO and NewSpace India sites"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked ISRO and NewSpace India sites, no public data on procurement lead times"
+      },
+      "payload_leo_kg": {
+        "value": 8000,
+        "source_url": "https://www.isro.gov.in/GSLVmk3_CON.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 10,000 kg to 8,000 kg per ISRO official specifications: 8,000 kg to LEO (600 km altitude)"
+      },
+      "payload_gto_kg": {
+        "value": 4000,
+        "source_url": "https://www.isro.gov.in/GSLVmk3_CON.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ISRO official specifications: 4,000 kg to GTO"
+      },
+      "payload_tli_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published by ISRO. Chandrayaan-3 (3,900 kg) was launched to GTO, then performed its own TLI. No direct TLI capacity specified"
+      },
+      "notes": "India's most powerful launch vehicle. Three-stage: S200 solid boosters, L110 liquid stage, C25 cryogenic upper stage. Launched Chandrayaan-2 and Chandrayaan-3. Commercially available via NewSpace India Limited. 43.5m tall."
+    },
+    {
+      "vendor": "Rocket Lab",
+      "model": "Neutron",
+      "trl": {
+        "value": 6,
+        "source_url": "https://spacenews.com/rocket-lab-delays-first-neutron-launch-to-2026/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 6 - In development. All major hardware built and in testing. First launch delayed to Q1 2026 or later per CEO Nov 2025"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Original JSON had 480,000 kg but this is not found in any authoritative sources. Checked Rocket Lab official site, Wikipedia, industry sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - launch vehicles do not have continuous power ratings like spacecraft"
+      },
+      "cost_usd": {
+        "value": 50000000,
+        "source_url": "https://payloadspace.com/rocket-lab-signs-first-neutron-customer/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Added from null. Per Rocket Lab CFO: $50-55M per launch. Targeting to challenge SpaceX Falcon 9 pricing"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - vehicle not yet operational. First launch expected Q1 2026 or later"
+      },
+      "payload_leo_kg": {
+        "value": 13000,
+        "source_url": "https://rocketlabcorp.com/missions/upcoming-missions/neutron/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Rocket Lab official site: 13,000 kg to LEO (with downrange booster landing)"
+      },
+      "payload_gto_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Rocket Lab official site, no GTO capacity specified"
+      },
+      "payload_tli_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Rocket Lab official site, no TLI capacity specified"
+      },
+      "notes": "In development. 43m tall (141 ft). Nine Archimedes engines (1st stage). Distinctive 'Hungry Hippo' reusable fairings. Partially reusable. First launch Q1 2026 or later."
+    }
+  ]
+}

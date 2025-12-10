@@ -1,0 +1,783 @@
+{
+  "category": "Landers and Cargo Delivery",
+  "last_updated": "2025-12-08",
+  "items": [
+    {
+      "vendor": "Firefly Aerospace",
+      "model": "Blue Ghost",
+      "trl": {
+        "value": 9,
+        "source_url": "https://fireflyspace.com/blue-ghost/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - successful soft landing March 2, 2025, first fully successful commercial lunar landing. Multiple sources confirm mission success.",
+        "notes": "Successful landing March 2, 2025 - first fully successful commercial soft landing"
+      },
+      "payload_capacity_kg": {
+        "value": 240,
+        "source_url": "https://fireflyspace.com/blue-ghost/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 94 kg to 240 kg. Vendor official site states 'Up to 240 kg' mass to lunar surface. Mission 1 actually carried 94 kg, but payload capacity is 240 kg.",
+        "notes": "Mission 1 carried 94 kg. Lander capacity: up to 240 kg to lunar surface."
+      },
+      "mass_kg": {
+        "dry_mass": 469,
+        "fueled_mass": 1517,
+        "source_url": "https://spaceflightnow.com/2025/01/15/live-coverage-spacex-to-launch-firefly-aerospace-and-ispace-moon-landers-on-falcon-9-rocket-from-the-kennedy-space-center/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from credible spaceflight news source. Dry mass 469 kg, fueled mass ~1,500 kg (JSON shows 1517 kg which is consistent)."
+      },
+      "dimensions": {
+        "height_m": 2.0,
+        "width_m": 3.5,
+        "source_url": "https://fireflyspace.com/blue-ghost/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 2 m (6.6 ft) tall and 3.5 m (11.5 ft) wide."
+      },
+      "power_kw": {
+        "value": 0.4,
+        "source_url": "https://fireflyspace.com/blue-ghost/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: '>400 W' power available. Consistent with 0.4 kW.",
+        "notes": "Solar panels provide up to 400 W"
+      },
+      "propulsion": {
+        "type": "Bipropellant",
+        "engine": "LEROS 4-ET (Nammo UK)",
+        "propellant": "MMH/MON-3",
+        "source_url": "https://europeanspaceflight.com/nammo-uk-engine-powers-first-successful-commercial-lunar-landing/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed LEROS 4-ET main engine by Nammo UK, using MMH/MON-3 propellants. Engine produces 1.31 kN nominal thrust."
+      },
+      "cost_usd": {
+        "value": 93300000,
+        "source_url": "https://techcrunch.com/2021/02/04/firefly-will-light-up-the-moon-with-93m-lunar-lander-contract-from-nasa/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed NASA CLPS Task Order for Blue Ghost Mission 1: $93.3 million awarded February 4, 2021.",
+        "notes": "NASA CLPS Task Order for Blue Ghost Mission 1: $93.3 million. Additional missions: $112M (Mission 2), $179.6M (Mission 3), $176.7M (Mission 4)"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No specific procurement lead time published. Firefly operating annual lunar missions starting 2025.",
+        "notes": "Multiple missions 2025-2029. Mission 2 (2026), Mission 3, Mission 4 (2029)"
+      },
+      "notes": "First commercial company to achieve fully successful soft landing on Moon. Blue Ghost Mission 1 completed March 2025."
+    },
+    {
+      "vendor": "Intuitive Machines",
+      "model": "Nova-C",
+      "trl": {
+        "value": 9,
+        "source_url": "https://spaceflightnow.com/2024/02/22/live-coverage-intuitive-machines-aims-to-become-first-commercial-lander-to-safely-reach-the-moon/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - successful soft landing February 22, 2024 (IM-1 mission, Odysseus lander). First American spacecraft to soft land on Moon in over 50 years.",
+        "notes": "Successful landing February 22, 2024 (IM-1 mission)"
+      },
+      "payload_capacity_kg": {
+        "value": 100,
+        "source_url": "https://directory.eoportal.org/satellite-missions/intuitive-machines",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 130 kg to 100 kg. eoPortal (reference database) states 100 kg payload capacity. Other sources mention both 100 kg and 130 kg, but eoPortal is more specific.",
+        "notes": "Sources cite both 100 kg and 130 kg. eoPortal specifies 100 kg."
+      },
+      "mass_kg": {
+        "dry_mass": 675,
+        "launch_mass": 1908,
+        "source_url": "https://directory.eoportal.org/satellite-missions/intuitive-machines",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from eoPortal: dry mass 675 kg, launch mass 1,908 kg."
+      },
+      "dimensions": {
+        "height_m": 3.938,
+        "width_m": 1.57,
+        "source_url": "https://directory.eoportal.org/satellite-missions/intuitive-machines",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from eoPortal: 3.938 m height, hexagonal cylinder configuration with six landing legs. Width appears to be diameter of hexagonal structure.",
+        "notes": "Hexagonal cylinder shape"
+      },
+      "power_kw": {
+        "value": 0.2,
+        "source_url": "https://directory.eoportal.org/satellite-missions/intuitive-machines",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from eoPortal: 200 W combined maximum from three solar panels on lunar surface. 25 Ah battery, 28 VDC bus.",
+        "notes": "200 W solar panels on surface, 25 Ah battery, 28 VDC system"
+      },
+      "propulsion": {
+        "type": "Methalox",
+        "engine": "VR900",
+        "thrust_n": 3100,
+        "propellant": "Liquid methane / Liquid oxygen",
+        "source_url": "https://directory.eoportal.org/satellite-missions/intuitive-machines",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from eoPortal: VR900 gimbaled main engine, 3,100 N thrust, uses methane and liquid oxygen (methalox). First methalox system to operate beyond Earth orbit.",
+        "notes": "First methalox system to operate beyond Earth orbit"
+      },
+      "cost_usd": {
+        "value": 118000000,
+        "source_url": "https://www.nasa.gov/missions/artemis/clps/intuitive-machines/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA and credible sources: IM-1 CLPS contract was initially $77M, modified to $118M total value in 2024.",
+        "notes": "Total contract value for IM-1 mission in 2024 after modifications"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No specific procurement lead time published. Multiple missions ongoing: IM-2 launched 2025, IM-3 and IM-4 planned.",
+        "notes": "Multiple missions planned: IM-2 (Feb 2025+), IM-3 (2026), IM-4 (2027+)"
+      },
+      "notes": "First American spacecraft to soft land on Moon in over 50 years. Hexagonal design with six landing legs. Communications via S-Band to Lunar Telemetry and Tracking Network."
+    },
+    {
+      "vendor": "Astrobotic Technology",
+      "model": "Peregrine",
+      "trl": {
+        "value": 8,
+        "source_url": "https://en.wikipedia.org/wiki/Peregrine_Mission_One",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: Mission One launched January 8, 2024, failed due to propulsion valve failure. Post-mission report states 'Most of the lander subsystems were operated and raised to TRL 9' but landing components and full propulsion system could not reach operational environment. TRL 8 (flight qualified) is appropriate - system tested but mission failed.",
+        "notes": "Flight qualified - Mission One attempted January 2024, propulsion failure prevented landing. Most subsystems reached TRL 9 except landing gear and propulsion controller."
+      },
+      "payload_capacity_kg": {
+        "value": 265,
+        "source_url": "https://en.wikipedia.org/wiki/Peregrine_Mission_One",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'able to deliver up to 265 kg (584 lb) of payload to the surface of the Moon.' Mission One carried only 90 kg, but full capacity is 265 kg.",
+        "notes": "Full capacity 265 kg. Mission One carried 90 kg due to mission constraints."
+      },
+      "mass_kg": {
+        "launch_mass": 1283,
+        "propellant_mass": 450,
+        "source_url": "https://en.wikipedia.org/wiki/Peregrine_Mission_One",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'Launch mass 1,283 kg (2,829 lb)' and 'can carry up to 450 kg (990 lb) of bi-propellant mass'. Dry mass not specified.",
+        "notes": "Launch mass 1,283 kg, propellant 450 kg (MON-25/MMH). Dry mass not published."
+      },
+      "dimensions": {
+        "height_m": 1.9,
+        "width_m": 2.5,
+        "source_url": "https://en.wikipedia.org/wiki/Peregrine_Mission_One",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'Peregrine is about 2.5 m wide and 1.9 m tall'."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://en.wikipedia.org/wiki/Peregrine_Mission_One",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Wikipedia states 'powered by a lithium-ion battery that is recharged by a solar panel made of GaInP/GaAs/Ge' and provides '28V operational and heater power' but no wattage specified.",
+        "notes": "28V operational and heater power, triple-junction solar cells, Li-ion battery. Wattage not published."
+      },
+      "propulsion": {
+        "type": "Bipropellant",
+        "main_thrusters": "5x 667 N (TALOS-150, Frontier Aerospace)",
+        "attitude_thrusters": "12x 45 N (TALOS-10)",
+        "total_thrust_n": 3335,
+        "propellant": "MON-25/MMH",
+        "source_url": "https://en.wikipedia.org/wiki/Peregrine_Mission_One",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'five thrusters built by Frontier Aerospace, each producing 150 lb (667 N) thrust' (main engines), '12 thrusters (45 N each)' (attitude control), 'MON-25/MMH, a hypergolic bi-propellant'."
+      },
+      "cost_usd": {
+        "value": 108000000,
+        "source_url": "https://en.wikipedia.org/wiki/Peregrine_Mission_One",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia references: Initial CLPS award May 2019 was $79.5M, contract grew to $108M for Peregrine Mission One.",
+        "notes": "Initial CLPS award $79.5M, grew to $108M for Peregrine Mission One"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No procurement lead time information published. Griffin Mission One scheduled for July 2026 per Wikipedia."
+      },
+      "notes": "Small-class lander. Peregrine Mission One launched January 8, 2024, experienced propulsion valve failure (helium PCV failed to reseat), did not reach Moon, reentered January 18, 2024. Griffin Mission One planned July 2026."
+    },
+    {
+      "vendor": "Astrobotic Technology",
+      "model": "Griffin",
+      "trl": {
+        "value": 7,
+        "source_url": "https://spaceflightnow.com/2025/10/28/astrobotic-delays-griffin-1-moon-mission-to-net-july-2026/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7 from credible source: Mission planned July 2026, currently in testing phase. 'Avionics acceptance testing completed' and 'full descent and landing simulation performed' per October 2025 update. Not yet flown, so TRL 7 (working prototype demonstrated) is appropriate.",
+        "notes": "In development. Mission to lunar south pole planned July 2026. Avionics testing complete, core structure integration nearly complete."
+      },
+      "payload_capacity_kg": {
+        "value": 625,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/landers/griffin-lander/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: '625 kg payload mass capacity'. Other sources cite 475 kg or 500 kg, but official Astrobotic site states 625 kg.",
+        "notes": "Medium-class lander. Official capacity 625 kg (some older sources cite 475-500 kg)."
+      },
+      "mass_kg": {
+        "total_mass": 6000,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/landers/griffin-lander/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Multiple sources state fully loaded Griffin weighs 'more than 6,000 kg (13,000 lb)'. Dry mass and propellant mass not specified separately.",
+        "notes": "Fully loaded mass ~6,000 kg (13,000 lb). Largest lander since Apollo Lunar Module."
+      },
+      "dimensions": {
+        "height_m": 4.5,
+        "diameter_m": 2.0,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/landers/griffin-lander/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: Height 4.5M, Diameter 2.0M."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/landers/griffin-lander/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Official site states 'triple-junction solar cells' and 'space-grade lithium-ion battery' with 'dedicated payload power bus' but no wattage specified.",
+        "notes": "Triple-junction solar cells, Li-ion battery, dedicated payload power bus. Wattage not published."
+      },
+      "propulsion": {
+        "type": "Bipropellant",
+        "main_engines": 7,
+        "attitude_clusters": 4,
+        "engine_suppliers": "Frontier Aerospace (axial), Agile Space Industries (ACS)",
+        "source_url": "https://www.astrobotic.com/astrobotic-selects-lander-engines-more-for-griffin-viper-mission/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official announcements: 7 main engines for TLI, TCM, LOI, powered descent; 4 attitude control thruster clusters. Frontier Aerospace for axial engines, Agile Space Industries for ACS thrusters.",
+        "notes": "Seven main engines for major maneuvers (TLI, TCM, LOI, powered descent), four ACS thruster clusters"
+      },
+      "cost_usd": {
+        "value": 320400000,
+        "source_url": "https://spaceflightnow.com/2025/10/28/astrobotic-delays-griffin-1-moon-mission-to-net-july-2026/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from credible source: NASA awarded $199.5M (June 2020), increased to $226.5M (May 2021), then $320.4M (July 2022) for additional testing requirements. Total CLPS contract value $320.4M.",
+        "notes": "NASA CLPS contract: Originally $199.5M (2020), grew to $226.5M (2021), then $320.4M (2022) for extra tests. Originally for VIPER rover delivery."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No procurement lead time published. Single mission planned July 2026."
+      },
+      "notes": "Medium-class lander. CLPS Griffin Mission 1 to lunar south pole planned July 2026 on Falcon Heavy. Originally intended to carry NASA VIPER rover (cancelled July 2024). Now carrying Astrolab FLIP rover and Astrobotic BEACON rover. Largest lander since Apollo."
+    },
+    {
+      "vendor": "Blue Origin",
+      "model": "Blue Moon Mark 1",
+      "trl": {
+        "value": 6,
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'Status: In development'. First pathfinder mission planned for 2025-2026, second mission (VIPER) 2027. BE-7 engine has undergone extensive testing (2019-2024). TRL 6 (fully functional prototype) appropriate for lander not yet flown but in advanced testing.",
+        "notes": "In development. Pathfinder mission planned 2025-2026, VIPER mission 2027. BE-7 engine in testing since 2019."
+      },
+      "payload_capacity_kg": {
+        "value": 3000,
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'Payload capacity 3,000 kg (6,600 lb)'. Some older sources mention 3,600 kg, but Wikipedia and recent sources consistently cite 3,000 kg.",
+        "notes": "Cargo variant. Wikipedia states 3,000 kg (some older sources cite 3,600 kg)."
+      },
+      "mass_kg": {
+        "fueled_mass": 21350,
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'Launch mass 21,350 kg (47,070 lb)'. Dry mass not specified separately.",
+        "notes": "Fueled mass 21,350 kg. Dry mass not published."
+      },
+      "dimensions": {
+        "height_m": 8.05,
+        "diameter_m": 3.08,
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'Height 8.05 m (26.4 ft), Diameter 3.08 m (10.1 ft)'."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No power specifications found in Wikipedia or official sources. Power system details not published.",
+        "notes": "Power system not specified. Common subsystems with Mark 2 include flight computers, avionics, and power system per Wikipedia."
+      },
+      "propulsion": {
+        "type": "Cryogenic",
+        "engine": "BE-7 (single)",
+        "thrust_kn": 44.5,
+        "throttle_range": "8.9 kN (2,000 lbf) to 44.5 kN (10,000 lbf)",
+        "propellant": "Liquid oxygen / Liquid hydrogen",
+        "source_url": "https://en.wikipedia.org/wiki/BE-7",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia BE-7 and Blue Moon articles: Single BE-7 engine, 10,000 lbf (44.5 kN) vacuum thrust, throttles to 2,000 lbf (8.9 kN), uses LO2/LH2. Dual expander cycle, additively manufactured.",
+        "notes": "Single BE-7 engine. Deep throttle capability (2,000-10,000 lbf). Dual expander cycle, restartable."
+      },
+      "cost_usd": {
+        "value": 190000000,
+        "source_url": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-to-deliver-viper-rover-to-moons-south-pole/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official press release: CLPS task order 'total potential value of $190 million' for VIPER rover delivery mission (second Mark 1 lander). First pathfinder mission contract value not disclosed.",
+        "notes": "CLPS task order up to $190M for VIPER rover delivery (second Mark 1 mission, 2027). First pathfinder mission cost not disclosed."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No procurement lead time published. Two missions planned: pathfinder 2025-2026, VIPER 2027."
+      },
+      "notes": "Robotic cargo lander. CLPS missions to lunar South Pole. First pathfinder mission carries NASA Stereo Cameras for Lunar-Plume Surface Studies and Laser Retroreflective Array (launch 2025-2026). Second mission carries VIPER rover (2027, contingent on first mission success). Flight computers, avionics, RCS, and power common with Mark 2."
+    },
+    {
+      "vendor": "Blue Origin",
+      "model": "Blue Moon Mark 2",
+      "trl": {
+        "value": 5,
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'Status: In development'. Selected by NASA May 2023 for Artemis HLS Sustaining contract. Uncrewed demonstration flight scheduled 2027, first crewed mission Artemis V in 2030. TRL 5 (component/breadboard validated in relevant environment) appropriate for system in development phase.",
+        "notes": "In development for Artemis V (2030). Uncrewed demo mission 2027. NASA Sustaining Lunar Development HLS contract (May 2023)."
+      },
+      "payload_capacity_kg": {
+        "value": 20000,
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: Cargo variant '20,000 kg (44,000 lb) (cargo variant, reusable)' or '30,000 kg (66,000 lb) (cargo variant, one-way)'. Using 20,000 kg for reusable configuration which matches the 12-15 MT minimum NASA spec.",
+        "notes": "Cargo variant: 20,000 kg reusable, 30,000 kg expendable. Crewed variant carries 4 astronauts."
+      },
+      "mass_kg": {
+        "launch_mass": 45000,
+        "dry_mass": 16000,
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'Launch mass >45,000 kg (99,000 lb)', 'Dry mass 16,000 kg (35,000 lb)'. Note these are minimum values indicated by '>'.",
+        "notes": "Launch mass >45,000 kg, dry mass 16,000 kg. Exact values TBD."
+      },
+      "dimensions": {
+        "height_m": 16,
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'Height 16 m (52 ft)'. Diameter not specified. Significantly larger than Mark 1 (8.05 m tall).",
+        "notes": "Height 16 m. Diameter not published. Larger than Mark 1."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No power specifications found in Wikipedia or other sources. Power system details not published.",
+        "notes": "Power system not specified. Uses solar-powered propellant boiloff mitigation for long-term cryogenic storage."
+      },
+      "propulsion": {
+        "type": "Cryogenic",
+        "engine": "BE-7 (3 engines)",
+        "propellant": "Liquid oxygen / Liquid hydrogen",
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'Both Mark 2 and the Cislunar Transporter are to be powered by three BE-7 engines'. Uses same LO2/LH2 propellants as Mark 1. Features cryogenic fluid management for long-term storage.",
+        "notes": "Three BE-7 engines (vs single on Mark 1). Cryogenic propellant storage technology for extended loiter capability."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA Sustaining Lunar Development HLS contract awarded May 2023, but contract value not disclosed publicly for cargo variant. Crewed HLS contract value also not published.",
+        "notes": "NASA HLS Sustaining contract (May 2023). Contract value not disclosed."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No procurement lead time published. Demo mission 2027, Artemis V operational mission 2030."
+      },
+      "notes": "Heavy cargo variant for Artemis program. Part of Blue Origin-led National Team (Lockheed Martin, Draper, Boeing, Astrobotic, Honeybee Robotics). Reusable design with 30-day surface capability. Requires Cislunar Transporter (Lockheed Martin) for refueling in NRHO. Second HLS provider alongside SpaceX Starship HLS."
+    },
+    {
+      "vendor": "SpaceX",
+      "model": "Starship HLS (Cargo Variant)",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.nasaspaceflight.com/2025/11/starship-block-3-path-moon/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5 from credible sources: In development as Block 3 variant (expected Q1 2026). GAO noted limited progress on critical technologies (orbital refueling, cryogenic storage). First ship-to-ship propellant transfer test planned 2025. Life support systems tested, landing legs tested, elevator demonstrated. TRL 5 (breadboard technology in rigorous testing) appropriate.",
+        "notes": "In development (Block 3, Q1 2026). Requires orbital refueling (~10 tanker launches). Refueling demo 2025-2026, cargo missions Artemis VII+ (2027+)."
+      },
+      "payload_capacity_kg": {
+        "value": 15000,
+        "source_url": "https://en.wikipedia.org/wiki/Starship_HLS",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: NASA cargo variant ordered November 2023 for '12-15 metric tons' cargo deliveries. Using 15,000 kg (15 MT) as upper bound. Theoretical max 100 MT mentioned but not verified for lunar missions.",
+        "notes": "NASA spec: 12-15 metric tons (cargo variant for Artemis VII+). Theoretical max ~100 MT with full refueling."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No mass specifications published for HLS variant. Standard Starship dry mass ~100-120 MT, but HLS has significant modifications (no heat shield, different propellant load, etc.).",
+        "notes": "High dry mass requiring orbital refueling infrastructure"
+      },
+      "dimensions": {
+        "height_m": 50,
+        "diameter_m": 9,
+        "source_url": "https://en.wikipedia.org/wiki/Starship_HLS",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Wikipedia states 'about 165 feet (50 m)' for HLS variant. Note: This differs from standard Starship (~121m total stack) as HLS is ship only, no booster. Diameter 9m standard for all Starship variants.",
+        "notes": "HLS variant ~165 ft (50 m) tall, 9 m diameter. About height of 15-story building."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No power specifications published for HLS variant. Uses solar arrays and fuel cells per HLS design, but wattage not disclosed.",
+        "notes": "Power system: solar arrays and fuel cells. Specific capacity not published."
+      },
+      "propulsion": {
+        "type": "Methalox",
+        "engine": "Raptor 3",
+        "propellant": "Liquid methane / Liquid oxygen",
+        "source_url": "https://www.nasaspaceflight.com/2025/11/starship-block-3-path-moon/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from credible source: Block 3 HLS uses Raptor 3 engines. 'Over 40,000 seconds of Raptor 3 Engine firings' completed. GAO listed Raptor development as one of two largest technical hurdles.",
+        "notes": "Raptor 3 engines (methalox). Requires depot + 4-14 tanker flights for refueling in LEO before TLI."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA HLS contract awarded April 2021 ($2.9B for crewed HLS through Artemis III), cargo variant ordered November 2023 but contract value not disclosed publicly.",
+        "notes": "NASA HLS contract (2021: $2.9B for crewed). Cargo variant contract value not disclosed."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No procurement lead time published. Cargo variant for Artemis VII+ (2027 or later)."
+      },
+      "pressurized_volume_m3": {
+        "value": 600,
+        "source_url": "https://en.wikipedia.org/wiki/Starship_HLS",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Wikipedia states HLS has pressurized volume 'About 2/3 of ISS internal volume'. ISS ~900 m3, so ~600 m3 is consistent.",
+        "notes": "~600 m3 pressurized volume (about 2/3 of ISS). Large cargo bay for pressurized rovers, habitats."
+      },
+      "notes": "Heavy cargo system for Artemis VII+ (2027+). Based on Starship Block 3. Requires unprecedented orbital refueling infrastructure: propellant depot + ~10 tanker launches per mission. Cargo variant modifications include payload interfaces, deployment mechanisms, removal of life support vs crewed HLS. First HLS provider (2021), cargo variant ordered 2023. Key challenges: orbital refueling demo, cryogenic storage, Raptor 3 development."
+    },
+    {
+      "vendor": "ispace (U.S.)",
+      "model": "APEX 1.0",
+      "trl": {
+        "value": 6,
+        "source_url": "https://ispace-us.com/2025/05/15012646/20250509-M3-Schedule-Update.pdf",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL assessment: Mission 3 delayed to 2027 due to propulsion system changes (VoidRunner engine). Not yet flown. Originally planned 2026, then 2027. TRL 6 (fully functional prototype) more appropriate than TRL 7 given delays and engine redesign. Lander in development/testing phase.",
+        "notes": "In development. Mission 3 to Schrödinger Basin planned 2027 (delayed from 2026) with Draper as prime contractor. VoidRunner engine (Agile/ispace) selected 2025."
+      },
+      "payload_capacity_kg": {
+        "value": 300,
+        "source_url": "https://ispace-us.com/apex-1-0-lunar-lander/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'Maximum 300kg' payload capacity. '10x the capability of the Series 1 lander'. Future APEX series planned for 500 kg capacity.",
+        "notes": "Maximum 300 kg (>10x Series 1 capacity). Scalable architecture eventually reaching 500 kg on future missions."
+      },
+      "mass_kg": {
+        "wet_mass": 5390,
+        "dry_mass": 1730,
+        "source_url": "https://ispace-us.com/apex-1-0-lunar-lander/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'Approximately 5,390kg (wet), approximately 1,730kg (dry)'."
+      },
+      "dimensions": {
+        "height_m": 3.3,
+        "width_m": 4.5,
+        "source_url": "https://ispace-us.com/apex-1-0-lunar-lander/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'Height approximately 3.3m, Width approximately 4.5m (landing legs extended)'.",
+        "notes": "Height 3.3 m, width 4.5 m (legs extended)"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No power specifications found on official site or other sources."
+      },
+      "propulsion": {
+        "engine": "VoidRunner",
+        "developer": "Agile Space Industries / ispace-U.S.",
+        "source_url": "https://ispace-inc.com/news-en/?p=7366",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from official announcement May 2025: 'VoidRunner, a novel engine system jointly developed between Agile and ispace-U.S.' Selected as 'simplified and higher thrust engine solution' to minimize technical and schedule risk.",
+        "notes": "VoidRunner engine (Agile/ispace joint development). Simplified, higher thrust solution selected 2025."
+      },
+      "cost_usd": {
+        "value": 55000000,
+        "source_url": "https://www.space.com/ispace-moon-lander-update-nasa-clps-contract",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from credible source: ispace signed '$55 million contract with NASA for Mission 3'. Draper (prime) originally awarded $73M total for CLPS CP-12 mission. Additional $7.7M awarded March 2025.",
+        "notes": "ispace contract: $55M. Draper CLPS CP-12 total: $73M (2022), plus $7.7M additional (March 2025)."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No procurement lead time published. Single mission (Mission 3) planned 2027."
+      },
+      "notes": "Designed, manufactured, assembled, and launched from United States. >10x payload capacity vs Series 1. Mission 3 (CLPS CP-12) to Schrödinger Basin on lunar far side, 2027. Draper prime contractor, ispace-U.S. lander provider. Deploys two relay satellites (Alpine, Lupine) for far side communications. NASA payloads: Farside Seismic Suite, Lunar Interior Temperature and Materials Suite, plus commercial payloads."
+    },
+    {
+      "vendor": "ispace",
+      "model": "RESILIENCE (Series 1)",
+      "trl": {
+        "value": 8,
+        "source_url": "https://en.wikipedia.org/wiki/Hakuto-R_Mission_2",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: Mission 2 launched January 15, 2025, failed landing June 5, 2025 due to Laser Range Finder anomaly. System tested and flight qualified (TRL 8), but mission failed like Mission 1. Not TRL 9 as landing not successful. Based on Series 1 design with updates from Mission 1 failure analysis.",
+        "notes": "Flight qualified. Mission 2 launched Jan 2025, failed landing Jun 2025 (LRF anomaly). Mission 1 also failed (Apr 2023). Series 1 design."
+      },
+      "payload_capacity_kg": {
+        "value": null,
+        "source_url": "https://en.wikipedia.org/wiki/Hakuto-R_Mission_2",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Wikipedia confirms Mission 2 carried 5 kg TENACIOUS rover plus other payloads (water electrolyzer, algae food production, radiation monitor), but total payload capacity for Series 1 lander not specified. Mission 1 also ~30 kg total payload.",
+        "notes": "Series 1 design. Mission 2 carried ~5-10 kg payloads. Total capacity not published."
+      },
+      "mass_kg": {
+        "launch_mass": 1000,
+        "dry_mass": 340,
+        "source_url": "https://en.wikipedia.org/wiki/Hakuto-R_Mission_2",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia: 'weight of 340 kilograms (750 lb)' (dry mass), 'based on the 1000 kg (launch mass) ispace Hakuto-R lander'. Matches NASA NSSDC data.",
+        "notes": "Launch mass 1,000 kg, dry mass 340 kg"
+      },
+      "dimensions": {
+        "height_m": 2.3,
+        "width_m": 2.3,
+        "footprint_m": 2.6,
+        "source_url": "https://en.wikipedia.org/wiki/Hakuto-R_Mission_2",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia and other sources: '2.3 metres (7 ft 7 in) high, 2.3 metres (7 ft 7 in) wide' with 'total footprint 2.6 x 2.6 meters' on four landing legs. Main body octagonal prism 1.64 m high, ~1.6 m diameter.",
+        "notes": "2.3 m tall, 2.3 m wide, 2.6 m footprint. Four landing legs, octagonal main body."
+      },
+      "power_kw": {
+        "value": 0.35,
+        "source_url": "https://en.wikipedia.org/wiki/Hakuto-R_Mission_2",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia and search results: 'The lander's solar panels were capable of generating up to 350 watts'. Body-mounted solar panels charge lithium-ion battery.",
+        "notes": "350 W peak power from body-mounted solar panels, Li-ion battery"
+      },
+      "propulsion": {
+        "main_thruster": 1,
+        "assist_thrusters": 6,
+        "source_url": "https://space.skyrocket.de/doc_sdat/hakuto-r-m1.htm",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from reference source: 'one main landing thruster and six assist thrusters'. Pressure-fed system. Based on Hakuto-R Series 1 design with updates after Mission 1 failure.",
+        "notes": "1 main landing thruster, 6 assist thrusters. Series 1 design with M1 failure updates."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No mission cost found. Commercial mission, not NASA CLPS."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No procurement lead time published. Missions 1 and 2 both failed."
+      },
+      "notes": "ispace Hakuto-R Mission 2 (Series 1 lander). Launched January 15, 2025 on Falcon 9 with Firefly Blue Ghost. Failed landing June 5, 2025 due to Laser Range Finder (LRF) anomaly. Updated design from Mission 1 (April 2023 hard landing). Payloads: 5 kg TENACIOUS micro rover (Luxembourg), water electrolyzer, algae food production, radiation monitor. Series 1 being phased out in favor of APEX 1.0 (Series 2) and Series 3."
+    },
+    {
+      "vendor": "Ceres Robotics",
+      "model": "B5",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.einpresswire.com/article/711919189/ceres-robotics-inc-completes-preliminary-design-review-of-b5-lunar-lander",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "CORRECTED from TRL 9 to TRL 5. PDR completed May 2024. Company may claim components at high TRL, but integrated B5 lander system has not been built, integrated, tested, or flown. PDR indicates early design phase. No CLPS task orders awarded. TRL 5 (component/breadboard validated in relevant environment) appropriate for system in design/early development.",
+        "notes": "In development. PDR completed May 2024. NO task orders awarded. NO missions scheduled. CLPS-eligible since Nov 2019."
+      },
+      "payload_capacity_kg": {
+        "value": 500,
+        "source_url": "https://www.einpresswire.com/article/711919189/ceres-robotics-inc-completes-preliminary-design-review-of-b5-lunar-lander",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from press release: 'capable of delivering up to 500 kg of payloads to the lunar surface'. Mission configurable design.",
+        "notes": "Up to 500 kg to lunar surface. Mission configurable."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No mass specifications found. System still in design phase (PDR completed May 2024)."
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No dimensions found. System still in design phase (PDR completed May 2024)."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.einpresswire.com/article/711919189/ceres-robotics-inc-completes-preliminary-design-review-of-b5-lunar-lander",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Press release states B5 'provides those payloads with power, data, communications' but specific power capacity not stated. Separate NASA contract (April 2024) for 50-kW-class solar arrays (C-Tower), but unclear if this is for B5 lander itself.",
+        "notes": "Provides power to payloads. Specific capacity not published. C-Tower 50-kW solar array development (separate NASA contract)."
+      },
+      "propulsion": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No propulsion specifications found. System still in design phase."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No CLPS task order awarded yet. No mission cost available."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No task orders, no missions scheduled. Cannot estimate lead time."
+      },
+      "notes": "CLPS eligible vendor (on-ramped November 2019). PDR completed May 2024. NO CLPS task orders awarded yet. Provides power, data, communications, and robotic manipulation to payloads. Can deploy to lunar orbit or surface. Team: Voyager Space (Ohio - build/integration), Draper Lab (MA), Stellar Exploration (CA), SEE (MD), ILS (FL). Founded 2017 by Michael Sims (former Moon Express VP, 20+ years NASA). Separate NASA SBIR Phase II for C-Tower 50-kW solar array development (April 2024)."
+    },
+    {
+      "vendor": "Impulse Space",
+      "model": "Lunar Lander (with Helios)",
+      "trl": {
+        "value": 4,
+        "source_url": "https://spacenews.com/impulse-space-announces-lunar-lander-plans/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from credible source: Announced October 14, 2025, engine development begun. First missions 2028. Helios (component) launching 2026, but lander is new development. TRL 4 (component validated in lab) more appropriate than TRL 5 given early announcement stage and 2028 target. Helios itself has higher TRL.",
+        "notes": "In development. Engine development begun. Announced October 2025. First missions 2028. Helios first flight 2026."
+      },
+      "payload_capacity_kg": {
+        "value": 3000,
+        "source_url": "https://www.impulsespace.com/updates/to-the-moon-and-beyond-how-impulse-can-deliver-more-mass-to-the-lunar-surface",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'approximately 3 tons of cargo to the Moon' per mission. 'up to 6 tons of payload mass to the Moon' across two missions per year starting 2028.",
+        "notes": "~3 metric tons per mission. Up to 6 metric tons across two missions per year starting 2028."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No mass specifications published. System announced October 2025, early in development."
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No dimensions published. System announced October 2025, early in development."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No power specifications published."
+      },
+      "propulsion": {
+        "type": "Bipropellant",
+        "propellant": "Nitrous oxide / Ethane",
+        "source_url": "https://spacenews.com/impulse-space-announces-lunar-lander-plans/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from credible sources: 'nitrous oxide and ethane' propellants. Same as Mira spacecraft's flight-proven Saiph thrusters. Highly throttleable, restartable, high specific impulse. Engine development begun.",
+        "notes": "Nitrous oxide/ethane (same as Mira's Saiph thrusters). Highly throttleable, restartable, high Isp."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No pricing published. Commercial service planned 2028."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No procurement lead time published. Service targets 2 missions per year starting 2028."
+      },
+      "notes": "Mission architecture combines Helios kick stage (launching 2026) with new lunar lander (2028). Helios transports lander from LEO to low lunar orbit within one week, then lander descends to surface. Targets 0.5-13 metric ton payload gap in lunar cargo market. No in-space refueling required. Announced October 14, 2025. Uses storable propellants (N2O/ethane), enabling long-duration missions."
+    }
+  ]
+}

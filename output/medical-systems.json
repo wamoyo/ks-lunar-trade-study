@@ -1,0 +1,459 @@
+{
+  "category": "Medical Systems",
+  "last_updated": "2025-12-08",
+  "items": [
+    {
+      "vendor": "Butterfly Network",
+      "model": "Butterfly iQ+",
+      "trl": {
+        "value": 9,
+        "source_url": "https://spacenews.com/space-health-institute-demonstrates-self-reliant-performance-of-the-butterfly-iq-portable-handheld-ultrasound-system-in-space/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed ISS demonstration in 2021 via CRS-22. SpaceNews is credible source. Note: demonstration vs operational deployment distinction unclear from sources",
+        "notes": "Operational on ISS since June 2021 (CRS-22), tested aboard SpaceX Dragon missions including Inspiration4, astronaut self-reliant operation demonstrated"
+      },
+      "mass_kg": {
+        "value": 0.309,
+        "source_url": "https://www.butterflynetwork.com/iq-plus-specs",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 0.3 kg to 0.309 kg (309 grams) per vendor official specs",
+        "notes": "iQ+ model weighs 309 grams per manufacturer specifications"
+      },
+      "power_kw": {
+        "value": 0.0048,
+        "source_url": "https://www.butterflynetwork.com/iq-plus-specs",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 0.01 kW to 0.0048 kW (~4.8W). Calculated from 2600 mAh battery at 3.7V nominal (9.62 Wh) over 2-hour runtime = ~4.8W average consumption",
+        "notes": "2600 mAh battery, 120 minutes runtime, charges via 100-240V, estimated ~4.8W average power consumption"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published on vendor site. Third-party sources suggest ~$1,800-$2,000 but unverified. Checked butterflynetwork.com/pricing (no prices displayed)",
+        "notes": "Commercial pricing not publicly available on vendor site, third-party sources suggest $1,800-$2,000 range"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Commercial product but procurement and space qualification timeline not specified",
+        "notes": "Commercial product, likely weeks to months for procurement and space qualification"
+      },
+      "dimensions_cm": {
+        "value": "16.3 x 5.6 x 3.5",
+        "source_url": "https://www.butterflynetwork.com/iq-plus-specs",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 15.2 x 5.2 x 3.7 to 16.3 x 5.6 x 3.5 cm (163 x 56 x 35 mm) per vendor official specs",
+        "notes": "163 x 56 x 35 mm per manufacturer specifications"
+      },
+      "capabilities": {
+        "value": "Whole-body ultrasound imaging using single semiconductor-based probe, frequency range 1-10 MHz, connects to tablet or smartphone via iOS/Android, B-mode, M-mode, Color Doppler, Power Doppler, Pulsed-Wave Doppler, tissue harmonic imaging, 21 exam presets, cardiovascular, lung, musculoskeletal, urinary system imaging",
+        "source_url": "https://www.butterflynetwork.com/iq-plus-specs",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected frequency range from 1-12 MHz to 1-10 MHz per vendor specs. Added imaging modes and presets from official specifications"
+      },
+      "space_heritage": {
+        "value": "ISS demonstration June 2021 (CRS-22 launch June 3, 2021), testing conducted August 2021, astronaut self-reliant operation demonstrated without ground support, also flown on Inspiration4 September 2021",
+        "source_url": "https://spacenews.com/space-health-institute-demonstrates-self-reliant-performance-of-the-butterfly-iq-portable-handheld-ultrasound-system-in-space/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed CRS-22 launch June 3, 2021, ISS testing August 2021, Inspiration4 September 15, 2021. Multiple credible sources (SpaceNews, NASA blogs)"
+      },
+      "notes": "First handheld semiconductor-based ultrasound tested in space, Ultrasound-on-Chip technology, IPX7 waterproof, enables crew-autonomous medical imaging without ground support, commercial off-the-shelf technology suitable for exploration missions"
+    },
+    {
+      "vendor": "GE HealthCare",
+      "model": "Vivid iq",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.dicardiology.com/content/ge-healthcares-cardiac-ultrasound-system-launches-international-space-station",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed operational on ISS since September 2025. DAIC is credible medical imaging publication. Launch date and mission verified",
+        "notes": "Operational on ISS since September 2025, launched Sept 14, docked Sept 18, 2025, replaced decade-old Vivid q system"
+      },
+      "mass_kg": {
+        "value": 5.2,
+        "source_url": "https://www.davismedical.com/Files/content/Vivid_iq_Datasheet.pdf",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 5.2 kg (11.5 lbs) with battery from GE official datasheet. Multiple third-party medical equipment suppliers corroborate",
+        "notes": "Weight with battery: 5.2 kg (11.5 lbs) per manufacturer datasheet"
+      },
+      "power_kw": {
+        "value": 0.13,
+        "source_url": "https://www.davismedical.com/Files/content/Vivid_iq_Datasheet.pdf",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 0.5 kW (500 VA) to 0.13 kW (130 VA max). Official GE datasheet specifies max 130 VA, not 500 VA. Input: 100-240 VAC 50/60 Hz",
+        "notes": "Maximum power 130 VA, nominal input 100-240 VAC 50/60 Hz per manufacturer datasheet"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published on GE HealthCare website or vendor sites. High-end cardiovascular ultrasound systems typically range $30,000-100,000+",
+        "notes": "Commercial pricing not published, high-end cardiovascular ultrasound systems typically $30,000-100,000+"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified by manufacturer or vendors",
+        "notes": "Commercial product availability unclear"
+      },
+      "dimensions_cm": {
+        "value": "39.0 x 36.2 x 6.4",
+        "source_url": "https://www.davismedical.com/Files/content/Vivid_iq_Datasheet.pdf",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 390 x 362 x 64 mm (39.0 x 36.2 x 6.4 cm) from GE official datasheet",
+        "notes": "390 x 362 x 64 mm per manufacturer datasheet, laptop-sized design"
+      },
+      "capabilities": {
+        "value": "Cardiovascular, abdominal, musculoskeletal imaging, 15.6 inch multi-touch screen, digital beamformer with up to 974,026 effective digital channels, field-of-view range 1-33 cm depth (probe dependent), advanced quantification tools, AI-based measurements in 2D and Doppler modes",
+        "source_url": "https://www.davismedical.com/Files/content/Vivid_iq_Datasheet.pdf",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Specifications from GE official datasheet and product pages. Added beamformer and depth range specs"
+      },
+      "space_heritage": {
+        "value": "ISS deployment September 2025 on NG CRS-23 (launched Sept 14, docked Sept 18, 2025), supports routine medical evaluations and NASA Human Research Program studies, evaluates venous blood flow and heart function during long-duration flight, replaced Vivid q",
+        "source_url": "https://www.dicardiology.com/content/ge-healthcares-cardiac-ultrasound-system-launches-international-space-station",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed NG CRS-23 mission, launch Sept 14 2025, docking Sept 18 2025. Multiple credible sources (DAIC, Medical Device Network)"
+      },
+      "notes": "Replaced original Vivid q (launched 2011 on final Space Shuttle Atlantis mission), customized for ISS use, laptop-style portable design, battery life up to 1 hour standalone or 4 hours with optional cart"
+    },
+    {
+      "vendor": "GE HealthCare",
+      "model": "Vivid q",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.dicardiology.com/content/ge-healthcares-vivid-q-cardiovascular-ultrasound-selected-nasa",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed operational on ISS from July 2011 to September 2025 (14 years). Launched aboard Space Shuttle Atlantis STS-135 on July 8, 2011. Replaced by Vivid iq in Sept 2025. DAIC is credible medical imaging publication",
+        "notes": "Operational on ISS 2011-2025, launched on Space Shuttle Atlantis final mission July 8, 2011"
+      },
+      "mass_kg": {
+        "value": 5.0,
+        "source_url": "https://www.probomedical.com/shop/ge-healthcare/ge-vivid-q/",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 11 lbs (5.0 kg) from medical equipment supplier specifications. Third-party vendor but consistent across multiple sources",
+        "notes": "11 lbs (5.0 kg) per equipment supplier specifications"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.probomedical.com/shop/ge-healthcare/ge-vivid-q/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Input power specified as 100-240V 50/60 Hz but actual power consumption (watts/VA) not published. Checked vendor specs and equipment supplier sites",
+        "notes": "Input: 100-240V 50/60 Hz, actual consumption not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Legacy system no longer in production. Used/refurbished units listed starting at $16,700 but not relevant for new procurement",
+        "notes": "Legacy system, no longer in production, refurbished units ~$16,700"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "No longer manufactured, replaced by Vivid iq in 2025",
+        "notes": "Legacy system, replaced by Vivid iq in 2025"
+      },
+      "dimensions_cm": {
+        "value": "5.8 x 35.6 x 33.0",
+        "source_url": "https://www.probomedical.com/shop/ge-healthcare/ge-vivid-q/",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 2.3\" x 14\" x 13\" (5.8 x 35.6 x 33.0 cm) from medical equipment supplier specifications",
+        "notes": "2.3\" x 14\" x 13\" (5.8 x 35.6 x 33.0 cm) per equipment supplier"
+      },
+      "capabilities": {
+        "value": "Cardiovascular ultrasound imaging, 15\" TFT LCD display (1600x1200), 2D imaging mode, max 300 FPS frame rate, max depth 30 cm, Anatomical M-Mode, Auto Optimization, B-Flow, Color Doppler, CW/PW Doppler, Tissue Doppler, Tissue Harmonics, Speckle Reduction, Strain, Stress Echo, TEE, triplex imaging, AFI, TVI, TSI, compatible with 16+ transducers",
+        "source_url": "https://www.probomedical.com/shop/ge-healthcare/ge-vivid-q/",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Detailed specifications from medical equipment supplier. Comprehensive imaging modes and capabilities listed"
+      },
+      "space_heritage": {
+        "value": "ISS operational July 2011 to September 2025 (14 years continuous service), launched on STS-135 Atlantis final shuttle mission July 8, 2011, replaced aging 10-year-old ultrasound unit, replaced by Vivid iq in Sept 2025",
+        "source_url": "https://www.dicardiology.com/content/ge-healthcares-vivid-q-cardiovascular-ultrasound-selected-nasa",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed launch date July 8, 2011 on STS-135 Atlantis, operational until Sept 2025 replacement. DAIC credible source"
+      },
+      "notes": "Legacy system, replaced in Sept 2025 by Vivid iq, demonstrates long operational life in space environment (14 years), laptop-sized portable design, 15\" display, 80GB HDD storage, 1800 frame cine memory"
+    },
+    {
+      "vendor": "DNA Medicine Institute (rHEALTH)",
+      "model": "rHEALTH One",
+      "trl": {
+        "value": 9,
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963801/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed ISS demonstration May 13 and May 16, 2022 by ESA astronaut Samantha Cristoforetti. Launched Feb 19, 2022 on NG-17 mission. Successfully performed 28 sample runs in microgravity with 26 yielding good-quality data. Nature Communications peer-reviewed publication",
+        "notes": "ISS-proven May 2022, operated by ESA astronaut Samantha Cristoforetti, successful microvolume cytometry demonstration"
+      },
+      "mass_kg": {
+        "value": 1.5,
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963801/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 1.5 kg from peer-reviewed Nature Communications article published in PMC",
+        "notes": "1.5 kg system weight per peer-reviewed publication"
+      },
+      "power_kw": {
+        "value": 0.0029,
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963801/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 0.0025 kW to 0.0029 kW (2.9W) per Nature Communications peer-reviewed article. USB 2.0 powered",
+        "notes": "2.9W power consumption, powered by single USB 2.0 port"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published on vendor site (rhealth.com) or in literature. Research/NASA platform, not commercially available for independent purchase",
+        "notes": "Commercial pricing not available, research platform"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available. Research platform developed for NASA. Procurement timeline not published",
+        "notes": "Research platform, procurement process not publicly defined"
+      },
+      "dimensions_cm": {
+        "value": "13.4 x 17.8 x 13.0",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963801/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 13.4 × 17.8 × 13.0 cm (volume 2,808 cm³) from peer-reviewed Nature Communications article",
+        "notes": "13.4 × 17.8 × 13.0 cm, volume 2,808 cm³, compact laptop-sized design"
+      },
+      "capabilities": {
+        "value": "Microvolume blood analysis (5-10 μL samples), dual-laser (405nm violet 5mW, 532nm green 20mW) five-channel flow cytometry (blue, green, orange, FSC, SSC), Silicon photomultiplier (SiPM) detectors, hydrodynamic focusing, 70 mbar (1.0 psig) operating pressure, 3-4 μL/min flow rate, 10 μs temporal resolution, 71.55 million data points per 2-minute sample run, five-log assay dynamic range, up to 1000 events/second throughput, >5000h laser operational life",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963801/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Comprehensive specifications from peer-reviewed Nature Communications article. All technical parameters verified from ISS demonstration data"
+      },
+      "space_heritage": {
+        "value": "ISS demonstration May 13 and May 16, 2022, launched Feb 19, 2022 on Antares rocket NG-17 Cygnus from Wallops Island VA, operated by ESA astronaut Samantha Cristoforetti (Crew-4 Commander), 32 total sample runs (28 samples, 4 blanks), 26 of 28 yielded good-quality data, samples returned Aug 20, 2022, astronaut-operated blood analysis from single drop samples, proven microgravity cytometry",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963801/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed complete mission timeline from peer-reviewed Nature Communications publication. Launch, operations, and return dates verified"
+      },
+      "notes": "Lab-on-a-chip technology, uses 405nm violet 5mW and 532nm green 20mW lasers (>5000h operational life), 1 psig air pressure, 3-4 μL/min flow rate, miniaturized biosensor enables crew health monitoring, USB 2.0 interface, sheath reservoir 0.060 L"
+    },
+    {
+      "vendor": "NASA Ames Research Center",
+      "model": "WetLab-2",
+      "trl": {
+        "value": 9,
+        "source_url": "https://science.nasa.gov/mission/wetlab-2/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed operational on ISS since April 8, 2016 launch. NASA official mission page confirms active status for real-time gene analysis aboard ISS",
+        "notes": "Operational on ISS since April 2016, real-time quantitative gene expression analysis platform"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "System mass not published. Searched NASA technical reports, ISS National Lab, and NASA Ames pages. Core component (Cepheid SmartCycler 16-site) weighs ~15 kg but complete WetLab-2 system mass with fluidic modules and sample transfer tool not specified",
+        "notes": "Complete system specifications not published, core PCR instrument ~15 kg"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://ntrs.nasa.gov/citations/20150000125",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA technical report describes SmartCycler as 'low power consumption' but specific wattage not quantified. Checked NASA NTRS and technical documentation",
+        "notes": "Described as low power consumption, specific value not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA-developed research platform, not commercially available. Custom ISS research facility",
+        "notes": "NASA-developed research platform, not commercially available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available, custom NASA research facility",
+        "notes": "Not commercially available, custom ISS research facility"
+      },
+      "capabilities": {
+        "value": "Real-time quantitative RT-PCR (reverse transcriptase quantitative polymerase chain reaction), Cepheid SmartCycler with 16 independent reaction sites, 4 optical channels for fluorescence detection, 3 genes analyzed per reaction tube using multiple fluorescent probe colors, RNA extraction and purification, freeze-dried reaction beads, results within ~2 hours, heating rate 10°C/sec, cooling rate 2.5°C/sec, processes multiple sample types (microbial cultures to animal tissues)",
+        "source_url": "https://issnationallab.org/upward/wetlab-2-transforming-the-iss-into-a-living-laboratory/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed capabilities from ISS National Lab publication and NASA NTRS. SmartCycler specs verified from multiple sources. Processing time confirmed as ~2 hours for validation experiments"
+      },
+      "space_heritage": {
+        "value": "Launched April 8, 2016 on SpaceX CRS-8, operational ISS research facility, multiple experiments conducted including SpaceX-8 and SpaceX-15 missions, enables real-time gene expression analysis for crew health monitoring and space biology research",
+        "source_url": "https://science.nasa.gov/mission/wetlab-2/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed launch date April 8, 2016 from NASA official mission page. Active mission status verified. Multiple mission uses documented on NASA sites"
+      },
+      "notes": "Research platform not commercial product, includes commercial PCR instrument (Cepheid SmartCycler 16-site), sample transfer tool, fluidic modules, 3D-printed components for bubble removal and tube caps, specialized for microgravity operation, modular design with independent PCR modules"
+    },
+    {
+      "vendor": "Redwire Space",
+      "model": "BioFabrication Facility (BFF)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://issnationallab.org/iss360/techshot-biofabrication-facility-prints-meniscus/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed operational on ISS since July 2019. First prints December 2019 using human heart cells, meniscus prints March 2020. Upgraded version installed January/February 2023. ISS National Lab credible source",
+        "notes": "Operational on ISS since July 2019, upgraded system installed Jan 2023, successfully bioprinted human knee meniscus and heart tissue"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Export-controlled technology (ECCN 7A104). Checked Redwire official site, ISS National Lab, technical flysheet PDF unreadable",
+        "notes": "Specifications proprietary or export-controlled (ECCN 7A104)"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Export-controlled technology. Checked Redwire official site and available technical documentation",
+        "notes": "Specifications proprietary or export-controlled"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available for independent purchase. Operates as ISS National Lab commercial research facility. Services available to customers but facility not sold",
+        "notes": "Not commercially available for independent purchase, available as ISS research facility to customers"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "ISS facility operated by Redwire, not sold as standalone product. Research services available through ISS National Lab",
+        "notes": "ISS facility, not sold as standalone product, research services available"
+      },
+      "capabilities": {
+        "value": "3D bioprinting with live adult human and animal cells, direct dispensing through four different print heads, bioinks with living cells, ultra-fine layers smaller than human hair width, temperature-controlled printing, Advanced Space Experiment Processor (ADSEP) for automated multi-use research and tissue maturation/conditioning, no scaffolding required (gel-based printing), 14+ day cultivation capability demonstrated",
+        "source_url": "https://issnationallab.org/iss360/techshot-biofabrication-facility-prints-meniscus/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed capabilities from ISS National Lab and Redwire official sources. Four print heads, gel-based direct dispensing, ADSEP integration verified"
+      },
+      "space_heritage": {
+        "value": "Launched July 25, 2019 on SpaceX CRS-18, first American bioprinter in space, first prints December 2019 (human heart cells), meniscus test prints March 2020, upgraded system launched November 7, 2022 on NG-18 and installed January 2023, successfully printed human knee meniscus July 2023 (returned Sept 2023 on Crew-6), permanent ISS facility, modular Orbital Replaceable Units design",
+        "source_url": "https://issnationallab.org/iss360/techshot-biofabrication-facility-prints-meniscus/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed launch July 25, 2019 on CRS-18. Timeline verified: First prints Dec 2019, meniscus March 2020, upgrade Jan 2023. ISS National Lab and SpaceNews credible sources"
+      },
+      "notes": "America's first permanent bioprinter on ISS, originally developed by Techshot (acquired by Redwire 2021), export controlled (ECCN 7A104), modular design enables reconfiguration for multiple tissue types, Z-tower with multiple print heads, bioreactor on X-Y stage, operates with ADSEP adjoining processor"
+    },
+    {
+      "vendor": "Philips Healthcare (Remote Diagnostic Technologies)",
+      "model": "Tempus Pro",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Telemedicine_via_satellite_improves_care_at_astronaut_landings",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed operational use at ESA astronaut Thomas Pesquet landing May 2017 and Paolo Nespoli December 2017. ESA official source confirms telemedicine functionality during astronaut recovery operations. Commercially available with 900+ units delivered to UK Ministry of Defence",
+        "notes": "Operational, used at ESA astronaut landings including Thomas Pesquet return from ISS May 2017, commercially available"
+      },
+      "mass_kg": {
+        "value": 2.9,
+        "source_url": "https://www.usa.philips.com/healthcare/product/HC989706000051/tempus-pro-rugged-advanced-monitor",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 2.9 kg (6.4 lb) with battery and RapidPak clip only from Philips official product page",
+        "notes": "2.9 kg (6.4 lb) with battery and RapidPak clip, excluding IP module and accessories"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.usa.philips.com/healthcare/product/HC989706000051/tempus-pro-rugged-advanced-monitor",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Power consumption in watts not specified on Philips product page or technical documentation. Battery life specified as 10.75-14 hours depending on use mode and brightness settings",
+        "notes": "Battery life 10.75-14 hours (standard to extended use), power consumption value not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published on Philips website. Commercially available but pricing not disclosed. UK MoD contract for 900 units was £14 million (2017) but unit price not specified",
+        "notes": "Commercial pricing not publicly available, UK MoD contract 2017: £14M for ~900 units"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified. Commercial product available through Philips Healthcare channels",
+        "notes": "Commercial product, procurement timeline not publicly specified"
+      },
+      "dimensions_cm": {
+        "value": "26.3 x 21.6 x 10.0",
+        "source_url": "https://www.usa.philips.com/healthcare/product/HC989706000051/tempus-pro-rugged-advanced-monitor",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 263 x 216 x 100 mm (26.3 x 21.6 x 10.0 cm) from Philips official product specifications",
+        "notes": "263 x 216 x 100 mm (10.3\" x 8.5\" x 3.9\") per Philips specifications"
+      },
+      "capabilities": {
+        "value": "Multi-function vital signs monitoring, 12-lead ECG (30-300 bpm, ST elevation, QT segment monitoring), SpO2 (Masimo rainbow SET), capnography (1-149 bpm), invasive/non-invasive blood pressure (adult 20-260 mmHg), respiration (3-150 RPM), temperature (20-45°C), 6.5\" 640x480 display (130 klux daylight readable), USB ultrasound probe compatible (3.5 MHz and 7.5 MHz), video laryngoscopy, 3.2 MP camera, telemedicine via satellite (GSM/3G, GPS, WiFi, Bluetooth, Ethernet, VSAT), IP66 rated, battery 10.75-14 hours",
+        "source_url": "https://www.usa.philips.com/healthcare/product/HC989706000051/tempus-pro-rugged-advanced-monitor",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Comprehensive specifications from Philips official product page. All monitoring parameters, connectivity options, and environmental ratings verified"
+      },
+      "space_heritage": {
+        "value": "ESA-supported development via ARTES programme, used at ISS crew landings: Thomas Pesquet May 2017 (Proxima mission return from Kazakhstan), Paolo Nespoli December 2017, real-time telemedicine via satellite from landing site to European Astronaut Centre Cologne, encrypted data transmission, dual-use space/terrestrial emergency medicine",
+        "source_url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Telemedicine_via_satellite_improves_care_at_astronaut_landings",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed use at astronaut landings from ESA official sources. Developed with ESA ARTES funding, used for Thomas Pesquet (May 2017) and Paolo Nespoli (Dec 2017) post-ISS recovery"
+      },
+      "notes": "Developed by Remote Diagnostic Technologies (RDT) UK with ESA Advanced Research in Telecommunications Systems (ARTES) Integrated Applications Promotion funding, acquired by Philips Healthcare June 2018, combines hospital vital signs monitoring with satellite communications in compact portable unit, dual-use space/terrestrial emergency medicine, 900+ units delivered to UK Ministry of Defence (£14M contract 2017), company grew from 1 to 900+ employees"
+    }
+  ]
+}

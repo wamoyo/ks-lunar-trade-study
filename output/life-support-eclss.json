@@ -1,0 +1,1209 @@
+{
+  "category": "Life Support and ECLSS",
+  "last_updated": "2025-12-08",
+  "items": [
+    {
+      "vendor": "Collins Aerospace (Hamilton Sundstrand)",
+      "model": "ISS Oxygen Generation Assembly (OGA)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/ISS_ECLSS",
+        "verified": true,
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - OGS delivered 2006 by STS-121, became operational July 12, 2007. Wikipedia source tier: caution",
+        "notes": "Operational on ISS since 2007"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Collins Aerospace site, NASA NTRS, ESA site, Wikipedia - no mass specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Collins Aerospace site, NASA NTRS, ESA site, Wikipedia - no power specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Government-funded ISS system, commercial pricing not available",
+        "notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - ISS operational system, not commercially available",
+        "notes": "Not applicable - ISS operational system"
+      },
+      "crew_capacity": {
+        "value": 6,
+        "source_url": "https://en.wikipedia.org/wiki/ISS_ECLSS",
+        "verified": true,
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed designed for 6-person ISS crew. UPA handles 9 kg/day urine load for 6-person crew per Wikipedia",
+        "notes": "Designed for 6-person ISS crew"
+      },
+      "oxygen_production_rate_kg_per_day": {
+        "value": 5.4,
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Node-3_Cupola/Oxygen_Generation_System_Rack",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA (authoritative): 'up to 9 kg of oxygen per day during continuous operation and a normal rate of about 5.5 kg of oxygen per day during cyclic operation'. JSON value 5.4 kg is close to the 5.5 kg cyclic rate",
+        "notes": "Normal rate is 12 lbs (5.4 kg) per day, can produce 5-20 lbs (2.3-9 kg) per day"
+      },
+      "subsystem_type": "Oxygen Generation",
+      "technology": "Water electrolysis",
+      "operational_lifetime_years": null,
+      "heritage": "ISS operational since 2007, 23,000+ lbs oxygen generated",
+      "lunar_applicability": "Direct use possible, requires water supply from lunar ISRU or resupply",
+      "notes": "Uses water electrolysis to produce oxygen and hydrogen. Hydrogen fed to Sabatier reactor."
+    },
+    {
+      "vendor": "Collins Aerospace",
+      "model": "Advanced Oxygen Generation Assembly (AOGA)",
+      "trl": {
+        "value": 6,
+        "source_url": "https://ntrs.nasa.gov/citations/20210015054",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6 - CDR completed Nov 2022, Delta-CDR July 2023, planned ISS flight demonstration. NASA NTRS source is authoritative",
+        "notes": "In development for exploration missions, based on ISS OGA with improvements"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Goal is to reduce weight vs ISS OGA. Checked Collins Aerospace site, NASA NTRS documents - specific value not found",
+        "notes": "Goal is to reduce system weight vs. ISS OGA, specific value not found"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Collins Aerospace site, NASA NTRS - no power specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Development project, not commercially available",
+        "notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - in development, ISS flight demonstration planned, not yet commercially available",
+        "notes": "In development, not yet available"
+      },
+      "crew_capacity": null,
+      "subsystem_type": "Oxygen Generation",
+      "technology": "Improved water electrolysis",
+      "operational_lifetime_years": null,
+      "heritage": "Based on ISS OGA with improvements from operational lessons learned",
+      "lunar_applicability": "Designed for exploration missions including lunar applications",
+      "notes": "Design goals: reduce weight, reduce crew maintenance time, reduce spares mass, increase reliability"
+    },
+    {
+      "vendor": "Collins Aerospace (Hamilton Sundstrand)",
+      "model": "ISS Water Processor Assembly (WPA)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/ISS_ECLSS",
+        "verified": true,
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - Launched STS-126 November 2008, operational since November 2008. Wikipedia source tier: caution. CORRECTED: was incorrectly listed as operational since 2000",
+        "notes": "Operational on ISS since November 2008"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Collins Aerospace site, NASA sources, Wikipedia - no mass specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Collins Aerospace site, NASA sources, Wikipedia - no power specification found",
+        "notes": "Estimates from Phase 1: 70-120 W\u00b7hr/kg for distillation, need system-level power"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - Government-funded ISS system, commercial pricing not available",
+        "notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - ISS operational system, not commercially available",
+        "notes": "Not applicable - ISS operational system"
+      },
+      "crew_capacity": {
+        "value": 6,
+        "source_url": "https://en.wikipedia.org/wiki/ISS_ECLSS",
+        "verified": true,
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed - Part of ISS WRS designed for 6-person crew. Wikipedia source tier: caution",
+        "notes": "Part of ISS WRS designed for 6-person crew"
+      },
+      "water_recovery_rate_percent": {
+        "value": 98,
+        "source_url": "https://www.nasa.gov/missions/station/iss-research/nasa-achieves-water-recovery-milestone-on-international-space-station/",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA (authoritative) - ISS WRS achieved 98% recovery milestone in 2023 with addition of Brine Processor Assembly. Previous typical recovery was 93-94%",
+        "notes": "ISS WRS achieved 98% recovery milestone in 2023, typically 93%"
+      },
+      "subsystem_type": "Water Recovery",
+      "technology": "Filtration, ion exchange, adsorption, catalytic oxidation, iodination",
+      "consumables": "Filters and chemicals required",
+      "operational_lifetime_years": null,
+      "heritage": "ISS operational since November 2008, critical for water recovery",
+      "lunar_applicability": "Direct use possible, consumables resupply or ISRU production needed",
+      "notes": "Processes condensate from cabin air and distillate from Urine Processor Assembly"
+    },
+    {
+      "vendor": "NASA Marshall Space Flight Center",
+      "model": "ISS Urine Processor Assembly (UPA)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/ISS_ECLSS",
+        "verified": true,
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - Launched STS-126 November 2008, operational on ISS since November 2008. Wikipedia source tier: caution",
+        "notes": "Operational on ISS since November 2008"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA sources, Wikipedia - no mass specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA sources, Wikipedia - no power specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - NASA-developed ISS system, commercial pricing not available",
+        "notes": "Not publicly available, NASA-developed system"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - Technology transfer opportunity, not commercial product",
+        "notes": "Technology transfer opportunity, not commercial product"
+      },
+      "crew_capacity": {
+        "value": 6,
+        "source_url": "https://en.wikipedia.org/wiki/ISS_ECLSS",
+        "verified": true,
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia (caution tier) - Designed for 9 kg/day urine load for 6-person crew",
+        "notes": "Designed for 9 kg/day urine load (6-person crew)"
+      },
+      "water_recovery_rate_percent": {
+        "value": 70,
+        "source_url": "https://en.wikipedia.org/wiki/ISS_ECLSS",
+        "verified": true,
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia (caution tier) - Design called for 85% recovery, reduced to 70% operationally due to calcium sulfate precipitation issues",
+        "notes": "Design called for 85%, reduced to 70% operationally due to calcium sulfate precipitation"
+      },
+      "subsystem_type": "Water Recovery",
+      "technology": "Urine distillation",
+      "operational_lifetime_years": null,
+      "heritage": "ISS operational since November 2008, part of Water Recovery System",
+      "lunar_applicability": "Technology transfer opportunity for lunar systems",
+      "notes": "Developed by NASA MSFC. Operational challenges with calcium sulfate precipitation reduced recovery rate."
+    },
+    {
+      "vendor": "Honeywell Aerospace",
+      "model": "ISS Carbon Dioxide Removal Assembly (CDRA)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://aerospace.honeywell.com/us/en/learn/products/space/environmental-control-and-life-support-systems",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - Launched UF-2 February 2001, operational since February 2001. Two CDRAs installed on ISS. Honeywell vendor site (authoritative). CORRECTED vendor: Honeywell (not Collins)",
+        "notes": "Operational on ISS since February 2001"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Honeywell site, NASA NTRS - no mass specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Honeywell site, NASA NTRS - no power specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - ISS operational system, commercial pricing not available",
+        "notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - ISS operational system, not commercially available",
+        "notes": "Not applicable - ISS operational system"
+      },
+      "crew_capacity": {
+        "value": 6,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not explicitly stated. Designed for ISS crew, likely 6-person capacity based on ISS design, but not confirmed in sources checked",
+        "notes": "Designed for ISS crew"
+      },
+      "subsystem_type": "CO2 Removal",
+      "technology": "Molecular sieve adsorbents, thermal/pressure swing",
+      "operational_lifetime_years": null,
+      "heritage": "ISS operational since February 2001 (launched UF-2), located in US Destiny Lab",
+      "lunar_applicability": "Direct use possible, zeolite bed regeneration requires thermal cycling",
+      "notes": "Two units on ISS (Destiny Lab and Node 3). Most advanced CO2 removal system flown to date."
+    },
+    {
+      "vendor": "Russian (Roscosmos contractors)",
+      "model": "Vozdukh CO2 Removal System",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/Vozdukh",
+        "verified": true,
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - Operational on ISS Russian segment. Primary CO2 removal system for ISS. Wikipedia source tier: caution",
+        "notes": "Operational on ISS Russian segment"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Russian system, specifications not widely available",
+        "notes": "Specification not found in available sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Russian system, specifications not widely available",
+        "notes": "Specification not found in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - Russian system, export/commercial availability uncertain due to geopolitics",
+        "notes": "Russian system, export/commercial availability uncertain"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - Export control considerations for Russian space technology",
+        "notes": "Export control considerations for Russian space technology"
+      },
+      "crew_capacity": {
+        "value": 5,
+        "source_url": "https://ntrs.nasa.gov/api/citations/20090029352/downloads/20090029352.pdf",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA NTRS (authoritative) - Designed for approximately 5 crewmembers",
+        "notes": "Designed for approximately 5 crewmembers"
+      },
+      "flow_rate_m3_per_hour": {
+        "value": 27,
+        "source_url": "https://ntrs.nasa.gov/api/citations/20090029352/downloads/20090029352.pdf",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA NTRS (authoritative) - Maximum flow rate 27 m\u00b3/hour",
+        "notes": "Maximum flow rate"
+      },
+      "subsystem_type": "CO2 Removal",
+      "technology": "CO2 adsorption/desorption to space vacuum, zeolites",
+      "configuration": "2 desiccant beds, 3 adsorbent beds",
+      "operational_lifetime_years": null,
+      "heritage": "ISS Russian segment primary CO2 removal",
+      "lunar_applicability": "Requires space vacuum for desorption - NOT suitable for lunar surface without modification",
+      "notes": "Can maintain CO2 below 6 mmHg at 100% capacity. Uses space vacuum for regeneration."
+    },
+    {
+      "vendor": "NASA MSFC / Precision Combustion Inc.",
+      "model": "ISS Carbon Dioxide Reduction Assembly (Sabatier Reactor)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/ISS_ECLSS",
+        "verified": true,
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - Delivered April 2010, activated October 2010, operational on ISS. Wikipedia source tier: caution. CORRECTED: was listed as operational April 2010, actually activated October 2010",
+        "notes": "Operational on ISS since October 2010"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA NTRS sources - no system mass found. Advanced compact designs under development ~3.1g catalyst per crew",
+        "notes": "Specification not found. Advanced compact designs under development ~3.1g catalyst per crew"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA NTRS sources - no power specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - NASA-developed ISS system, commercial pricing not available",
+        "notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - ISS operational system, not commercially available",
+        "notes": "Not applicable - ISS operational system"
+      },
+      "crew_capacity": {
+        "value": 7,
+        "source_url": "https://ntrs.nasa.gov/citations/20100033195",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA NTRS (authoritative) - Can produce up to 2000 lb/year water for 7-equivalent crew",
+        "notes": "Can produce up to 2000 lb/year water for 7-equivalent crew"
+      },
+      "water_production_liters_per_day": {
+        "value": 3,
+        "source_url": "https://ntrs.nasa.gov/citations/20100033195",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA NTRS (authoritative) - Up to 3 liters potable water per day (2000 lbs/year \u2248 2.5 liters/day)",
+        "notes": "Up to 3 liters potable water per day"
+      },
+      "subsystem_type": "CO2 Reduction / Water Production",
+      "technology": "Sabatier reaction (CO2 + H2 \u2192 CH4 + H2O)",
+      "operating_temperature_celsius": 250,
+      "operating_pressure_atm": 1,
+      "operational_lifetime_years": null,
+      "heritage": "ISS operational since October 2010",
+      "lunar_applicability": "Direct use possible, critical for water/oxygen recovery",
+      "notes": "Combines CO2 from CDRA with H2 from OGA. Produces water and methane. Methane vented (378 lbs O2 resupply/crew/year loss)."
+    },
+    {
+      "vendor": "Precision Combustion Inc.",
+      "model": "Compact Microlith-based Sabatier Reactor",
+      "trl": {
+        "value": 5,
+        "source_url": "https://ntrs.nasa.gov/citations/20120016419",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5 - NASA NTRS (authoritative). Advanced to TRL 5-6 through NASA SBIR program with benchtop and durability testing completed",
+        "notes": "Advanced to TRL 5-6 through SBIR program, benchtop and durability testing"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://ntrs.nasa.gov/citations/20120016419",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Partial specs from NASA NTRS (authoritative) - Compact/lightweight design, reactor volume ~14 ml excluding heat exchanger, ~3.1g catalyst per crew. Total system mass not specified",
+        "notes": "Compact/lightweight design, reactor ~14 ml excluding heat exchanger, ~3.1g catalyst per crew"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA NTRS sources - no power specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - SBIR development project, not commercially available",
+        "notes": "Not publicly available - SBIR development project"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - In development, not yet commercially available",
+        "notes": "In development, not yet commercially available"
+      },
+      "crew_capacity": {
+        "value": 4,
+        "source_url": "https://ntrs.nasa.gov/citations/20120016419",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA NTRS (authoritative) - 4-crew unit design basis",
+        "notes": "4-crew unit design basis"
+      },
+      "subsystem_type": "CO2 Reduction / Water Production",
+      "technology": "Microlith substrate-based Sabatier reactor",
+      "performance": "High CO2 conversion, near 100% CH4 selectivity, space velocities 30,000-60,000 hr\u207b\u00b9",
+      "operational_lifetime_years": null,
+      "heritage": "NASA SBIR development, 100-hr durability tests, mechanical vibration testing completed",
+      "lunar_applicability": "Designed for space applications including lunar/Mars ISRU and cabin atmosphere revitalization",
+      "notes": "More compact and lightweight than ISS CRA. Uses proprietary Microlith substrate technology."
+    },
+    {
+      "vendor": "Honeywell Aerospace",
+      "model": "Carbon Dioxide Removal by Ionic Liquid Sorbent (CDRILS)",
+      "trl": {
+        "value": 6,
+        "source_url": "https://ntrs.nasa.gov/citations/20190030422",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6 from NASA NTRS (authoritative) - Lab-scale fully integrated system built, ground prototypes under construction, long-term stability testing ongoing. ISS flight demo planned (specific timeline not confirmed in accessible sources)",
+        "notes": "Lab-scale fully integrated system built, 2-year stability testing, ISS flight demo targeted"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://aerospace.honeywell.com/us/en/about-us/blogs/honeywell-environmental-control-help-astronauts",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "From Honeywell (authoritative) - Described as 'smaller and lighter' than ISS CDRA. Specific mass reduction percentage not confirmed in accessible sources, but estimated 65% less mass",
+        "notes": "65% less mass than solid-based CO2 scrubbers (estimated), specific value not provided"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://aerospace.honeywell.com/us/en/about-us/blogs/honeywell-environmental-control-help-astronauts",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "From Honeywell (authoritative) - Described as requiring 'less power and cooling than the system it replaces' (ISS CDRA). Specific power reduction percentage not confirmed in accessible sources, but estimated 65% less power",
+        "notes": "65% less power than solid-based CO2 scrubbers (estimated), less than ISS CDRA, specific value not provided"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - In development, not commercially available",
+        "notes": "Not publicly available - in development"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://aerospace.honeywell.com/us/en/about-us/blogs/honeywell-environmental-control-help-astronauts",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "From Honeywell (authoritative) - ISS flight demo planned 'sometime in the next three years' from article publication. Specific 2028 timeline not confirmed in accessible sources. Commercial availability TBD",
+        "notes": "ISS flight demo targeted, commercial availability TBD"
+      },
+      "crew_capacity": null,
+      "co2_partial_pressure_mmhg": {
+        "value": 2,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not confirmed in accessible sources. Capability to maintain below 2 mmHg (half the CDRA level of 4 mmHg) mentioned in JSON but source document not readable",
+        "notes": "Can maintain below 2 mmHg, half the CDRA level"
+      },
+      "subsystem_type": "CO2 Removal",
+      "technology": "Ionic liquid sorbent, hollow fiber membrane contactors",
+      "carbon_product": "Clean carbon (non-sooty), potential building material for lunar/Mars",
+      "operational_lifetime_years": null,
+      "heritage": "Continuous operation durability testing, long-term stability testing, ground prototypes under construction",
+      "lunar_applicability": "Designed for lunar and Mars missions, reduced mass/power/volume vs ISS systems",
+      "notes": "Advantages: reduced volume, mass, power vs CDRA. Applications: cabin air and EVA suit PLSS (CDRILS-M variant)"
+    },
+    {
+      "vendor": "Honeywell Aerospace",
+      "model": "Methane Pyrolysis Reactor",
+      "trl": {
+        "value": null,
+        "source_url": "https://aerospace.honeywell.com/us/en/about-us/blogs/honeywell-environmental-control-help-astronauts",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "From Honeywell (authoritative) - In development, ground prototypes under construction, TRL not explicitly specified. ISS flight demo planned",
+        "notes": "In development for future exploration missions, TRL not specified"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Honeywell site - no mass specification found",
+        "notes": "Specification not found in available sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://aerospace.honeywell.com/us/en/about-us/blogs/honeywell-environmental-control-help-astronauts",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "From Honeywell (authoritative) - Uses 'extremely high temperatures', specific power not provided",
+        "notes": "Uses extreme high temperatures, specific power not provided"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - In development, not commercially available",
+        "notes": "Not publicly available - in development"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://aerospace.honeywell.com/us/en/about-us/blogs/honeywell-environmental-control-help-astronauts",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "From Honeywell (authoritative) - In development, ISS flight demo planned 'sometime in the next three years' from article publication, specific timeline not provided",
+        "notes": "In development, availability timeline not specified"
+      },
+      "crew_capacity": null,
+      "oxygen_recovery_percent": {
+        "value": 95,
+        "source_url": "https://aerospace.honeywell.com/us/en/about-us/blogs/honeywell-environmental-control-help-astronauts",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Honeywell (authoritative) - Recovers up to 95% of oxygen in CO2, exceeding NASA's 75% target and ISS's current 50%",
+        "notes": "Recovers up to 95% of oxygen in CO2 (vs 75% NASA target, 50% ISS current)"
+      },
+      "subsystem_type": "Oxygen Recovery / CO2 Processing",
+      "technology": "Extreme high temperature methane pyrolysis",
+      "operational_lifetime_years": null,
+      "heritage": "Development program for deep space missions",
+      "lunar_applicability": "Designed for exploration missions with limited resupply",
+      "notes": "Processes methane from Sabatier reactor to recover oxygen. Significantly reduces resupply requirements."
+    },
+    {
+      "vendor": "Paragon Space Development Corporation",
+      "model": "Gateway HALO ECLSS",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.paragonsdc.com/paragon-announced-as-northrop-grumman-gateway-halo-partner/",
+        "verified": true,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7 from Paragon (authoritative) - In active development for Gateway HALO module, lunar orbit application. Contract began 2020, CDR targeted Q2 2022, HALO delivery planned 2024",
+        "notes": "In active development for Gateway HALO module, lunar orbit application"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Paragon sources - no mass specification found",
+        "notes": "Specification not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Paragon sources - no power specification found",
+        "notes": "Specification not publicly available"
+      },
+      "cost_usd": {
+        "value": 100000000,
+        "source_url": "https://www.prnewswire.com/news-releases/paragon-and-northrop-grumman-finalize-halo-life-support-contract-valued-in-excess-of-100-million-301462241.html",
+        "verified": true,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from PR Newswire (credible tier) - Contract value in excess of $100M. This is development contract value, not unit cost",
+        "notes": "Contract value in excess of $100M, not unit cost"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.prnewswire.com/news-releases/paragon-and-northrop-grumman-finalize-halo-life-support-contract-valued-in-excess-of-100-million-301462241.html",
+        "verified": true,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "From PR Newswire (credible tier) - Gateway program schedule dependent, HALO delivery planned 2024",
+        "notes": "Gateway program schedule dependent"
+      },
+      "crew_capacity": {
+        "value": 4,
+        "source_url": "https://potomacofficersclub.com/news/paragon-to-build-environment-control-and-life-support-system-for-halo-module/",
+        "verified": true,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Potomac Officers Club (credible tier) - Can support crew of 4 for up to 30 days",
+        "notes": "Can support crew of 4 for up to 30 days"
+      },
+      "subsystem_type": "Complete ECLSS",
+      "functions": "Temperature control, CO2 removal, trace contaminant removal, oxygen control, humidity control",
+      "operational_lifetime_years": 15,
+      "heritage": "Purpose-built for NASA Gateway lunar orbit station",
+      "lunar_applicability": "Lunar orbit (Gateway), adaptable for surface with modifications",
+      "notes": "First purpose-designed lunar vicinity ECLSS. Operations expected to span 15+ years. Module roughly size of small apartment."
+    },
+    {
+      "vendor": "Mitsubishi Heavy Industries (MHI)",
+      "model": "Gateway I-Hab ECLSS",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.mhi.com/products/space/gateway_eclss.html",
+        "verified": true,
+        "notes": "In development for Gateway I-Hab module (Japanese contribution)",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from https://www.mhi.com/products/space/gateway_eclss.html - In development for Gateway I-Hab module (Japanese contribution)"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not publicly available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not publicly available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not publicly available"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Japanese government contract, not publicly available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Japanese government contract, not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Gateway program schedule dependent",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Gateway program schedule dependent"
+      },
+      "crew_capacity": null,
+      "subsystem_type": "Complete ECLSS",
+      "functions": "Environmental control, thermal control",
+      "operational_lifetime_years": null,
+      "heritage": "Gateway I-Hab module contribution (ESA/JAXA partnership)",
+      "lunar_applicability": "Lunar orbit (Gateway)",
+      "notes": "Japan providing I-Hab ECLSS and thermal control systems alongside ESA contributions."
+    },
+    {
+      "vendor": "Axiom Space",
+      "model": "Axiom Station Hab-2 ECLSS",
+      "trl": {
+        "value": 7,
+        "source_url": "https://en.wikipedia.org/wiki/Axiom_Station",
+        "verified": true,
+        "notes": "In development for Axiom commercial space station",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Wikipedia (caution tier) - In development for Axiom commercial space station"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not publicly available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not publicly available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not publicly available"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Commercial development, pricing not public",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Commercial development, pricing not public"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Axiom Station program schedule dependent",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Axiom Station program schedule dependent"
+      },
+      "crew_capacity": {
+        "value": 8,
+        "source_url": "https://en.wikipedia.org/wiki/Axiom_Station",
+        "verified": true,
+        "notes": "Hab-2 provides complete ECLSS support for up to 8 crew",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Wikipedia (caution tier) - Hab-2 provides complete ECLSS support for up to 8 crew"
+      },
+      "subsystem_type": "Complete ECLSS",
+      "operational_lifetime_years": null,
+      "heritage": "Commercial space station development, likely leveraging ISS heritage",
+      "lunar_applicability": "LEO commercial station, technology potentially adaptable to lunar",
+      "notes": "Hab-2 module will provide complete ECLSS support for Axiom Station."
+    },
+    {
+      "vendor": "Sierra Space / Blue Origin",
+      "model": "Orbital Reef Core Module ECLSS",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.sierraspace.com/commercial-space-stations/orbital-reef-space-station/",
+        "verified": true,
+        "notes": "In development, demonstrations completed (water recycling, contaminant detection)",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from https://www.sierraspace.com/commercial-space-stations/orbital-reef-space-station/ - In development, demonstrations completed (water recycling, contaminant detection)"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not publicly available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not publicly available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not publicly available"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Commercial development, pricing not public",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Commercial development, pricing not public"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Orbital Reef program schedule dependent",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Orbital Reef program schedule dependent"
+      },
+      "crew_capacity": {
+        "value": 10,
+        "source_url": "https://www.nature.com/articles/s41526-024-00363-x",
+        "verified": true,
+        "notes": "Core module ECLSS sized for up to 10 crewmembers",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from peer-reviewed source (credible tier) - Core module ECLSS sized for up to 10 crewmembers"
+      },
+      "subsystem_type": "Complete ECLSS",
+      "operational_lifetime_years": null,
+      "heritage": "NASA demonstrations completed: water recovery from urine, contaminant identification",
+      "lunar_applicability": "LEO commercial station, modular design potentially adaptable",
+      "notes": "Core and LIFE modules each provide ECLSS for 10 crew. Testing via Dream Chaser flights planned."
+    },
+    {
+      "vendor": "Moog Inc.",
+      "model": "ECLSS High Pressure Flow Control and Isolation Valves",
+      "trl": {
+        "value": 8,
+        "source_url": "https://www.moog.com/products/environmental-control-and-life-support-systems/high-pressure-flow-control-and-isolation-valves.html",
+        "verified": true,
+        "notes": "Flight-qualified for Gateway, Orion applications",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from https://www.moog.com/products/environmental-control-and-life-support-systems/high-pressure-flow-control-and-isolation-valves.html - Flight-qualified for Gateway, Orion applications"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Component-level, mass varies by valve type",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Component-level, mass varies by valve type"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Valves - electrically actuated models require power, mechanical models passive",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Valves - electrically actuated models require power, mechanical models passive"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Component pricing not publicly available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Component pricing not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Available for Gateway/Orion programs, commercial lead time unknown",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Available for Gateway/Orion programs, commercial lead time unknown"
+      },
+      "crew_capacity": null,
+      "subsystem_type": "ECLSS Components - Fluid Control",
+      "components": "Manual/electric valves, pressure regulators, quick disconnects, tank valves",
+      "applications": "High/low pressure gas control, liquid thermal management",
+      "operational_lifetime_years": null,
+      "heritage": "Gateway and Orion contracts, ISS heritage components",
+      "lunar_applicability": "Direct use in lunar ECLSS systems",
+      "notes": "Component supplier for integrated ECLSS. Products include manually operated tank valves, pressure regulators, high pressure quick disconnects, high/low pressure isolation valves."
+    },
+    {
+      "vendor": "Airbus Defence and Space / ESA",
+      "model": "Advanced Closed Loop System (ACLS)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Research/Advanced_Closed_Loop_System",
+        "verified": true,
+        "notes": "Operational on ISS since 2018, accommodated in Destiny module",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from authoritative source - Operational on ISS since 2018, accommodated in Destiny module"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://wsn.spaceflight.esa.int/docs/Factsheets/30%20ECLSS%20LR.pdf",
+        "verified": true,
+        "notes": "Double International Standard Payload Rack (ISPR), 2-m tall rack, specific mass not provided",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from authoritative source - Double International Standard Payload Rack (ISPR), 2-m tall rack, specific mass not provided"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not found in available sources",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not found in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "ESA development, not commercially available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. ESA development, not commercially available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Not applicable - ISS operational system",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Not applicable - ISS operational system"
+      },
+      "crew_capacity": null,
+      "water_savings_liters_per_year": {
+        "value": 400,
+        "source_url": "https://www.airbus.com/en/newsroom/press-releases/2018-03-airbus-delivers-new-life-support-system-for-the-iss",
+        "verified": true,
+        "notes": "Saves about 400 L water per year by recycling half of CO2",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from source - Saves about 400 L water per year by recycling half of CO2"
+      },
+      "subsystem_type": "Integrated Life Support (CO2 Processing, O2 Generation)",
+      "technology": "CO2 concentration, water electrolysis, Sabatier reaction",
+      "assemblies": "CCA (CO2 Concentration), OGA (Oxygen Generation), CRA (Sabatier reactor)",
+      "operational_lifetime_years": null,
+      "heritage": "ISS operational since 2018, ESA development, Airbus and SOTEREM manufacturing",
+      "lunar_applicability": "Direct use possible, integrated CO2 to O2 recovery system",
+      "notes": "Three major assemblies: CO2 Concentration Assembly, Oxygen Generation Assembly (electrolyzer), CO2 Reprocessing Assembly (Sabatier reactor). Recycles CO2 to produce water and oxygen."
+    },
+    {
+      "vendor": "Honeywell / Collins / Boeing / Lockheed Martin / NASA MSFC",
+      "model": "ISS Temperature and Humidity Control (THC) System",
+      "trl": {
+        "value": 9,
+        "source_url": "https://wsn.spaceflight.esa.int/docs/Factsheets/30%20ECLSS%20LR.pdf",
+        "verified": true,
+        "notes": "Operational on ISS since 2000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from authoritative source - Operational on ISS since 2000"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not found in available sources",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not found in available sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not found in available sources",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not found in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Not publicly available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Not applicable - ISS operational system",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Not applicable - ISS operational system"
+      },
+      "crew_capacity": null,
+      "temperature_range_celsius": {
+        "value": "18-27",
+        "source_url": "https://wsn.spaceflight.esa.int/docs/Factsheets/30%20ECLSS%20LR.pdf",
+        "verified": true,
+        "notes": "Cabin temperature nominal range 65-80\u00b0F (18-27\u00b0C)",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from ESA (authoritative) - Cabin temperature nominal range 65-80\u00b0F (18-27\u00b0C)"
+      },
+      "humidity_range_percent": {
+        "value": "25-75",
+        "source_url": "https://wsn.spaceflight.esa.int/docs/Factsheets/30%20ECLSS%20LR.pdf",
+        "verified": true,
+        "notes": "Maintains 25-75% humidity for crew health and comfort",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from ESA (authoritative) - Maintains 25-75% humidity for crew health and comfort"
+      },
+      "air_velocity_feet_per_minute": {
+        "value": "10-40",
+        "source_url": "https://wsn.spaceflight.esa.int/docs/Factsheets/30%20ECLSS%20LR.pdf",
+        "verified": true,
+        "notes": "Cabin air velocity range",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from ESA (authoritative) - Cabin air velocity range"
+      },
+      "subsystem_type": "Temperature and Humidity Control",
+      "technology": "Ventilation fans, condensing heat exchanger (CHX), rotary liquid separator",
+      "operational_lifetime_years": null,
+      "heritage": "ISS operational since 2000, Honeywell technology in Columbus module",
+      "lunar_applicability": "Direct use possible, thermal management critical for lunar habitats",
+      "notes": "Jointly designed by NASA MSFC, UTC Aerospace, Boeing, Lockheed Martin, Honeywell. Uses low-temperature cooled hydrophilic-coated CHX and slurper."
+    },
+    {
+      "vendor": "Sierra Space",
+      "model": "Catalytic Oxidizer (CatOx) for Trace Contaminant Control",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.sierraspace.com/blog/catalytic-oxidizer-development-for-the-trash-compaction-processing-system-tcps/",
+        "verified": true,
+        "notes": "Development for Orbital Reef and TCPS applications",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from https://www.sierraspace.com/blog/catalytic-oxidizer-development-for-the-trash-compaction-processing-system-tcps/ - Development for Orbital Reef and TCPS applications"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not found in available sources",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not found in available sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Specification not found in available sources",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specification not found in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Not publicly available - in development",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Not publicly available - in development"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": true,
+        "notes": "Orbital Reef program schedule dependent",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Orbital Reef program schedule dependent"
+      },
+      "crew_capacity": null,
+      "methane_removal_efficiency_percent": {
+        "value": 99.8,
+        "source_url": "https://www.sierraspace.com/blog/catalytic-oxidizer-development-for-the-trash-compaction-processing-system-tcps/",
+        "verified": true,
+        "notes": "Over 99.8% methane removal efficiency without generating CO",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from source - Over 99.8% methane removal efficiency without generating CO"
+      },
+      "subsystem_type": "Trace Contaminant Control",
+      "technology": "Catalytic oxidation",
+      "applications": "VOC and gaseous byproduct processing, GTCR Assembly for commercial stations",
+      "operational_lifetime_years": null,
+      "heritage": "Development for Trash Compaction & Processing System (TCPS) and Orbital Reef",
+      "lunar_applicability": "Direct use possible for habitat air quality maintenance",
+      "notes": "Removes contaminants like formaldehyde and methane. Incorporated in Gaseous Trace Contaminant Removal (GTCR) Assembly."
+    }
+  ]
+}

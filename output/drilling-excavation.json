@@ -1,0 +1,824 @@
+{
+  "category": "Drilling and Excavation",
+  "last_updated": "2025-12-09",
+  "items": [
+    {
+      "vendor": "Honeybee Robotics (Blue Origin)",
+      "model": "TRIDENT (The Regolith and Ice Drill for Exploration of New Terrains)",
+      "category": "drilling",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.researchgate.net/publication/386869969_Development_of_TRIDENT_Drill_for_Ice_Mining_on_the_Moon_with_NASA_PRIME-1_and_VIPER_Missions",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified TRL 6 from NASA Resource Prospector program testing. Some 2024 sources indicate TRL 5."
+      },
+      "mass_kg": {
+        "value": 20,
+        "source_url": "https://ntrs.nasa.gov/citations/20240000585",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 'lightweight (<20 kg)' from NASA field testing reports. Listed as 20 kg without harness, 5.4 kg avionics in LPSC proceedings."
+      },
+      "power_kw": {
+        "value": 0.1,
+        "source_url": "https://www.researchgate.net/publication/386869969_Development_of_TRIDENT_Drill_for_Ice_Mining_on_the_Moon_with_NASA_PRIME-1_and_VIPER_Missions",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 0.4 kW to 0.1 kW. Source states 'approximately 100 W of power' for 1-1-100-100 performance (1m depth, 1 hour, 100N weight on bit, 100W power). Individual actuators rated 200W each but system operates at ~100W total."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available. Checked vendor sites, NASA sources."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available. Checked vendor sites, NASA sources."
+      },
+      "drilling_depth_m": {
+        "value": 1.0,
+        "source_url": "https://www.nasa.gov/general/all-together-now-drill-joins-other-moon-rover-science-instruments/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 1m depth (3 feet) from NASA official sources. Field tests at Haughton Crater achieved ~1m per hole."
+      },
+      "core_diameter_cm": null,
+      "drill_type": "Rotary percussive",
+      "operational_heritage": "PRIME-1 mission (Mar 2025): Landed but unable to achieve science objectives due to lander orientation. Drill demonstrated full range of motion. VIPER mission cancelled (July 2024), selected for Blue Origin delivery (Sep 2025).",
+      "commercial_availability": "Available for lunar missions",
+      "notes": "Field tested at Haughton Crater 2023, drilled 8 holes to ~1m depth totaling 7.80m in 6 days. Maximum weight on bit limited to 200N. Demonstrated 1-1-100-100 performance: 1m depth in 1 hour with <100N weight on bit and ~100W power."
+    },
+    {
+      "vendor": "NASA Ames Research Center / Honeybee Robotics",
+      "model": "Planetary Volatile Extractor (PVEx)",
+      "category": "drilling",
+      "trl": {
+        "value": 6,
+        "source_url": "https://techport.nasa.gov/projects/89850",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 5 to TRL 6. NASA TechPort confirms project matured from TRL 4 to TRL 6 during SBIR Phase 2 (2016-2019). Project completed and closed out Dec 2019."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not found. Checked NASA TechPort, Honeybee Robotics site, technical papers."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified. Sources mention designed to leverage RTG power but specific consumption not published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available. SBIR Phase 2 project, cost not disclosed."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available. Completed SBIR project (2016-2019), closed out."
+      },
+      "drilling_depth_m": {
+        "value": 0.5,
+        "source_url": "https://www.researchgate.net/publication/351670940_Planetary_Volatiles_Extractor_PVEx_for_Prospecting_and_In_Situ_Resource_Utilization",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 1.0m to 0.5m. Testing achieved 50cm depth in limestone (10 min) and -20\u00b0C ice (7 min). Nominal design: 5 cm diameter x 50 cm long core."
+      },
+      "core_diameter_cm": {
+        "value": 5,
+        "source_url": "https://www.researchgate.net/publication/351670940_Planetary_Volatiles_Extractor_PVEx_for_Prospecting_and_In_Situ_Resource_Utilization",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 2.5 cm to 5 cm. Sources confirm nominal coring auger is 5 cm diameter and 50 cm long. Water extraction data shows 43-56% for 5cm ID core."
+      },
+      "drill_type": "Coring auger with heated inner wall",
+      "operational_heritage": "NASA SBIR Phase 2 completed (2016-2019), reached TRL 6",
+      "commercial_availability": "Completed development - TRL 6, project closed out Dec 2019",
+      "notes": "Double-walled coring auger with heated inner wall. Water extraction: 43-56% for 5cm ID, 0.5m length core with 4-6 wt% water. Reached 50cm depth in limestone in 10 min, similar in -20\u00b0C ice in 7 min. Combines drilling and extraction in one step. Developed by Honeybee Robotics with NASA JSC."
+    },
+    {
+      "vendor": "NASA Kennedy Space Center",
+      "model": "ISRU Pilot Excavator (IPEx)",
+      "category": "excavation",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.nasa.gov/isru-pilot-excavator/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5 achieved. Plans to reach TRL 6 flight-ready state for technology demonstration mission."
+      },
+      "mass_kg": {
+        "value": 30,
+        "source_url": "https://www.nasa.gov/isru-pilot-excavator/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 30 kg-class robotic excavator from NASA official sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified. Checked NASA official site, technical papers."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA development project, not commercially available."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available. NASA technology demonstration project."
+      },
+      "throughput_kg_per_hour": {
+        "value": 42,
+        "source_url": "https://www.nasa.gov/isru-pilot-excavator/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Added throughput specification: 42 kg/hr excavation rate. Designed to excavate 10,000 kg total over lunar day mission."
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Counter-acting bucket drums",
+      "dimensions": null,
+      "mobility": "Mobile robotic excavator",
+      "autonomy_level": "Autonomous excavation algorithms",
+      "operational_heritage": "Development/testing phase",
+      "commercial_availability": "Not available - NASA development project",
+      "notes": "Uses counter-acting bucket drums that dig simultaneously in opposing directions to reduce reaction forces. 50-70% volumetric scale of RASSOR 2.0. Designed for 10,000 kg excavation capacity over 11-day mission. Subsystems: Regolith Delivery, Mobility, Cameras/Dust Mitigation, Thermal Control. NASA working with Caterpillar simulation technology."
+    },
+    {
+      "vendor": "Honeybee Robotics (Blue Origin)",
+      "model": "PlanetVac",
+      "category": "sampling",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.planetary.org/articles/planetary-society-technology-about-to-launch-to-the-moon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9. Successfully flown and operated on Firefly Blue Ghost Mission 1 (landed March 2025). Flight proven on lunar surface via NASA CLPS program."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not found. Checked vendor sites, NASA sources, mission documentation. Low mass design mentioned but specific value not published."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Uses compressed gas from landing vehicle for pneumatic operation. Minimal electrical power for control electronics. Specific power consumption not published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available. Checked vendor sites, press releases."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available. Flight proven technology available for lunar missions."
+      },
+      "sample_collection_capacity_g": {
+        "value": 332,
+        "source_url": "https://www.planetary.org/sci-tech/planetvac",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 332g collected in Xodiac suborbital test. Mojave desert test collected 300g+. Actual lunar performance not yet published from March 2025 Blue Ghost mission."
+      },
+      "sampling_type": "Pneumatic (gas jet)",
+      "operational_heritage": "Landed on Moon via NASA CLPS program; MMX mission to Phobos (2026)",
+      "commercial_availability": "Available",
+      "notes": "Pneumatic sampling using ultra-pure nitrogen (99.999%). Efficiency: 1:6000 (1g N2 lofts 6000g regolith). Sample collection in 1 second. Works without seal to surface. Components: footpad-integrated sampling tube, gas tank, valves, electronics. Can be integrated into rocket-based excavation systems (Masten Rocket M)."
+    },
+    {
+      "vendor": "Interlune / Vermeer Corporation",
+      "model": "Interlune Lunar Excavator",
+      "category": "excavation",
+      "trl": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Full-scale prototype unveiled 2025, sub-scale tested 2024. TRL not specified."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Design reduces power consumption vs traditional excavators but specific value not provided"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Commercial product but pricing not public"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Prospecting mission planned by end of 2027"
+      },
+      "throughput_kg_per_hour": {
+        "value": 100000,
+        "source_url": "https://www.interlune.space/press-release/space-resources-company-interlune-unveils-full-scale-prototype-of-excavator-for-harvesting-helium-3-from-the-moon",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 100 metric tons (100,000 kg) per hour continuous ingestion from vendor official press release."
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Trencher (continuous)",
+      "dimensions": null,
+      "mobility": "Self-propelled trencher",
+      "autonomy_level": null,
+      "operational_heritage": "Sub-scale prototype tested 2024, full-scale prototype 2025",
+      "commercial_availability": "Development - prospecting mission 2027",
+      "notes": "Partnership between Interlune and Vermeer. Trencher design vs traditional excavator. Reduces tractive force, power, and dust. Helium-3 harvesting focus. Four-step system: Excavate, Sort, Extract, Separate. $18M funding. DOE customer: 3 liters He-3 by April 2029. Maybell Quantum: thousands of liters 2029-2035."
+    },
+    {
+      "vendor": "Astrobotic Technology / Masten Space Systems",
+      "model": "Rocket M (Rocket Mining System)",
+      "category": "excavation",
+      "trl": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development system, TRL not specified. Masten acquired by Astrobotic 2022."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Uses O2/H2 rocket propulsion, electrolyzed from mined water"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "throughput_kg_per_hour": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "100 kg ice per crater, 12 craters/day = 1200 kg/day. ~420,000 kg/year capacity."
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Rocket-based fluidization",
+      "dimensions": null,
+      "mobility": "Rover-mounted (Lunar Outpost rover), delivered via Masten lander",
+      "autonomy_level": "Robotic/autonomous",
+      "operational_heritage": "Development partnership: Masten, Honeybee Robotics, Lunar Outpost",
+      "commercial_availability": "Development - company status uncertain after bankruptcy/acquisition",
+      "notes": "Rocket plume fluidizes ice regolith through direct convective heating. 100 lbf rocket under pressurized dome. Series of 0.5 second pulses. Creates >2m deep craters. Honeybee PlanetVac collects fluidized icy grains. Mines own fuel (O2/H2 from water). Access around boulders/obstacles. Target: Aitken Basin, lunar south pole. Note: Masten filed Chapter 11 bankruptcy July 2022, acquired by Astrobotic Sept 2022."
+    },
+    {
+      "vendor": "Lunar Outpost",
+      "model": "ASPECT (Autonomous Site Preparation: Excavation, Compaction and Testing)",
+      "category": "excavation",
+      "trl": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA LuSTR award, TRL not specified"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Based on MAPP rover platform but excavation configuration mass not specified"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "MAPP rover provides 35W peak payload power but ASPECT excavation tools power not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "throughput_kg_per_hour": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified"
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Excavation, compaction, and leveling tools",
+      "dimensions": null,
+      "mobility": "Rover-mounted on Lunar Outpost MAPP platform",
+      "autonomy_level": "Fully autonomous",
+      "operational_heritage": "NASA LuSTR award with Colorado School of Mines, Michigan Tech",
+      "commercial_availability": "Development",
+      "notes": "Autonomous site preparation: boulder moving, regolith excavation, grading, compaction for landing pads. MAPP rover base: 45x38x40cm, 5-10kg, 15kg payload, 10cm/s speed, 8km range. ASPECT is separate autonomous excavation configuration. Goal: successful lunar demonstration."
+    },
+    {
+      "vendor": "Lunar Outpost",
+      "model": "Outpost Digger System",
+      "category": "excavation",
+      "trl": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA Break the Ice Challenge participant, TRL not specified"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "throughput_kg_per_hour": {
+        "value": 800,
+        "source_url": "https://www.minesnewsroom.com/news/mines-lunar-outpost-test-lunar-excavation-rover-15-day-durability-demonstration",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Needs verification. Source: 12 metric tons over 15 days continuous, 5 hours excavation per day = ~800 kg/hr"
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Two-rover system",
+      "dimensions": null,
+      "mobility": "Mobile dual rover system",
+      "autonomy_level": "Autonomous",
+      "operational_heritage": "NASA Break the Ice Challenge, 15-day continuous test, 38km drive distance",
+      "commercial_availability": "Development/testing",
+      "notes": "Two-rover system for NASA Break the Ice Challenge. Must excavate, transport, dump 12+ metric tons icy rocky regolith over continuous 15 days. Each rover excavates 5 hrs/day, drives 38km total over competition. Concrete-hard lunar regolith simulant testing."
+    },
+    {
+      "vendor": "Terra Engineering",
+      "model": "Fracture",
+      "category": "excavation",
+      "trl": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Winner of NASA Break the Ice Challenge, TRL not specified"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "throughput_kg_per_hour": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Met 15-day continuous excavation requirement but specific rate not published"
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Rover excavator",
+      "dimensions": null,
+      "mobility": "Mobile rover",
+      "autonomy_level": "Autonomous",
+      "operational_heritage": "Won NASA Break the Ice Challenge ($1M prize), tested in NASA thermal vacuum chamber",
+      "commercial_availability": "Unknown",
+      "notes": "First place winner ($1M) of NASA Break the Ice Lunar Challenge final round June 2024. Husband-and-wife team (Terra Engineering). Demonstrated excavation of icy rocky regolith, reduced gravity testing, complex terrain navigation. Given access to NASA Marshall thermal vacuum chambers for further testing."
+    },
+    {
+      "vendor": "Starpath Robotics",
+      "model": "Starpath Excavator",
+      "category": "excavation",
+      "trl": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "2nd place NASA Break the Ice Challenge, TRL not specified"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "throughput_kg_per_hour": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Met 15-day continuous excavation requirement but specific rate not published"
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Four-wheeled rover excavator",
+      "dimensions": null,
+      "mobility": "Four-wheeled mobile platform",
+      "autonomy_level": "Autonomous",
+      "operational_heritage": "2nd place NASA Break the Ice Challenge ($500K prize), NASA thermal vacuum testing",
+      "commercial_availability": "Unknown",
+      "notes": "Second place winner ($500K) of NASA Break the Ice Lunar Challenge final round June 2024. Four-wheeled rover capable of mining, collecting, and hauling material. Given access to NASA Marshall thermal vacuum chambers for continued development and testing."
+    },
+    {
+      "vendor": "Honeybee Robotics (Blue Origin)",
+      "model": "100kg Class Lunar Rover",
+      "category": "excavation",
+      "trl": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Scheduled for 2028 mission, TRL not specified"
+      },
+      "mass_kg": {
+        "value": 100,
+        "source_url": "https://www.blueorigin.com/news/firefly-aerospace-selects-blue-origins-honeybee-robotics-to-provide-rover-for-lunar-mission",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Needs verification. Source: 100 kg class rover"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Scheduled delivery for 2028 Firefly mission"
+      },
+      "throughput_kg_per_hour": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Science rover, not primarily excavation but includes sampling capabilities"
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Scientific sampling rover",
+      "dimensions": null,
+      "mobility": "Mobile rover with instruments",
+      "autonomy_level": "Autonomous traverse and sampling",
+      "operational_heritage": "Contract with Firefly Aerospace for 2028 Gruithuisen Domes mission",
+      "commercial_availability": "Development - 2028 mission",
+      "notes": "100kg class rover for Firefly's Blue Ghost Mission 3 to Gruithuisen Domes (2028). Carries NASA Lunar-VISE instruments: cameras, infrared multi-spectral camera, spectrometer for gamma ray/neutron emissions. Will traverse boulder field to impact crater rim. 14-day surface operations. Focus on subsurface composition investigation vs bulk excavation."
+    },
+    {
+      "vendor": "Redwire Space",
+      "model": "L-Rex (Lunar Regolith Excavator)",
+      "category": "excavation",
+      "trl": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Won Phase I of NASA Break the Ice Challenge ($125K), selected for Phase II Level 2"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "throughput_kg_per_hour": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "System designed to deliver 27,642 kg water over 365 days using 2 rovers"
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Lunar regolith excavator",
+      "dimensions": null,
+      "mobility": "Deployed via L-Tran (Lunar Transporter) rover",
+      "autonomy_level": "Autonomous",
+      "operational_heritage": "NASA Break the Ice Challenge Phase I winner (Aug 2023), Phase II Level 2 participant",
+      "commercial_availability": "Development",
+      "notes": "Two-rover solution: L-Rex excavator and L-Tran transporter. Designed to excavate icy regolith and deliver to processing. Target: 27,642 kg water over 365 days. Redwire also developing Mason construction system ($12.9M NASA Tipping Point): grader, compactor, microwave emitter for sintering regolith into concrete-like material for landing pads, roads, berms."
+    },
+    {
+      "vendor": "JAXA / ISRO",
+      "model": "LUPEX Drill",
+      "category": "drilling",
+      "trl": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "In development for LUPEX mission, TRL not specified"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Part of 350kg rover, drill component mass not specified"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Government project, not commercially available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available"
+      },
+      "drilling_depth_m": {
+        "value": 1.5,
+        "source_url": "https://global.jaxa.jp/activity/pr/jaxas/no092/02.html",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Needs verification. Source: 1.5 meter drilling depth for subsurface sampling"
+      },
+      "core_diameter_cm": null,
+      "drill_type": "Subsurface core sampling drill",
+      "operational_heritage": "JAXA/ISRO LUPEX (Lunar Polar Exploration) mission development",
+      "commercial_availability": "Not available - government mission",
+      "notes": "Part of LUPEX 350kg autonomous rover. Mission: search for water at lunar south pole. Instruments: REIWA (Resource Investigating Water Analyzer), GPR (Ground Penetrating Radar), spectrometers. Designed for extreme lunar south pole conditions. Joint JAXA-ISRO development."
+    },
+    {
+      "vendor": "GITAI Japan",
+      "model": "GITAI Inchworm Robotic Arm",
+      "category": "excavation",
+      "trl": {
+        "value": 6,
+        "source_url": "https://gitai.tech/2025/03/31/gitai-awarded-jaxa-contract-for-concept-study-of-robotic-arm-for-crewed-pressurized-lunar-rover/",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Needs verification. Source: TRL 6 achieved for lunar South Pole operations"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Under development for JAXA contract"
+      },
+      "throughput_kg_per_hour": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Robotic arm for sample collection and payload handling, not bulk excavation"
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Inchworm-type robotic arm",
+      "dimensions": null,
+      "mobility": "Mounted on crewed pressurized lunar rover",
+      "autonomy_level": "Robotic manipulation",
+      "operational_heritage": "JAXA contract for crewed pressurized lunar rover, completed environmental testing",
+      "commercial_availability": "Development - JAXA contract",
+      "notes": "JAXA contract for concept study of robotic arm for crewed pressurized lunar rover. Tasks: regolith excavation, rock and soil sample collection, large payload handling. Inchworm-type design. TRL-6 for lunar South Pole extreme conditions. Completed rigorous environmental testing. Commercial space robotics company with orbital and lunar experience."
+    },
+    {
+      "vendor": "Colorado School of Mines / Michigan Tech / Aalborg University",
+      "model": "Bucket Ladder Excavator (Research Prototype)",
+      "category": "excavation",
+      "trl": {
+        "value": 5,
+        "source_url": "https://ascelibrary.org/doi/10.1061/9780784484470.023",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Needs verification. Source: Research efforts raising TRL to 5-6 for lunar applications"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA Lunabotics competition limit: 80kg, but specific prototype mass varies"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Testing showed 0.01 W/kg/hr in Earth conditions"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Research prototypes, not commercially available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Research systems"
+      },
+      "throughput_kg_per_hour": {
+        "value": 1000,
+        "source_url": "https://ascelibrary.org/doi/10.1061/9780784484470.023",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Needs verification. Source: >1000 kg/hr at 0.01 W/kg/hr in atmospheric testing"
+      },
+      "bucket_capacity_kg": null,
+      "excavator_type": "Bucket ladder (continuous chain)",
+      "dimensions": null,
+      "mobility": "Mobile platform",
+      "autonomy_level": "Remote controlled to autonomous",
+      "operational_heritage": "NASA Lunabotics Mining Competition winners, research prototypes",
+      "commercial_availability": "Research - not commercially available",
+      "notes": "Chain-mounted buckets rotate at high speed, small bites per bucket. Low power, low excavation forces, high capacity. Most popular design for NASA Lunabotics competition, all winners used bucket ladder variant. Testing in dusty thermal vacuum chambers. Chains: typically 2, sometimes 1 or 4. Advantages: horizontal vs vertical forces (suited for low gravity), continuous operation. Universities developing for TRL 5-6."
+    }
+  ]
+}

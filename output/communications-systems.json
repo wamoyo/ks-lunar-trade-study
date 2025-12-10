@@ -1,0 +1,1060 @@
+{
+  "category": "Communications Systems",
+  "last_updated": "2025-12-08",
+  "items": [
+    {
+      "vendor": "Surrey Satellite Technology Ltd (SSTL)",
+      "model": "Lunar Pathfinder",
+      "subcategory": "Lunar Relay Satellite",
+      "trl": {
+        "value": 7,
+        "source_url": "https://bsgn.esa.int/service/lunar-pathfinder/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 8 to TRL 7. Proto-Flight Model currently under Assembly, Integration and Test (~50% complete). Not yet flight-ready. Per ESA BSGN: electrical/thermal interfaces frozen, residual EMI/EMC tests in Dec 2025."
+      },
+      "mass_kg": {
+        "value": 280,
+        "source_url": "https://www.eoportal.org/satellite-missions/lunar-pathfinder",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from eoPortal. Total spacecraft mass 280 kg."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.eoportal.org/satellite-missions/lunar-pathfinder",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked SSTL official site, ESA BSGN, and eoPortal. Sources confirm 2 deployable solar arrays and batteries but no specific power output."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Commercial service model (anchor customer: ESA). Checked SSTL, ESA BSGN - pricing listed as 'upon request'."
+      },
+      "procurement_lead_time": {
+        "value": "Not Earlier Than November 2026",
+        "source_url": "https://bsgn.esa.int/service/lunar-pathfinder/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated from 'Launching 2026' to 'Not Earlier Than November 2026' per ESA BSGN official page. Launch via Firefly Blue Ghost Mission 2."
+      },
+      "data_rates": {
+        "value": "S-band and UHF to lunar assets, X-band to Earth; specific rates not disclosed",
+        "source_url": "https://bsgn.esa.int/service/lunar-pathfinder/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected: Previous values (S-band 10 kbps-1 Mbps, Ka-band 0.5-200 Mbps) refer to broader Moonlight LCNS constellation, not Lunar Pathfinder specifically. Pathfinder has 2 simultaneous channels (1 S-band + 1 UHF). Specific Mbps values not published by SSTL or ESA."
+      },
+      "frequencies": {
+        "value": "S-band, UHF (to lunar assets), X-band (Earth relay)",
+        "source_url": "https://bsgn.esa.int/service/lunar-pathfinder/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA BSGN and SSTL official pages. Two powerful S-band links plus UHF to lunar surface/orbit assets, X-band for Earth communications."
+      },
+      "orbit": {
+        "value": "Elliptical Lunar Frozen Orbit (ELFO)",
+        "source_url": "https://www.eoportal.org/satellite-missions/lunar-pathfinder",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed ELFO from eoPortal. 8-year operational lifetime. Stable elliptical orbit provides long-duration visibility of Southern Lunar Hemisphere."
+      },
+      "notes": "First commercial lunar relay satellite; 2 simultaneous communication channels (1 S-band + 1 UHF to lunar assets); S-band antenna: 0.86m parabolic reflector with >20dB gain; ESA Moonlight pathfinder mission"
+    },
+    {
+      "vendor": "Intuitive Machines",
+      "model": "Lunar Data Relay Constellation",
+      "subcategory": "Lunar Relay Satellites",
+      "trl": {
+        "value": 7,
+        "source_url": "https://spacenews.com/intuitive-machines-to-build-its-own-lunar-communications-satellites/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7. In development phase with in-house production. First satellite planned for IM-3 mission (2026). CEO announced August 2025 decision to vertically integrate satellite production for schedule and cost control. Estimated $5M non-recurring engineering costs for first satellite, $100M total for all five."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked Intuitive Machines investor relations, press releases, and SpaceNews coverage. Satellites now built in-house (previously planned with York Space Systems S-CLASS platform)."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked Intuitive Machines official sources and industry publications."
+      },
+      "cost_usd": {
+        "value": 4820000000,
+        "source_url": "https://investors.intuitivemachines.com/news-releases/news-release-details/nasa-awards-intuitive-machines-near-space-network-contract",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Intuitive Machines official investor release. Total NASA Near Space Network contract maximum potential value: $4.82B. Contract period: 5-year base (Oct 1, 2024 - Sep 30, 2029) plus 5-year option (through Sep 30, 2034). Firm-Fixed-Price IDIQ contract. Includes all 5 satellites, launches, and operations services."
+      },
+      "procurement_lead_time": {
+        "value": "First satellite: IM-3 mission (2026), two more: IM-4 (2027), final two satellites: TBD",
+        "source_url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-selects-spacex-launch-its-fourth-lunar-lander",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated from Intuitive Machines official release. IM-3 mission delayed to 2026 (per August 2025 announcement). IM-4 scheduled for 2027 with two relay satellites. Phased deployment across multiple missions."
+      },
+      "data_rates": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Specific data rates not publicly disclosed. Checked Intuitive Machines investor relations and NASA NSN contract announcement. Services described as supporting '4K resolution video data and navigation services' but no Mbps values provided."
+      },
+      "frequencies": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked Intuitive Machines official sources and NASA contract details."
+      },
+      "orbit": {
+        "value": "Lunar orbit (specific parameters not disclosed)",
+        "source_url": "https://investors.intuitivemachines.com/news-releases/news-release-details/nasa-awards-intuitive-machines-near-space-network-contract",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed lunar orbit from official Intuitive Machines press release. Specific orbital parameters (altitude, inclination, period) not publicly disclosed."
+      },
+      "notes": "Five-satellite constellation; pay-by-the-minute commercial service model; supports NASA Artemis and commercial customers; satellites can host additional payloads and science sensors; previously planned with York Space Systems, now in-house production (announced August 2025); NASA Near Space Network Services contract awarded September 2024"
+    },
+    {
+      "vendor": "Thales Alenia Space / Telespazio",
+      "model": "Moonlight Constellation",
+      "subcategory": "Lunar Relay Satellites",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.telespazio.com/en/press-release-detail/-/detail/firma-moonlight-pr",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6. Design and development phase. Telespazio signed EUR 123M contract with ESA on October 15, 2024. Thales Alenia Space subcontracted March 12, 2025 for space segment. Initial operations end of 2028, full operations 2030."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked ESA official sources, Thales Alenia Space, and Telespazio press releases. Specifications TBD - project in early design phase."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked ESA, Thales Alenia Space, and Telespazio official sources. Specifications TBD - project in early design phase."
+      },
+      "cost_usd": {
+        "value": 135000000,
+        "source_url": "https://www.telespazio.com/en/press-release-detail/-/detail/firma-moonlight-pr",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from null to EUR 123M (approximately $135M USD at 2024 exchange rates). Telespazio prime contract with ESA for Phase 1 signed October 15, 2024. Thales Alenia Space subcontract portion not disclosed."
+      },
+      "procurement_lead_time": {
+        "value": "Initial operations: end of 2028, full operations: 2030",
+        "source_url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/ESA_s_Moonlight_programme_Pioneering_the_path_for_lunar_exploration",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA official source. Lunar Pathfinder precursor operations begin 2026. First interoperability tests scheduled 2029."
+      },
+      "data_rates": {
+        "value": "High data rate: K-band up to 200 Mbps per user, low data rate: S-band up to 1 Mbps per user",
+        "source_url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/ESA_s_Moonlight_programme_Pioneering_the_path_for_lunar_exploration",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated from generic 'high-speed, low-latency' to specific rates found in ESA and industry sources. K-band for high-rate communications satellite, S-band for low-rate."
+      },
+      "frequencies": {
+        "value": "S-band, K-band",
+        "source_url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/ESA_s_Moonlight_programme_Pioneering_the_path_for_lunar_exploration",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated from 'S-band and X-band' to 'S-band, K-band' based on ESA source. K-band for high data rate communications, S-band for low data rate."
+      },
+      "orbit": {
+        "value": "Lunar elliptical orbit",
+        "source_url": "https://www.thalesaleniaspace.com/en/press-releases/moonlight-thales-alenia-space-develop-space-segment-navigation-system-orbiting",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Thales Alenia Space official press release. Four navigation satellites in lunar elliptical orbit. Coverage prioritizes lunar south pole."
+      },
+      "notes": "Five satellites total: four navigation satellites (NAVSAT-1 to NAVSAT-4) + one communications satellite (COMSAT); ESA Moonlight LCNS program; provides communication and navigation services; three dedicated ground stations; network spans up to 400,000 km; enables precise autonomous moon landings and surface mobility; LunaNet compliant; Telespazio prime contractor, Thales Alenia Space space segment developer"
+    },
+    {
+      "vendor": "Nokia Bell Labs",
+      "model": "Lunar Surface Communication System (LSCS)",
+      "subcategory": "Surface Network (4G/LTE)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.nokia.com/about-us/news/releases/2025/03/10/nokia-and-intuitive-machines-deliver-first-cellular-network-to-the-moon-achieve-some-key-mission-objectives/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 8 to TRL 9. System flight-proven on IM-2 mission, landed March 6, 2025 at lunar south pole. Network-in-a-Box successfully powered up and operated for 25 minutes in 'on air' state with all subcomponents (base station, radio, network core) functioning. Telemetry confirmed successful operational status. Demonstrated in operational lunar environment."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked Nokia official sources and industry publications. Described as 'compact form factor meeting stringent size, weight, and power constraints' but specific mass not provided. System includes Network-in-a-Box (base station, radio, core network) and device modules for rovers."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked Nokia official sources. System features LTE Smart Scheduler for intelligent power management and is optimized for low/intermittent power supplies (solar and battery). Specific wattage values not provided."
+      },
+      "cost_usd": {
+        "value": 14100000,
+        "source_url": "https://www.business-standard.com/article/technology/nokia-wins-14-1-million-nasa-contract-to-set-up-4g-network-on-moon-120101800279_1.html",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed $14.1M. NASA Tipping Point contract awarded October 2020 for development and demonstration of lunar 4G/LTE system. Contract covered design, development, and IM-2 mission demonstration."
+      },
+      "procurement_lead_time": {
+        "value": "Demonstrated March 2025 on IM-2; future missions 2027+",
+        "source_url": "https://www.nokia.com/about-us/news/releases/2025/03/10/nokia-and-intuitive-machines-deliver-first-cellular-network-to-the-moon-achieve-some-key-mission-objectives/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated. IM-2 mission landed March 6, 2025. Nokia also partnering with Axiom Space for Artemis III spacesuit integration (mission no earlier than 2027). Additional lunar missions planned for 2027+."
+      },
+      "data_rates": {
+        "value": "4G/LTE standard - sufficient for HD video, command-and-control, telemetry",
+        "source_url": "https://www.fastcompany.com/90795731/why-nokia-wants-to-put-an-lte-network-on-the-moon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 4G/LTE standard capabilities. System designed to support HD video streaming, real-time navigation, command-and-control, and telemetry data. Specific Mbps values not disclosed. Artemis III spacesuit integration will support up to 2km range."
+      },
+      "frequencies": {
+        "value": "4G/LTE cellular bands (space-adapted)",
+        "source_url": "https://www.cnbc.com/2020/10/19/nasa-is-launching-a-4g-mobile-network-on-the-moon.html",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 4G/LTE bands. System is space-hardened version of terrestrial cellular technology. Specific band allocations not publicly disclosed. Engineered for lunar environmental conditions."
+      },
+      "orbit": {
+        "value": "N/A - Surface system",
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed surface-based system. Not applicable to orbit."
+      },
+      "notes": "World's first cellular network delivered to Moon (March 6, 2025); Network-in-a-Box deployed on IM-2 lander at lunar south pole; device modules installed in Intuitive Machines Micro-Nova Hopper and Lunar Outpost MAPP rover; space-hardened for extreme temperatures and radiation; 14 thermally-isolated mounting points; enables surface connectivity between lander and vehicles; future integration with Axiom Space Artemis III spacesuits"
+    },
+    {
+      "vendor": "General Dynamics Mission Systems",
+      "model": "Small Deep Space Transponder (SDST)",
+      "subcategory": "Transponder",
+      "trl": {
+        "value": 9,
+        "source_url": "https://gdmissionsystems.com/articles/2021/02/15/featured-story-general-dynamics-transponders-aboard-nasa-perseverance-mars-rover",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9. Flight-proven on multiple NASA missions: Kepler, Juno, MAVEN, InSight, OSIRIS-REx, Perseverance (Mars 2020), Lucy, Psyche. Over 1 million hours in space. NOTE: Product discontinued - General Dynamics no longer producing SDST."
+      },
+      "mass_kg": {
+        "value": 3.2,
+        "source_url": "https://gdmissionsystems.com/products/communications/spaceborne-communications/tracking-telemetry-and-control/small-deep-space-transponder",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 3 kg to 3.2 kg (7.0 lbs maximum). Confirmed from GD official datasheet. Unifies receiver, command detector, telemetry modulator, exciters, beacon tone generator, and control functions into compact package. Size: 7.13\"L x 6.55\"W x 4.50\"H."
+      },
+      "power_kw": {
+        "value": 0.0195,
+        "source_url": "https://gdmissionsystems.com/products/communications/spaceborne-communications/tracking-telemetry-and-control/small-deep-space-transponder",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from null to 0.0195 kW (19.5 W maximum). Power consumption per GD datasheet: Receiver Only: 12.5W nominal, Receiver + X-Band Exciter: 15.8W nominal, Receiver + X/Ka-Band Exciters: 19.5W nominal. Input: 22-36 VDC or ±11 to ±18 VDC."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Product discontinued - General Dynamics no longer producing SDST. Pricing was procurement-based when available."
+      },
+      "procurement_lead_time": {
+        "value": "Discontinued",
+        "source_url": "https://gdmissionsystems.com/products/communications/spaceborne-communications/tracking-telemetry-and-control/small-deep-space-transponder",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Product discontinued. Per GD official site: 'General Dynamics Mission Systems is no longer producing the Small Deep Space Transponder (SDST).' Existing units in use on operational missions."
+      },
+      "data_rates": {
+        "value": "Up to 30 Mbps telemetry",
+        "source_url": "https://gdmissionsystems.com/products/communications/spaceborne-communications/tracking-telemetry-and-control/small-deep-space-transponder",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from GD datasheet. Maximum telemetry symbol rate: 30 Mbps."
+      },
+      "frequencies": {
+        "value": "X-band receiver and exciter, Ka-band exciter option",
+        "source_url": "https://gdmissionsystems.com/products/communications/spaceborne-communications/tracking-telemetry-and-control/small-deep-space-transponder",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from GD datasheet. X-Band receiver and exciter standard. Ka-Band exciter optional (via external multiplier). Two configurations: X/X and X/X/Ka."
+      },
+      "orbit": {
+        "value": "N/A - Spacecraft component",
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed spacecraft component. Not applicable to orbit."
+      },
+      "notes": "Developed by GD and NASA JPL; NASA Deep Space Network compatible; 2.1 dB noise figure at 25°C; -158 dBm sensitivity; MIL-STD-1553 interface; SEU-tolerant, radiation-hardened (50 krads Si standard, 100 krad optional); operating temp: -40 to +60°C; considered standard radio for deep space missions; over 1 million hours in space; DISCONTINUED - no longer in production"
+    },
+    {
+      "vendor": "L3Harris Technologies",
+      "model": "C/TT-520 S-Band Transponder",
+      "subcategory": "Transponder",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.l3harris.com/all-capabilities/ctt-520-spacecraft-s-band-transponder",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9. Flight-proven, operational product. Parts screened per EEE Level 2. L3Harris has decades of spaceflight design experience. Single-facility design, build, assembly, and test with existing qualified data items."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked L3Harris official product page and datasheet references."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked L3Harris official sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Available via procurement from L3Harris. Pricing provided to qualified customers."
+      },
+      "procurement_lead_time": {
+        "value": "Commercial availability",
+        "source_url": "https://www.l3harris.com/all-capabilities/ctt-520-spacecraft-s-band-transponder",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed commercially available. Engineering support available. Lead times provided upon request to qualified customers."
+      },
+      "data_rates": {
+        "value": "Receive: 125 bps to 3 Mbps, Transmit: up to 6 Mbps",
+        "source_url": "https://www.l3harris.com/all-capabilities/ctt-520-spacecraft-s-band-transponder",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from L3Harris official product page."
+      },
+      "frequencies": {
+        "value": "S-band",
+        "source_url": "https://www.l3harris.com/all-capabilities/ctt-520-spacecraft-s-band-transponder",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed S-band. Compatible with NASA networks and protocols. Selectable RF frequency with 1 of 85 gold codes."
+      },
+      "orbit": {
+        "value": "N/A - Spacecraft component",
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed spacecraft component. Not applicable to orbit."
+      },
+      "notes": "Full-duplex communications with NASA networks; 2.5 dB noise figure; 1.5 dB implementation loss; selectable parameters: RF frequency, 1 of 85 gold codes, data rates, modulation, power, encryption/decryption; convolutional/Viterbi encoding; Reed Solomon encoding/decoding; interface options: RS-422, UART, SPI"
+    },
+    {
+      "vendor": "L3Harris Technologies",
+      "model": "CXS-1000 Satellite Communications Transponder",
+      "subcategory": "Transponder",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-1000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9. Radiation-tested for GEO. On-orbit proven processes. L3Harris brings more than five decades of experience in TT&C with space-proven processes."
+      },
+      "mass_kg": {
+        "value": 1.6,
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-1000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from null to 1.6 kg. Confirmed from L3Harris datasheet: 2.5 lbs aluminum version (1.13 kg) or 3.6 lbs copper version (1.63 kg). Using higher copper version mass."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-1000",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Power input specified as 28V ± 6V but specific wattage consumption not disclosed in L3Harris documentation. Designed for low-power small satellite applications."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Described as 'low cost for small satellites and constellations.' Available via procurement from L3Harris."
+      },
+      "procurement_lead_time": {
+        "value": "Commercial availability",
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-1000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed commercially available. Targeted at small satellites and constellations. Lead times provided upon request."
+      },
+      "data_rates": {
+        "value": "Receive: 2-128 Kbps (3 Mbps capable), Transmit: 2K-2 Mbps (20 Mbps capable)",
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-1000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from null. Confirmed from L3Harris datasheet. L/S-Band receiver: 2-128 Kbps (3 Mbps capable). S-Band transmitter: 2K-2 Mbps (20 Mbps capable)."
+      },
+      "frequencies": {
+        "value": "L-band (1.76-1.84 GHz), S-band (2.025-2.120 GHz receive, 2.2-2.3 GHz transmit), with X-band and Ka-band options",
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-1000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated with specific frequency ranges from L3Harris datasheet. Core L/S-band with optional X-band and Ka-band functionality."
+      },
+      "orbit": {
+        "value": "Designed for GEO (adaptable to lunar)",
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-1000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed designed and radiation-tested for GEO. 50 krad chassis radiation hardening, tested to GEO levels. SEE protection LET > 43 MeV. Mission life: 1-5 years."
+      },
+      "notes": "Multifunction software-defined transceiver; multiband and multiwaveform capabilities; can be single integrated unit or separate TX/RX for full duplex; dimensions: 4.0\" × 4.2\" × 4.0\" (core config); modulation: BPSK, SGLS, USB/STDN, ranging, TDRSS; RF power: 10 mW to 20 W; frequency stability: ±10 ppm over life; targeted at small satellites and constellations"
+    },
+    {
+      "vendor": "L3Harris Technologies",
+      "model": "CXS-2000/C Satellite Communications Transponder",
+      "subcategory": "Transponder",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-2000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9. Currently in orbit on several programs with over 100,000 hours successful on-orbit operation. 15-year mission life. U.S. DoD standard for SGLS and USB-compatible transponders."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked L3Harris official product page and datasheet."
+      },
+      "power_kw": {
+        "value": 0.056,
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-2000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from null to 0.056 kW (56 W maximum). Per L3Harris datasheet: Input voltage +28 VDC or +70 VDC. Receive Only: 12-16W max. Transmit & Receive: 6-56W max (varies with options). RF output power: 5W min, 8W option, low power port -5 dBm."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. U.S. DoD standard product. Pricing not public, available via government and commercial procurement."
+      },
+      "procurement_lead_time": {
+        "value": "Commercial and government availability",
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-2000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed available for commercial and government customers. Lead times provided upon request."
+      },
+      "data_rates": {
+        "value": "Command: 1-4 kbps (SGLS/USB), 32-64 kbps (3rd channel); Direct BPSK: up to 1 Mbps; Direct carrier: 8 Msps max; Subcarrier: 128 kbps max",
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-2000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from null. Confirmed from L3Harris datasheet. Multiple modulation options: AM, FSK, PM, BPSK, optional QPSK. FEC: 1/2 convolutional and 7/8 Reed-Solomon encoding."
+      },
+      "frequencies": {
+        "value": "SGLS L-Band RX: 1.76-1.84 GHz, USB S-Band RX: 2.025-2.120 GHz, 3rd RX: 1.9325 GHz, TX: 2200-2300 MHz",
+        "source_url": "https://www.l3harris.com/all-capabilities/satellite-communications-transponder-cxs-2000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated with specific frequency ranges from L3Harris datasheet. Dual-band SGLS and Unified S-Band compatible."
+      },
+      "orbit": {
+        "value": "N/A - Spacecraft component",
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed spacecraft component. Radiation hardening: 100 krads chassis, >25 krads part level. Unlimited operating altitude. Not applicable to orbit."
+      },
+      "notes": "U.S. DoD standard for TT&C; dual-band, multi-mode; high-reliability heritage; SGLS and USB compatible; NSA certified Type-1 design with embedded encryption; carrier acquisition: -113 dBm (SGLS), -119 dBm (USB); noise figure: 3.5 dB (SGLS), 5 dB (USB); acquisition time: 0.8-1.2s max; vibration: 15 Grms; EMI: MIL-STD-461F compliant"
+    },
+    {
+      "vendor": "Kongsberg Satellite Services (KSAT)",
+      "model": "KSAT Lunar Ground Station Network",
+      "subcategory": "Ground Network",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.ksat.no/ground-network-services/ksat-lunar/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 'January 2025' to 'December 23, 2024'. KSAT selected by NASA for Near Space Network services December 23, 2024. 13m network currently operational (TRL 9). 20m dedicated lunar network operational by end of 2026."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "N/A - Ground infrastructure. Not applicable."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "N/A - Ground infrastructure. Not applicable."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Commercial service pricing provided on request. NASA NSN contract value not disclosed in public announcements."
+      },
+      "procurement_lead_time": {
+        "value": "20m network operational by end of 2026, 13m network currently operational",
+        "source_url": "https://www.ksat.no/news/news-archive/2024/ksat-selected-as-a-provider-to-nasa/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from KSAT official press release. 13m S/X-band network operational now. 20m X/Ka-band network operational by end of 2026."
+      },
+      "data_rates": {
+        "value": "S-band, X-band, Ka-band capable",
+        "source_url": "https://www.ksat.no/ground-network-services/ksat-lunar/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed tri-band support (S, X, Ka) from KSAT official page. Specific Mbps rates not disclosed. Developing optical communications capability for Gigabit-per-second at lunar distances."
+      },
+      "frequencies": {
+        "value": "S-band, X-band, Ka-band",
+        "source_url": "https://www.ksat.no/ground-network-services/ksat-lunar/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from KSAT official page. 13m network: S-band and X-band. 20m network: X-band and Ka-band. Partner network: S/X/Ka-band."
+      },
+      "orbit": {
+        "value": "N/A - Ground infrastructure",
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed ground-based infrastructure. Not applicable to orbit."
+      },
+      "notes": "World's first purpose-built lunar ground station network; three networks: 20m (operational by end 2026, X/Ka-band), 13m (operational now, S/X-band), and partner network (12+ antennas, 13-32m, S/X/Ka-band); continuous lunar coverage; TT&C, payload downlink, ranging services; developing optical communications capability; NASA NSN services provider (selected December 23, 2024); CPI Vertex provides 20m antennas; 25 years serving NASA"
+    },
+    {
+      "vendor": "NASA / MIT Lincoln Laboratory",
+      "model": "Lunar Laser Communication Demonstration (LLCD)",
+      "subcategory": "Optical Communications",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.nasa.gov/mission/lunar-laser-communications-demonstration-llcd/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9. Successfully demonstrated October 2013 - April 2014 on LADEE lunar orbiter. System flight-proven in operational lunar environment. First two-way laser communication system from lunar distance."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/mission/lunar-laser-communications-demonstration-llcd/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Specific mass not disclosed. NASA states space terminal 'weighs less' and 'occupies less space' than comparable RF system, approximately half the weight of radio-based terminal. LADEE spacecraft total mass was 383 kg, but LLCD payload mass not separately specified."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/mission/lunar-laser-communications-demonstration-llcd/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Specific power not disclosed. NASA states space terminal 'uses less power' than comparable RF system, approximately 25% less power than radio-based terminal. LADEE spacecraft generated 295W total, but LLCD payload power not separately specified."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. NASA demonstration mission funded through agency programs. Development costs not published. Technology available for licensing."
+      },
+      "procurement_lead_time": {
+        "value": "Technology demonstrated October 2013 - April 2014",
+        "source_url": "https://www.nasa.gov/mission/lunar-laser-communications-demonstration-llcd/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official page. Flight-proven technology. Operational period October 2013 - April 2014 aboard LADEE. Technology available for future missions through MIT Lincoln Laboratory."
+      },
+      "data_rates": {
+        "value": "Downlink: 40-622 Mbps, Uplink: 10-20 Mbps (error-free)",
+        "source_url": "https://www.nasa.gov/mission/lunar-laser-communications-demonstration-llcd/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected to include full range. Confirmed from NASA official page. Record downlink: 622 Mbps from 239,000 miles (385,000 km). Uplink: 10-20 Mbps error-free. Sub-centimeter ranging accuracy (less than half inch)."
+      },
+      "frequencies": {
+        "value": "Infrared laser (optical)",
+        "source_url": "https://www.nasa.gov/mission/lunar-laser-communications-demonstration-llcd/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA. Laser-based optical communication system transmitting data as pulses of light. First system for two-way communication using laser instead of radio waves."
+      },
+      "orbit": {
+        "value": "Demonstrated from lunar orbit (LADEE)",
+        "source_url": "https://www.nasa.gov/mission/lunar-laser-communications-demonstration-llcd/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA. LLCD operated from LADEE spacecraft in lunar orbit. Distance: 239,000 miles from Earth."
+      },
+      "notes": "First laser communication demonstration from Moon to Earth; October 2013 - April 2014; 10-100x higher data rates than RF; space terminal half weight and 25% less power than comparable RF system; ground stations: White Sands NM (primary), Table Mountain CA, and ESA Tenerife; MIT Lincoln Laboratory development; two-way time-of-flight measurements; technology foundation for LCRD and future high-bandwidth lunar communications"
+    },
+    {
+      "vendor": "NASA / MIT Lincoln Laboratory",
+      "model": "Laser Communications Relay Demonstration (LCRD)",
+      "subcategory": "Optical Communications",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/laser-communications-relay-demonstration-lcrd-overview/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9. Operational since December 7, 2021. Currently demonstrating bi-directional laser communications from GEO. System flight-proven with ongoing operations and experimentation."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/laser-communications-relay-demonstration-lcrd-overview/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Specific total mass not disclosed. NASA describes payload as 'size of king-sized mattress.' Two laser terminals interconnected via onboard electronic switch. Decreased size, weight, and power compared to RF systems. Individual component masses not publicly specified."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/laser-communications-relay-demonstration-lcrd-overview/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Specific power not disclosed. NASA states optical communications provides 'decreased size, weight, and power requirements' compared to RF systems. Two optical modules generate infrared lasers. Hosted payload on DoD STPSat-6."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. NASA Technology Demonstration Mission funded through Space Technology Mission Directorate. Development costs not published. Technology available for commercial development."
+      },
+      "procurement_lead_time": {
+        "value": "Operational since December 7, 2021",
+        "source_url": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/laser-communications-relay-demonstration-lcrd-overview/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official page. Launched December 7, 2021 at 5:19 AM EST on Atlas V 551. Hosted payload on DoD STPSat-6. Flight-proven technology with ongoing operations. Available for future missions."
+      },
+      "data_rates": {
+        "value": "Up to 1.244 Gbps bi-directional",
+        "source_url": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/laser-communications-relay-demonstration-lcrd-overview/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA. Bi-directional optical communications at user data rates up to 1.244 Gbps. Downlink 1.2 Gbps over optical signals. Nearly double the 622 Mbps from 2013 LLCD. 10-100x better than radio systems."
+      },
+      "frequencies": {
+        "value": "Infrared laser (optical)",
+        "source_url": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/laser-communications-relay-demonstration-lcrd-overview/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA. Two optical modules generate infrared lasers for data transmission. Uses invisible lasers to encode and transmit data as optical signals."
+      },
+      "orbit": {
+        "value": "Geosynchronous orbit",
+        "source_url": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/laser-communications-relay-demonstration-lcrd-overview/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA. Geosynchronous orbit. Hosted payload on DoD STPSat-6 launched on Atlas V 551. Demonstrates technology applicable to lunar and deep space distances. Uses DPSK (Near-Earth) and PPM (deep space) modulation."
+      },
+      "notes": "Operational laser communication relay since December 2021; ground stations: Table Mountain CA and Haleakalā HI; two laser communications terminals interconnected via onboard electronic switch; demonstrates DPSK (Near-Earth) and PPM (deep space) modulation; foundation for future high-bandwidth space networks including lunar applications; size approximately that of king-sized mattress; 10-100x bandwidth increase over RF systems"
+    },
+    {
+      "vendor": "ispace-U.S.",
+      "model": "Alpine and Lupine Relay Satellites",
+      "subcategory": "Lunar Relay Satellites",
+      "trl": {
+        "value": 7,
+        "source_url": "https://ispace-us.com/alpine-lupine-relay-satellite/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7. In development phase. Satellites announced October 2024 at 75th International Astronautical Congress. Scheduled for deployment with APEX 1.0 Mission 3 to Schrödinger Basin, no earlier than 2027."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://ispace-us.com/alpine-lupine-relay-satellite/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Microsatellites using Blue Canyon Technologies Venus-100 bus platform. Includes articulating solar arrays, S-band patch antennas, power and data systems. Specific mass not published."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Satellites feature articulating solar arrays. Specific power generation and consumption values not published by ispace-U.S."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Part of NASA CLPS Mission 3 (CP-12 task order) payload. Contract value not separately itemized for relay satellites."
+      },
+      "procurement_lead_time": {
+        "value": "No earlier than 2027",
+        "source_url": "https://ispace-us.com/2025/05/09/ispace-u-s-announces-new-lunar-lander-engine-solution-voidrunner-with-agile-and-mission-3-schedule-updated-to-no-earlier-than-2027/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ispace-U.S. official announcement. Mission 3 updated from 2026 to no earlier than 2027 due to VoidRunner engine solution. Alpine and Lupine deployed by APEX 1.0 lander into lunar orbit before landing at Schrödinger Basin."
+      },
+      "data_rates": {
+        "value": "S-band: 8 kbps TX / 55 kbps RX, Ka-band uplink: up to 1.3 Mbps, X-band downlink: up to 1.3 Mbps",
+        "source_url": "https://ispace-us.com/alpine-lupine-relay-satellite/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ispace-U.S. official page. S-band for command/telemetry. Ka-band for high-speed lunar proximity uplink to lander. X-band for high-speed downlink to Earth. Low-latency real-time communications."
+      },
+      "frequencies": {
+        "value": "Bi-directional S-band (command/telemetry), Ka-band (lunar proximity uplink), X-band (Earth downlink)",
+        "source_url": "https://ispace-us.com/alpine-lupine-relay-satellite/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ispace-U.S. official page. S-band patch antennas for bi-directional command/telemetry. Ka-band for lander communications on lunar surface. X-band deployable antenna articulating toward Earth."
+      },
+      "orbit": {
+        "value": "High Circular Polar Orbit (HCPO)",
+        "source_url": "https://ispace-us.com/alpine-lupine-relay-satellite/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ispace-U.S. official page. Near-global coverage of lunar surface with focus region over poles. Each lunar day cycle provides simultaneous visibility of Earth and lunar South Pole. Enables far-side communications."
+      },
+      "notes": "Two microsatellites for far-side communications; announced October 2024; deployed by APEX 1.0 lander into orbit before landing at Schrödinger Basin; Blue Canyon Technologies Venus-100 bus; articulating solar arrays and deployable X-band antenna; supports NASA CP-12 payloads and commercial services; platform for PNT, environmental monitoring, and SDA technology demonstrations; Mission 3 no earlier than 2027"
+    },
+    {
+      "vendor": "Crescent Space / Lockheed Martin",
+      "model": "Parsec Cislunar Communications Network",
+      "subcategory": "Lunar Relay Satellites",
+      "trl": {
+        "value": 6,
+        "source_url": "https://crescentspace.com/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6. Development phase per Crescent Space official site. First nodes originally planned for 2025, operational target 2026 with additional nodes thereafter. Uses proven Curio SmallSat bus (NASA Janus, Lunar Trailblazer missions)."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Small satellite constellation using Lockheed Martin Curio deep-space smallsat bus platform. Specific mass not published by Crescent Space or Lockheed Martin."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Satellites use solar arrays. Specific power generation and consumption values not published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Infrastructure-as-a-service commercial model. Pricing provided to customers upon request. Development supported by DARPA 10-Year Lunar Architecture Study contract."
+      },
+      "procurement_lead_time": {
+        "value": "Operational 2026, additional nodes thereafter",
+        "source_url": "https://crescentspace.com/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Crescent Space official site. First nodes originally planned for 2025 launch, operational target 2026. Phased deployment with additional nodes added thereafter to support lunar economy growth."
+      },
+      "data_rates": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. System designed to provide communications relay between Earth and lunar orbit/surface. Specific data rates not published by Crescent Space."
+      },
+      "frequencies": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Frequency bands and communication standards not published. DARPA contract includes development of Modular User Surface Terminals (MUST) for ground-based communications."
+      },
+      "orbit": {
+        "value": "Lunar orbit constellation",
+        "source_url": "https://crescentspace.com/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Crescent Space official site. Constellation of small satellites in lunar orbit working collectively to provide continuous Earth-Moon connection. Complete communication and navigation coverage for lunar missions. Specific orbital parameters not disclosed."
+      },
+      "notes": "Lockheed Martin commercial subsidiary launched 2023; infrastructure-as-a-service model; constellation of small satellites for continuous Earth-Moon connection; uses Curio deep-space smallsat bus (NASA Janus and Lunar Trailblazer heritage); SmartSat software framework for on-orbit reconfigurability; COMPASS/Horizon mission planning and satellite control; provides communications, position, timing, and navigation services; DARPA 10-Year Lunar Architecture Study participant; developing Modular User Surface Terminals (MUST)"
+    },
+    {
+      "vendor": "NASA Glenn Research Center",
+      "model": "High-Rate Delay Tolerant Networking (HDTN)",
+      "subcategory": "DTN Software/Protocol",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/scan/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7. Advanced development phase per NASA Glenn Research Center. Active technology project being integrated into lunar missions. Transfers data four times faster than currently available DTN implementations. Part of NASA SCaN program."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "N/A - Software/protocol implementation. Not applicable."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "N/A - Software implementation. Not applicable."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA-developed software. Likely available to government and commercial partners through technology transfer agreements. Integration costs vary by mission. Not sold commercially; provided through NASA partnerships."
+      },
+      "procurement_lead_time": {
+        "value": "Currently available",
+        "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/scan/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA Glenn. Active technology project available for integration. NASA software for delay-tolerant networking developed for space missions. Part of SCaN program's optical communications technology initiatives."
+      },
+      "data_rates": {
+        "value": "Four times faster than current DTN implementations",
+        "source_url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/scan/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA Glenn official page. HDTN transfers data four times faster than currently available DTN implementations. Designed for high-bandwidth space communications. Specific Mbps values depend on underlying physical layer."
+      },
+      "frequencies": {
+        "value": "N/A - Protocol layer",
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed protocol layer software. Operates above physical layer, independent of RF frequencies. Works with any communications hardware."
+      },
+      "orbit": {
+        "value": "N/A - Software/protocol",
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed software/protocol. Not applicable to orbit. Can be deployed on spacecraft in any orbit."
+      },
+      "notes": "NASA Glenn Research Center DTN implementation; foundation of LunaNet; 4x faster than current DTN implementations; store-and-forward networking for disrupted/delayed space links; Bundle Protocol implementation; enables robust space-to-Earth communications across vast distances; used on ISS, LEO, lunar, and deep space missions; Korean Pathfinder Lunar Orbiter includes HDTN; included in Lunar Gateway program; commercial partnerships encouraged"
+    },
+    {
+      "vendor": "NASA JPL",
+      "model": "Interplanetary Overlay Network (ION)",
+      "subcategory": "DTN Software/Protocol",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.nasa.gov/communicating-with-missions/delay-disruption-tolerant-networking/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9. Operational on multiple missions. First used operationally on NASA PACE mission (2024) with 100% success rate (34+ million data bundles). ISS tested Bundle Protocol (2016). Korean Pathfinder Lunar Orbiter DTNPL (2022). Deep Impact EPOXI (2008). Flight-proven across multiple operational missions."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "N/A - Software/protocol implementation. Not applicable."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "N/A - Software implementation. Not applicable."
+      },
+      "cost_usd": {
+        "value": 0,
+        "source_url": "https://github.com/nasa-jpl/ION-DTN",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed free and open-source. Available on GitHub under NASA JPL management. No licensing costs. Latest release ION 4.1.4-b.2 (November 26, 2025). Actively maintained with 4,203+ commits."
+      },
+      "procurement_lead_time": {
+        "value": "Currently available",
+        "source_url": "https://github.com/nasa-jpl/ION-DTN",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from GitHub. Open-source, immediately available for download and integration. Actively maintained by NASA JPL. Documentation at ion-dtn.readthedocs.io. Supports Linux, macOS, Solaris, Android, RTEMS, Windows, ARM platforms."
+      },
+      "data_rates": {
+        "value": "Variable based on physical layer",
+        "source_url": "https://www.nasa.gov/communicating-with-missions/delay-disruption-tolerant-networking/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official page. Protocol layer implementation. Data rates depend on underlying communications hardware. PACE mission transmitted 34+ million data bundles with 100% success rate. Store-and-forward approach optimizes data flow."
+      },
+      "frequencies": {
+        "value": "N/A - Protocol layer",
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed protocol layer software. Operates above physical layer, independent of RF frequencies. Works with any communications hardware."
+      },
+      "orbit": {
+        "value": "N/A - Software/protocol",
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed software/protocol. Not applicable to orbit. Can be deployed on spacecraft in any orbit (LEO, GEO, lunar, deep space)."
+      },
+      "notes": "NASA JPL's open-source DTN implementation; described in Internet RFC 4838; foundation technology for LunaNet (Lunar Interoperability Specification); operational missions: PACE (2024, 100% success), Korean Pathfinder Lunar Orbiter/Danuri DTNPL (2022), ISS Bundle Protocol (2016), EPOXI/Deep Impact (2008); C-based (64.1%); modular architecture: ICI, LTP, BP v6/v7, CFDP, AMS, BSS, DTPC; collaboration with ESA and JAXA; store-and-forward approach; commercial partnerships actively encouraged by NASA"
+    },
+    {
+      "vendor": "Viasat Inc.",
+      "model": "Large-Aperture Lunar Ground Antennas",
+      "subcategory": "Ground Network",
+      "trl": {
+        "value": 9,
+        "source_url": "https://investors.viasat.com/news-releases/news-release-details/viasats-new-large-aperture-space-ground-communication-antennas",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9. Operational per Viasat official investor announcement January 20, 2022. Available and ready to support lunar, cislunar, deep space, and DoD missions. Advanced class compared to decades-old legacy systems."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "N/A - Ground infrastructure. Not applicable."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://investors.viasat.com/news-releases/news-release-details/viasats-new-large-aperture-space-ground-communication-antennas",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Specific power consumption not disclosed. RF designs support use of extremely high-power amplifiers in multiple bands. Ground infrastructure power requirements vary by antenna size and configuration."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Commercial service pricing available to qualified customers upon request."
+      },
+      "procurement_lead_time": {
+        "value": "Currently available",
+        "source_url": "https://investors.viasat.com/news-releases/news-release-details/viasats-new-large-aperture-space-ground-communication-antennas",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Viasat official announcement. Operational and ready to support lunar missions since January 2022. Available for manned and unmanned missions to Moon, Mars, and deep space."
+      },
+      "data_rates": {
+        "value": "Enhanced capability from L-band to above Ka-band",
+        "source_url": "https://investors.viasat.com/news-releases/news-release-details/viasats-new-large-aperture-space-ground-communication-antennas",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Viasat official announcement. Revolutionary capability enhancements over legacy systems. Advanced high-rate modems support emerging industry standard interfaces and SDR frameworks. Specific Mbps values not disclosed."
+      },
+      "frequencies": {
+        "value": "L-band through Ka-band and above",
+        "source_url": "https://investors.viasat.com/news-releases/news-release-details/viasats-new-large-aperture-space-ground-communication-antennas",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Viasat official announcement. Integrated RF architecture with precision reflector surface accuracy. Multi-band capability from L-band to above Ka-band. Supports multiple bands with extremely high-power amplifiers."
+      },
+      "orbit": {
+        "value": "N/A - Ground infrastructure",
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed ground-based infrastructure. Not applicable to orbit. Supports spacecraft from LEO to lunar and beyond."
+      },
+      "notes": "Large-aperture antennas: 19.7 to 24.0 meters diameter; full-motion multi-band with high-dynamic pedestal for precise tracking; supports multi-orbit missions from LEO to lunar, cislunar, deep space, and DoD missions; only a handful strategically positioned globally can provide constant connectivity for lunar direct-to-earth and cislunar relay; precision reflector surface accuracy; extremely high-power amplifiers; advanced high-rate modems with SDR frameworks; announced January 20, 2022"
+    },
+    {
+      "vendor": "ESA / Thales Alenia Space",
+      "model": "HALO Lunar Communication System (part of Lunar Gateway)",
+      "subcategory": "Orbital Communications Hub",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.thalesaleniaspace.com/en/news/lunar-gateways-halo-pressurized-module-preparation-shipment-united-states",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7. HALO pressurized module completed environmental tests, shipped to Gilbert, Arizona for outfitting by Northrop Grumman. ESA Lunar Link critical design review completed 2023, manufacturing/testing underway at Thales Alenia Space France. Launch no earlier than 2027."
+      },
+      "mass_kg": {
+        "value": 270,
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_Link",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA official page. Lunar Link (HLCS) mass: 270 kg. Does not include HALO module itself (HALO module: 3m diameter, ~7m length, derived from Cygnus). Lunar Link dimensions: 2.5m x 2.5m."
+      },
+      "power_kw": {
+        "value": 0.6,
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_Link",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA official page. Lunar Link power consumption: up to 600W (0.6 kW)."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Part of Gateway program. ESA contribution to international partnership. Specific Lunar Link development cost not published separately from Gateway program budget."
+      },
+      "procurement_lead_time": {
+        "value": "Launch no earlier than 2027",
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_Link",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA official page. HALO with Lunar Link and NASA PPE will be first Gateway elements. Launch no earlier than 2027. HALO currently in final outfitting. Lunar Link manufacturing/testing underway, will be integrated with HALO before launch."
+      },
+      "data_rates": {
+        "value": "Few Kbps up to 25 Mbps (distance-dependent); Ka-band forward link: 5-40 Msps coded symbol rates",
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_Link",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA official page. Data rates vary from few Kbps to 25 Mbps depending on distance. Supports live video transmission and high-resolution streaming at up to 70,000 km distance. Ka-band supports LDPC error correction (1/2, 2/3, 4/5, 7/8 rates) and 5-40 Msps symbol rates."
+      },
+      "frequencies": {
+        "value": "S-band (low gain antennas), Ka-band (high data rate)",
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_Link",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA and NASA sources. HLCS S-band system uses fixed low-gain antennas with network waveforms and ranging. Ka-band Lunar Link provides high data rate connections. Two 125cm dish antennas plus two low-gain antennas. Specific GHz ranges not disclosed."
+      },
+      "orbit": {
+        "value": "Near-Rectilinear Halo Orbit (NRHO) around Moon",
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_Link",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA. Part of Lunar Gateway space station in NRHO. Furthest point: 70,000 km from lunar surface. Provides communication between Gateway, lunar surface assets (rovers), lunar orbit assets (satellites), and Earth."
+      },
+      "notes": "ESA-provided Lunar Link (HLCS) for Gateway; 270 kg, 2.5m x 2.5m, up to 600W; two 125cm dish antennas + two low-gain antennas; enables simultaneous independent communication with multiple targets; S-band and Ka-band; live video transmission capability; HALO module: 3m diameter, ~7m length, 3 docking ports, sustains 4 astronauts up to 30 days; Thales Alenia Space Italy built pressurized module, France building Lunar Link; Northrop Grumman outfitting; derived from Cygnus; launch no earlier than 2027 with PPE"
+    }
+  ]
+}

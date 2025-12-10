@@ -1,0 +1,751 @@
+{
+  "category": "EVA Suits and Human Tooling",
+  "last_updated": "2025-12-08",
+  "items": [
+    {
+      "vendor": "Axiom Space",
+      "model": "AxEMU (Axiom Extravehicular Mobility Unit)",
+      "type": "Complete EVA Suit System - Lunar Surface",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.axiomspace.com/release/axemu-first-uncrewed-thermal-vacuum-test",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6-7: completed uncrewed thermal vacuum test Nov 2025, crew testing June 2025, 700+ hours crewed pressurized time, CDR planned late 2025/early 2026. Currently in critical design phase.",
+        "notes": "Undergoing testing at NASA JSC 2024-2025; first thermal vacuum test completed Nov 2025"
+      },
+      "mass_kg": {
+        "value": 40,
+        "source_url": "https://oewf.org/en/2023/03/new-spacesuits-for-the-moon-beyond/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Estimated at ~40kg (about half of Apollo's 80kg). Exact mass not officially disclosed by Axiom Space.",
+        "notes": "Third-party technical analysis; not confirmed by Axiom official sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published by Axiom Space. Checked official site, press releases, and technical sources.",
+        "notes": "PLSS power consumption not publicly disclosed; stated to be more powerful than ISS EMU"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://www.axiomspace.com/release/xemu-task-award",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed development contract $228.5M (Sept 2022) under $1.26B xEVAS IDIQ, plus $57.5M for 4G/LTE modifications. Per-unit cost not disclosed - follows 'Spacesuit as a Service' model.",
+        "notes": "Development contract value confirmed; per-unit cost not disclosed"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Axiom Space official sources.",
+        "notes": "Manufacturing lead time not publicly available"
+      },
+      "eva_duration_hours": {
+        "value": 8,
+        "source_url": "https://www.axiomspace.com/release/axiom-space-prada-unveil-spacesuit-design-for-moon-return",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Axiom Space official press release: minimum 8-hour spacewalk capability.",
+        "notes": "Minimum 8-hour spacewalk capability for lunar missions"
+      },
+      "operating_pressure_psi": {
+        "value": 4.3,
+        "source_url": "https://newspaceeconomy.ca/2025/11/17/the-axiom-axemu-spacesuit/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Credible technical source indicates 4.3 psi (30 kPa), consistent with NASA EMU standard. Not explicitly confirmed in Axiom official releases.",
+        "notes": "4.3 psi based on NASA lunar EVA standard; not explicitly disclosed by Axiom"
+      },
+      "temperature_range": {
+        "value": "Lunar south pole extremes, 2+ hours in permanently shadowed regions",
+        "source_url": "https://www.axiomspace.com/release/axiom-space-prada-unveil-spacesuit-design-for-moon-return",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Axiom Space official press release: withstands extreme temperatures at lunar south pole, endures coldest temperatures in permanently shadowed regions for at least 2 hours.",
+        "notes": "White outer material reflects heat and protects against extreme high temperatures"
+      },
+      "sizing": {
+        "value": "1st-99th percentile (male/female)",
+        "source_url": "https://www.axiomspace.com/release/axiom-space-prada-unveil-spacesuit-design-for-moon-return",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Axiom Space official press release: accommodates 1st to 99th percentile anthropometric sizing for both male and female crewmembers.",
+        "notes": "Accommodates wide range of crew members"
+      },
+      "communications": {
+        "value": "4G/LTE, HD camera, HD video",
+        "source_url": "https://www.axiomspace.com/release/axiom-space-and-nokia-partner-to-enable-high-speed-cellular-network-capabilities-in-next-gen-lunar-spacesuits",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Axiom Space official press release: 4G/LTE network capability (Nokia LSCS partnership), supports HD video transmission, telemetry data, and voice communication over multiple kilometers. $57.5M NASA award for 4G/LTE modifications.",
+        "notes": "Lights and HD camera on helmet; enables real-time video capture and Earth communication"
+      },
+      "commercial_availability": {
+        "value": "Available for Artemis III (2026+), Axiom Station, and commercial licensing",
+        "source_url": "https://newspaceeconomy.ca/2025/11/17/the-axiom-axemu-spacesuit/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Credible technical publication indicates commercial availability model. Axiom can sell/lease suit services to other agencies and commercial operators under xEVAS framework.",
+        "notes": "Not limited to NASA; Axiom can sell/lease suit services to other agencies and commercial operators"
+      },
+      "notes": "Primary lunar EVA suit under development. Rear-entry design, enhanced mobility for surface work, Prada partnership for materials, Oakley for helmet/visor. First to accommodate 1st-99th percentile sizing."
+    },
+    {
+      "vendor": "Collins Aerospace (Hamilton Sundstrand)",
+      "model": "ISS EMU (Extravehicular Mobility Unit)",
+      "type": "Complete EVA Suit System - LEO/Microgravity Only",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/Extravehicular_Mobility_Unit",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed operational since 1982 (introduced 1982 per Wikipedia). TRL 9: flight-proven through hundreds of spacewalks on ISS. Wikipedia tier due to vendor site access blocked by Cloudflare; cross-referenced with NASA technical documentation existence.",
+        "notes": "Operational since 1982, flight-proven through 280+ spacewalks"
+      },
+      "mass_kg": {
+        "value": 125,
+        "source_url": "https://www.lpi.usra.edu/lunar/artemis/NASA-EMU-Data-Book-JSC-E-DAA-TN55224.pdf",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 275 lbs (125 kg) total system mass from NASA EMU Data Book (JSC technical document) and multiple sources. Includes SSA (spacesuit assembly) and PLSS (life support system).",
+        "notes": "275 lbs (125 kg) total system mass"
+      },
+      "power_kw": {
+        "value": 0.82,
+        "source_url": "https://www.quora.com/What-type-of-batteries-do-spacesuits-utilise-for-an-EVA",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "820 Wh capacity calculation (20.5V × 40 Ah) from Quora source. Unable to verify from NASA official sources due to access limitations. Tier: caution (Quora is not authoritative but calculation is technically sound).",
+        "notes": "Long Life Battery: 20.5V × 40 Ah = 820 Wh capacity; earlier versions 424-530 Wh"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available; NASA government contract only. Per-unit cost not publicly disclosed.",
+        "notes": "Not commercially available; NASA government contract only"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - not commercially available. EMUs are government property maintained on ISS.",
+        "notes": "Not applicable - not commercially available"
+      },
+      "eva_duration_hours": {
+        "value": 8,
+        "source_url": "https://science.howstuffworks.com/space-suit.htm",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 8-8.5 hours operational duration including 30 minutes reserve from multiple technical sources. Typical EMU supports astronaut for 8.5 hours total.",
+        "notes": "8-8.5 hours typical, includes 30 minutes reserve capacity"
+      },
+      "operating_pressure_psi": {
+        "value": 4.3,
+        "source_url": "https://science.howstuffworks.com/space-suit.htm",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 30 kPa (4.3 psi / 29.6 kPa) operating pressure from multiple technical sources. Standard EMU operating pressure.",
+        "notes": "30 kPa (4.3 psi / 29.6 kPa) operating pressure"
+      },
+      "temperature_range": {
+        "value": "-250°F to +250°F (-156°C to +121°C)",
+        "source_url": "https://science.howstuffworks.com/space-suit.htm",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed temperature protection range from -250°F to +250°F from credible technical sources describing EMU thermal protection capabilities.",
+        "notes": "Thermal protection provided by multi-layer insulation and cooling system"
+      },
+      "plss_features": {
+        "value": "CO₂ removal (lithium hydroxide canisters), water cooling loops, sublimator thermal control, oxygen supply, ventilating fan",
+        "source_url": "https://science.howstuffworks.com/space-suit.htm",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected CO₂ removal from 'silver oxide' to 'lithium hydroxide canisters' per technical sources. PLSS provides oxygen, air purification, temperature control, and communications.",
+        "notes": "Primary Life Support System (PLSS) - self-contained backpack"
+      },
+      "commercial_availability": {
+        "value": "NO - NASA ISS operations only",
+        "source_url": "https://spacenews.com/collins-aerospace-pulls-back-from-nasa-spacesuit-contract/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed: Collins Aerospace withdrew from xEVAS next-gen development (June 2024) per SpaceNews. Continues ISS EMU sustainment only. Not commercially available.",
+        "notes": "Collins withdrew from xEVAS next-gen development (June 2024); continues ISS EMU sustainment only"
+      },
+      "notes": "Baseline comparison for lunar suits. Proven LEO/microgravity system but NOT suitable for lunar surface operations due to mass and design for zero-G. Collins Aerospace manufactures PLSS and hardware; ILC Dover provides pressure garments."
+    },
+    {
+      "vendor": "SpaceX",
+      "model": "SpaceX EVA Suit",
+      "type": "EVA Suit - LEO Only, Umbilical-Dependent",
+      "trl": {
+        "value": 9,
+        "source_url": "https://polarisprogram.com/polaris-dawn-crew-tests-new-suit-and-completes-first-commercial-spacewalk/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9: Flown on Polaris Dawn mission September 12, 2024. First commercial/private spacewalk conducted successfully. Crew tested suit at ~700 km altitude.",
+        "notes": "Flight-proven Sept 2024; first commercial spacewalk"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Checked Polaris Program and SpaceX official sources.",
+        "notes": "Mass not publicly disclosed"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://newspaceeconomy.ca/2025/11/27/the-spacex-eva-suit/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed umbilical-powered from spacecraft via open-loop system. Fresh gas constantly fed from Dragon via umbilical. No independent PLSS or battery system.",
+        "notes": "Umbilical-powered from spacecraft; no independent PLSS"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available outside SpaceX missions. Per-unit cost not publicly disclosed.",
+        "notes": "Not commercially available outside SpaceX missions"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - SpaceX missions only. Not commercially available.",
+        "notes": "Not applicable - SpaceX missions only"
+      },
+      "eva_duration_hours": {
+        "value": null,
+        "source_url": "https://newspaceeconomy.ca/2025/11/27/the-spacex-eva-suit/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Duration limited by umbilical connection to Dragon spacecraft. Polaris Dawn EVA was brief stand-up EVA for suit testing (not extended duration EVA).",
+        "notes": "Duration limited by umbilical connection to spacecraft"
+      },
+      "operating_pressure_psi": {
+        "value": 5.1,
+        "source_url": "https://newspaceeconomy.ca/2025/11/27/the-spacex-eva-suit/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 5.1 psi pure oxygen from credible technical source. Higher than NASA's 4.3 psi, helps prevent decompression sickness but makes suit stiffer. Polaris Dawn crew validated joint design at this pressure.",
+        "notes": "5.1 psi pure oxygen - higher than NASA EMU 4.3 psi"
+      },
+      "helmet_features": {
+        "value": "Heads-up display (HUD), HD camera, exterior sun visor coating",
+        "source_url": "https://polarisprogram.com/dawn/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Polaris Program official site: state-of-the-art helmet heads-up display (HUD) and camera.",
+        "notes": "HUD provides suit telemetry and mission information"
+      },
+      "commercial_availability": {
+        "value": "SpaceX missions only - NOT commercially available",
+        "source_url": "https://newspaceeconomy.ca/2025/11/27/the-spacex-eva-suit/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed SpaceX missions only. Not commercially available for purchase or lease by other entities.",
+        "notes": "Proprietary SpaceX technology for internal missions"
+      },
+      "lunar_suitability": {
+        "value": "NO - Umbilical architecture insufficient for surface operations",
+        "source_url": "https://newspaceeconomy.ca/2025/11/27/the-spacex-eva-suit/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed NOT suitable for lunar/Martian surface: umbilical architecture insufficient as astronauts need to walk far from lander. Would require backpack PLSS integration for surface missions.",
+        "notes": "Umbilical connection limits mobility; requires spacecraft tether"
+      },
+      "notes": "LEO EVA suit only. Uses umbilical connection to spacecraft for life support - NOT suitable for lunar or Martian surface missions. Demonstrated on Polaris Dawn 2024. Transitional technology between IVA and full surface suits."
+    },
+    {
+      "vendor": "ILC Dover (Ingersoll Rand)",
+      "model": "Astro™ Architecture / xEVAS Pressure Garment",
+      "type": "EVA Suit Pressure Garment System - ISS/Lunar Retrofit",
+      "trl": {
+        "value": 6,
+        "source_url": "https://spaceflightnow.com/2024/02/01/collins-aerospace-completes-key-spacesuit-testing-milestone/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6: Crew Capability Assessment completed Jan 2024 with 40 parabolic flights, zero-G performance validated. Collins/NASA mutually agreed to descope xEVAS task orders June 2024, cancelling 2026 ISS demo. Future uncertain.",
+        "notes": "Zero-G testing completed Jan 2024; Collins withdrew from xEVAS June 2024; ILC Dover acquired by Ingersoll Rand June 3, 2024"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Reduced mass vs ISS EMU mentioned but exact specifications not publicly disclosed. Checked ILC Dover official sources.",
+        "notes": "Reduced mass vs ISS EMU; exact specifications not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - ILC Dover provides pressure garment only, not PLSS. PLSS was Collins responsibility.",
+        "notes": "PLSS provided by prime contractor (Collins); ILC Dover provides pressure garment only"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://www.ilcdover.com/2022/12/08/ilc-dover-further-advancing-next-generation-spacesuit-development-for-low-earth-orbit-economy/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed Collins xEVAS task order $97.2M (Dec 2022) from ILC Dover official site. ILC Dover subcontractor; per-unit cost not disclosed.",
+        "notes": "Part of Collins xEVAS $97.2M task order (Dec 2022); per-unit cost not disclosed"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/blogs/spacestation/2024/06/26/nasa-collins-xevas-update/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Demo suit timeline was 2026, cancelled when Collins/NASA descoped xEVAS June 2024. Future procurement timeline uncertain.",
+        "notes": "Demo suit timeline was 2026; cancelled after Collins withdrawal June 2024"
+      },
+      "key_features": {
+        "value": "Improved comfort and mobility, fewer components, reduced mass, fits more astronauts than ever before, can be retrofitted for lunar/planetary exploration",
+        "source_url": "https://www.rtx.com/news/news-center/2024/01/31/rtx-business-collins-aerospace-announces-developmental-milestone-of-next-generati",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed key features from RTX/Collins official press release. Improved mobility validated in Jan 2024 zero-G testing.",
+        "notes": "Astro architecture provides pressure garment system for xEVAS suits"
+      },
+      "xevas_contract": {
+        "value": "Subcontractor to Collins Aerospace for xEVAS; $97.2M task order Dec 2022",
+        "source_url": "https://ilcdoverastrospace.com/2022/06/03/ilc-dover-among-industry-team-selected-to-provide-the-next-generation-of-spacesuits-for-nasa/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ILC Dover official site. Subcontractor role to Collins on $97.2M xEVAS task order. Collins/NASA descoped contract June 2024; ILC Dover future role unclear.",
+        "notes": "Collins withdrew from xEVAS June 2024; ILC Dover future role uncertain"
+      },
+      "testing_milestones": {
+        "value": "Crew Capability Assessment completed Jan 2024; validated zero-G performance",
+        "source_url": "https://spaceflightnow.com/2024/02/01/collins-aerospace-completes-key-spacesuit-testing-milestone/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed Jan 2024 testing with 40 parabolic flights. Former NASA astronauts validated suit fit, functionality, and mobility in zero-G.",
+        "notes": "Crew Capability Assessment Jan 2024; 40 parabolic flights with Zero G"
+      },
+      "ownership_change": {
+        "value": "ILC Dover acquired by Ingersoll Rand June 3, 2024",
+        "source_url": "https://spacenews.com/ingersoll-rand-to-acquire-ilc-dover/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceNews: Ingersoll Rand acquired ILC Dover for $2.325B cash (plus up to $75M earnout) on June 3, 2024.",
+        "notes": "$2.325B acquisition by Ingersoll Rand"
+      },
+      "commercial_partnerships": {
+        "value": "Sierra Space partnership for LEO infrastructure and commercial astronaut workforce",
+        "source_url": "https://www.sierraspace.com/press-releases/sierra-space-and-ilc-dover-partner-to-build-the-infrastructure-in-space-that-will-accelerate-the-commercialization-of-low-earth-orbit-and-outfit-the-astronaut-workforce-of-the-future/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Sierra Space official press release (April 2023). ILC Dover exclusive partner for EVA/IVA spacesuits and softgoods for LIFE habitats.",
+        "notes": "April 2023 partnership; suggests continued commercial suit development beyond NASA contracts"
+      },
+      "commercial_availability": {
+        "value": "Uncertain - was part of Collins xEVAS; Collins withdrew June 2024; ILC Dover may continue independently or with new prime",
+        "source_url": "https://spacenews.com/collins-aerospace-pulls-back-from-nasa-spacesuit-contract/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed Collins withdrawal from SpaceNews. Future uncertain. Sierra Space partnership indicates continued commercial LEO development. Astro 'architecture' (not standalone product).",
+        "notes": "Astro 'architecture' for pressure garments; Sierra Space partnership indicates commercial LEO development continues"
+      },
+      "notes": "Astro suit announced 2019 is now 'Astro architecture' used in Collins xEVAS pressure garments. ILC Dover subcontractor role (not prime). Completed zero-G testing Jan 2024. Collins withdrew from xEVAS June 2024; ILC Dover acquired by Ingersoll Rand June 2024. Future uncertain but Sierra Space partnership suggests continued commercial development. Designed for ISS with lunar retrofit capability. Fits wider range of astronauts, reduced components/mass vs ISS EMU."
+    },
+    {
+      "vendor": "David Clark Company",
+      "model": "S1100 Salus",
+      "type": "IVA Suit - Launch/Entry/Abort Only",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.accesswire.com/877451/david-clark-companys-newest-space-suit-takes-flight",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9: Flown on Boeing Starliner Crew Flight Test June 5, 2024 with NASA astronauts. Now qualified baseline design for Starliner.",
+        "notes": "Flown on Boeing Starliner CFT June 2024; lightest spacesuit ever flown"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://www.accesswire.com/877451/david-clark-companys-newest-space-suit-takes-flight",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 'lightest weight space suit ever flown' but exact mass not disclosed in press release.",
+        "notes": "Lightest weight ever flown; exact mass not disclosed"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "IVA suit with integral air-cooling (diverter valve system). Minimal power requirements. Specifications not published.",
+        "notes": "IVA suit - integral air-cooling, minimal power requirements"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available outside Boeing/NASA contracts. Per-unit cost not disclosed.",
+        "notes": "Not commercially available outside Boeing/NASA contracts"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Vehicle-specific contracts. Lead time not published."
+      },
+      "suit_type": {
+        "value": "IVA (Intravehicular Activity) - pressure suit for launch/landing emergencies",
+        "source_url": "https://www.accesswire.com/877451/david-clark-companys-newest-space-suit-takes-flight",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed IVA suit for Starliner launch/entry/abort scenarios.",
+        "notes": "Launch and entry suit with integral air-cooling"
+      },
+      "commercial_availability": {
+        "value": "Vehicle-specific contracts only",
+        "source_url": "https://www.davidclarkcompany.com/aerospace/chaps",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed vehicle-specific contracts for Boeing Starliner. Not retail sales. CHAPS/Salus for commercial spaceflight operators only.",
+        "notes": "CHAPS/Salus for commercial spaceflight but not retail sales"
+      },
+      "eva_capability": {
+        "value": "NO - IVA only, NOT full EVA capable",
+        "source_url": "https://www.davidclarkcompany.com/aerospace/nasa",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed IVA only - pressure suit for cabin emergencies, not for extravehicular activity or surface operations.",
+        "notes": "Pressure suit for cabin emergencies, not for extravehicular activity or surface operations"
+      },
+      "notes": "IVA suit for launch/entry/abort scenarios. NOT suitable for EVA or lunar surface operations. David Clark has heritage from Apollo communications carriers and is developing Orion Crew Survival System for Artemis, but these are IVA suits, not EVA."
+    },
+    {
+      "vendor": "Final Frontier Design / Paragon Space Development",
+      "model": "3G Spacesuit",
+      "type": "IVA Suit - Commercial Launch/Entry",
+      "trl": {
+        "value": 6,
+        "source_url": "http://www.parabolicarc.com/2020/06/17/final-frontier-design-awarded-multiple-nasa-lunar-xemu-space-suit-development-contracts/",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 5-6 estimated from Parabolic Arc (trade publication). No flight heritage. Awarded NASA xEMU component contracts 2020 for boots and joints.",
+        "notes": "TRL 5-6 estimated; no flight heritage; awarded NASA xEMU component contracts (boots, joints)"
+      },
+      "mass_kg": {
+        "value": 6.8,
+        "source_url": "https://en.wikipedia.org/wiki/Final_Frontier_Design",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "~15 lbs (6.8 kg) from Wikipedia. About half the mass of NASA IVA suits. Unable to verify from authoritative sources; FFD/Paragon official sites lack detailed specs.",
+        "notes": "~15 lbs (6.8 kg), about half the mass of NASA IVA suits"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "IVA suit - minimal power requirements. Specifications not published.",
+        "notes": "IVA suit - minimal power requirements"
+      },
+      "cost_usd": {
+        "value": 50000,
+        "source_url": "https://en.wikipedia.org/wiki/Final_Frontier_Design",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Target cost ~$50,000 from Wikipedia (about 1/5 of NASA's $250,000 IVA suits). Unable to verify from authoritative sources.",
+        "notes": "Target cost ~$50,000, about 1/5 of NASA's $250,000 IVA suits"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "In development; commercial availability timeline unclear. Acquired by Paragon 2022.",
+        "notes": "In development; commercial availability timeline unclear"
+      },
+      "suit_type": {
+        "value": "IVA (Intravehicular Activity) - pressurized emergency suit for commercial spaceflight",
+        "source_url": "https://en.wikipedia.org/wiki/Final_Frontier_Design",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "IVA suit confirmed from Wikipedia. Unable to access FFD/Paragon official sources for verification.",
+        "notes": "IVA suit for commercial spaceflight cabin emergencies"
+      },
+      "commercial_availability": {
+        "value": "In development",
+        "source_url": "https://en.wikipedia.org/wiki/Final_Frontier_Design",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "In development per Wikipedia. FFD acquired by Paragon Space Development January 2022.",
+        "notes": "Company acquired by Paragon Space Development January 2022"
+      },
+      "nasa_contracts": {
+        "value": "xEMU component awards: boots, hip joints, waist joints (2020)",
+        "source_url": "http://www.parabolicarc.com/2020/06/17/final-frontier-design-awarded-multiple-nasa-lunar-xemu-space-suit-development-contracts/",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed xEMU component contracts (boots, hip joints, waist joints) from Parabolic Arc trade publication 2020.",
+        "notes": "Component supplier for NASA xEMU development"
+      },
+      "eva_capability": {
+        "value": "NO - IVA only, NOT full EVA capable",
+        "source_url": "https://en.wikipedia.org/wiki/Final_Frontier_Design",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed IVA only from Wikipedia. 3G suit is low-cost commercial IVA; FFD provides components for NASA EVA but 3G itself is not EVA capable.",
+        "notes": "Low-cost commercial IVA suit; component supplier for NASA EVA development"
+      },
+      "notes": "IVA suit for commercial spaceflight cabin emergencies. NOT suitable for EVA or lunar surface. Lower cost/mass than traditional NASA IVA suits. Final Frontier Design develops components (boots, joints) for NASA xEMU but the 3G suit itself is IVA only. Acquired by Paragon 2022."
+    },
+    {
+      "vendor": "NanoSonic (SBIR recipient)",
+      "model": "HybridSil Self-Healing Materials",
+      "type": "EVA Suit Component - Bladder and Glove Materials",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.sbir.gov/sbirsearch/detail/1217391",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6 from NASA SBIR database (authoritative source). Phase II SBIR; self-healing bladder composites demonstrated in Phase I.",
+        "notes": "Phase II SBIR; self-healing bladder composites demonstrated in Phase I"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - component material, not complete system.",
+        "notes": "Component material, not complete system"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - material technology (passive).",
+        "notes": "Not applicable - material technology"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component pricing not published."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component supplier; lead time not published."
+      },
+      "technology": {
+        "value": "Self-healing bladder composites that instantly repair after puncturing to maintain stable operational pressure",
+        "source_url": "https://www.sbir.gov/sbirsearch/detail/1217391",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR database (authoritative source). Technology addresses puncture risk in EVA pressure garments."
+      },
+      "commercial_availability": {
+        "value": "Component supplier - not end product",
+        "source_url": "https://www.sbir.gov/sbirsearch/detail/1217391",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed component supplier status from NASA SBIR database."
+      },
+      "notes": "SBIR Phase II for multifunctional self-healing materials for EVA pressure garments and gloves. Addresses puncture risk and improves durability. Component technology, not complete suit."
+    },
+    {
+      "vendor": "Precision Combustion, Inc. (SBIR recipient)",
+      "model": "Vacuum-Regenerable TCCS",
+      "type": "PLSS Component - Trace Contaminant Control System",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.sbir.gov/node/1226669",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6 from NASA SBIR database. Phase II SBIR complete; compact hardware prototypes demonstrated.",
+        "notes": "Phase II SBIR complete; compact hardware prototypes demonstrated"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component, not complete system; designed for compactness and low pressure drop.",
+        "notes": "Component, not complete system; designed for compactness and low pressure drop"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component power requirements not published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component pricing not published."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component supplier; lead time not published."
+      },
+      "technology": {
+        "value": "Vacuum-regenerable sorbent materials for efficient removal of NH₃ and CH₂O from spacesuit atmosphere",
+        "source_url": "https://www.sbir.gov/node/1226669",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR database. Trace contaminant control for advanced PLSS."
+      },
+      "commercial_availability": {
+        "value": "Component supplier for PLSS integration",
+        "source_url": "https://www.sbir.gov/node/1226669",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed component supplier status from NASA SBIR database."
+      },
+      "notes": "Trace contaminant control for advanced spacesuit PLSS. Compact, efficient removal of ammonia and formaldehyde. SBIR Phase II complete. Component for life support integration."
+    },
+    {
+      "vendor": "Giner, Inc. (SBIR recipient)",
+      "model": "Electrochromic Visor Laminates",
+      "type": "EVA Suit Component - Helmet Visor",
+      "trl": {
+        "value": 6,
+        "source_url": "https://sbir.nasa.gov/SBIR/abstracts/18/sbir/phase2/SBIR-18-2-H4.02-6292.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6 from NASA SBIR database. Phase II SBIR 2018.",
+        "notes": "NASA SBIR 2018 Phase II"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component - visor coating. Mass specifications not published.",
+        "notes": "Component - visor coating"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Low power for electrochromic control. Specifications not published.",
+        "notes": "Low power for electrochromic control"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component pricing not published."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component supplier; lead time not published."
+      },
+      "technology": {
+        "value": "Instant darkening visor when exposed to sunlight or by user input to protect eyes from solar glare",
+        "source_url": "https://sbir.nasa.gov/SBIR/abstracts/18/sbir/phase2/SBIR-18-2-H4.02-6292.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR database. Electrochromic visor technology for solar protection."
+      },
+      "application": {
+        "value": "NASA Z-2 spacesuit and next-generation EVA helmets",
+        "source_url": "https://sbir.nasa.gov/SBIR/abstracts/18/sbir/phase2/SBIR-18-2-H4.02-6292.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed application from NASA SBIR database."
+      },
+      "commercial_availability": {
+        "value": "Component supplier for helmet integration",
+        "source_url": "https://sbir.nasa.gov/SBIR/abstracts/18/sbir/phase2/SBIR-18-2-H4.02-6292.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed component supplier status from NASA SBIR database."
+      },
+      "notes": "Electrochromic laminates for advanced spacesuit visors. Instant or automatic darkening for solar protection. SBIR Phase II complete. Component technology for helmet assemblies."
+    },
+    {
+      "vendor": "Applied EM (SBIR recipient)",
+      "model": "Conformal Space Suit Antenna",
+      "type": "EVA Suit Component - Communications",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.sbir.gov/content/conformal-space-suit-antenna-development-enhanced-eva-communications-and-wearable-computer-2",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6 from NASA SBIR database. Phase II SBIR complete.",
+        "notes": "SBIR Phase II complete"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Conformal, flexible antenna - minimal mass. Specifications not published.",
+        "notes": "Conformal, flexible antenna - minimal mass"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Passive antenna element - no active power required.",
+        "notes": "Passive antenna element"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component pricing not published."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Component supplier; lead time not published."
+      },
+      "technology": {
+        "value": "Conformal, flexible, body-worn UHF antenna integrated into space suit design for enhanced EVA communications",
+        "source_url": "https://www.sbir.gov/content/conformal-space-suit-antenna-development-enhanced-eva-communications-and-wearable-computer-2",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR database. UHF antenna technology for EVA communications."
+      },
+      "commercial_availability": {
+        "value": "Component supplier for suit communications systems",
+        "source_url": "https://www.sbir.gov/content/conformal-space-suit-antenna-development-enhanced-eva-communications-and-wearable-computer-2",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed component supplier status from NASA SBIR database."
+      },
+      "notes": "Conformal antenna technology for EVA suit integration. Enhances UHF communications during spacewalks. SBIR Phase II complete. Component for communications subsystem."
+    }
+  ]
+}

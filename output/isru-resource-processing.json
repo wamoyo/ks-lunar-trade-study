@@ -1,0 +1,852 @@
+{
+  "category": "ISRU and Resource Processing",
+  "last_updated": "2025-12-09",
+  "items": [
+    {
+      "vendor": "Lunar Resources, Inc.",
+      "model": "Molten Regolith Electrolysis (MRE) System",
+      "trl": {
+        "value": 5,
+        "source_url": "https://techport.nasa.gov/projects/116413",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Advanced from TRL 3 to TRL 5, completed March 31, 2025"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA TechPort, vendor website, NASA NTRS"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://ntrs.nasa.gov/citations/20240013999",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA GCD target energy efficiency: 0.6-1.0 Mols O2/kW-hr (electrolysis). Specific power requirements not published in accessible sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Pre-commercial development phase. Checked vendor site and NASA sources - no cost data available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available; TRL 5 development phase only"
+      },
+      "production_rate": {
+        "value": "NASA target: 1,000 kg O2/year pilot, 10,000 kg/year full-scale",
+        "source_url": "https://ntrs.nasa.gov/citations/20240013999",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified production targets from NASA system modeling study. Breadboard demonstration rate not verifiable from accessible PDFs"
+      },
+      "notes": "High-temperature electrolytic process melting lunar regolith to extract oxygen and metals (Fe, Si, Al). No consumables required. NASA GCD program. Completed March 2025."
+    },
+    {
+      "vendor": "Lunar Resources, Inc.",
+      "model": "MRE Oxygen Capture/Storage System (Phase II)",
+      "trl": {
+        "value": 5,
+        "source_url": "https://techport.nasa.gov/api/projects/113453",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 6 to TRL 5. Phase II SBIR (project 113453) advanced from TRL 4 to TRL 5, completed August 2023. Note: Phase I (project 102902) achieved TRL 6 in March 2021, but the JSON title specifies Phase II"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort projects 102902 or 113453"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "SBIR development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "3,650 kg O2/year at industrial scale (99.5% purity)",
+        "source_url": "https://techport.nasa.gov/api/projects/113453",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort Phase II project. Full-scale oxygen capture and purification system target capacity. Sequential metal extraction: Fe → Si → Ti → Al → Mg → Ca → Cr → Mn"
+      },
+      "notes": "Phase II SBIR oxygen purification system (OxPS) for MRE. Captures, filters contaminants (vaporized metals), and stores oxygen from molten regolith electrolysis. Completed August 2023."
+    },
+    {
+      "vendor": "Blue Origin",
+      "model": "Blue Alchemist",
+      "trl": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/general/2023-nasa-tipping-point-selections/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not explicitly stated in NASA or Blue Origin sources. NASA Tipping Point award $34.7M (corrected from $35M) announced July 2023. CDR completed September 2025 (corrected from 2024). Autonomous demonstration scheduled 2026"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in available sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development project, not commercially available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "Produces solar cells, oxygen, Fe, Al, Si (>99.999%), ceramics, glasses from regolith",
+        "source_url": "https://www.universetoday.com/articles/blue-alchemist-is-one-step-closer-to-creating-sustainable-infrastructure-on-the-moon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified capabilities from multiple sources. Quantitative production rates not published. Claims 60% cheaper lunar landings, 70% mass reduction for fuel cells/batteries via oxygen production"
+      },
+      "notes": "Molten regolith electrolysis system producing solar cells from lunar regolith. Space Resources Center of Excellence (3-acre facility, 60,000 sq ft, 65 staff verified). NASA Tipping Point award $34.7M (2023). CDR completed Sept 2025. Autonomous demonstration in simulated lunar environment scheduled 2026."
+    },
+    {
+      "vendor": "Paragon Space Development Corporation",
+      "model": "ICICLE (ISRU Collector of Ice in a Cold Lunar Environment)",
+      "trl": {
+        "value": 5,
+        "source_url": "https://techport.nasa.gov/api/projects/113309",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Advanced from TRL 3 to TRL 5, completed April 2024"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort or vendor website"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort or vendor website"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "SBIR Phase II development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Cold trap water vapor collection rates not published. NASA TechPort states system achieves desired water purity and collection rates but quantitative throughput not specified"
+      },
+      "notes": "Cold trap for collecting and purifying water vapor from permanently shadowed region (PSR) mining. Selectively freezes water while rejecting contaminants (CO2, NH3, H2S, SO2). Integrates with Honeybee Robotics PVEx. Phase II SBIR completed April 2024."
+    },
+    {
+      "vendor": "Paragon Space Development Corporation",
+      "model": "IHOP (ISRU Hydrogen Oxygen Production) - Water Purification",
+      "trl": {
+        "value": 5,
+        "source_url": "https://techport.nasa.gov/api/projects/116390",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Ionomer-membrane Water Processor (IWP) achieved TRL 5. Project duration Jun 2019 - Feb 2024, closed out Aug 2024"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "GCD development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "1.34 kg/hr water throughput",
+        "source_url": "https://techport.nasa.gov/api/projects/116390",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. System designed for 1.34 kg/hr H2O purification for downstream electrolysis"
+      },
+      "notes": "Ionomer-membrane based water purification system for lunar water from PSRs. Removes contaminants (CO2, NH3, H2S, etc.). Developed under GCD program. Completed Feb 2024."
+    },
+    {
+      "vendor": "Paragon Space Development Corporation / Giner Inc.",
+      "model": "IHOP (ISRU Hydrogen Oxygen Production) - Electrolyzer",
+      "trl": {
+        "value": 4,
+        "source_url": "https://techport.nasa.gov/api/projects/116390",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. PEM water electrolyzer reached TRL 4; could not complete integrated testing to reach TRL 5 due to technical difficulties with water purification unit integration. Project completed Feb 2024, closed out Aug 2024"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "GCD development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "0.14 kg/hr H2, 1.16 kg/hr O2 from 1.34 kg/hr H2O input",
+        "source_url": "https://techport.nasa.gov/api/projects/116390",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Target production rates for integrated IHOP system"
+      },
+      "notes": "PEM electrolyzer for H2/O2 production from purified lunar water. Developed by Giner Inc. with Paragon. GCD program. Did not achieve TRL 5 target due to integration challenges. Completed Feb 2024."
+    },
+    {
+      "vendor": "Astrobotic Technology (formerly Masten Space Systems)",
+      "model": "RocketM (Rocket Mining)",
+      "trl": {
+        "value": 4,
+        "source_url": "https://techport.nasa.gov/api/projects/125746",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Advanced from TRL 3 to TRL 4, completed April 28, 2023"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "power_kw": {
+        "value": "Self-sustaining via electrolysis + fuel cell from harvested ice",
+        "source_url": "https://techport.nasa.gov/api/projects/125746",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Self-powered through ice mining, electrolysis, and fuel cells. Onboard propellant generation. Specific kW not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "SBIR Phase I development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 4 development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "100+ kg/hr extraction rate, 270,000 kg refined ice in 225 operating hours/year",
+        "source_url": "https://techport.nasa.gov/api/projects/125746",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Can harvest ice from depths exceeding 1 meter. Note: removed 426,000 kg water/year calculation not in source"
+      },
+      "notes": "Rocket plume excavation system for water ice extraction from PSRs. Uses 100 lbf rocket engine for excavation. Self-sustaining energy via electrolysis and fuel cells. Masten assets acquired by Astrobotic after bankruptcy. Phase I SBIR completed Apr 2023."
+    },
+    {
+      "vendor": "Physical Sciences, Inc. (PSI)",
+      "model": "Solar Concentrator System",
+      "trl": {
+        "value": 6,
+        "source_url": "https://techport.nasa.gov/api/projects/103072",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Advanced from TRL 5 to TRL 6, completed December 23, 2022"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "power_kw": {
+        "value": "Concentrates solar radiation to 10³–10⁴ suns",
+        "source_url": "https://techport.nasa.gov/api/projects/103072",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Provides highly concentrated solar radiation for thermochemical processing. Specific kW output not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "SBIR Phase II development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, commercial availability unknown"
+      },
+      "production_rate": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Provides thermal energy for regolith oxygen extraction via carbothermal/hydrogen reduction. Quantitative production rates not published"
+      },
+      "notes": "Flexible optical waveguide system for concentrated solar power. Modular, scalable, autonomous, portable. Applications: oxygen production, regolith sintering, thermal/power generation. Partner: NASA Glenn Research Center. Phase II SBIR completed Dec 2022."
+    },
+    {
+      "vendor": "Outward Technologies (Blueshift LLC)",
+      "model": "MORRE (Multi-stage Oxygen and Regolith Resource Extractor)",
+      "trl": {
+        "value": 4,
+        "source_url": "https://techport.nasa.gov/api/projects/154736",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Advanced from TRL 3 to TRL 4, completed February 2, 2024"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "SBIR Phase I development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 4 development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "Minimum 50g lunar highlands simulant per batch",
+        "source_url": "https://techport.nasa.gov/api/projects/154736",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Phase I breadboard prototype scale specification"
+      },
+      "notes": "Vacuum metallurgy system extracting high-purity Si, Al, Ti, Mg from lunar regolith. Adapts terrestrial methods (established since 1940s) to lunar ultra-high vacuum. Limited/no consumables. Phase I SBIR completed Feb 2024."
+    },
+    {
+      "vendor": "Pioneer Astronautics",
+      "model": "MMOST (Moon to Mars Oxygen and Steel Technology)",
+      "trl": {
+        "value": "Target TRL 6",
+        "source_url": "https://www.minesnewsroom.com/news/mines-teams-pioneer-astronautics-advance-sustainable-lunar-exploration",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Colorado School of Mines news. Target TRL 6 via demonstration in NASA JSC 15-foot vacuum chamber. Phase II SBIR Sequential Contract in progress, completion status not confirmed"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in available sources"
+      },
+      "power_kw": {
+        "value": "Minimal power requirements via hydrogen reduction",
+        "source_url": "https://www.minesnewsroom.com/news/mines-teams-pioneer-astronautics-advance-sustainable-lunar-exploration",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Colorado School of Mines news. Designed for minimal power requirements. Specific kW not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "SBIR Phase II Sequential Contract development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "35 kg/day iron, 10 kg/day oxygen",
+        "source_url": "https://www.minesnewsroom.com/news/mines-teams-pioneer-astronautics-advance-sustainable-lunar-exploration",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Colorado School of Mines news release. Co-production targets for proposed system"
+      },
+      "notes": "Integrated system using particle sorting, EM beneficiation, hydrogen reduction, electrolysis, melt-refining. Produces iron/steel for additive manufacturing. Partners: Honeybee Robotics, Colorado School of Mines. Phase II SBIR Sequential Contract (in progress). Acquired by Voyager Space Holdings."
+    },
+    {
+      "vendor": "Honeybee Robotics (Blue Origin subsidiary)",
+      "model": "PVEx (Planetary Volatiles Extractor)",
+      "trl": {
+        "value": "Target TRL 5",
+        "source_url": "https://www.honeybeerobotics.com/2016-sbir-phase-2/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Honeybee Robotics website. NASA SBIR Phase II planned to fabricate TRL 5 prototype. Integration testing with Paragon ICICLE suggests TRL 5-6 range but specific completion status not confirmed"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published on vendor website"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published on vendor website"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development project, not commercially available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, commercial availability unknown"
+      },
+      "production_rate": {
+        "value": "Coring auger 5 cm diameter, 50 cm long; heats core to sublimate ice",
+        "source_url": "https://www.honeybeerobotics.com/tag/volatiles-extractor/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Honeybee Robotics website. Quantitative throughput rates not published"
+      },
+      "notes": "Double-walled coring auger with heated inner wall for volatile extraction. Combines drilling and extraction in one step. Sublimates ice/water from regolith; vapor flows to cold trap. Honeybee acquired by Blue Origin (early 2022). Works with Paragon ICICLE cold trap."
+    },
+    {
+      "vendor": "Teledyne Energy Systems, Inc.",
+      "model": "AAE (Advanced Alkaline Electrolyzer)",
+      "trl": {
+        "value": 4,
+        "source_url": "https://techport.nasa.gov/api/projects/116371",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Remained at TRL 4, completed September 29, 2023"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "power_kw": {
+        "value": "5.6 kW/(kg O2/hr)",
+        "source_url": "https://techport.nasa.gov/api/projects/116371",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Energy requirement achieved: 5.6 kW per kg O2/hr. 80% thermal efficiency at 200 mA/cm²"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "GCD development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 4 development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "Target 1.1 kg O2/hr",
+        "source_url": "https://techport.nasa.gov/api/projects/116371",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Operates 45-80°C, ambient to 400 psig, 10-35% electrolyte"
+      },
+      "notes": "Alkaline electrolyzer processing contaminated lunar water without purification preprocessing. Reduces water-ice processing requirements and energy for oxygen production. GCD program. Completed Sep 2023."
+    },
+    {
+      "vendor": "OxEon Energy, LLC",
+      "model": "Lunar Ice Processing System (Ice-TP)",
+      "trl": {
+        "value": 5,
+        "source_url": "https://techport.nasa.gov/api/projects/116302",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Advanced from TRL 4 to TRL 5, completed March 2021"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "GCD development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "Produces liquid H2 and O2 propellants from ice-laden regolith",
+        "source_url": "https://techport.nasa.gov/api/projects/116302",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Quantitative production rates not published"
+      },
+      "notes": "High-temperature solid-oxide electrolysis integrated with balance-of-plant for ice processing. Processes very low-temperature H2O from lunar PSRs. Partners: Colorado School of Mines, NASA JSC. Transitioned to Technology Demonstration Mission Program. GCD program completed Mar 2021."
+    },
+    {
+      "vendor": "Skyre, Inc.",
+      "model": "LP3 (Lunar Propellant Production Plant)",
+      "trl": {
+        "value": 5,
+        "source_url": "https://techport.nasa.gov/api/projects/116303",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Advanced from TRL 4 to TRL 5, completed March 1, 2021"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "GCD development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "Extracts propellant from polar ice; separates H2 and O2, liquefies O2 using H2 as refrigerant",
+        "source_url": "https://techport.nasa.gov/api/projects/116303",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Quantitative production rates not published"
+      },
+      "notes": "Complete system for propellant extraction from polar ice. Uses hydrogen as refrigerant to liquefy oxygen. Partner: Meta Vista USA LLC. Transitioned to Technology Demonstration Mission Program. GCD program completed Mar 2021."
+    },
+    {
+      "vendor": "Special Power Sources LLC",
+      "model": "Reversible Protonic Ceramic Electrochemical Cells (PCEC)",
+      "trl": {
+        "value": 3,
+        "source_url": "https://techport.nasa.gov/api/projects/113493",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Advanced from TRL 2 to TRL 3, completed June 19, 2022"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "power_kw": {
+        "value": "Target >500 mA/cm², transient >750 mA/cm² for 30+ sec",
+        "source_url": "https://techport.nasa.gov/api/projects/113493",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Current density targets for Phase I. Electrolyte conductivity >0.02 S/cm"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "SBIR Phase I development project, cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 3 development phase, not commercially available"
+      },
+      "production_rate": {
+        "value": "Electrolysis: H2O → H2 + O2; Co-electrolysis: CO2 + H2O → CH4 + O2; Fuel cell: H2/CH4/kerosene + O2 → electricity",
+        "source_url": "https://techport.nasa.gov/api/projects/113493",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Reversible dual-mode operation demonstrated. Quantitative production rates not published"
+      },
+      "notes": "Reversible tubular cells for propellant production (H2, O2, CH4) and power generation. Contaminant-tolerant, fuel-flexible. Tubular design more robust than planar for thermal/chemical/mechanical stresses. Partners: Kansas State University, NASA Glenn. Phase I SBIR completed Jun 2022."
+    },
+    {
+      "vendor": "Sierra Space",
+      "model": "COPR (Carbothermal Oxygen Production Reactor)",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.sierraspace.com/press-releases/sierra-space-unveils-breakthrough-technology-designed-to-extract-oxygen-from-lunar-soil/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Sierra Space press release and SpaceDaily. Achieved TRL 6 via thermal vacuum testing at NASA JSC in August 2024 (announced September 2024). First automated oxygen extraction from simulated lunar soil in lunar environment"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Mass-efficient, scalable architecture described but specific mass not disclosed in available sources"
+      },
+      "power_kw": {
+        "value": ">20 g O2/kW-hr thermal efficiency, uses concentrated solar energy (1800°C)",
+        "source_url": "https://www.sierraspace.com/press-releases/sierra-space-unveils-breakthrough-technology-designed-to-extract-oxygen-from-lunar-soil/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Sierra Space press release. Direct concentrated solar energy, temperatures -45°C to 1800°C"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA Tipping Point program, cost not publicly disclosed"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 6, ready for flight demonstration. Commercial availability unknown"
+      },
+      "production_rate": {
+        "value": ">20% oxygen yield per gram of regolith",
+        "source_url": "https://www.sierraspace.com/press-releases/sierra-space-unveils-breakthrough-technology-designed-to-extract-oxygen-from-lunar-soil/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Sierra Space press release. Oxygen extraction energy efficiency and production yield exceeded program goals. Produces reduced metallic slag co-product"
+      },
+      "notes": "First automated standalone system to extract oxygen from simulated lunar soil in lunar environment. Operates -45°C to 1800°C. Automated solid material handling: meters regolith from supply hopper, weighs, distributes to reactor, removes slag. No exotic materials or complex cooling systems. Completed thermal vacuum testing at NASA JSC August 2024. Ready for flight demonstration."
+    },
+    {
+      "vendor": "Redwire Space",
+      "model": "Mason (Regolith Infrastructure Construction System)",
+      "trl": {
+        "value": null,
+        "source_url": "https://redwirespace.com/newsroom/pads-roads-and-other-forms-of-infrastructure-on-the-moon/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not explicitly stated in sources. NASA Tipping Point award $12.9M announced July 2023. CDR completed June 2025, prototype fabrication in progress. Exploring flight opportunities for demonstration mission"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in vendor press releases or news"
+      },
+      "power_kw": {
+        "value": "Microwave emitter heats regolith to extremely high temperatures for sintering",
+        "source_url": "https://redwirespace.com/newsroom/pads-roads-and-other-forms-of-infrastructure-on-the-moon/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Redwire press release. Specific kW not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA Tipping Point development project, cost not publicly disclosed"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Development phase, exploring flight opportunities. Commercial availability unknown"
+      },
+      "production_rate": {
+        "value": "Processes regolith to create landing pads, roads, berms, habitat foundations",
+        "source_url": "https://redwirespace.com/newsroom/pads-roads-and-other-forms-of-infrastructure-on-the-moon/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Redwire press release. Converts regolith into solid material similar to concrete. Quantitative throughput rates not published"
+      },
+      "notes": "Tool suite: grader (levels surface), compactor (densifies regolith), microwave emitter (fuses regolith into solid similar to concrete). Scalable, platform-agnostic for landers/rovers/robotic arms. Partners: Astrobotic, Lockheed Martin, Lambda Technologies, NASA KSC Swamp Works, Colorado School of Mines, UCF. Tipping Point award Jul 2023. CDR completed Jun 2025."
+    },
+    {
+      "vendor": "Kennedy Space Center (NASA)",
+      "model": "MRE Starter Device",
+      "trl": {
+        "value": 2,
+        "source_url": "https://techport.nasa.gov/api/projects/154843",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Started at TRL 2, completed September 30, 2021. No ending TRL specified"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in NASA TechPort"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Internal NASA Early Career Initiative/Center Innovation Fund project, cost not publicly disclosed"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 2 research project, not available for procurement"
+      },
+      "production_rate": {
+        "value": "Single-step reactor producing oxygen and metals (Fe, Si, Al) from regolith",
+        "source_url": "https://techport.nasa.gov/api/projects/154843",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA TechPort. Year 1 demonstrated reaction starter device melting regolith. Quantitative production rates not published"
+      },
+      "notes": "Heater device for melting regolith with precise control to enable MRE process. No consumable materials required. Partner: Honeybee Robotics. Early Career Initiative / Center Innovation Fund. Completed Sep 2021. TRL <5, included for completeness."
+    }
+  ]
+}

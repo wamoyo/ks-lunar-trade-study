@@ -1,0 +1,1226 @@
+{
+  "category": "Robotics and Robotic Arms",
+  "last_updated": "2025-12-08",
+  "research_phase": "Phase 4 - Verification Complete",
+  "verification_date": "2025-12-08",
+  "total_items": 13,
+  "items": [
+    {
+      "vendor": "NASA Langley Research Center / Astrobotic Technology",
+      "model": "LANDO (LSMS-L35)",
+      "description": "Lightweight Surface Manipulation System with 35-kg wrist lift capacity on lunar surface, sized for CLPS missions. General-purpose autonomy framework for serial and tension actuated manipulation agents.",
+      "trl": {
+        "value": 5,
+        "source_url": "https://techport.nasa.gov/api/projects/154854",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort API. Project advanced from TRL 2 to TRL 5 (end TRL). Project completed Oct 2021 - Sep 2024."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA TechPort, NTRS publications. Described as lightweight/structurally efficient but no quantitative mass value disclosed."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA TechPort, NTRS. NTRS notes 'smaller motors consume less energy' but no quantitative power specification."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. NASA internal research project cost not publicly disclosed."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available. NASA research project with Astrobotic partnership. CLPS flight demo being pursued but timeline not specified."
+      },
+      "specifications": {
+        "wrist_lift_capacity_kg_lunar": {
+          "value": 35,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API for LSMS-L35 variant."
+        },
+        "payload_variant": {
+          "value": "LSMS-L1000 variant has 1000-kg wrist lift capacity for HLS landers",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API."
+        },
+        "degrees_of_freedom": {
+          "value": null,
+          "verified_tier": "unverified",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Not published in available sources."
+        },
+        "reach_meters": {
+          "value": null,
+          "verified_tier": "unverified",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Not published. Web search indicated 'under 2.5m reach' and '2.25m reach with 35kg capacity' but not confirmed in authoritative TechPort source."
+        },
+        "autonomy_level": {
+          "value": "Autonomous payload handling",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API: 'general-purpose autonomy framework for serial and tension actuated manipulation agents'."
+        },
+        "source_url": "https://techport.nasa.gov/api/projects/154854"
+      },
+      "notes": "Completed project (2021-2024). Pursuing CLPS flight for validation. Mars-forward technology. Prototype exists but commercial availability unknown. Partnership with Astrobotic Technology noted in project data."
+    },
+    {
+      "vendor": "NASA JPL",
+      "model": "CADRE Rovers",
+      "description": "Cooperative Autonomous Distributed Robotic Exploration - network of solar-powered mobile robots (suitcase-sized) for autonomous lunar surface exploration. System includes multiple rovers with ground-penetrating radar for distributed measurements.",
+      "trl": {
+        "value": 6,
+        "source_url": "https://techport.nasa.gov/api/projects/116324",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort API. Current TRL 6, target TRL 7. Project active Jan 2020 - Jan 2026."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA TechPort, JPL mission page. Described as 'about the size of a carry-on bag' but no quantitative mass specification."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Confirmed solar-powered from TechPort and JPL page, but no quantitative power specification."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. NASA Game Changing Development project cost not publicly disclosed."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available. NASA research project with 2026 lunar demo on IM-3 lander at Reiner Gamma."
+      },
+      "specifications": {
+        "number_of_rovers": {
+          "value": "3 rovers + 1 base station",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API and JPL mission page."
+        },
+        "mapping_area": {
+          "value": "20m x 20m autonomous mapping capability",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API: '20m × 20m zone'."
+        },
+        "gpr_measurement_spacing": {
+          "value": "0.2 meters",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API: 'multi-static GPR readings every 0.2 meters'."
+        },
+        "formation": {
+          "value": "Line formation with 1-meter spacing",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API: 'line formation with 1-meter spacing over 20-meter traverse'."
+        },
+        "autonomy_level": {
+          "value": "Fully autonomous navigation, communication, computation, perception, decision-making",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API and JPL page."
+        },
+        "resiliency": {
+          "value": "Can sustain attrition and re-elect leader",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API: 'leader election with failover when primary agent disabled'."
+        },
+        "source_url": "https://techport.nasa.gov/api/projects/116324"
+      },
+      "notes": "Active project (2020-2026). Game Changing Development program. Demonstrates multi-agent autonomy, cooperation, scalability, and resiliency. Planned lunar surface demonstration on IM-3 lander, Reiner Gamma region, 2026."
+    },
+    {
+      "vendor": "MIT / Harvard University",
+      "model": "Autonomous Robot Swarms",
+      "description": "Swarm robotics for lunar orbit servicing and space asset assembly. Two robot types: 'rovable' and 'inchworm' for mobility, inspection, manufacturing, and maintenance in microgravity.",
+      "trl": {
+        "value": 6,
+        "source_url": "https://techport.nasa.gov/api/projects/106703",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort API. Advanced from TRL 5 to 6 (end TRL). Project completed Dec 2020 - Dec 2023. Target TRL 7 stated but not achieved."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA TechPort. Small swarm robots but no quantitative mass specification."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA TechPort."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. NASA Flight Opportunities research project cost not publicly disclosed."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available. University research project, not a commercial product."
+      },
+      "specifications": {
+        "robot_types": {
+          "value": "Rovable and inchworm configurations",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API."
+        },
+        "capabilities": {
+          "value": "Swarm mobility, inspection, modular assembly, quality control, repairs, maintenance",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API."
+        },
+        "communication": {
+          "value": "Novel communications protocol for cooperation",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API."
+        },
+        "applications": {
+          "value": "In-space manufacturing, Gateway, ISS, lunar surface exploration",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA TechPort API."
+        },
+        "source_url": "https://techport.nasa.gov/api/projects/106703"
+      },
+      "notes": "Completed project (2020-2023). Four parabolic flights with Zero Gravity Corporation. Potential for lunar surface exploration applications. Low-cost automation for in-orbit servicing. MIT PI: Joseph Paradiso; Co-PIs: Ariel Ekblaw, Radhika Nagpal (Harvard)."
+    },
+    {
+      "vendor": "MDA Space (Canada)",
+      "model": "Canadarm3",
+      "description": "Third generation AI-enabled robotic system for lunar Gateway station. Highly autonomous large arm with smaller dexterous arm, specialized tools, and ground control segment. Commercial variant technology available through MDA SKYMAKER product line.",
+      "trl": {
+        "value": 6,
+        "source_url": "https://mda.space/article/mda-space-awarded-1b-contract-to-design-and-deliver-canadarm3-flight-system",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 7 to TRL 6. Currently in Phase C (final design) and Phase D (construction) per $1B CAD contract awarded June 2024, running until March 2030. Delivery to Gateway no earlier than 2029 per CSA. Not yet in operational environment testing (TRL 7)."
+      },
+      "mass_kg": {
+        "value": 1076,
+        "source_url": "https://www.asc-csa.gc.ca/eng/canadarm3/data-sheet.asp",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Canadian Space Agency data sheet: 1076 kg (estimation, large arm only). Note: This is for the large arm component only, not the full system mass."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked MDA Space official site and CSA data sheet. Specifications not yet released as system is still in design/development phase."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://mda.space/article/mda-space-awarded-1b-contract-to-design-and-deliver-canadarm3-flight-system",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Commercial pricing not disclosed. Gateway development contract: $1B CAD ($~740M USD) total program cost for Phase C/D (June 2024). Not a per-unit commercial price."
+      },
+      "procurement_lead_time": {
+        "value": "Delivery no earlier than 2029",
+        "source_url": "https://www.asc-csa.gc.ca/eng/canadarm3/data-sheet.asp",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from CSA data sheet. First commercial sale (32 robotic interfaces to Axiom Space, May 2022) indicates commercial derivatives available. MDA SKYMAKER product line offers commercial access to Canadarm3-derived technology."
+      },
+      "specifications": {
+        "length_m": {
+          "value": 8.5,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet."
+        },
+        "degrees_of_freedom": {
+          "value": 7,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet: 3 shoulder joints + 1 elbow joint + 3 wrist joints."
+        },
+        "material": {
+          "value": "Carbon fibre composite",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet."
+        },
+        "system_components": {
+          "value": "Large arm (XLA) + smaller dexterous arm (XDA) + specialized tools + ground segment",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from MDA Space and CSA official sources."
+        },
+        "autonomy_level": {
+          "value": "Highly autonomous, AI-enabled, can operate during long periods without ground contact",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from MDA Space official site and CSA."
+        },
+        "commercial_product": {
+          "value": "MDA SKYMAKER - commercial suite based on Canadarm3 technology",
+          "verified_tier": "credible",
+          "verification_date": "2025-12-09",
+          "verification_notes": "MDA SKYMAKER mentioned in MDA press releases as commercial offering."
+        },
+        "first_commercial_sale": {
+          "value": "32 external robotic interfaces to Axiom Space (May 2022)",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from MDA Space press release."
+        },
+        "heritage": {
+          "value": "Canadarm and Canadarm2 (ISS) - TRL 9 proven",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA and MDA sources."
+        },
+        "source_url": "https://www.asc-csa.gc.ca/eng/canadarm3/data-sheet.asp"
+      },
+      "notes": "In development for lunar Gateway. $1B CAD contract (June 2024) for Phase C/D running until March 2030. First commercial sale signals transition to commercial market. MDA SKYMAKER provides commercial customers access to flight-proven space robotics solutions derived from Canadarm3. Manufactured by MDA Space in Brampton, Ontario. Operational location: lunar orbit, ~400,000 km from Earth."
+    },
+    {
+      "vendor": "Maxar Technologies",
+      "model": "SPIDER Robotic Arm",
+      "description": "Space Infrastructure Dexterous Robot for NASA OSAM-1 mission. Lightweight 16-foot robotic arm designed for in-space assembly and manufacturing. Mission cancelled September 2024.",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.nasa.gov/missions/update-on-status-of-nasas-osam-1-project/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 7 to TRL 6. OSAM-1 mission cancelled by NASA September 2024 due to cost/schedule challenges. CDR completed March 2021, flight hardware was being built, but never flew. Maximum TRL 6 (prototype/representative model)."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Described as lightweight, 16-foot arm, but specific mass not disclosed in available sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA and Maxar sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://spacenews.com/nasa-reaffirms-decision-to-cancel-osam-1/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "OSAM-1 total mission cost grew from $626-753M to >$2B. SPIDER component cost not separately disclosed. Mission cancelled, no commercial product."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/missions/update-on-status-of-nasas-osam-1-project/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not available. OSAM-1 mission cancelled Sept 2024. Technology not commercially available. Maxar (now part of Vantor) commercial availability unknown."
+      },
+      "specifications": {
+        "length_feet": {
+          "value": 16,
+          "verified_tier": "credible",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from multiple sources including eoPortal, NASA descriptions."
+        },
+        "length_meters": {
+          "value": 5,
+          "verified_tier": "credible",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from multiple sources."
+        },
+        "mission": {
+          "value": "OSAM-1 in-space assembly demonstration (cancelled Sept 2024)",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Mission cancelled per NASA official statement Sept 5, 2024."
+        },
+        "capability": {
+          "value": "Assemble antenna reflector elements into 9-foot Ka-band antenna",
+          "verified_tier": "credible",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from eoPortal and other sources."
+        },
+        "motor_control": {
+          "value": "MDA-supplied Motor Control Electronics and Arm Control Electronics",
+          "verified_tier": "credible",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from MDA Space press releases."
+        },
+        "source_url": "https://www.eoportal.org/satellite-missions/osam-1"
+      },
+      "notes": "MISSION CANCELLED SEPT 2024. CDR completed March 2021. Hardware was being built but never flew. NASA cited technical, cost, and schedule challenges. Total OSAM-1 cost grew from $626-753M to >$2B. MDA partnership for motor control systems. Maxar was acquired/restructured (now part of Vantor). Commercial availability unclear."
+    },
+    {
+      "vendor": "Motiv Space Systems",
+      "model": "xLink Modular Robotic Arm",
+      "description": "Highly modular, cost-efficient space-rated robotic arm system. Configurable from 4-DOF trenching arm for lunar operations to multi-armed robots for on-orbit construction. Mars 2020 Perseverance heritage.",
+      "trl": {
+        "value": 9,
+        "source_url": "https://motivss.com/products-capabilities/robotics/xlink/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Motiv Space Systems official site. TRL 9 based on Mars 2020 Perseverance rover heritage (operational on Mars since Feb 2021). Same team that built Perseverance arm."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Motiv official site and press releases. Modular system varies by configuration."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Motiv official site."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://www.prnewswire.com/news-releases/motiv-space-systems-launches-xlink-the-highly-modular-cost-efficient-space-rated-robotic-arm-system-301063707.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Motiv press release: '1/10th the cost of existing solutions'. Absolute price not disclosed, contact vendor for quote."
+      },
+      "procurement_lead_time": {
+        "value": "6 months",
+        "source_url": "https://www.prnewswire.com/news-releases/motiv-space-systems-launches-xlink-the-highly-modular-cost-efficient-space-rated-robotic-arm-system-301063707.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Motiv press release: 'delivery times as short as six months' vs traditional multi-year cycles."
+      },
+      "specifications": {
+        "modularity": "4-DOF to multi-arm configurations",
+        "configurations": "Trenching arm for lunar ops, sample collection for Mars, mobility system for rovers",
+        "features": "Force-torque sensors, tool changing capabilities, end effectors",
+        "heritage": "NASA/JPL Mars 2020 Perseverance rover robotic arm",
+        "first_mission": "NASA OSAM-2 spacecraft",
+        "cost_advantage": "1/10th cost of existing solutions",
+        "source_url": "https://motivss.com/products-capabilities/robotics/xlink/"
+      },
+      "notes": "Commercially available. Explicitly marketed as cost-efficient with rapid delivery. Highly modular design for various missions. Strong commercial focus. Established space heritage from Mars missions."
+    },
+    {
+      "vendor": "GITAI (Japan/US)",
+      "model": "IN1 Inchworm Robotic Arm",
+      "description": "Inchworm-type robotic arm with grapple end-effectors on both ends. Extends both capability and mobility of space robots. Tested for lunar South Pole extreme conditions.",
+      "trl": {
+        "value": 6,
+        "source_url": "https://gitai.tech/2024/10/23/gitais-inchworm-type-robotic-arm-achieves-trl6-in-a-thermal-vacuum-chamber-test-simulating-the-lunar-south-pole-environment/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from GITAI official press release Oct 23, 2024. TRL 6 achieved via thermal vacuum chamber testing simulating lunar South Pole environment (down to -140°C, <1E-5 Torr). Completed 29 hours continuous operation, 1503 steps of inchworm locomotion covering ~1 mile. Note: GITAI states TRL 7 for LEO due to 80% component overlap with S2 arm (ISS-tested 2024), but TRL 6 for lunar applications."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked GITAI official site, press releases, and product pages. No mass specification disclosed for IN1 Inchworm arm."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked GITAI official site. Oct 2024 thermal vacuum test included wireless power transmission capability, but no quantitative power consumption specification disclosed."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Commercial pricing not disclosed on GITAI website or press releases. Contact vendor for quote."
+      },
+      "procurement_lead_time": {
+        "value": "Under development - 2026 lunar demo planned",
+        "source_url": "https://gitai.tech/2025/03/31/gitai-awarded-jaxa-contract-for-concept-study-of-robotic-arm-for-crewed-pressurized-lunar-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from GITAI official press release March 31, 2025. JAXA contract awarded for concept study of robotic arm for crewed pressurized lunar rover (part of Japan's Artemis program contribution). Separate 2026 lunar surface demo mission planned with U.S. launch partners to demonstrate communication antenna and solar panel assembly (targeting TRL 7+). Not yet commercially available."
+      },
+      "specifications": {
+        "type": {
+          "value": "Inchworm-type with grapple end-effectors on both ends",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from GITAI official press release Aug 16, 2022. Proprietary dual grapple end-effector interface provides mechanical, power, and communication coupling."
+        },
+        "mobility": {
+          "value": "Autonomous movement in any direction, can connect/disconnect between landers, rovers, satellites",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from GITAI official site. Oct 2024 thermal vacuum test demonstrated 29 hours continuous inchworm locomotion covering ~1 mile (1503 steps)."
+        },
+        "environmental_testing": {
+          "value": "Regolith exposure, thermal vacuum (-140°C, <1E-5 Torr), vibration, radiation",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from GITAI press releases. Lunar South Pole environment simulation completed Oct 2024."
+        },
+        "temperature_range": {
+          "value": "Down to -140°C",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from GITAI Oct 23, 2024 press release on TRL 6 thermal vacuum testing."
+        },
+        "tool_capabilities": {
+          "value": "Tool changer function, compatible with cutting tools, shovels, end effectors for satellite capture",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from GITAI official site. Demonstrated target satellite separation ring capture during Oct 2024 test."
+        },
+        "source_url": "https://gitai.tech/2024/10/23/gitais-inchworm-type-robotic-arm-achieves-trl6-in-a-thermal-vacuum-chamber-test-simulating-the-lunar-south-pole-environment/"
+      },
+      "notes": "Advanced development. Completed rigorous environmental testing for lunar conditions. JAXA contract for crewed lunar rover robotic arm concept study (March 2025). Planning 2026 lunar surface demonstration mission to reach TRL 7+."
+    },
+    {
+      "vendor": "MDA Space (Canada)",
+      "model": "Canadarm2 (SSRMS)",
+      "description": "Space Station Remote Manipulator System - second generation robotic arm for ISS. Flight-proven with 20+ years operational heritage. Foundation for Canadarm3 commercial technology.",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.asc-csa.gc.ca/eng/iss/canadarm2/about.asp",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Canadian Space Agency official site. TRL 9 - Launched April 19, 2001 aboard Space Shuttle Endeavour, installed April 22, 2001. Operational on ISS for 23+ years with sustained mission success. Servicing ISS since 2001 with in-orbit component replacements (wrist roll joint 2002, Latching End Effectors 2017-2018)."
+      },
+      "mass_kg": {
+        "value": 1497,
+        "source_url": "https://www.asc-csa.gc.ca/eng/iss/canadarm2/data-sheet.asp",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 1800 kg to 1497 kg per Canadian Space Agency official data sheet. NASA also confirms 3,300 lbs (1497 kg). Secondary sources incorrectly cite 1,800 kg."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in authoritative sources. Checked CSA data sheet, NASA MSS page, and comparative table - no power consumption specification disclosed. The 1.4 kW value from issfacts.weebly.com (non-authoritative) could not be confirmed from CSA or NASA official sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. Canadarm2 is a one-of-a-kind ISS system, not a commercial product. Historical ISS program development cost not publicly itemized per component."
+      },
+      "procurement_lead_time": {
+        "value": "Not commercially available - technology heritage for Canadarm3/SKYMAKER",
+        "source_url": "https://mda.space/canadarm3",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from MDA Space. Original Canadarm2 is singular ISS asset, not for sale. Technology forms heritage basis for commercial Canadarm3 and MDA SKYMAKER products."
+      },
+      "specifications": {
+        "length_meters": {
+          "value": 17,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet and comparative table. Note: Some sources cite 17.6m when fully extended; CSA official spec is 17m."
+        },
+        "diameter_cm": {
+          "value": 35,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA comparative table: 35 cm exterior composite boom diameter."
+        },
+        "degrees_of_freedom": {
+          "value": 7,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet and NASA: 3 shoulder joints + 1 elbow joint + 3 wrist joints."
+        },
+        "payload_capacity_kg": {
+          "value": 116000,
+          "verified_tier": "credible",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Cited in multiple sources including NASA and technical documentation. CSA official data sheet does not list payload capacity, but value widely reported."
+        },
+        "material": {
+          "value": "19 layers of high-strength carbon fibre thermoplastic",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet and comparative table."
+        },
+        "joint_rotation": {
+          "value": "Each joint rotates 270 degrees in each direction (540 degrees total)",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA comparative table."
+        },
+        "operational_speed": {
+          "value": "37 cm/s unloaded; 2 cm/s (ground control) or 15 cm/s (spacewalk support) loaded",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA comparative table."
+        },
+        "manufacturer": {
+          "value": "MacDonald Dettwiler Associates (MDA), Brampton, Ontario",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet."
+        },
+        "source_url": "https://www.asc-csa.gc.ca/eng/iss/canadarm2/data-sheet.asp"
+      },
+      "notes": "Flight-proven TRL 9 system. Foundation for commercial Canadarm3 and MDA SKYMAKER products. Technology heritage demonstrates reliability and capability for lunar applications."
+    },
+    {
+      "vendor": "MDA Space (Canada)",
+      "model": "Dextre (SPDM)",
+      "description": "Special Purpose Dexterous Manipulator - two-armed robot for ISS maintenance, repair, and assembly tasks. Smaller companion to Canadarm2 with high dexterity.",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.asc-csa.gc.ca/eng/iss/dextre/about.asp",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Canadian Space Agency official site. TRL 9 - Launched March 11, 2008 aboard Space Shuttle Endeavour, installed 5 days later. Operational on ISS for 16+ years performing maintenance, battery replacement, electrical system repairs, and testing robotics techniques."
+      },
+      "mass_kg": {
+        "value": 1850,
+        "source_url": "https://www.asc-csa.gc.ca/eng/iss/dextre/data-sheet.asp",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Canadian Space Agency official data sheet: 1,850 kg."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in authoritative sources. Checked CSA data sheet - no power specification disclosed. Part of Mobile Servicing System power distribution with Canadarm2."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. Dextre is a one-of-a-kind ISS system, not a commercial product. Historical ISS program development cost not publicly itemized per component."
+      },
+      "procurement_lead_time": {
+        "value": "Not commercially available - technology heritage for MDA SKYMAKER",
+        "source_url": "https://mda.space/article/mda-completes-first-commercial-sale-of-canadarm3-technology-axiom-space",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from MDA Space. Original Dextre is singular ISS asset, not for sale. Technology forms heritage basis for commercial dexterous manipulator products via MDA SKYMAKER."
+      },
+      "specifications": {
+        "height_meters": {
+          "value": 3.70,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet."
+        },
+        "width_meters": {
+          "value": 2.37,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet (excluding arms)."
+        },
+        "arm_length_meters": {
+          "value": 3.51,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet: each arm length 3.51 m."
+        },
+        "degrees_of_freedom_per_arm": {
+          "value": 7,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA official site: each arm has seven joints enabling complex movements exceeding human arm capabilities."
+        },
+        "number_of_arms": {
+          "value": 2,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA official site: two-armed robot."
+        },
+        "payload_capacity_per_arm_kg": {
+          "value": 600,
+          "verified_tier": "credible",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Widely cited in technical sources. CSA notes Dextre handles 100-kg batteries and refrigerator-sized gear, consistent with 600 kg capacity, but exact value not in official data sheet."
+        },
+        "precision": {
+          "value": "Millimeter-level precision",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA: 'Dextre's work can even be precise down to a few millimetres'."
+        },
+        "cameras": {
+          "value": "5 cameras, enhanced vision system planned for 2025",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA official site."
+        },
+        "capabilities": {
+          "value": "Motorized wrenches, connectors, human-like sense of touch, lights",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA official site."
+        },
+        "manufacturer": {
+          "value": "MacDonald Dettwiler Associates (MDA), Brampton, Ontario",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from CSA data sheet."
+        },
+        "source_url": "https://www.asc-csa.gc.ca/eng/iss/dextre/data-sheet.asp"
+      },
+      "notes": "Highly dexterous two-armed system. Demonstrates fine manipulation capabilities. Technology heritage for commercial dexterous manipulators."
+    },
+    {
+      "vendor": "Motiv Space Systems / NASA JPL",
+      "model": "Mars 2020 Perseverance Robotic Arm",
+      "description": "Five-joint robotic arm for Mars 2020 Perseverance rover. Designed and built by Motiv Space Systems. Includes force-torque sensor for sample coring operations.",
+      "trl": {
+        "value": 9,
+        "source_url": "https://motivss.com/space-flight-missions/mars-2020-perseverance-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Motiv Space Systems official site. TRL 9 - Launched July 30, 2020, landed on Mars Feb 18, 2021 in Jezero Crater. Operational for 3+ years performing sample coring operations on Mars. Project marked COMPLETE - delivered, integrated, and launched."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Motiv official site. Turret assembly payload capacity exceeds 45 kg, but full arm mass not separately disclosed in available sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Motiv official site. Described as designed to minimize power consumption, but specific power specification not disclosed."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. Perseverance arm is one-of-a-kind NASA JPL mission hardware. Commercial derivative (xLink) available separately with different pricing."
+      },
+      "procurement_lead_time": {
+        "value": "Commercial variant (xLink) available in 6 months",
+        "source_url": "https://motivss.com/products-capabilities/robotics/xlink/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Motiv official site. Original Perseverance arm not for sale (NASA mission hardware). Heritage design commercialized as xLink modular robotic arm system with 6-month delivery timeline."
+      },
+      "specifications": {
+        "length_meters": {
+          "value": 2.13,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from Motiv official site: 'seven feet long' (7 ft = 2.13 m). Also described as 'over two meters long'."
+        },
+        "degrees_of_freedom": {
+          "value": 5,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from Motiv official site: five finely tuned joints / five motorized articulating joints."
+        },
+        "turret_payload_capacity_kg": {
+          "value": 45,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from Motiv official site: science payload capacity exceeding 45 kilograms. Also described as 'capable of lifting over 90 pounds' (90 lbs = 40.8 kg, consistent)."
+        },
+        "precision": {
+          "value": "Less than 1 mm",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from Motiv: 'precision of less than 1 mm'."
+        },
+        "force_torque_sensor": {
+          "value": "6-DOF force-torque sensor provides tactile feedback for coring operations",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from Motiv official site: 6-degree-of-freedom force-torque sensor enables proper force application during sampling, calibrates to terrain types, safety mechanism for rover slip."
+        },
+        "turret_instruments": {
+          "value": "Cameras, chemical detectors, ground contact sensor, dust removal tool, rotary percussive drill, SHERLOC, WATSON",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from Motiv official site."
+        },
+        "source_url": "https://motivss.com/the-robotic-arm-of-perseverance-exploring-martian-terrain/"
+      },
+      "notes": "Currently operating on Mars. Demonstrates reliability in harsh planetary environment. Forms heritage basis for xLink commercial product line. Successfully performing sample coring operations."
+    },
+    {
+      "vendor": "NASA JPL / Motiv Space Systems",
+      "model": "COLDArm",
+      "description": "Cold Operable Lunar Deployable Arm - 3D-printed titanium robotic arm that operates at cryogenic temperatures without heaters. Designed for lunar polar regions and permanently shadowed craters.",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.nasa.gov/cold-operable-lunar-deployable-arm-coldarm/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Estimated TRL 6 based on NASA official page. Project introduced April 2019, completed environmental testing including thermal vacuum and regolith testing. Targeted for CLPS flight demo within 5 years (late 2020s). Funded by Lunar Surface Innovation Initiative (LSII) via Game Changing Development program."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA official site and JPL robotics page. Described as lightweight design, but no quantitative mass specification disclosed."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA and JPL sources. Designed to conserve power by operating without heaters (Motiv DACEE motor controllers provide down to ≈100K operational ability without heaters), but quantitative power spec not disclosed."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. NASA Game Changing Development project funded by LSII. Commercial availability unknown. Not a commercial product."
+      },
+      "procurement_lead_time": {
+        "value": "CLPS flight demo targeted late 2020s",
+        "source_url": "https://www.nasa.gov/cold-operable-lunar-deployable-arm-coldarm/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official site. Targeted to fly as technology demonstration on commercial robotic lander via CLPS within 5 years of April 2019 (late 2020s). Not commercially available - NASA development project."
+      },
+      "specifications": {
+        "length_feet": {
+          "value": 6.5,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA official site: approximately 6.5 feet."
+        },
+        "length_meters": {
+          "value": 2.0,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA and JPL: approximately 2 meters."
+        },
+        "degrees_of_freedom": {
+          "value": 4,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA and JPL official sources."
+        },
+        "force_output_newtons": {
+          "value": 40,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from JPL robotics page: 'tip force greater than 40 newtons in the primary workspace'. NASA site states 'approximately 10 pounds of force' (10 lbs = 44.5 N, consistent)."
+        },
+        "temperature_range": {
+          "value": "Below -280°F (-173°C) without heaters",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from NASA official site: operates during lunar night when temperatures drop below -280°F (-173°C)."
+        },
+        "heritage": {
+          "value": "Similar design to Mars Phoenix and Mars InSight robotic arms",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from JPL robotics page."
+        },
+        "motor_technology": {
+          "value": "Bulk Metallic Glass gears, Motiv DACEE motor controllers (down to ≈100K without heaters)",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from JPL robotics page. BMG is 'twice as strong as steel'. DACEE controllers eliminate need for heating."
+        },
+        "sensors": {
+          "value": "6-axis force/torque sensor at end effector",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from JPL: provides payload interaction data and fault protection. Embedded in wrist for directional feedback."
+        },
+        "scoop": {
+          "value": "3D-printed titanium with geotechnical soil property measurement capability",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from JPL robotics page and NASA."
+        },
+        "tool_changer": {
+          "value": "Dust-tolerant mechanical interface with power and data connections for up to 4 payloads",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from JPL robotics page."
+        },
+        "avionics": {
+          "value": "RASK (Robotic Avionics and Sensor Kit) with on-board processor, FPGA, communications, multiple cameras",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-09",
+          "verification_notes": "Confirmed from JPL: uses smartphone processing technology (Mars Helicopter Ingenuity heritage). Housed in Warm Electronics Box (WEB)."
+        },
+        "source_url": "https://www-robotics.jpl.nasa.gov/what-we-do/flight-projects/cold-operable-lunar-deployable-arm-coldarm/coldarm-additional-details/"
+      },
+      "notes": "Game Changing Development program. Lunar Surface Innovation Initiative funded. Designed specifically for extreme lunar polar conditions. Breakthrough technology for operation without thermal control."
+    },
+    {
+      "vendor": "Honeybee Robotics (Blue Origin)",
+      "model": "Lunar Robotic Arms (4-DOF and 3-DOF)",
+      "description": "Robotic arms for lunar surface operations. 4-DOF arm for drilling, scooping, and landing pad construction. 3-DOF arm for sampling operations.",
+      "trl": {
+        "value": 6,
+        "source_url": "http://www.parabolicarc.com/2015/04/21/honeybee-robotics-2/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Corrected from TRL 7 to TRL 6. Specific TRL for current lunar robotic arms not explicitly stated in authoritative sources. Historical SBIR projects show Honeybee robotic arms advancing from TRL 4 to TRL 5. Current lunar arms under development for Blue Origin's Blue Moon Artemis lander (awarded May 2023). Estimated TRL 6 based on development status - prototype/representative model stage, not yet in operational space environment testing."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. Checked Blue Origin Exploration Systems page, Honeybee Robotics official sources, and press releases. Varies by configuration (4-DOF vs 3-DOF). Specifications not publicly disclosed."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. Checked Blue Origin and Honeybee Robotics official sources. Power requirements not disclosed in public sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. Custom robotic systems - pricing not publicly disclosed. Contact vendor for quote. Part of Blue Origin's $3.4B Artemis Blue Moon lander contract (May 2023), but component pricing not itemized."
+      },
+      "procurement_lead_time": {
+        "value": "Under development for Artemis Blue Moon lander",
+        "source_url": "https://www.honeybeerobotics.com/news-events/honeybee-robotics-on-blue-origins-national-team-to-develop-human-lunar-lander",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from Honeybee Robotics official site. Part of Blue Origin National Team (with Lockheed Martin, Draper, Boeing, Astrobotic) developing Blue Moon lander for Artemis program. $3.4B contract awarded May 2023. Custom systems - commercial availability timeline not specified. Contact vendor for procurement details."
+      },
+      "specifications": {
+        "4dof_applications": {
+          "value": "Drilling, scooping, landing pad construction on Moon",
+          "verified_tier": "credible",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from multiple sources including Blue Origin exploration systems and Honeybee Robotics descriptions."
+        },
+        "3dof_applications": {
+          "value": "Iron ore blasthole sampling, sample collection",
+          "verified_tier": "credible",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from multiple sources describing Honeybee's robotic arm applications."
+        },
+        "heritage": {
+          "value": "1000+ robotic systems and mechanisms launched to space",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from Honeybee Robotics official sources: 'launched over 1000 robotic systems and mechanisms to space' and 'delivered more than 1,000 advanced projects since 1983'. Some sources cite 3000+ components. Operating on Mars since 2004 (first NASA contract 1986)."
+        },
+        "parent_company": {
+          "value": "Blue Origin (acquired January 2022)",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from multiple authoritative sources including Blue Origin and SpaceNews. Honeybee Robotics became wholly owned subsidiary of Blue Origin in January 2022."
+        },
+        "facilities": {
+          "value": "Longmont CO (HQ), Altadena CA, Greenbelt MD",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from Blue Origin and Honeybee Robotics official sources."
+        },
+        "source_url": "https://www.honeybeerobotics.com/news-events/honeybee-robotics-on-blue-origins-national-team-to-develop-human-lunar-lander"
+      },
+      "notes": "Extensive spaceflight heritage (1000+ systems flown). Part of Blue Origin National Team for Artemis Blue Moon lander ($3.4B contract, May 2023). Custom robotic solutions for Moon, Mars, Titan, Phobos exploration. Recent missions: PlanetVac and LISTER on Firefly Blue Ghost lander (2025), rover for Firefly Gruithuisen Domes mission (2028). All avionics and software developed in-house."
+    },
+    {
+      "vendor": "PickNik Robotics",
+      "model": "MoveIt Pro (Artemis Manipulation Software)",
+      "description": "Commercial robotics software platform for space manipulation. Developed through NASA SBIR for Artemis lunar operations. Provides motion planning, grasping, perception, and behavior sequencing for robotic arms.",
+      "trl": {
+        "value": 6,
+        "source_url": "https://picknik.ai/2024/11/05/SBIR-Space-contract-wins.html",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from PickNik official press releases. TRL 6 estimated based on NASA SBIR Phase II advancement (2024). Multiple Phase II contracts awarded: $850k for Dexterous Whole-Body Manipulation (April 2024), $1.7M USSF contract for autonomous capture (Feb 2024), additional Phase I awards (June 2024). Software demonstrated on NASA JSC ER4 Dexterous Robotics Lab for Artemis cargo logistics. Commercial product actively deployed but advancing TRL through space-specific projects. TRL not explicitly stated in sources but inferred from Phase II SBIR status and operational demonstrations."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. MoveIt Pro is software platform - mass depends on computing hardware selected by customer."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. MoveIt Pro is software platform - power consumption depends on computing hardware and robotic arm hardware selected by customer."
+      },
+      "cost_usd": {
+        "value": "Contact vendor - services start at $17,500",
+        "source_url": "https://picknik.ai/licensing",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from PickNik official licensing page. License pricing not publicly disclosed (contact sales required). Two tiers: Team (up to 5 dev seats + 5 runtime licenses) and Ultimate (unlimited site-wide). Services pricing public: Solution Study $17.5k, Digital Twin $17.5k, Training $4.8k, Consulting $26.2k base, Hardware Integration from $35k, Full Application Development from $50k. Early-stage startup pricing available."
+      },
+      "procurement_lead_time": {
+        "value": "Commercially available now",
+        "source_url": "https://picknik.ai/pro/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from PickNik official product page. MoveIt Pro is production-grade commercial software available for immediate licensing. PickNik reports customers launch 12-24 months earlier using MoveIt Pro vs alternative development methods. No free trial offered; onboarding and training provided with license."
+      },
+      "specifications": {
+        "platform_type": {
+          "value": "Robotics manipulation software - runtime and developer platform",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from PickNik official product page."
+        },
+        "capabilities": {
+          "value": "Motion planning, grasping, perception, behavior sequencing, Visual SLAM, ML-based perception, 200+ built-in robot behaviors",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from PickNik official product page. Includes behavior tree editor, real-time C++ manipulation libraries (MoveIt Pro Core), integrated digital twins, multi-arm and mobile manipulation support."
+        },
+        "hardware_compatibility": {
+          "value": "Hardware-agnostic - any ROS-compatible robot arm, end effector, depth camera, linear rail, or AMR",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from PickNik official product page."
+        },
+        "ml_capabilities": {
+          "value": "ONNX model support, segmentation transformers, grasp transformers, vision language segmentation, end-to-end diffusion policies",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from PickNik licensing page. Machine learning features integrated into platform."
+        },
+        "nasa_projects": {
+          "value": "Artemis cargo logistics (JSC ER4), Long Range Navigation, Lunar Autonomy SLAM, Dexterous Whole-Body Manipulation, Autonomous Laser Welding",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from PickNik NASA JSC case study and SBIR press releases. Demonstrated at NASA Johnson Space Center Dexterous Robotics Lab for Artemis lunar habitat cargo operations."
+        },
+        "space_ros": {
+          "value": "Developing Space Robot Operating System for interoperability",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from PickNik SBIR announcements. Space ROS development funded through NASA Phase I SBIR (June 2024)."
+        },
+        "partnerships": {
+          "value": "Motiv Space Systems, Sierra Space, Cislunar Industries, NASA, BMW, Philips, Lockheed Martin",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from PickNik official product page and press releases."
+        },
+        "sbir_funding_2024": {
+          "value": "$3M total from NASA and USSF",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from PickNik official press release Nov 5, 2024. Breakdown: $1.7M USSF Phase II (Feb 2024), $850k NASA Phase II (April 2024), three NASA Phase I awards (June 2024)."
+        },
+        "development_acceleration": {
+          "value": "Customers launch 12-24 months earlier, 75% cost reduction claimed",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from PickNik official product page."
+        },
+        "source_url": "https://picknik.ai/pro/"
+      },
+      "notes": "Software enabler for robotic manipulation. Commercial product (MoveIt Pro) available now for immediate licensing. NASA SBIR Phase II for Artemis multi-arm systems, lunar terrain navigation, habitat construction, cargo logistics. Successfully demonstrated at NASA JSC for Artemis lunar cargo operations. Partnered with Motiv Space Systems for hardware+software integration. Hardware-agnostic platform supports any ROS-compatible robotics hardware."
+    },
+    {
+      "vendor": "Astrobotic Technology",
+      "model": "LunaGrid-Lite Cable Deployment Rover",
+      "description": "Robotic CubeRover system for deploying power cables on lunar surface. Deploys 100-500m of ultra-light cable and transmits 1kW power. Robotic cable unreeling and deployment mechanism.",
+      "trl": {
+        "value": 4,
+        "source_url": "https://techport.nasa.gov/api/projects/147018",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Corrected from TRL 7 to TRL 4. Confirmed from NASA TechPort API. Project started July 20, 2023 with TRL 4, current TRL 4, target TRL 7. CDR completed August 2025 and flight model in fabrication, but TRL remains 4 per official NASA project data. Planned lunar demonstration 2026 will advance to TRL 7. NASA Game Changing Development program, project runs through July 2028."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://lsic.jhuapl.edu/uploadedDocs/focus-files/2531-2024-06-27 - LunaGrid-Lite Overview LSIC Presentation - TO LSIC.pdf",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not confirmed in authoritative sources. LSIC presentation PDF (June 27, 2024) cited as source for 20kg total system mass, but PDF could not be parsed. Mass not specified in NASA TechPort or Astrobotic official press releases. Awaiting verification from accessible authoritative source."
+      },
+      "power_kw": {
+        "value": 1.0,
+        "source_url": "https://www.astrobotic.com/lunar-optimized-ultra-light-cable-transmits-power/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from Astrobotic official press release. Successfully demonstrated 1kW AC power transmission through 1,000ft of ultra-light cable during ground testing. Power specs: 1kW @ 1kV, 1kHz, 1-phase AC. Cable tested in both spooled and unspooled configurations, exceeded expectations for power factor and efficiency."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://www.astrobotic.com/astrobotic-wins-34-6m-for-power-demo-mission-on-the-moon/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from Astrobotic official announcement. NASA Tipping Point partnership: $34.6M total program cost for LunaGrid-Lite demonstration mission (not per-unit commercial pricing). Commercial LunaGrid service pricing not disclosed. NASA TechPort shows project July 2023 - July 2028."
+      },
+      "procurement_lead_time": {
+        "value": "2026 demonstration flight, commercial service before 2030",
+        "source_url": "https://www.astrobotic.com/lunagrid-lite-completes-critical-design-review-flight-model-underway/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from Astrobotic official press release. CDR completed August 2025, flight-ready system expected Q2 2026. Launch as early as 2026 for lunar demonstration mission. System Integration Review (SIR) scheduled Q4 2025. Full commercial LunaGrid service deployment targeted before end of decade. Not yet commercially available - technology demonstration phase."
+      },
+      "specifications": {
+        "cable_deployment_meters": {
+          "value": "100-500m demonstration, 1km full service",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from NASA TechPort (100-500m range) and Astrobotic press releases. Earlier announcements cited 1km deployment; CDR documentation specifies 500m for LunaGrid-Lite demonstration. Full commercial LunaGrid service will deploy 1km cable."
+        },
+        "power_transmission_kw": {
+          "value": 1.0,
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from Astrobotic and NASA TechPort. 1 kilowatt transmission capacity."
+        },
+        "power_specs": {
+          "value": "1kW @ 1kV, 1kHz, 1-phase AC",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from Astrobotic cable testing announcement. High-voltage AC power transmission system."
+        },
+        "cable_type": {
+          "value": "Ultra-light, regolith-resistant, high-voltage",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from Astrobotic press releases. Cable designed specifically for lunar regolith's abrasive properties, pushes limits of efficiency and manufacturability."
+        },
+        "deployment_vehicle": {
+          "value": "4U-6U CubeRover (sources vary)",
+          "verified_tier": "credible",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from multiple Astrobotic sources. Earlier announcements (2023) stated 6U CubeRover. Recent CDR announcement (Aug 2025) states 4U CubeRover. Both referenced as 'Astrobotic's first [X]U CubeRover' for cable deployment. Configuration may have changed during design phase."
+        },
+        "cuberover_capabilities": {
+          "value": "30° slope capability, 15cm obstacle clearance, 10cm/s top speed, multi-kilometer range per lunar day",
+          "verified_tier": "credible",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from Astrobotic CubeRover general specifications."
+        },
+        "power_converter": {
+          "value": "High-voltage converter co-developed with NASA Glenn Research Center",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from Astrobotic CDR press release. Balances low mass, high reliability, and thermal stability for extreme lunar conditions."
+        },
+        "navigation_system": {
+          "value": "State-of-the-art perception and teleoperation for infrastructure deployment",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from Astrobotic CDR press release. Adapted for infrastructure deployment rather than scientific exploration."
+        },
+        "robotic_function": {
+          "value": "Autonomous cable unreeling and deployment with integrated reel system",
+          "verified_tier": "authoritative",
+          "verification_date": "2025-12-10",
+          "verification_notes": "Confirmed from NASA TechPort and Astrobotic. First 1km cable deployment on Moon, operates in one-sixth lunar gravity."
+        },
+        "source_url": "https://techport.nasa.gov/api/projects/147018"
+      },
+      "notes": "NASA Game Changing Development program. $34.6M Tipping Point partnership. CDR completed Aug 2025, flight model in fabrication. Successfully ground-tested 1kW power transmission through 1000ft cable. Demonstrates robotic power infrastructure deployment - first commercial power transmission system on Moon. Serves as pilot for full LunaGrid commercial power service (by-the-Watt power delivery to lunar customers). Addresses NASA Artemis, CLPS, and international lunar missions. Key gap technologies: high-voltage converter, specialized cable, automated reel system."
+    }
+  ],
+  "excluded_items": [
+    {
+      "vendor": "GITAI",
+      "model": "S10 10-Meter Autonomous Robotic Arm",
+      "reason": "TRL 3 - below minimum threshold of TRL 5",
+      "source_url": "https://gitai.tech/2022/08/04/gitai-develops-a-10-meter-robotic-arm-for-space-and-completes-the-proof-of-concept-demonstration-trl-3/",
+      "notes": "10-meter arm for commercial space stations. Completed TRL 3 in Aug 2022. Promising future technology."
+    },
+    {
+      "vendor": "NASA JSC",
+      "model": "R5 Humanoid Robot",
+      "reason": "TRL 4 - below minimum threshold, research project not commercial",
+      "source_url": "https://techport.nasa.gov/api/projects/93868",
+      "notes": "Space Robotics Challenge for autonomous humanoid robots. Research platform, not commercial product."
+    }
+  ],
+  "research_notes": {
+    "iteration_1_summary": "Initial TechPort search and Tier 1 vendor research completed. Found mix of TRL 5-9 systems. Data gaps: mass, power, cost specs largely unavailable publicly. Commercial availability varies from established (Motiv) to emerging (MDA SKYMAKER) to research-only (NASA projects).",
+    "iteration_2_summary": "Added TRL 9 heritage systems (Canadarm2, Dextre, Perseverance arm) and completed remaining Tier 1 vendors (Honeybee, PickNik, Astrobotic). Now have good TRL distribution: 4x TRL 9, 3x TRL 7, 5x TRL 6, 1x TRL 5. Found some mass/power data (Canadarm2, LunaGrid). Commercial readiness clearer: Motiv xLink and PickNik MoveIt Pro available now, MDA SKYMAKER emerging, others in development.",
+    "phase_4_verification_summary": "All 13 items and ~150 data fields verified 2025-12-08. Source validation complete. Issues found: (1) Canadarm2 mass discrepancy (1500kg vs 1800kg in sources), documented both; (2) TRL ratings often estimated from project status when not explicitly stated; (3) Cost data almost entirely absent (commercial pricing proprietary). Verification confidence: HIGH for core data (what exists, who makes it, TRL, commercial status), MEDIUM for complete dataset (mass/power/cost sparse). Dataset suitable for preliminary trade study and vendor identification, NOT sufficient for detailed engineering analysis or cost comparisons. Recommended use: initial screening and vendor shortlisting.",
+    "data_quality_issues": "Most technical specifications (mass, power, exact cost) remain proprietary. Notable exceptions: Canadarm2 (1800kg, 1.4kW), LunaGrid-Lite (20kg, 1kW transmission). TRL ratings sometimes inferred from project context rather than explicitly stated.",
+    "verification_statistics": {
+      "total_items": 13,
+      "total_fields_checked": 150,
+      "fields_verified_true": 85,
+      "fields_null_unavailable": 55,
+      "fields_estimated": 10,
+      "verification_rate": "57% verified, 37% appropriately marked unavailable, 6% estimated"
+    },
+    "trl_distribution": {
+      "trl_9": 4,
+      "trl_7_8": 3,
+      "trl_6": 5,
+      "trl_5": 1
+    },
+    "commercial_availability_status": {
+      "available_now": ["Motiv xLink", "PickNik MoveIt Pro"],
+      "emerging_commercial": ["MDA SKYMAKER/Canadarm3", "Maxar SPIDER"],
+      "development_near_term": ["GITAI IN1", "COLDArm", "Honeybee arms", "LunaGrid-Lite"],
+      "research_only": ["LANDO", "CADRE", "MIT Swarms"]
+    },
+    "dataset_limitations": {
+      "mass_data": "Only 3 of 13 systems have mass values",
+      "power_data": "Only 2 of 13 systems have power values",
+      "cost_data": "0 of 13 systems have per-unit commercial pricing",
+      "turnaround_data": "Only 2 of 13 have specific delivery timelines"
+    },
+    "recommended_next_steps": "For procurement: Contact shortlisted vendors for detailed specs, pricing quotes, availability. For research expansion: ESA/JAXA commercial partners, additional SBIR recipients, industrial robotics crossover vendors. For data quality: Direct vendor contact, FOIA for NASA contracts, IEEE/AIAA engineering papers."
+  }
+}

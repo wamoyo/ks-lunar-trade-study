@@ -1,0 +1,1027 @@
+{
+  "category": "Navigation and Positioning Systems",
+  "last_updated": "2025-12-08",
+  "items": [
+    {
+      "vendor": "Honeywell International",
+      "model": "MIMU (Miniature Inertial Measurement Unit)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://aerospace.honeywell.com/us/en/products-and-services/product/hardware-and-systems/space/miniature-inertial-measurement-unit-mimu",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9: 300+ units launched with over 1 million on-orbit hours per Honeywell official site",
+        "notes": "300+ units launched, 1M+ hours on-orbit, extensive flight heritage on GEO, LEO, planetary, and deep space missions"
+      },
+      "mass_kg": {
+        "value": 4.6,
+        "source_url": "https://aerospace.honeywell.com/us/en/products-and-services/product/hardware-and-systems/space/miniature-inertial-measurement-unit-mimu",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Honeywell official specs: 4.6 kg typical, less than 4.7 kg maximum",
+        "notes": "Typical mass, less than 4.7 kg maximum"
+      },
+      "power_kw": {
+        "value": 0.025,
+        "source_url": "https://aerospace.honeywell.com/us/en/products-and-services/product/hardware-and-systems/space/miniature-inertial-measurement-unit-mimu",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Honeywell official specs: 25W typical, less than 32W maximum",
+        "notes": "25W typical, less than 32W maximum"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Honeywell official site and public sources",
+        "notes": "Commercial pricing not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Honeywell official site",
+        "notes": "Not publicly available"
+      },
+      "dimensions": {
+        "value": "233.7mm dia x 169.9mm height",
+        "source_url": "https://aerospace.honeywell.com/us/en/products-and-services/product/hardware-and-systems/space/miniature-inertial-measurement-unit-mimu",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Honeywell official specs: less than 233.7 mm depth \u00d7 169.9 mm height"
+      },
+      "performance_specs": {
+        "value": "3-axis ring laser gyroscope, radiation hardened (100 Krad total dose), -30\u00b0C to 65\u00b0C operation",
+        "source_url": "https://aerospace.honeywell.com/us/en/products-and-services/product/hardware-and-systems/space/miniature-inertial-measurement-unit-mimu",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Honeywell official specs: 3-axis GG1320 RLG, 100 Krad total dose, -30\u00b0C to 65\u00b0C operating temp"
+      },
+      "heritage": {
+        "value": "Mars InSight lander (2018), OSIRIS-REx (2023), multiple GEO/LEO satellites, all Mars missions since 1998",
+        "source_url": "https://aerospace.honeywell.com/us/en/about-us/customer-success-stories/lockheed-martins-mars-lander-counts-on-honeywell-mimu",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed Mars InSight and OSIRIS-REx from Honeywell official sources. Removed Artemis III-V claim (not found in authoritative sources). Added 'all Mars missions since 1998' per Honeywell customer success story"
+      },
+      "notes": "Industry standard IMU for space applications, Ring Laser Gyroscope technology, radiation hardened for 15-year missions"
+    },
+    {
+      "vendor": "Northrop Grumman",
+      "model": "LN-200S",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.northropgrumman.com/space/navigating-mars-and-beyond-with-ln-200-inertial-measurement-units",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9: 35,000+ units delivered, full-rate production since 1994, extensive flight heritage per Northrop Grumman official site",
+        "notes": "Flight-proven since 1994, 35,000+ units delivered, extensive Mars and lunar heritage"
+      },
+      "mass_kg": {
+        "value": 0.748,
+        "source_url": "https://www.satcatalog.com/component/ln-200s/",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SatCatalog (trade publication database)"
+      },
+      "power_kw": {
+        "value": 0.012,
+        "source_url": "https://www.satcatalog.com/component/ln-200s/",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 12.0W average power from SatCatalog (trade publication database)",
+        "notes": "12.0W average power"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Northrop Grumman official site and public sources",
+        "notes": "Commercial pricing not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Confirmed in production but lead time not specified",
+        "notes": "In production, availability not specified"
+      },
+      "performance_specs": {
+        "value": "3 solid-state fiber-optic gyros, 3 silicon MEMS accelerometers, hermetically sealed, lowest gyro and accelerometer white noise in medium accuracy IMU class",
+        "source_url": "https://www.northropgrumman.com/what-we-do/ln-200s-inertial-measurement-unit",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Northrop Grumman official product page with specific sensor counts"
+      },
+      "heritage": {
+        "value": "Mars rovers Spirit (2004), Opportunity (2004), Curiosity (2012), Perseverance (2020), numerous GEO/LEO satellites",
+        "source_url": "https://www.northropgrumman.com/space/navigating-mars-and-beyond-with-ln-200-inertial-measurement-units",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed Spirit, Opportunity, Curiosity, and Perseverance from Northrop Grumman official site. Removed Clementine claim (mentioned in search results but not in authoritative Northrop Grumman sources)"
+      },
+      "notes": "World's first fiber-optic-gyro-based IMU, in full-rate production since 1994, designed for 6-year missions, 100% market share on Mars rovers"
+    },
+    {
+      "vendor": "Blue Canyon Technologies",
+      "model": "Nano Star Tracker (NST) - Standard",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.bluecanyontech.com/components/nano-star-trackers/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9: 179 units flown on-orbit per Blue Canyon official site and LinkedIn",
+        "notes": "179 units flown on-orbit, extensive flight heritage"
+      },
+      "mass_kg": {
+        "value": 0.35,
+        "source_url": "https://www.bluecanyontech.com/components/nano-star-trackers/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 0.35 kg from Blue Canyon official site and SatCatalog",
+        "notes": "With baffle"
+      },
+      "power_kw": {
+        "value": 0.0015,
+        "source_url": "https://www.satcatalog.com/component/standard-nst/",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Found 1.5W average power consumption from SatCatalog (trade publication database)",
+        "notes": "1.5W average power"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Blue Canyon official site and public sources",
+        "notes": "Commercial pricing not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Confirmed in production per SatCatalog but lead time not specified"
+      },
+      "dimensions": {
+        "value": "10 x 5 x 5.5 cm",
+        "source_url": "https://www.bluecanyontech.com/components/nano-star-trackers/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 10 x 6.73 x 5 cm to 10 x 5 x 5.5 cm per Blue Canyon official specs for Standard NST",
+        "notes": "With baffle"
+      },
+      "performance_specs": {
+        "value": "Cross-boresight accuracy: 1 arcsec (improved), about-boresight: 40 arcsec, 5 Hz update rate, lost-in-space identification, FOV: 10x12 degrees, tracks to 7.5 magnitude, 20,000+ star catalog",
+        "source_url": "https://www.bluecanyontech.com/components/nano-star-trackers/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected specs from Blue Canyon official site. 1 arcsec cross-boresight with improved optics per LinkedIn. Changed bore-sight 4 arcsec/roll 30 arcsec to about-boresight 40 arcsec per official specs"
+      },
+      "heritage": {
+        "value": "Lunar Flashlight mission, 179 units on-orbit",
+        "source_url": "https://ntrs.nasa.gov/citations/20230006952",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Lunar Flashlight confirmed from NASA technical report. 179 units confirmed from Blue Canyon LinkedIn/official sources"
+      },
+      "notes": "Industry-trusted star tracker with best-in-class performance for smallsats, used for attitude determination"
+    },
+    {
+      "vendor": "Redwire Space",
+      "model": "Star Tracker / SpectraTRAC",
+      "trl": {
+        "value": 9,
+        "source_url": "https://satsearch.co/products/redwirespace-star-tracker",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 from SatSearch database. NASA PDF could not be parsed for verification",
+        "notes": "TRL 9, flight heritage available"
+      },
+      "mass_kg": {
+        "value": 0.475,
+        "source_url": "https://satsearch.co/products/redwirespace-star-tracker",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 475g (0.475 kg) from SatSearch database",
+        "notes": "Includes baffle and star tracker"
+      },
+      "power_kw": {
+        "value": 0.002,
+        "source_url": "https://satsearch.co/products/redwirespace-star-tracker",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 0.0025 kW to 0.002 kW (2.0W average in Lost In Space mode, 1.5W tracking mode) per SatSearch specs",
+        "notes": "2.0W average (Lost In Space), 1.5W (tracking mode)"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked public sources",
+        "notes": "Commercial pricing not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published in available sources"
+      },
+      "dimensions": {
+        "value": "55 x 65 x 70 mm (with baffle)",
+        "source_url": "https://satsearch.co/products/redwirespace-star-tracker",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SatSearch. Removed SpectraTRAC dimensions as they appear to be a different variant not well documented"
+      },
+      "performance_specs": {
+        "value": "Accuracy: 10 arcsec cross-axis, 27 arcsec boresight at 4 Hz, max tracking rate: >2\u00b0/sec, FOV: 19x14\u00b0, radiation tested (75 krad), design life >5 years LEO",
+        "source_url": "https://satsearch.co/products/redwirespace-star-tracker",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected FOV from 14x19\u00b0 to 19x14\u00b0 and added specific accuracy values per SatSearch specs"
+      },
+      "heritage": {
+        "value": "Multiple CubeSat and NanoSat missions",
+        "source_url": "https://satsearch.co/products/redwirespace-star-tracker",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "General heritage statement from SatSearch, specific missions not detailed"
+      },
+      "notes": "Compact COTS star tracker optimized for CubeSat/NanoSat missions, lost-in-space identification, self-contained"
+    },
+    {
+      "vendor": "Astrobotic Technology",
+      "model": "OPAL (Optical Precision Autonomous Landing)",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.astrobotic.com/landing-tech-terrain-relative-navigation-validated-ready-for-spaceflight/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7: Validated in terrestrial flight tests (Nov 2022) and operated in space on Peregrine Mission One (Jan 2024), but did not complete lunar landing demonstration due to mission failure. Landing sensors remained at lower TRL per mission reports.",
+        "notes": "Validated in terrestrial flight tests, technology demonstration on Peregrine Mission 1, integrates JPL Mars 2020 Lander Vision System"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Astrobotic official site and mission reports",
+        "notes": "Specifications not publicly available"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Astrobotic official site and mission reports",
+        "notes": "Specifications not publicly available"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Commercial pricing not publicly available",
+        "notes": "Commercial pricing not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published"
+      },
+      "performance_specs": {
+        "value": "Real-time pose estimation over wide range of altitudes, off-nadir angles, and velocities. Tested from 9km altitude over 100km terrain traverse. Includes 3D terrain modeling and real-time physics-based lighting simulation.",
+        "source_url": "https://www.astrobotic.com/landing-tech-terrain-relative-navigation-validated-ready-for-spaceflight/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Astrobotic official site describing Nov 2022 flight tests in Mojave Desert"
+      },
+      "heritage": {
+        "value": "Validated in King Air B200 aircraft flight tests (Mojave Desert, Nov 2022), Peregrine Mission One (Jan 2024) in-space operation",
+        "source_url": "https://www.astrobotic.com/landing-tech-terrain-relative-navigation-validated-ready-for-spaceflight/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated to include Nov 2022 date and Jan 2024 Peregrine Mission One per Astrobotic official sources. Note: Peregrine Mission One did not land on Moon due to propellant leak"
+      },
+      "notes": "Bolt-on commercial TRN solution, includes all flight hardware/software and mapping tools, flying on Peregrine and Griffin landers, NASA STMD Tipping Point partner with JPL"
+    },
+    {
+      "vendor": "Psionic",
+      "model": "PSNDL (Psionic Space Navigation Doppler Lidar)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://ntrs.nasa.gov/citations/20250010290",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 8 to TRL 9. NDL successfully demonstrated on Intuitive Machines IM-1 lunar landing mission (Feb 22, 2024), providing accurate measurements within 5m and 0.5 m/s per NASA technical report. This represents successful flight proven mission operations.",
+        "notes": "Flight proven on IM-1 lunar landing (Feb 2024), flight tested on NASA F-18, Masten Xodiac, helicopter tests"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Psionic mentions next generation with photonic integrated circuit will reduce mass by 60% from current version, but absolute values not disclosed. Checked NASA and Psionic sources.",
+        "notes": "Next generation with photonic integrated circuit will reduce mass by 60% from current version, absolute values not published"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Psionic mentions next generation will require 50% less power, but absolute values not disclosed. Checked NASA and Psionic sources.",
+        "notes": "Next generation will require 50% less power, absolute values not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Commercial pricing not publicly available",
+        "notes": "Commercial pricing not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published"
+      },
+      "performance_specs": {
+        "value": "Velocity accuracy: within a few cm/sec, distance accuracy: within a few feet, frequency modulated continuous wave method provides simultaneous range and velocity measurement, modular software-defined capability",
+        "source_url": "https://www.nasa.gov/directorates/stmd/impact-story-navigation-doppler-lidar/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated performance specs based on NASA official source. NASA states 'within a few centimeters per second' for velocity and 'within a few feet' for distance. IM-1 mission achieved within 5m and 0.5 m/s accuracy per NASA technical report."
+      },
+      "heritage": {
+        "value": "Intuitive Machines IM-1 lunar landing (Feb 22, 2024), NASA F-18 flight tests, Masten Xodiac suborbital tests (COBALT 2017), helicopter flight tests, selected for Astrobotic Griffin Mission",
+        "source_url": "https://ntrs.nasa.gov/citations/20250010290",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated heritage to include successful IM-1 lunar landing mission and various flight tests per NASA sources. IM-1 mission represents first successful lunar landing demonstration."
+      },
+      "notes": "Commercial Navigation Doppler Lidar for precision landing, NASA Phase III SBIR for photonic integrated circuit integration, significantly more precise than radar with reduced SWaP"
+    },
+    {
+      "vendor": "Advanced Space",
+      "model": "CAPS (Cislunar Autonomous Positioning System)",
+      "trl": {
+        "value": 7,
+        "source_url": "https://advancedspace.com/caps/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 6 to TRL 7. CAPS successfully demonstrated in operational cislunar environment on CAPSTONE mission with five successful crosslink measurements with LRO (first on May 9, 2023). Mission has been operating 670+ days at the Moon, demonstrating autonomous positioning capability. This represents TRL 7: working prototype demonstrated in operational environment.",
+        "notes": "NASA SBIR Phase 2 aimed for TRL 4\u21926, exceeded with successful on-orbit demonstrations"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. CAPS is a software-based navigation system. Checked Advanced Space official site.",
+        "notes": "Specifications not publicly available, software-based system"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. CAPS is a software-based navigation system. Checked Advanced Space official site.",
+        "notes": "Specifications not publicly available, software-based system"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Commercial pricing not publicly available",
+        "notes": "Commercial pricing not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published"
+      },
+      "performance_specs": {
+        "value": "Peer-to-peer navigation using relative tracking between vehicles, enables autonomous absolute navigation, reduces ground-based tracking requirements. Demonstrated crosslink measurements computing range and trajectory between spacecraft.",
+        "source_url": "https://advancedspace.com/caps/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Advanced Space official site describing CAPSTONE demonstrations"
+      },
+      "heritage": {
+        "value": "CAPSTONE mission (launched 2022, 670+ days at Moon as of 2024), five successful crosslink measurements with LRO starting May 9, 2023",
+        "source_url": "https://advancedspace.com/caps/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated heritage with specific dates and mission duration from Advanced Space official sources"
+      },
+      "notes": "Peer-to-peer cislunar navigation technology, demonstrated on CAPSTONE, future applications for lunar surface and orbit navigation"
+    },
+    {
+      "vendor": "NASA Marshall Space Flight Center / Intuitive Machines",
+      "model": "Lunar Node 1 (LN-1)",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-lights-beacon-on-moon-with-autonomous-navigation-system-test/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7: Successfully tested on Intuitive Machines IM-1 mission lunar surface (Feb 22, 2024). System completed two 15-minute transmissions from lunar surface, with signals received by NASA Deep Space Network from Goldstone and Madrid. Previously tested on ISS in 2018. Represents working prototype demonstrated in operational environment.",
+        "notes": "Successfully tested on Intuitive Machines IM-1 mission (February 2024)"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Modular COTS design per NASA source, but specific mass not disclosed. Checked NASA official site.",
+        "notes": "Modular COTS design, specifications not published"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA official site.",
+        "notes": "Specifications not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. NASA technology demonstration funded by Science Mission Directorate",
+        "notes": "Technology demonstration, commercial pricing not applicable"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable for NASA technology demonstration"
+      },
+      "performance_specs": {
+        "value": "S-band navigation beacon using MAPS (Multi-spacecraft Autonomous Positioning System) software, modular design with COTS components, provides real-time point-to-point communications network for position verification relative to other networked assets",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-lights-beacon-on-moon-with-autonomous-navigation-system-test/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official site describing IM-1 mission test"
+      },
+      "heritage": {
+        "value": "Intuitive Machines IM-1 Odysseus lander (Feb 22, 2024, Malapert A crater), ISS demonstration (2018 using SCaN Testbed)",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-lights-beacon-on-moon-with-autonomous-navigation-system-test/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated heritage with specific mission details from NASA official source"
+      },
+      "notes": "First lunar surface navigation beacon demonstration, modular COTS design enables future commercial adaptation, part of LunaNet infrastructure development"
+    },
+    {
+      "vendor": "Leonardo SpA",
+      "model": "AA-STR MKII",
+      "trl": {
+        "value": 9,
+        "source_url": "https://electronics.leonardo.com/en/products/aastr",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 from Leonardo official site. AA-STR (predecessor) has extensive flight heritage including BepiColombo (2018 launch) and multiple GEO missions. AA-STR MKII is next-generation version currently in production.",
+        "notes": "Next-generation autonomous star sensor for GEO telecommunications, Earth observation, science missions, and deep space exploration"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "AA-STR MKII specific mass not published. Predecessor AA-STR has mass of 2.6 kg per SatCatalog. MKII has reduced mass compared to AA-STR per Leonardo sources, but exact value not disclosed.",
+        "notes": "Reduced mass compared to previous generation AA-STR (2.6 kg), specific value not published"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "AA-STR MKII specific power not published. Predecessor AA-STR has 5.6W average power per SatCatalog. MKII has reduced power compared to AA-STR per Leonardo sources, but exact value not disclosed.",
+        "notes": "Reduced power consumption compared to AA-STR (5.6W), specific value not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Commercial pricing not publicly available",
+        "notes": "Commercial pricing not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. In production per Leonardo sources"
+      },
+      "performance_specs": {
+        "value": "FOV: 10 degrees, focal length: 50.7mm, detector: 1024x1024 HAS2 APS sensor, 18\u00b5m pixel pitch, integrated optical head and processing unit in single enclosure",
+        "source_url": "https://link.springer.com/chapter/10.1007/978-3-031-51928-4_15",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from academic conference proceedings (Springer). Specifications match search results for AA-STR MKII."
+      },
+      "heritage": {
+        "value": "AA-STR predecessor used on BepiColombo (2018), SICRAL 2, Meteosat Third Generation (MTG), multiple GEO telecommunications and Earth observation missions. AA-STR MKII is next-generation replacement.",
+        "source_url": "https://electronics.leonardo.com/en/products/aastr",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Heritage confirmed from Leonardo official sources. AA-STR has extensive flight proven heritage at TRL 9. MKII is production successor with improved capabilities."
+      },
+      "notes": "Next-generation star tracker with improved computational capabilities, single enclosure design, suitable for severe radiation environment missions"
+    },
+    {
+      "vendor": "Terma",
+      "model": "T3 Star Tracker",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.terma.com/products/space/star-trackers/",
+        "verification_date": "2025-12-09",
+        "notes": "Flight-proven for microsatellites with lifetimes >5 years",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.terma.com)"
+      },
+      "mass_kg": {
+        "value": 0.35,
+        "source_url": "https://satsearch.co/products/terma-t3-star-tracker",
+        "verification_date": "2025-12-09",
+        "verified_tier": "reference",
+        "verification_notes": "Confirmed from satsearch.co (trade publication database)"
+      },
+      "power_kw": {
+        "value": 0.002,
+        "source_url": "https://satsearch.co/products/terma-t3-star-tracker",
+        "verification_date": "2025-12-09",
+        "notes": "2W power consumption",
+        "verified_tier": "reference",
+        "verification_notes": "Confirmed from satsearch.co (trade publication database)"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Commercial pricing not publicly available",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "dimensions": {
+        "value": "60 x 60 x 100 mm",
+        "source_url": "https://www.satcatalog.com/component/star-t3/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "reference",
+        "verification_notes": "Confirmed from www.satcatalog.com (trade publication database)"
+      },
+      "performance_specs": {
+        "value": "Operating temp: -40\u00b0C to +50\u00b0C, supply voltage: 5-12V, interface: CAN or RS422, precise tracking with outstanding thermal stability",
+        "source_url": "https://www.terma.com/media/0m4hsarf/terma_t3_str_data_sheet.pdf",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.terma.com)"
+      },
+      "heritage": {
+        "value": "Microsatellite missions with >5 year lifetimes",
+        "source_url": "https://www.terma.com/products/space/star-trackers/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.terma.com)"
+      },
+      "notes": "Compact star tracker designed for microsatellites, based on COTS components, designed for precise tracking and thermal stability"
+    },
+    {
+      "vendor": "arcsec",
+      "model": "Sagitta Star Tracker",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.arcsec.space/sagitta/",
+        "verification_date": "2025-12-09",
+        "notes": "Flight-proven for CubeSat applications",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.arcsec.space)"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Compact CubeSat-sized unit, specific mass not published",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Low power optimized for CubeSats, specific value not published",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Available through CubeSatShop.com, pricing on request",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "performance_specs": {
+        "value": "Accuracy: 2 arcsec (1\u03c3) cross-boresight, 10 arcsec (1\u03c3) along-boresight, fully autonomous, integrated baffle, optimized algorithms for accuracy and low computational cost",
+        "source_url": "https://www.arcsec.space/sagitta/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.arcsec.space)"
+      },
+      "heritage": {
+        "value": "CubeSat missions",
+        "source_url": "https://www.arcsec.space/sagitta/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.arcsec.space)"
+      },
+      "notes": "High-accuracy star tracker for CubeSats, developed by KU Leuven spinoff, arc second range pointing accuracy"
+    },
+    {
+      "vendor": "arcsec",
+      "model": "Twinkle Star Tracker",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.arcsec.space/twinkle/",
+        "verification_date": "2025-12-09",
+        "notes": "Flight-proven for CubeSat applications",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.arcsec.space)"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Matchbox car size, specific mass not published",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Low power optimized for CubeSats, specific value not published",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Available through CubeSatShop.com, pricing on request",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "performance_specs": {
+        "value": "Accuracy: 8 arcsec (1\u03c3) cross-boresight, 100 arcsec (1\u03c3) around boresight, extremely high attitude determination accuracy",
+        "source_url": "https://www.arcsec.space/twinkle/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.arcsec.space)"
+      },
+      "heritage": {
+        "value": "CubeSat missions",
+        "source_url": "https://www.arcsec.space/twinkle/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.arcsec.space)"
+      },
+      "notes": "Ultra-compact star tracker, arc second range pointing accuracy for CubeSats, size of a matchbox car"
+    },
+    {
+      "vendor": "Berlin Space Technologies / AAC Clyde Space",
+      "model": "ST200",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.aac-clyde.space/what-we-do/space-products-components/adcs/st200",
+        "verification_date": "2025-12-09",
+        "notes": "Flight heritage since development, one of world's smallest autonomous star trackers",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.aac-clyde.space)"
+      },
+      "mass_kg": {
+        "value": 0.042,
+        "source_url": "https://www.berlin-space-tech.com/prodsheets/st200.pdf",
+        "verification_date": "2025-12-09",
+        "notes": "40g without baffle, 106g with 40\u00b0 baffle",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.berlin-space-tech.com)"
+      },
+      "power_kw": {
+        "value": 0.00065,
+        "source_url": "https://www.berlin-space-tech.com/prodsheets/st200.pdf",
+        "verification_date": "2025-12-09",
+        "notes": "650mW for ST200-T and ST200-\u00b5D, 750mW for ST200-D",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.berlin-space-tech.com)"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Commercial pricing not publicly available",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "dimensions": {
+        "value": "30 x 30 x 38 mm (w/o baffle), 50 x 50 x 83 mm (w/ 40\u00b0 baffle)",
+        "source_url": "https://www.berlin-space-tech.com/prodsheets/st200.pdf",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.berlin-space-tech.com)"
+      },
+      "performance_specs": {
+        "value": "Accuracy: 30 arcsec (3\u03c3), update rate: 5 Hz, limiting magnitude: 6.0, interface: UART/RS422, voltage: 3.7-5.0V, operating temp: -20\u00b0C to +40\u00b0C, radiation: 11 krad tested, design life: 5 years LEO",
+        "source_url": "https://www.berlin-space-tech.com/prodsheets/st200.pdf",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.berlin-space-tech.com)"
+      },
+      "heritage": {
+        "value": "CubeSat and nanosatellite missions, co-developed with Hyperion Technologies",
+        "source_url": "https://www.aac-clyde.space/what-we-do/space-products-components/adcs/st200",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.aac-clyde.space)"
+      },
+      "notes": "One of world's smallest autonomous star trackers, designed for CubeSats and nanosatellites"
+    },
+    {
+      "vendor": "Berlin Space Technologies / AAC Clyde Space",
+      "model": "ST400",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.aac-clyde.space/what-we-do/space-products-components/adcs/st400",
+        "verification_date": "2025-12-09",
+        "notes": "Flight heritage since 2016, qualified for man-rated missions since October 2013",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.aac-clyde.space)"
+      },
+      "mass_kg": {
+        "value": 0.28,
+        "source_url": "https://www.satcatalog.com/component/st-400/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "reference",
+        "verification_notes": "Confirmed from www.satcatalog.com (trade publication database)"
+      },
+      "power_kw": {
+        "value": 0.0007,
+        "source_url": "https://www.satcatalog.com/component/st-400/",
+        "verification_date": "2025-12-09",
+        "notes": "<700mW",
+        "verified_tier": "reference",
+        "verification_notes": "Confirmed from www.satcatalog.com (trade publication database)"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Commercial pricing not publicly available",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "performance_specs": {
+        "value": "Accuracy: <10 arcsec (3\u03c3) pitch/yaw, <120 arcsec roll, update rate: 5 Hz, interface: RS422/RS485, radiation qualified: 9 krad (Si)",
+        "source_url": "https://www.satcatalog.com/component/st-400/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "reference",
+        "verification_notes": "Confirmed from www.satcatalog.com (trade publication database)"
+      },
+      "heritage": {
+        "value": "Man-rated missions since 2013, flight heritage since 2016, microsatellite missions",
+        "source_url": "https://www.aac-clyde.space/what-we-do/space-products-components/adcs/st400",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.aac-clyde.space)"
+      },
+      "notes": "Improved version of ST200 with increased accuracy and radiation tolerance, standalone low mass/power star tracker for small satellites"
+    },
+    {
+      "vendor": "Blue Origin",
+      "model": "Blue Moon TRN System",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.nasa.gov/directorates/stmd/impact-story-terrain-relative-navigation/",
+        "verification_date": "2025-12-09",
+        "notes": "Flight demonstrated on New Shepard suborbital vehicle (2020, 2021), NASA STMD Tipping Point partnership",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from www.nasa.gov (government/authoritative source)"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Specifications not publicly available",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Specifications not publicly available",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Commercial pricing not publicly available",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "performance_specs": {
+        "value": "Landing precision: 23m (75 feet), target: single-digit meters. Includes star tracker and flash lidar for autonomous navigation. Camera correlates terrain features to onboard maps for position/altitude calculation.",
+        "source_url": "https://arc.aiaa.org/doi/10.2514/6.2022-1830",
+        "verification_date": "2025-12-09",
+        "verified_tier": "credible",
+        "verification_notes": "Confirmed from arc.aiaa.org"
+      },
+      "heritage": {
+        "value": "New Shepard suborbital flights (Oct 2020, Aug 2021), Blue Moon lunar lander development",
+        "source_url": "https://www.nasa.gov/directorates/stmd/impact-story-terrain-relative-navigation/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from www.nasa.gov (government/authoritative source)"
+      },
+      "notes": "TRN system for Blue Moon lunar lander, developed with JPL and NASA JSC, matured through NASA Tipping Point partnership"
+    },
+    {
+      "vendor": "Draper Laboratory",
+      "model": "SPLICE TRN System",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.draper.com/news-releases/new-way-navigate-your-next-moon-landing",
+        "verification_date": "2025-12-09",
+        "notes": "Demonstrated on Masten Xodiac lander (September 2019), relevant environment demonstration",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.draper.com)"
+      },
+      "mass_kg": {
+        "value": 4,
+        "source_url": "https://flightopportunities.ndc.nasa.gov//technologies/198/",
+        "verification_date": "2025-12-09",
+        "notes": "Approximate mass for test apparatus (18x12x9 inches, ~4kg)",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from flightopportunities.ndc.nasa.gov (government/authoritative source)"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Specifications not publicly available",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Commercial pricing not publicly available",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "performance_specs": {
+        "value": "Components: 2 cameras, IMU, barometer, onboard computer. Successfully matched ground features above ~300 feet altitude. Overlays flight images onto preloaded satellite maps with known features for position determination.",
+        "source_url": "https://flightopportunities.ndc.nasa.gov//technologies/198/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from flightopportunities.ndc.nasa.gov (government/authoritative source)"
+      },
+      "heritage": {
+        "value": "Masten Xodiac lander demonstration (Sept 2019), NASA SPLICE project",
+        "source_url": "https://www.draper.com/news-releases/new-way-navigate-your-next-moon-landing",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (www.draper.com)"
+      },
+      "notes": "Part of NASA Safe and Precise Landing Integrated Capabilities Evolution (SPLICE) project, self-contained strapdown unit, supports navigation to just before landing"
+    },
+    {
+      "vendor": "Masten Space Systems",
+      "model": "SkyMage Beacon Network",
+      "trl": {
+        "value": 5,
+        "source_url": "https://masten.aero/press-release/masten-awarded-contract-to-develop-navigation-network-for-the-moon/",
+        "verification_date": "2025-12-09",
+        "notes": "Phase I completed (concept design), Phase II development (PNT beacon hardware), scheduled completion 2023",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (masten.aero)"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Specifications not published, shock-proof beacon enclosures under development",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Specifications not published",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "notes": "Development project, commercial pricing not applicable",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verification_date": "2025-12-09",
+        "verified_tier": "unverified",
+        "verification_notes": "Not published"
+      },
+      "performance_specs": {
+        "value": "GPS-like positioning and navigation network for lunar surface. Beacons survive harsh lunar conditions, can be deployed from orbit and penetrate lunar surface to create autonomous surface network. Layered architecture with orbital and surface elements.",
+        "source_url": "https://www.gpsworld.com/masten-to-develop-beacon-navigation-system-for-the-moon/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "unverified",
+        "verification_notes": "Verified from documented source"
+      },
+      "heritage": {
+        "value": "Testing planned on Xodiac lander for terrestrial demonstration, Phase II SBIR AFWERX",
+        "source_url": "https://masten.aero/press-release/masten-awarded-contract-to-develop-navigation-network-for-the-moon/",
+        "verification_date": "2025-12-09",
+        "verified_tier": "authoritative",
+        "verification_notes": "Confirmed from vendor official site (masten.aero)"
+      },
+      "notes": "Ranged intelligence system offloading PNT hardware from spacecraft to shared sensor array. Partnership with Leidos for shock-proof enclosures. Air Force Research Lab AFWERX Phase II SBIR contract."
+    }
+  ]
+}

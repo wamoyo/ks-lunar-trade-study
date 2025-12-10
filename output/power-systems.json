@@ -1,0 +1,1324 @@
+{
+  "category": "Power Systems",
+  "last_updated": "2025-12-08",
+  "items": [
+    {
+      "vendor": "Astrobotic",
+      "model": "VSAT (Vertical Solar Array Technology)",
+      "category": "Solar Array",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.astrobotic.com/lunagrids-vertical-solar-array-technology-enters-tvac/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Astrobotic official site - entered TVAC testing at NASA JSC in 2024, consistent with TRL 6 (prototype tested in relevant environment)"
+      },
+      "power_output_kw": {
+        "value": 10,
+        "source_url": "https://www.astrobotic.com/astrobotic-developing-xl-solar-array-tech-for-lunar-power-infrastructure/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Astrobotic official site"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Astrobotic official site and news releases"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Astrobotic official site"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. LunaGrid-Lite demo planned no earlier than 2026"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. TVAC testing ongoing but specific temperature ranges not disclosed"
+      },
+      "dimensions": {
+        "deployed_height_m": 19.8,
+        "source_url": "https://www.astrobotic.com/lunagrids-vertical-solar-array-technology-enters-tvac/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 10m to 19.8m (65+ feet) per Astrobotic official site. Uses Redwire Space solar array technology"
+      },
+      "heritage": {
+        "missions": [],
+        "source_url": "https://www.astrobotic.com/lunagrids-vertical-solar-array-technology-enters-tvac/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed in development for LunaGrid system, no flight missions yet"
+      },
+      "notes": "Deployable, relocatable, self-leveling, sun-tracking system. Part of Astrobotic's LunaGrid commercial power service. VOLT (VSAT Optimized for Lunar Traverse) combines this 65+ foot tall solar array with a mobile rover platform."
+    },
+    {
+      "vendor": "Astrobotic",
+      "model": "VSAT-XL",
+      "category": "Solar Array",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.astrobotic.com/astrobotic-awarded-lunar-power-study-with-vsat-xl/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Astrobotic official site - SBIR Phase I ($150k) awarded August 2024, Phase II awarded July 2024 for development. TRL 5 appropriate for component validation phase"
+      },
+      "power_output_kw": {
+        "value": 50,
+        "source_url": "https://www.astrobotic.com/astrobotic-developing-xl-solar-array-tech-for-lunar-power-infrastructure/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Astrobotic official site"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Astrobotic official site"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. SBIR contract values ($150k Phase I) are development funding, not unit cost"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Still in development phase"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Astrobotic official site"
+      },
+      "dimensions": {
+        "deployed_height_m": 34,
+        "deployed_width_m": 12.5,
+        "source_url": "https://www.astrobotic.com/astrobotic-awarded-lunar-power-study-with-vsat-xl/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 30m tall/20m panels to 34m tall/12.5m wide per Astrobotic official site (112 ft x 40 ft). Earlier article stated 'over 30m' which was less precise"
+      },
+      "heritage": {
+        "missions": [],
+        "source_url": "https://www.astrobotic.com/astrobotic-awarded-lunar-power-study-with-vsat-xl/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed in development phase, no flight missions yet"
+      },
+      "notes": "Designed to mount on Astrobotic's Griffin lander. Uses Redwire Roll-Out Solar Arrays (ROSA) technology linked into 'Mega-ROSA' configuration. Largest planned lunar power infrastructure to date."
+    },
+    {
+      "vendor": "Lockheed Martin",
+      "model": "LVSAT (Lunar Vertical Solar Array Technology)",
+      "category": "Solar Array",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.lockheedmartin.com/en-us/news/features/2025/powering-the-moon--vertical-solar-arrays-charge-the-way-.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Lockheed Martin official site - completed deployment tests, regolith simulant evaluations, and extreme cold-soak trials. TRL 6 appropriate for prototype tested in relevant environment"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": "https://www.lockheedmartin.com/en-us/news/features/2025/powering-the-moon--vertical-solar-arrays-charge-the-way-.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Lockheed Martin official site - states '50% more power than older variants' but absolute value not specified"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://www.lockheedmartin.com/en-us/news/features/2025/powering-the-moon--vertical-solar-arrays-charge-the-way-.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Lockheed Martin official site - states '30% less mass than older variants' but absolute value not specified"
+      },
+      "cost_usd": {
+        "value": 6200000,
+        "source_url": "https://www.nasa.gov/news-release/three-companies-to-help-nasa-advance-solar-array-technology-for-moon/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from $20M to $6.2M per NASA official announcement. This is development contract value, not unit cost"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Still in development phase with deployment planned near end of this decade"
+      },
+      "operating_temp_range": {
+        "min_c": -230,
+        "max_c": null,
+        "source_url": "https://www.lockheedmartin.com/en-us/news/features/2025/powering-the-moon--vertical-solar-arrays-charge-the-way-.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Lockheed Martin official site - survived extreme cold-soak trials at -230C simulating shadowed regions of lunar surface"
+      },
+      "dimensions": {
+        "deployed_height_m": 19.8,
+        "source_url": "https://www.lockheedmartin.com/en-us/news/features/2025/powering-the-moon--vertical-solar-arrays-charge-the-way-.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Lockheed Martin official site - 65 feet = 19.8 meters"
+      },
+      "heritage": {
+        "missions": [],
+        "source_url": "https://www.lockheedmartin.com/en-us/news/features/2025/powering-the-moon--vertical-solar-arrays-charge-the-way-.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed in development phase, based on Multi-mission Modular (MM) Solar Array technology, no flight missions yet"
+      },
+      "notes": "Autonomously deploys and retracts for relocation. Designed for lunar south pole with 80-90% sunlight availability."
+    },
+    {
+      "vendor": "Honeybee Robotics (Blue Origin)",
+      "model": "LAMPS (Lunar Array Mast and Power System)",
+      "category": "Solar Array",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.prnewswire.com/news-releases/honeybee-robotics-and-mpower-technology-chosen-to-design-lunar-charging-station-for-nasa-301299000.html",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from PR Newswire press release - thermal vacuum testing complete, TRL 6 ready as verified prototype. Honeybee site now redirects to Blue Origin which blocks automated access"
+      },
+      "power_output_kw": {
+        "value": 10,
+        "source_url": "https://www.potomacofficersclub.com/news/nasa-announces-companies-building-solar-array-technology-prototypes-for-artemis/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 10kW continuous power generation from multiple credible industry sources"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. PR Newswire states 'some of the lightest solar panels ever made' but no specific mass given"
+      },
+      "cost_usd": {
+        "value": 7000000,
+        "source_url": "https://www.nasa.gov/news-release/three-companies-to-help-nasa-advance-solar-array-technology-for-moon/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official announcement - $7M contract for development (not unit cost)"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Still in development phase"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Thermal vacuum testing completed but temperature ranges not disclosed"
+      },
+      "dimensions": {
+        "deployed_height_m": 20,
+        "stowed_volume_m3": 0.5,
+        "source_url": "https://www.prnewswire.com/news-releases/honeybee-robotics-and-mpower-technology-chosen-to-design-lunar-charging-station-for-nasa-301299000.html",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from PR Newswire - 20m high (six stories), stows to less than half a cubic meter (refrigerator size)"
+      },
+      "heritage": {
+        "missions": [],
+        "source_url": "https://www.prnewswire.com/news-releases/honeybee-robotics-and-mpower-technology-chosen-to-design-lunar-charging-station-for-nasa-301299000.html",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed in development, tested at NASA Johnson Space Center Chamber A, no flight missions yet"
+      },
+      "notes": "Uses DIABLO mast technology, Dust Tolerant Connectors, and mPower DragonSCALES silicon solar modules. Sail-style deployment with sun tracking."
+    },
+    {
+      "vendor": "Sierra Space",
+      "model": "SMT (Surface Mount Technology) Solar Panels - Lunar Configuration",
+      "category": "Solar Array",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.sierraspace.com/space-technology/electrical-power-systems/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Sierra Space official site - flight proven on HAKUTO-R lunar lander (launched December 2022). Solar panels performed successfully in space though lander crashed on landing attempt April 2023. TRL 9 appropriate for system flight proven through mission operations"
+      },
+      "power_output_kw": {
+        "value": 0.8,
+        "source_url": "https://www.sierraspace.com/press-releases/sierra-space-brings-to-market-revolutionary-high-power-density-solar-power-systems/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Sierra Space official press release - HAKUTO-R lander delivered more than 800W"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://www.sierraspace.com/space-technology/electrical-power-systems/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Sierra Space site states '10-40% higher power density' but absolute mass not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://www.sierraspace.com/press-releases/sierra-space-brings-to-market-revolutionary-high-power-density-solar-power-systems/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Sierra Space press release mentions cost advantages but no specific pricing disclosed"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.sierraspace.com/press-releases/sierra-space-brings-to-market-revolutionary-high-power-density-solar-power-systems/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Claims of reduced lead time mentioned but specific 6-month or 18-month figures not found in official sources checked"
+      },
+      "operating_temp_range": {
+        "min_c": -235,
+        "max_c": 160,
+        "source_url": "https://www.sierraspace.com/space-technology/electrical-power-systems/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from -240\u00b0C to -235\u00b0C per Sierra Space official site - qualified for 395-degree thermal range (-235\u00b0C to +160\u00b0C) for lunar survival"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Sierra Space official site"
+      },
+      "heritage": {
+        "missions": [
+          "HAKUTO-R lunar lander (launched Dec 2022, landing failed Apr 2023)"
+        ],
+        "source_url": "https://www.sierraspace.com/space-technology/electrical-power-systems/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected heritage - HAKUTO-R launched and solar panels worked in space. NASA VIPER was cancelled in July 2024 before launch, so removed from flight heritage though panels were qualified for it"
+      },
+      "notes": "Uses smaller surface mount solar cells with commercial pick-and-place assembly. Scalable from 10W to 10kW, custom voltage 28-125V."
+    },
+    {
+      "vendor": "Redwire Space (formerly Deployable Space Systems)",
+      "model": "iROSA (ISS Roll-Out Solar Array)",
+      "category": "Solar Array",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.nasa.gov/directorates/stmd/impact-story-roll-out-solar-arrays/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official site - flight proven on ISS with multiple pairs installed since 2021, TRL 9 appropriate for system proven through successful mission operations"
+      },
+      "power_output_kw": {
+        "value": 28,
+        "source_url": "https://www.nasa.gov/directorates/stmd/impact-story-roll-out-solar-arrays/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official site - each iROSA can produce excess of 28 kilowatts of power at beginning of life"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Specific power exceeding 100 W/kg mentioned but total mass not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA and Redwire sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "ISS-qualified but specific temperature range not published, lunar-specific temperature range not confirmed"
+      },
+      "dimensions": {
+        "deployed_length_m": 19,
+        "deployed_width_m": 6,
+        "source_url": "https://spaceflightnow.com/2021/06/02/new-solar-arrays-ready-to-upgrade-international-space-stations-power-grid/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 20m to 19m per Spaceflight Now - 63 feet long by 20 feet wide (19m x 6m), about half the size of full ISS solar array wing"
+      },
+      "heritage": {
+        "missions": [
+          "ISS (multiple pairs installed 2021-2023)",
+          "Gateway PPE (selected)",
+          "DART mission (2021)"
+        ],
+        "source_url": "https://www.nasa.gov/directorates/stmd/impact-story-roll-out-solar-arrays/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official site - ISS installations ongoing, Gateway PPE selected, DART launched Nov 2021"
+      },
+      "notes": "Flexible blanket arrays using composite boom deployment. Compact, modular, scalable. Also used in Astrobotic VSAT-XL."
+    },
+    {
+      "vendor": "NASA Glenn Research Center / DOE",
+      "model": "Kilopower (10 kWe)",
+      "category": "Nuclear Fission",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.nasa.gov/directorates/stmd/game-changing-development-program/nuclear-systems-ns-kilopower/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official site - KRUSTY test completed March 2018 advanced to TRL 5"
+      },
+      "power_output_kw": {
+        "value": 10,
+        "source_url": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/kilopower-hmqzw/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official site - 10 kWe continuous power for 10+ years"
+      },
+      "mass_kg": {
+        "value": 1500,
+        "source_url": "https://www.tandfonline.com/doi/full/10.1080/00295450.2020.1722554",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from peer-reviewed journal - space-rated 10 kWe variant 1500 kg total including 43.7 kg U-235"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available, government R&D program"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially available"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published"
+      },
+      "dimensions": {
+        "core_size": "Paper towel roll size",
+        "source_url": "https://www.nasa.gov/news-release/demonstration-proves-nuclear-fission-system-can-provide-space-exploration-power/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official site - core approximately paper towel roll size"
+      },
+      "heritage": {
+        "missions": [],
+        "source_url": "https://www.nasa.gov/news-release/demonstration-proves-nuclear-fission-system-can-provide-space-exploration-power/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official site - KRUSTY experiment completed 28-hour full-power test March 2018, no flight missions yet"
+      },
+      "notes": "Solid-cast U-235 core with passive sodium heat pipes and Stirling engines. Partnership: NASA Glenn, Marshall, DOE, LANL, Y-12, NNSS."
+    },
+    {
+      "vendor": "NASA / DOE / Industry (Lockheed Martin involved)",
+      "model": "Fission Surface Power (40 kW)",
+      "category": "Nuclear Fission",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.nasa.gov/space-technology-mission-directorate/tdm/fission-surface-power/",
+        "notes": "In design phase, targeting late 2020s lunar demonstration",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official sources - In design phase, targeting late 2020s lunar demonstration"
+      },
+      "power_output_kw": {
+        "value": 40,
+        "source_url": "https://ntrs.nasa.gov/api/citations/20220004670/downloads/40 kW Deployable FSP Paper_FINAL.pdf",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official sources"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "notes": "Design phase, specifications not finalized",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Design phase, specifications not finalized"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "notes": "Not publicly available, government program",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Not publicly available, government program"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [],
+        "source_url": null,
+        "notes": "Lunar demonstration planned for late 2020s",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Lunar demonstration planned for late 2020s"
+      },
+      "notes": "NASA/DOE collaboration for higher power fission system. Lockheed Martin involved in design concepts."
+    },
+    {
+      "vendor": "Zeno Power",
+      "model": "Commercial Radioisotope Stirling Generator",
+      "category": "Radioisotope Power System",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.zenopower.com/",
+        "notes": "Estimated TRL, plans delivery starting 2026",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from company official site - Estimated TRL, plans delivery starting 2026"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": null,
+        "notes": "Not publicly specified",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Not publicly specified"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "procurement_lead_time": {
+        "value": "2026+",
+        "source_url": "https://www.zenopower.com/",
+        "notes": "Plans to begin deliveries in 2026",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from company official site - Plans to begin deliveries in 2026"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [],
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "notes": "Americium-241 fueled for lunar missions, Strontium-90 for other applications. Partnership with Westinghouse for hardware, SHINE Technologies for fuel."
+    },
+    {
+      "vendor": "DOE / NASA",
+      "model": "MMRTG (Multi-Mission Radioisotope Thermoelectric Generator)",
+      "category": "Radioisotope Power System",
+      "trl": {
+        "value": 9,
+        "source_url": "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/",
+        "notes": "Flight proven on Mars rovers",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official sources - Flight proven on Mars rovers"
+      },
+      "power_output_kw": {
+        "value": 0.11,
+        "source_url": "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/",
+        "notes": "Approximately 110W when freshly fueled",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official sources - Approximately 110W when freshly fueled"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "notes": "Not specified in sources",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Not specified in sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "notes": "DOE owns systems, not commercially available",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - DOE owns systems, not commercially available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "notes": "Not commercially available, government controlled",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Not commercially available, government controlled"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [
+          "Curiosity rover",
+          "Perseverance rover"
+        ],
+        "source_url": "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA official sources"
+      },
+      "notes": "Plutonium-238 decay heat to electricity. No moving parts. Decades-long operation. Government owned/controlled, not commercially available."
+    },
+    {
+      "vendor": "EaglePicher Technologies",
+      "model": "Silver-Zinc Battery (Artemis FTS)",
+      "category": "Battery",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.eaglepicher.com/resources/news-and-events/eaglepicher-provides-essential-battery-technology-nasa%E2%80%99s-artemis-i-launch/",
+        "notes": "Flight proven on Artemis I mission",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site - Flight proven on Artemis I mission"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": null,
+        "notes": "Energy storage device, not power generator",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Energy storage device, not power generator"
+      },
+      "energy_storage": {
+        "voltage_v": 32,
+        "capacity_ah": 10,
+        "source_url": "https://www.eaglepicher.com/resources/news-and-events/eaglepicher-provides-essential-battery-technology-nasa%E2%80%99s-artemis-i-launch/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [
+          "Artemis I",
+          "Apollo missions (historical)",
+          "Mercury",
+          "Gemini"
+        ],
+        "source_url": "https://www.eaglepicher.com/markets/space/space-exploration/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site"
+      },
+      "notes": "Two 32V 10Ah silver-zinc batteries for SLS flight termination system. 3.2+ billion cell-hours in space."
+    },
+    {
+      "vendor": "EaglePicher Technologies",
+      "model": "Lithium-Ion Battery Systems",
+      "category": "Battery",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.eaglepicher.com/markets/space/",
+        "notes": "Flight proven, first to launch prismatic Li-ion into orbit",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site - Flight proven, first to launch prismatic Li-ion into orbit"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": null,
+        "notes": "Energy storage, various configurations",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Energy storage, various configurations"
+      },
+      "energy_storage": {
+        "notes": "Various cell types, managed arrays using COTS cells available",
+        "source_url": "https://www.eaglepicher.com/markets/space/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site - Various cell types, managed arrays using COTS cells available"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "notes": "Higher energy levels at lower weight compared to older chemistries",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Higher energy levels at lower weight compared to older chemistries"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [
+          "ISS",
+          "Mars rovers",
+          "Various satellites"
+        ],
+        "source_url": "https://www.eaglepicher.com/markets/space/",
+        "notes": "3.2+ billion cell-hours logged",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site - 3.2+ billion cell-hours logged"
+      },
+      "notes": "Prismatic Li-ion cells, managed arrays of COTS cells for constellations. Partner with GS Yuasa for LSE110 cells."
+    },
+    {
+      "vendor": "GS Yuasa Lithium Power",
+      "model": "LSE Family (Generation 4)",
+      "category": "Battery",
+      "trl": {
+        "value": 9,
+        "source_url": "https://gsyuasa-lp.com/satellites-and-rockets/",
+        "notes": "550+ million cell hours on 200+ satellites without failure",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site - 550+ million cell hours on 200+ satellites without failure"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "energy_storage": {
+        "voltage_v": 3.75,
+        "capacity_ah": 60,
+        "energy_wh": 225,
+        "source_url": "https://gsyuasa-lp.com/news/gs-yuasa-lithium-power-announces-first-delivery-of-the-generation-4-lithium-ion-cells-for-space-to-north-american-client/",
+        "notes": "LSE60 model, LCO/Graphite chemistry",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site - LSE60 model, LCO/Graphite chemistry"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [
+          "200+ satellites",
+          "ESA Smart-1 lunar mission"
+        ],
+        "source_url": "https://gsyuasa-lp.com/satellites-and-rockets/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site"
+      },
+      "notes": "World leader in space Li-ion by total energy capacity. Zero anomalies or failures. Lithium cobalt dioxide cathode with graphite anode."
+    },
+    {
+      "vendor": "GS Yuasa Technology",
+      "model": "JMG Series (42Ah, 50Ah, 55Ah, 100Ah, 110Ah, 150Ah, 190Ah)",
+      "category": "Battery",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.gs-yuasa.com/en/newsrelease/article.php?ucode=gs170209563020_339",
+        "notes": "Used in launch vehicles for rocket control equipment",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from authoritative source - Used in launch vehicles for rocket control equipment"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "energy_storage": {
+        "capacity_options_ah": [
+          42,
+          50,
+          55,
+          100,
+          110,
+          150,
+          190
+        ],
+        "source_url": "https://www.gs-yuasa.com/en/newsrelease/article.php?ucode=gs170209563020_339",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from authoritative source"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [
+          "Epsilon-2 launch vehicle",
+          "ERG satellite"
+        ],
+        "source_url": "https://www.gs-yuasa.com/en/newsrelease/article.php?ucode=gs170209563020_339",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from authoritative source"
+      },
+      "notes": "Developed for JAXA/IHI Aerospace. Multiple capacity options for different mission needs."
+    },
+    {
+      "vendor": "Mitsubishi Electric (MELCO)",
+      "model": "Space-Grade Li-ion Cells (42-190Ah)",
+      "category": "Battery",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.mitsubishielectric.com/bu/space/satellite_components/lithium_ion_batteries/index.html",
+        "notes": "Supplied to Gateway HALO and PPE modules",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site - Supplied to Gateway HALO and PPE modules"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "energy_storage": {
+        "capacity_options_ah": [
+          42,
+          55,
+          110,
+          145,
+          160,
+          190
+        ],
+        "source_url": "https://www.mitsubishielectric.com/bu/space/satellite_components/lithium_ion_batteries/index.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [
+          "Gateway HALO module",
+          "Gateway PPE module"
+        ],
+        "source_url": "https://www.mitsubishielectric.com/bu/space/satellite_components/lithium_ion_batteries/index.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site"
+      },
+      "notes": "Six capacity options available. Directly supporting NASA lunar Gateway infrastructure."
+    },
+    {
+      "vendor": "EnerSys ABSL",
+      "model": "Li-ion Space Battery Systems",
+      "category": "Battery",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.enersys.com/en/products/batteries/absl/absl-li-ion-space-battery/",
+        "notes": "6.5+ billion cell hours without mission failure since 2000",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site - 6.5+ billion cell hours without mission failure since 2000"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "energy_storage": {
+        "notes": "Various configurations available",
+        "source_url": "https://www.enersys.com/en/products/batteries/absl/absl-li-ion-space-battery/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site - Various configurations available"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [
+          "Successfully powering spacecraft since 2000"
+        ],
+        "source_url": "https://www.enersys.com/en/products/batteries/absl/absl-li-ion-space-battery/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site"
+      },
+      "notes": "Market-leading Li-ion solutions. Zero mission failures. 6.5+ billion cell hours logged."
+    },
+    {
+      "vendor": "Honda / Astrobotic",
+      "model": "Regenerative Fuel Cell System (RFC)",
+      "category": "Fuel Cell",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.astrobotic.com/honda-and-astrobotic-establish-joint-development-agreement-to-explore-scalable-lunar-power-solutions/",
+        "notes": "Joint development agreement established, in development phase",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from company official site - Joint development agreement established, in development phase"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": null,
+        "notes": "Designed for continuous production of oxygen, hydrogen, and electricity",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Designed for continuous production of oxygen, hydrogen, and electricity"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [],
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "notes": "Stores solar power as hydrogen during lunar day, converts to electricity during lunar night. Uses water as feedstock. Partnership between Honda and Astrobotic."
+    },
+    {
+      "vendor": "ESA / Industry Partners",
+      "model": "PEFC Regenerative Fuel Cell System",
+      "category": "Fuel Cell",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shaping_the_Future/Surviving_the_Lunar_Night_with_a_Regenerative_Fuel_Cell_System",
+        "notes": "Demonstrated TRL 5 for both fuel cell and electrolyser stack",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA official site - Demonstrated TRL 5 for both fuel cell and electrolyser stack"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": null,
+        "notes": "Successfully demonstrated three lunar day-night cycles",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Successfully demonstrated three lunar day-night cycles"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [],
+        "source_url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shaping_the_Future/Surviving_the_Lunar_Night_with_a_Regenerative_Fuel_Cell_System",
+        "notes": "EPM system designed and breadboarded for lunar surface missions",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ESA official site - EPM system designed and breadboarded for lunar surface missions"
+      },
+      "notes": "Polymer Electrolyte Fuel Cell (PEFC) technology. Energy Provision and Management (EPM) system. Projected energy density 1,000 Wh/kg (10x batteries)."
+    },
+    {
+      "vendor": "Infinity Fuel / NASA Glenn Research Center",
+      "model": "Lunar Regenerative Fuel Cell (RFC)",
+      "category": "Fuel Cell",
+      "trl": {
+        "value": 5,
+        "source_url": "https://infinityfuel.com/markets/space/",
+        "notes": "Working with NASA Glenn on lunar RFC system",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from company official site - Working with NASA Glenn on lunar RFC system"
+      },
+      "power_output_kw": {
+        "value": null,
+        "source_url": null,
+        "notes": "Designed to power moon base through 14-day lunar night",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources - Designed to power moon base through 14-day lunar night"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "operating_temp_range": {
+        "min_c": null,
+        "max_c": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources"
+      },
+      "heritage": {
+        "missions": [],
+        "source_url": "https://infinityfuel.com/markets/space/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from company official site"
+      },
+      "notes": "Infinity provides fuel cell component, NASA Glenn provides system integration expertise."
+    }
+  ]
+}

@@ -1,0 +1,966 @@
+{
+  "category": "Habitation and Inflatable Modules",
+  "last_updated": "2025-12-08",
+  "scope": "Lunar surface and orbital habitats including inflatable modules, rigid pressurized structures, and in-situ construction technologies at TRL 5+",
+  "items": [
+    {
+      "vendor": "Sierra Space",
+      "model": "LIFE (Large Integrated Flexible Environment) - Multiple Variants",
+      "application": "Orbital and potentially lunar surface",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.sierraspace.com/press-releases/sierra-spaces-commercial-space-station-technology-nears-certification/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6. Ground testing complete with 6 successful stress tests and 4 UBP tests. LIFE 10 achieved 255 psi burst pressure Oct 2024, completing certification requirements. Planned operational by end of decade. Not yet flown in space."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Sierra Space official site and press releases."
+      },
+      "volume_m3": {
+        "stowed": null,
+        "deployed": 285,
+        "source_url": "https://www.sierraspace.com/commercial-space-stations/life-space-habitat/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 300 to 285 m\u00b3 per official Sierra Space website. LIFE 1.0: 285 m\u00b3, LIFE 500: 500 m\u00b3, LIFE 1400: 1400 m\u00b3, LIFE 5000: 5000 m\u00b3. Stowed volume not disclosed."
+      },
+      "dimensions": {
+        "deployed_diameter_m": 9,
+        "deployed_length_m": 6,
+        "source_url": "https://www.sierraspace.com/commercial-space-stations/life-space-habitat/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected per official Sierra Space website. LIFE 1.0: 9m diameter x 6m length. Note: Some sources cite 27ft (8.2m) diameter, but official specs are 9m diameter."
+      },
+      "crew_capacity": {
+        "number": 4,
+        "duration_days": null,
+        "source_url": "https://www.sierraspace.com/commercial-space-stations/life-space-habitat/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 6 to 4. Primary design accommodates 4 astronauts comfortably. Can house 6 in LEO missions, up to 12 for short-term crew transitions. Three-story design with living quarters, labs, medical, exercise, and Astro Garden."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Sierra Space official site and press releases."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Sierra Space official site and press releases."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Planned operational by end of decade (before 2030)."
+      },
+      "design_life_years": {
+        "value": 60,
+        "source_url": "https://www.sierraspace.com/press-releases/sierra-space-advances-future-of-space-habitation-in-low-earth-orbit-and-deep-space-with-life-test/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed. Predicted life >60 years (525,600 hours) based on 15-year requirement with 4x safety factor per Sierra Space Chief Engineer."
+      },
+      "pressure_specs": {
+        "operating_psi": 15.2,
+        "burst_pressure_psi": 255,
+        "safety_factor": 16,
+        "source_url": "https://www.sierraspace.com/press-releases/sierra-spaces-commercial-space-station-technology-nears-certification/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected. Operating pressure 15.2 psi in LEO. Burst tests: 192 psi (Jul 2022 subscale), 204 psi (Nov 2022 subscale), 77 psi (Dec 2023 full-scale 285m\u00b3), 255 psi (Oct 2024 LIFE 10). Safety factor >16x in LEO, 23x in lunar environment (10.8 psi)."
+      },
+      "materials": {
+        "primary": "Vectran\u2122 fabric weave",
+        "source_url": "https://www.sierraspace.com/commercial-space-stations/life-space-habitat/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed. Vectran\u2122 fabric weave in high-strength softgoods layered structure, becomes stronger than steel when inflated per official Sierra Space website."
+      },
+      "partner_supplier": "ILC Dover (exclusive softgoods partner)",
+      "notes": "Leading US inflatable habitat technology. Multiple variants planned. Designed for Orbital Reef commercial space station, potential lunar adaptation."
+    },
+    {
+      "vendor": "Lockheed Martin",
+      "model": "Lunar Inflatable Habitat",
+      "application": "Lunar surface",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.lockheedmartin.com/en-us/news/features/2024/inflatable-habitats-expanding-space-exploration.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6. Ground testing complete including five burst tests (253-285 psi) and creep testing at NASA Marshall. In-space demo planned around 2030. Not yet space-flown."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Lockheed Martin official site and Aviation Week coverage."
+      },
+      "volume_m3": {
+        "stowed": null,
+        "deployed": 250,
+        "source_url": "https://aviationweek.com/space/space-exploration/lockheed-martins-lunar-inflatable-habitat-passes-key-burst-test",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 250 m\u00b3 coreless habitat design from Aviation Week. Airlock module ~9 m\u00b3. Compression ratios up to 5:1 axial, 2:1 radial. Stowed volume not specified."
+      },
+      "dimensions": {
+        "barrel_diameter_ft": 10.8,
+        "source_url": "https://aviationweek.com/space/space-exploration/lockheed-martins-lunar-inflatable-habitat-passes-key-burst-test",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Airlock test article: 10.8 ft diameter barrel-shaped structure. Floor area not specified in authoritative sources."
+      },
+      "crew_capacity": {
+        "number": 2,
+        "duration_days": null,
+        "source_url": "https://aviationweek.com/space/space-exploration/lockheed-martins-lunar-inflatable-habitat-passes-key-burst-test",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Airlock accommodates 2 astronauts in full spacesuits. Larger habitat crew capacity not disclosed."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Lockheed Martin official site."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Lockheed notes 'lower than traditional structures' but no figures given."
+      },
+      "procurement_lead_time": {
+        "value": "8 weeks (softgoods only)",
+        "source_url": "https://www.lockheedmartin.com/en-us/news/features/2022/bursting-the-bubble-with-inflatable-habitats.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed: Softgoods prototype completed in 8 weeks, built entirely in-house. Total system integration time unknown."
+      },
+      "design_life_years": {
+        "value": 15,
+        "source_url": "https://aviationweek.com/space/space-exploration/lockheed-martins-lunar-inflatable-habitat-passes-key-burst-test",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 15 year minimum design life. Creep testing (4000+ hours at 4x design pressure) demonstrates potential for hundreds of years. NASA requires 4x safety factor equivalent to 60-year design life."
+      },
+      "pressure_specs": {
+        "operating_pressure_psi": 15.2,
+        "burst_pressure_psi": 285,
+        "safety_factor": 14.7,
+        "source_url": "https://aviationweek.com/space/space-exploration/lockheed-martins-lunar-inflatable-habitat-passes-key-burst-test",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected with operating pressure. Max design pressure 15.2 psi. Burst tests: 285 psi (initial), 267 psi (Dec 2022 with penetration plate), 253 psi (Jun 2023), 224 psi (fifth test). Safety factor 14.7x achieved vs NASA 4x requirement."
+      },
+      "materials": {
+        "primary": "Vectran fiber (Kuraray liquid crystal polymer)",
+        "mmod_layers": 8,
+        "source_url": "https://aviationweek.com/space/space-exploration/lockheed-martins-lunar-inflatable-habitat-passes-key-burst-test",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed Vectran fiber by Kuraray. Up to 8 protective layers for micrometeoroid and orbital debris defense. Custom webbing patterns."
+      },
+      "notes": "Purpose-designed for lunar surface with higher safety margins than orbital systems. In-space or surface demo expected around 2030. Part of NASA NextSTEP program."
+    },
+    {
+      "vendor": "Max Space",
+      "model": "Max Space 20",
+      "application": "Orbital, potential lunar adaptation",
+      "trl": {
+        "value": 6,
+        "source_url": "https://techcrunch.com/2024/07/27/max-space-reinvents-expandable-habitats-with-a-17th-century-twist-launching-in-2026/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected launch date from 2025 to 2026. TRL 6 estimated pre-flight. Prototype complete, awaiting SpaceX rideshare launch. Will reach TRL 7-8 post-demo."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked SpaceNews and TechCrunch coverage. Company emphasizes 'tiny fraction of mass' vs metallic structures but no specific mass disclosed."
+      },
+      "volume_m3": {
+        "stowed": 2,
+        "deployed": 20,
+        "source_url": "https://spacenews.com/max-space-announces-plans-for-inflatable-space-station-modules/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 2 m\u00b3 stowed (pancake configuration), 20 m\u00b3 deployed (10:1 expansion ratio). Largest expandable module to be flown to date per SpaceNews and TechCrunch."
+      },
+      "crew_capacity": {
+        "number": null,
+        "duration_days": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. 2026 demo mission is proof-of-concept, likely uncrewed. Future crewed versions not specified."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked available sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://techcrunch.com/2024/07/27/max-space-reinvents-expandable-habitats-with-a-17th-century-twist-launching-in-2026/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Unit cost not disclosed. Company raised sub-$10M seed round funding development and rideshare launch. Future goal: ISS-equivalent volume for $200M including launch."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Prototype described as 'stupidly simple to make' but delivery timeline not disclosed."
+      },
+      "launch_details": {
+        "date": "2026",
+        "vehicle": "SpaceX Rideshare",
+        "source_url": "https://techcrunch.com/2024/07/27/max-space-reinvents-expandable-habitats-with-a-17th-century-twist-launching-in-2026/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 2025 to 2026 per TechCrunch. LEO demonstration mission on SpaceX rideshare."
+      },
+      "roadmap": {
+        "description": "20 m\u00b3 (2026) \u2192 tens to hundreds m\u00b3 \u2192 thousands m\u00b3 for lunar/Mars missions",
+        "source_url": "https://techcrunch.com/2024/07/27/max-space-reinvents-expandable-habitats-with-a-17th-century-twist-launching-in-2026/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated roadmap per TechCrunch. Phase 2: tens to hundreds m\u00b3 (comparable to current station modules). Long-term: thousands m\u00b3 for lunar caves and Mars."
+      },
+      "technology": {
+        "architecture": "Isotensoid shape (17th-century Bernoulli principles)",
+        "structure": "96 tendons rated to 17,000 lbs each, single-axis stress distribution",
+        "source_url": "https://techcrunch.com/2024/07/27/max-space-reinvents-expandable-habitats-with-a-17th-century-twist-launching-in-2026/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed isotensoid architecture. Avoids bi-directional fabric 'basket weave' approach. 96 load-bearing tendons vs thousands of stitched intersections. Comparable strength to machined metal at fraction of mass."
+      },
+      "heritage": {
+        "founders": "Aaron Kemmer (ex-Made In Space), Maxim de Jong (ex-Bigelow Aerospace, Genesis I/II designer, Thin Red Line Aerospace co-founder)",
+        "source_url": "https://techcrunch.com/2024/07/27/max-space-reinvents-expandable-habitats-with-a-17th-century-twist-launching-in-2026/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed founders and heritage. De Jong worked on ISS-attached inflatable and Genesis I/II. Kemmer led Made In Space programs."
+      },
+      "notes": "Largest expandable module to be flown to date (as of 2026 launch). Novel isotensoid architecture distinct from Bigelow/Sierra/Lockheed basket-weave designs. Designed for lunar cave interiors due to adaptable shape."
+    },
+    {
+      "vendor": "Northrop Grumman",
+      "model": "HALO (Habitation and Logistics Outpost)",
+      "application": "Lunar Gateway orbital station (not surface)",
+      "trl": {
+        "value": 8,
+        "source_url": "https://news.northropgrumman.com/halo/Northrop-Grumman-Begins-Integration-and-Testing-of-NASAs-Habitation-and-Logistics-Outpost",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 8. Integration and testing phase began April 2025. Pressurized module arrived from Thales April 1, 2025. Based on flight-proven Cygnus spacecraft (15+ ISS missions). Awaiting 2027 launch."
+      },
+      "mass_kg": {
+        "value": 8500,
+        "source_url": "https://spacepolicyonline.com/news/gao-questions-gateways-mass-schedule/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 8-9 tons per GAO and space policy sources. Midpoint estimate 8500 kg. Combined PPE+HALO mass exceeds original target per GAO report."
+      },
+      "volume_m3": {
+        "pressurized": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Derived from Cygnus baseline with 1m extension, but specific pressurized volume not disclosed by NASA or Northrop Grumman."
+      },
+      "dimensions": {
+        "diameter_m": 3,
+        "length_m": 7,
+        "source_url": "https://www.thalesaleniaspace.com/en/news/lunar-gateways-halo-pressurized-module-preparation-shipment-united-states",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 3m diameter (same as Cygnus), approximately 7m length (1m extension from Cygnus baseline) per Thales Alenia Space official source."
+      },
+      "crew_capacity": {
+        "number": 4,
+        "duration_days": 30,
+        "source_url": "https://www.thalesaleniaspace.com/en/news/lunar-gateways-halo-pressurized-module-preparation-shipment-united-states",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed: Support up to 4 astronauts for up to 30 days when Orion spacecraft is docked, per Thales and NASA sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. HALO provides power distribution hub for PPE solar arrays and JAXA batteries, but internal power consumption not disclosed."
+      },
+      "cost_usd": {
+        "value": 935000000,
+        "source_url": "https://www.nasa.gov/news-release/nasa-northrop-grumman-finalize-moon-outpost-living-quarters-contract/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected to $935M fabrication contract (firm fixed-price) per NASA official release July 2021. Northrop reported $36M loss on contract due to evolving requirements. Prior design contract was separate."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not disclosed. Timeline: Design contract 2020, fabrication contract July 2021, module arrival April 2025, launch December 2027."
+      },
+      "docking_ports": {
+        "total": 3,
+        "configuration": "2 axial and up to 2 radial",
+        "source_url": "https://www.thalesaleniaspace.com/en/news/lunar-gateways-halo-pressurized-module-preparation-shipment-united-states",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected to 3 total docking ports per Thales and NASA sources. Accommodates Orion, lunar landers, logistics vehicles, and future Gateway modules."
+      },
+      "launch_details": {
+        "date": "December 2027",
+        "vehicle": "Falcon Heavy",
+        "co_manifest": "Power and Propulsion Element (PPE)",
+        "source_url": "https://spacepolicyonline.com/news/gao-questions-gateways-mass-schedule/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated to December 2027 target per NASA commitment. Combined PPE+HALO launch. 9-10 month transit to lunar orbit. Supports Artemis IV mission September 2028."
+      },
+      "heritage": {
+        "basis": "Cygnus spacecraft (15+ ISS resupply missions)",
+        "source_url": "https://www.thalesaleniaspace.com/en/news/lunar-gateways-halo-pressurized-module-preparation-shipment-united-states",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed flight-proven Cygnus heritage per Thales and Northrop Grumman. Pressurized modules manufactured by Thales Alenia Space Italy."
+      },
+      "pressurized_module_supplier": "Thales Alenia Space (Italy)",
+      "international_contributions": {
+        "jaxa": "Batteries",
+        "csa": "Robotic interfaces",
+        "esa": "HALO Lunar Communication System",
+        "source_url": "https://www.nasa.gov/news-release/nasa-northrop-grumman-finalize-moon-outpost-living-quarters-contract/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from authoritative sources."
+      },
+      "contract_challenges": {
+        "loss_reported": 36000000,
+        "reason": "Evolving Gateway architecture and macroeconomic challenges",
+        "source_url": "https://spacenews.com/northrop-grumman-takes-36-million-charge-on-nasa-gateway-module/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed $36M loss on fixed-price contract from changing requirements per SpaceNews."
+      },
+      "notes": "Rigid pressurized module, not inflatable. Gateway orbital element, NOT lunar surface. First foundational Gateway element. Mature Cygnus heritage technology."
+    },
+    {
+      "vendor": "Thales Alenia Space",
+      "model": "Multi-Purpose Habitat (MPH)",
+      "application": "Lunar surface (permanent habitat)",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.thalesaleniaspace.com/en/news/lunar-multi-purpose-habitat-activities-officially-underway",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5. Preliminary design phase contract signed July 2025 (2-year duration). Element Initiation Review completed Oct 2023. TRL 5-6 estimated based on early design phase."
+      },
+      "mass_kg": {
+        "value": 15000,
+        "source_url": "https://universemagazine.com/en/thales-alenia-space-gets-contract-to-build-lunar-module/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed approximately 15 tonnes (15,000 kg) from Universe Magazine and European Spaceflight sources."
+      },
+      "volume_m3": {
+        "pressurized": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Thales official sources and space industry coverage."
+      },
+      "dimensions": {
+        "length_m": 6,
+        "diameter_m": 3,
+        "source_url": "https://universemagazine.com/en/thales-alenia-space-gets-contract-to-build-lunar-module/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 6 meters length, 3 meters diameter from multiple credible sources."
+      },
+      "crew_capacity": {
+        "number": 2,
+        "duration_days": 30,
+        "mission_frequency": "One mission per year",
+        "source_url": "https://universemagazine.com/en/thales-alenia-space-gets-contract-to-build-lunar-module/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed: Designed for 2 astronauts, missions lasting 7-30 days, one mission per year from multiple sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked Thales and ASI sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. ASI contract value for preliminary design phase not publicly disclosed."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Timeline: Preliminary design 2025-2027, launch 2033."
+      },
+      "design_life_years": {
+        "value": 10,
+        "source_url": "https://www.thalesaleniaspace.com/en/news/lunar-multi-purpose-habitat-activities-officially-underway",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed minimum 10 years operational lifespan as permanent surface habitat per Thales official source."
+      },
+      "mobility": {
+        "feature": "Wheels for surface mobility",
+        "source_url": "https://universemagazine.com/en/thales-alenia-space-gets-contract-to-build-lunar-module/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed mobile capability. Recent design includes wheels. Can move and be precisely positioned on lunar surface."
+      },
+      "launch_details": {
+        "date": "2033",
+        "location": "Kennedy Space Center",
+        "source_url": "https://www.thalesaleniaspace.com/en/news/lunar-multi-purpose-habitat-activities-officially-underway",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 2033 launch from Kennedy Space Center per Thales official source."
+      },
+      "environmental_challenges": {
+        "addressed": [
+          "Extreme thermal variations",
+          "Pervasive lunar dust",
+          "High radiation levels",
+          "Micrometeoroid impacts",
+          "Reduced lunar gravity"
+        ],
+        "source_url": "https://www.thalesaleniaspace.com/en/news/lunar-multi-purpose-habitat-activities-officially-underway",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed environmental protection features per Thales official source."
+      },
+      "partnership": {
+        "customer": "ASI (Italian Space Agency)",
+        "program": "Artemis Accords bilateral cooperation with NASA",
+        "source_url": "https://www.thalesaleniaspace.com/en/news/lunar-multi-purpose-habitat-activities-officially-underway",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from credible sources."
+      },
+      "notes": "First permanent pressurized habitat on lunar surface. Rigid structure, not inflatable. Mobile capability unique feature."
+    },
+    {
+      "vendor": "Thales Alenia Space",
+      "model": "Lunar I-Hab (International Habitation Module)",
+      "application": "Lunar Gateway orbital station (not surface)",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_I-Hab",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7. In development for Gateway. Mock-up complete 2024. Thales Alenia Space Italy prime contractor for ESA. Artemis IV will deliver I-Hab to Gateway."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked ESA and Thales official sources."
+      },
+      "volume_m3": {
+        "pressurized": 10,
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_I-Hab",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed approximately 10 m\u00b3 living space per ESA official source (volume of medium campervan). Combines with HALO for total Gateway habitat volume."
+      },
+      "crew_capacity": {
+        "number": 4,
+        "duration_days": 90,
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_I-Hab",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed: Together with HALO, supports up to 4 astronauts for up to 90 days per ESA official source."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. I-Hab provides thermal control system but power consumption not disclosed."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. ESA contract value not publicly disclosed."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Artemis IV will deliver to Gateway (follows HALO/PPE launch)."
+      },
+      "docking_ports": {
+        "total": 4,
+        "configuration": "2 for Gateway connection, 2 for visiting vehicles",
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_I-Hab",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed: I-Hab serves as main entrance port to Gateway with 4 docking ports total per ESA."
+      },
+      "partnership": {
+        "prime_contractor": "Thales Alenia Space (Italy) for ESA",
+        "jaxa_contribution": "Environmental control, life support, batteries, thermal control",
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_I-Hab",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed ESA module with JAXA contributions per ESA official source."
+      },
+      "launch_details": {
+        "mission": "Artemis IV",
+        "delivery_method": "Orion spacecraft with European Service Module",
+        "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_Lunar_I-Hab",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed: Artemis IV will bring I-Hab to Gateway, propelled by Orion/ESM. Follows HALO/PPE (Dec 2027) launch."
+      },
+      "notes": "Rigid pressurized module, not inflatable. Gateway orbital element, NOT lunar surface. ESA/JAXA contribution to Artemis program. Main entrance port and living quarters."
+    },
+    {
+      "vendor": "ICON",
+      "model": "Project Olympus (Lunar Construction System)",
+      "application": "Lunar surface in-situ construction",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-icon-advance-lunar-construction-technology-for-moon-missions/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5. Ground testing at NASA Marshall with lunar regolith simulants and actual Apollo samples. Working toward TRL 6. $57.2M SBIR Phase III contract through 2028."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. System mass not disclosed. Uses lunar regolith in-situ, eliminating habitat structure launch mass."
+      },
+      "volume_m3": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Scalable construction system, volume depends on mission requirements."
+      },
+      "crew_capacity": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. Construction system builds infrastructure; habitat capacity depends on design requirements."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. High-powered laser system for regolith melting, but power requirements not disclosed."
+      },
+      "cost_usd": {
+        "contract_value": 57200000,
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-icon-advance-lunar-construction-technology-for-moon-missions/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed $57.2M NASA SBIR Phase III contract per NASA and ICON official sources (development funding through 2028, not per-unit cost)."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Construction time on lunar surface not disclosed."
+      },
+      "contract_details": {
+        "value": 57200000,
+        "type": "NASA SBIR Phase III",
+        "duration": "Through 2028",
+        "partner": "NASA Marshall Space Flight Center (MMPACT project)",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-icon-advance-lunar-construction-technology-for-moon-missions/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed contract details per NASA official source."
+      },
+      "technology": {
+        "method": "Laser Vitreous Multi-material Transformation",
+        "description": "High-powered laser melts lunar regolith \u2192 solidifies into ceramic-like structures",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-icon-advance-lunar-construction-technology-for-moon-missions/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed technology approach per NASA official source."
+      },
+      "applications": {
+        "infrastructure": [
+          "Landing pads",
+          "Roads",
+          "Non-pressurized structures",
+          "Pressurized habitats"
+        ],
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-icon-advance-lunar-construction-technology-for-moon-missions/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed applications per NASA official source."
+      },
+      "testing": {
+        "facility": "NASA Marshall Space Flight Center",
+        "materials": "Lunar regolith simulant and actual lunar samples",
+        "objective": "Meet NASA strength requirements",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-icon-advance-lunar-construction-technology-for-moon-missions/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed testing details per NASA official source."
+      },
+      "earth_analog": {
+        "name": "Mars Dune Alpha",
+        "size_sqft": 1700,
+        "location": "NASA Johnson Space Center",
+        "purpose": "CHAPEA analog missions",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-icon-advance-lunar-construction-technology-for-moon-missions/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed: ICON 3D printed 1,700 sq ft Martian habitat at JSC demonstrating construction capabilities per NASA official source."
+      },
+      "advantages": {
+        "description": "Better thermal, radiation, and micrometeorite protection than metal or inflatable habitats",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-icon-advance-lunar-construction-technology-for-moon-missions/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed advantages per NASA official source."
+      },
+      "notes": "In-situ 3D printing using lunar regolith. Not a pre-fabricated habitat. Eliminates launch mass constraints for large structures."
+    },
+    {
+      "vendor": "AI SpaceFactory",
+      "model": "LINA (Lunar habitat variant of MARSHA)",
+      "application": "Lunar surface (south pole, Shackleton crater area)",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.prnewswire.com/news-releases/ai-spacefactory-and-nasa-kennedy-space-center-release-lunar-outpost-designs-301578951.html",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "NASA ACO program participant. Vacuum chamber testing at -200\u00b0C completed. TRL 4-5 estimated.",
+        "verification_notes": "NASA ACO program participant. Vacuum chamber testing at -200\u00b0C completed. TRL 4-5 estimated."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "System mass not disclosed. 3D printing system uses regolith-polymer feedstock.",
+        "verification_notes": "System mass not disclosed. 3D printing system uses regolith-polymer feedstock."
+      },
+      "volume_m3": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Habitat volume scalable, depends on design",
+        "verification_notes": "Habitat volume scalable, depends on design"
+      },
+      "crew_capacity": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Crew capacity not specified for LINA variant",
+        "verification_notes": "Crew capacity not specified for LINA variant"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Power requirements not disclosed",
+        "verification_notes": "Power requirements not disclosed"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Cost not publicly available",
+        "verification_notes": "Cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Construction timeline not disclosed",
+        "verification_notes": "Construction timeline not disclosed"
+      },
+      "technology": {
+        "method": "Autonomous robotic 3D printing",
+        "material": "Regolith-polymer feedstock",
+        "source_url": "https://www.prnewswire.com/news-releases/ai-spacefactory-and-nasa-kennedy-space-center-release-lunar-outpost-designs-301578951.html",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from credible sources."
+      },
+      "design_features": {
+        "shape": "Vertical egg-shaped structure",
+        "floors": 4,
+        "lighting": "Skylight and intermittent windows creating light-well",
+        "thermal": "Dual-shell scheme for thermal isolation",
+        "source_url": "https://spacefactory.ai/marsha",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "MARSHA (Mars) design adapted for lunar environment as LINA",
+        "verification_notes": "MARSHA (Mars) design adapted for lunar environment as LINA"
+      },
+      "testing": {
+        "environment": "Vacuum chamber at -200\u00b0C",
+        "material": "Regolith-polymer feedstock",
+        "source_url": "https://www.prnewswire.com/news-releases/ai-spacefactory-and-nasa-kennedy-space-center-release-lunar-outpost-designs-301578951.html",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from credible sources."
+      },
+      "awards": {
+        "competition": "NASA 3D Printed Habitat Challenge",
+        "place": "1st",
+        "prize": 500000,
+        "source_url": "https://www.designboom.com/architecture/ai-spacefactory-marsha-wins-nasa-3d-printed-habitat-challenge-finale-05-08-2019/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Won for MARSHA (Mars habitat), lunar variant LINA developed subsequently",
+        "verification_notes": "Won for MARSHA (Mars habitat), lunar variant LINA developed subsequently"
+      },
+      "partnership": {
+        "program": "NASA ACO (Announcement of Collaboration Opportunity)",
+        "partner": "NASA Kennedy Space Center",
+        "source_url": "https://www.prnewswire.com/news-releases/ai-spacefactory-and-nasa-kennedy-space-center-release-lunar-outpost-designs-301578951.html",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from credible sources."
+      },
+      "notes": "3D printed in-situ construction. MARSHA design for Mars, LINA adaptation for Moon. Autonomous construction approach."
+    },
+    {
+      "vendor": "Collins Aerospace",
+      "model": "ECLSS (Environmental Control and Life Support System) for Lunar Habitats",
+      "application": "Life support integration for lunar surface habitats",
+      "trl": {
+        "value": 8,
+        "source_url": "https://www.collinsaerospace.com/what-we-do/industries/space/crewed-missions",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Heritage ISS systems TRL 9, new lunar variants TRL 7-8. 50+ years spaceflight experience.",
+        "verification_notes": "Heritage ISS systems TRL 9, new lunar variants TRL 7-8. 50+ years spaceflight experience."
+      },
+      "mass_kg": {
+        "pallet_dimensions": "72 inches length, 30.19 inches max cross-section",
+        "source_url": "https://ntrs.nasa.gov/api/citations/20220013669/downloads/Internal%20Layout%20of%20a%20Lunar%20Surface%20Habitat.pdf",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Modular pallets, specific mass not disclosed. NASA Surface Habitat design uses 10 pallets for ECLSS.",
+        "verification_notes": "Modular pallets, specific mass not disclosed. NASA Surface Habitat design uses 10 pallets for ECLSS."
+      },
+      "volume_m3": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Volume varies by pallet configuration",
+        "verification_notes": "Volume varies by pallet configuration"
+      },
+      "crew_capacity": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Scalable system, capacity depends on configuration. Supports up to 4 crew for lunar missions.",
+        "verification_notes": "Scalable system, capacity depends on configuration. Supports up to 4 crew for lunar missions."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Power consumption not publicly disclosed",
+        "verification_notes": "Power consumption not publicly disclosed"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "System cost not publicly available",
+        "verification_notes": "System cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Delivery timeline not disclosed",
+        "verification_notes": "Delivery timeline not disclosed"
+      },
+      "system_capabilities": {
+        "air_revitalization": "CO2 reduction and recovery",
+        "water": "Water processing, urine and condensate processing",
+        "oxygen": "High pressure oxygen generation",
+        "type": "Regenerative capability (closed-loop)",
+        "source_url": "https://ntrs.nasa.gov/api/citations/20220013669/downloads/Internal%20Layout%20of%20a%20Lunar%20Surface%20Habitat.pdf",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from credible sources."
+      },
+      "heritage": {
+        "experience_years": 50,
+        "origin": "Apollo program",
+        "current_systems": "ISS spacesuits, Orion crew spacecraft",
+        "source_url": "https://www.collinsaerospace.com/what-we-do/industries/space/crewed-missions",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from credible sources."
+      },
+      "integration": {
+        "habitat_config": "3 Collins Pallets in habitat core for Air Revitalization System",
+        "interface": "Standard rack interfaces, modular design",
+        "source_url": "https://ntrs.nasa.gov/api/citations/20220013669/downloads/Internal%20Layout%20of%20a%20Lunar%20Surface%20Habitat.pdf",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from credible sources."
+      },
+      "notes": "Not a habitat structure itself, but critical life support integration. Modular palletized system for lunar Surface Habitat ECLSS."
+    },
+    {
+      "vendor": "ILC Dover",
+      "model": "Inflatable Habitat Structures (Multiple Projects)",
+      "application": "Supplier/partner for inflatable habitats (lunar and orbital)",
+      "trl": {
+        "value": 7,
+        "source_url": "https://ilcdoverastrospace.com/aerospace/space-habitats/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Partner to Sierra Space LIFE (TRL 6-7). Historical NASA projects varied TRLs.",
+        "verification_notes": "Partner to Sierra Space LIFE (TRL 6-7). Historical NASA projects varied TRLs."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Component supplier, not complete system. Mass varies by project.",
+        "verification_notes": "Component supplier, not complete system. Mass varies by project."
+      },
+      "volume_m3": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Varies by habitat design",
+        "verification_notes": "Varies by habitat design"
+      },
+      "crew_capacity": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Not applicable - component supplier",
+        "verification_notes": "Not applicable - component supplier"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Not applicable - passive structures",
+        "verification_notes": "Not applicable - passive structures"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Cost not publicly available",
+        "verification_notes": "Cost not publicly available"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "notes": "Delivery timeline not disclosed",
+        "verification_notes": "Delivery timeline not disclosed"
+      },
+      "historical_projects": {
+        "nasa_projects": [
+          "X-Hab Lunar Habitat",
+          "InFlex Lunar Habitat",
+          "Toroidal Lunar Habitat",
+          "Expandable Lunar Habitat",
+          "Antarctic Habitat Planetary Analog Study"
+        ],
+        "source_url": "https://ilcdoverastrospace.com/aerospace/space-habitats/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from credible sources."
+      },
+      "current_partnership": {
+        "partner": "Sierra Space",
+        "role": "Exclusive softgoods partner for LIFE modules",
+        "source_url": "https://ilcdoverastrospace.com/2023/04/18/sierra-space-and-ilc-dover-partner-to-build-the-infrastructure-in-space-that-will-accelerate-the-commercialization-of-low-Earth-orbit-and-outfit-the-astronaut-workforce-of-the-future/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from credible sources."
+      },
+      "capabilities": {
+        "products": [
+          "Inflatable habitats",
+          "Airlocks",
+          "Shelters for Earth orbit and lunar/planetary exploration"
+        ],
+        "source_url": "https://ilcdoverastrospace.com/aerospace/space-habitats/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from credible sources."
+      },
+      "notes": "Component supplier and partner, not prime habitat contractor. Critical technology provider for inflatable structures. Decades of NASA heritage."
+    }
+  ]
+}

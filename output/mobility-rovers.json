@@ -1,0 +1,1416 @@
+{
+  "category": "Mobility / Rovers",
+  "last_updated": "2025-12-09",
+  "research_status": "Phase 4 - Verification Complete",
+  "items": [
+    {
+      "vendor": "Intuitive Machines",
+      "model": "Moon RACER (Reusable Autonomous Crewed Exploration Rover)",
+      "class": "Unpressurized Crew Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/news-release/nasa-selects-companies-to-advance-moon-mobility-for-artemis-missions/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not explicitly stated by vendor or NASA. Inferred to be TRL 5-6 based on static mockup delivered to NASA JSC Sept 2024, drivable demo unveiled Nov 2024, ongoing feasibility phase. Checked NASA.gov and intuitivemachines.com - no TRL published."
+      },
+      "mass_kg": {
+        "value": 1500,
+        "source_url": "https://www.intuitivemachines.com/ltv",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'approximately one and a half metric tons' = 1500 kg"
+      },
+      "dimensions": {
+        "value": "4.34m L x 3.9m W x 2.6m H",
+        "source_url": "https://www.intuitivemachines.com/ltv",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from vendor official site. Length: 4.34m (excluding trailer), Maximum width: 3.9m, Height: 2.6m (including antennas). Previous JSON had incorrect width (2.6m) and height (3.7m) swapped."
+      },
+      "payload_capacity_kg": {
+        "value": 400,
+        "source_url": "https://www.intuitivemachines.com/post/intuitive-machines-unveils-moon-racer-ltv",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: accommodates 2 astronauts + 400 kg (882 lbs) cargo; designed to pull trailer with additional 800 kg (1,764 lbs)"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.intuitivemachines.com/ltv",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Rechargeable electric battery with solar panels mentioned on vendor site and in press releases, but specific kW not disclosed. Checked intuitivemachines.com and NASA.gov sources."
+      },
+      "speed": {
+        "value": "15 km/h (9.3 mph, 4.2 m/s)",
+        "source_url": "https://www.intuitivemachines.com/ltv",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'Top Lunar Speed: 15kmh'"
+      },
+      "range": {
+        "value": null,
+        "source_url": "https://www.intuitivemachines.com/ltv",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked vendor official site and NASA.gov - range not disclosed."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/news-release/nasa-selects-companies-to-advance-moon-mobility-for-artemis-missions/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Per-unit cost not published. NASA contract: indefinite-delivery/indefinite-quantity with combined maximum potential value of $4.6 billion through 2039 for all three selected providers (Intuitive Machines, Lunar Outpost, Venturi Astrolab). Not per-unit pricing."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/news-release/nasa-selects-companies-to-advance-moon-mobility-for-artemis-missions/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. NASA intends to begin using LTV for crewed operations during Artemis V (no earlier than 2030). Currently in year-long feasibility phase. Specific procurement lead time not disclosed."
+      },
+      "features": [
+        "Autonomous navigation",
+        "Remote operations when uncrewed",
+        "Robotic arm",
+        "Hazard avoidance",
+        "Carbon fiber construction",
+        "Wire mesh tires",
+        "20-degree slope capability",
+        "30cm obstacle clearance"
+      ],
+      "commercial_availability": {
+        "status": "Development - NASA contract",
+        "notes": "Company-owned asset with 10-year operational life planned. Commercial availability to non-NASA customers unclear.",
+        "source_url": "https://www.nasa.gov/news-release/nasa-selects-companies-to-advance-moon-mobility-for-artemis-missions/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed development status. NASA contract allows provider to utilize LTV for commercial lunar surface activities unrelated to NASA missions during periods between crewed missions. In feasibility phase, planned for Artemis V."
+      },
+      "notes": "Part of NASA Artemis LTV program. Partners: AVL, Boeing, Michelin, Northrop Grumman."
+    },
+    {
+      "vendor": "Venturi Astrolab",
+      "model": "FLEX (Flexible Logistics and Exploration) Rover",
+      "class": "Unpressurized Crew/Cargo Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://www.astrolab.space/flex-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not explicitly stated by vendor or NASA. Full-scale terrestrial prototype operational. Inferred TRL 5-6. FLIP test rover planned for 2025 to raise TRL. Checked astrolab.space and NASA.gov - no TRL published."
+      },
+      "mass_kg": {
+        "value": 2000,
+        "source_url": "https://www.astrolab.space/flex-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site. 'Maximum combined rover and cargo mass of more than two tons'. This represents total system mass (rover ~500kg + payload up to 1600kg = ~2100kg total)."
+      },
+      "dimensions": {
+        "value": "Approximately size of small pickup truck",
+        "source_url": "https://www.astrolab.space/flex-rover/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Vendor official site states 'approximately the size of a small pickup truck'. Specific dimensions not published. Wheelbase approximately that of a Jeep per press sources."
+      },
+      "payload_capacity_kg": {
+        "value": 1600,
+        "source_url": "https://www.astrolab.space/flex-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'payloads with volumes in excess of 3m³ and as much as 1600 kg in mass'"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.astrolab.space/flex-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Vendor site mentions lithium-ion batteries with deployable 3m² solar array and provides regulated electrical power to payloads, but specific kW not disclosed."
+      },
+      "speed": {
+        "value": "20 km/h",
+        "source_url": "https://www.astrolab.space/flex-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'up to 20 km/h' speed capability"
+      },
+      "range": {
+        "value": null,
+        "source_url": "https://www.astrolab.space/flex-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked vendor official site - operational range not disclosed."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/news-release/nasa-selects-companies-to-advance-moon-mobility-for-artemis-missions/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Per-unit cost not published. NASA contract: $4.6B total ceiling (all 3 providers through 2039). Eight commercial customers signed $160M+ total contracts for first 2026 mission per SpaceNews. Not per-unit pricing."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.astrolab.space/flex-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. First commercial mission planned 2026 via SpaceX Starship. Specific procurement lead time not disclosed."
+      },
+      "features": [
+        "6DOF robotic arm (25kg payload, 2m radius workspace)",
+        "Wheel-on-limb mobility system with adjustable ground clearance",
+        "Autonomous operation",
+        "Can accommodate 2 suited astronauts",
+        "Modular payload interfaces",
+        "Provides power, data, thermal management to payloads"
+      ],
+      "commercial_availability": {
+        "status": "Development - First commercial mission 2026",
+        "notes": "NASA Artemis LTV contract awarded April 2024 ($4.6B total ceiling all 3 providers). Eight commercial customers for 2026 mission via SpaceX Starship.",
+        "source_url": "https://www.astrolab.space/flex-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site and NASA. In development, first commercial mission planned late 2026 on SpaceX Starship. Part of NASA Artemis LTV program."
+      },
+      "notes": "FLIP (FLEX Lunar Innovation Platform) smaller test rover planned for late 2025 launch to raise TRL of FLEX technologies."
+    },
+    {
+      "vendor": "Lunar Outpost (Lunar Dawn Team)",
+      "model": "Eagle LTV",
+      "class": "Unpressurized Crew/Cargo Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://investors.lockheedmartin.com/news-releases/news-release-details/lunar-dawn-team-awarded-nasa-lunar-terrain-vehicle-contract/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not explicitly stated. NASA feasibility contract awarded April 2024, PDR in spring 2025. Inferred TRL 5-6. Checked lunaroutpost.com, lockheedmartin.com, and NASA.gov - no TRL published."
+      },
+      "mass_kg": {
+        "value": 1800,
+        "source_url": "https://www.hou.usra.edu/meetings/leag2025/pdf/5072.pdf",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "LEAG 2025 conference proceeding states 'total system mass exceeding 1,800 kg when fully loaded'. Rover mass alone not published. Source: conference paper (reference-tier)."
+      },
+      "dimensions": {
+        "value": "Truck-sized (larger than Apollo LRV, comparable to light pickup truck)",
+        "source_url": "https://coloradosun.com/2025/08/26/lunar-outpost-eaglemoon-rover-colorado/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Described as 'looks like it ate two or three Jeep Wranglers' and 'much closer to a light pickup truck' than Apollo buggies. Specific dimensions not published by vendor."
+      },
+      "payload_capacity_kg": {
+        "value": 2404,
+        "source_url": "https://coloradosun.com/2025/08/26/lunar-outpost-eaglemoon-rover-colorado/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 800 kg to 2,404 kg (5,300 lbs). Colorado Sun article states Falcon prototype 'seats two astronauts and has a large bed to transport...up to about 5,300 pounds.' Previous 800 kg was likely NASA minimum requirement, not Eagle's actual capacity."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.cpr.org/2025/08/24/lunar-outpost-new-terrain-vehicle-prototype-testing-colorado/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Solar-powered electric with GM-designed lithium-ion batteries (NCMA cathodes). Dual-sided deployable solar panel roof. Specific kW not disclosed. Checked vendor and partner sites."
+      },
+      "speed": {
+        "value": "15+ km/h (10 mph typical)",
+        "source_url": "https://www.factoriesinspace.com/lunar-outpost",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed '>15 km/h speed' from Factories in Space database. Colorado Public Radio states 'usually at speeds no greater than 10 miles per hour' (16 km/h). Consistent with >15 km/h capability."
+      },
+      "range": {
+        "value": ">20 km",
+        "source_url": "https://www.factoriesinspace.com/lunar-outpost",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Factories in Space database: '>20km range' with '>8 hour operation period'. Vendor official site does not publish range."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://investors.lockheedmartin.com/news-releases/news-release-details/lunar-dawn-team-awarded-nasa-lunar-terrain-vehicle-contract/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Per-unit cost not published. NASA contract: indefinite-delivery/indefinite-quantity task order contract. Total contract ceiling value not disclosed in Lockheed Martin press release. Per Factories in Space, contract valued at $1.727B, but this requires further verification."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://coloradosun.com/2025/08/26/lunar-outpost-eaglemoon-rover-colorado/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. SpaceX to deliver first Eagle to Moon by 2029 if NASA selects this design. PDR in spring 2025. Specific procurement lead time for commercial customers not disclosed."
+      },
+      "features": [
+        "Four independent motors (one per wheel)",
+        "Autonomous navigation",
+        "Remote operations when uncrewed",
+        "Can withstand -280°F (-173°C)",
+        "20-degree slope capability",
+        "Advanced power management",
+        "Stargate Mission Control Software (TRL 9, 99.998% uptime)",
+        "Robotic arm (SKYMAKER by MDA Space)",
+        "360-degree cameras, lidar, multiple sensors",
+        "Dual-sided deployable solar panel roof",
+        "Goodyear metal mesh tires",
+        "MOLLE panels for tool mounting",
+        "Tow hitch for additional cargo capacity"
+      ],
+      "commercial_availability": {
+        "status": "Development - NASA contract",
+        "notes": "Part of NASA Artemis LTV program. Lunar Outpost is prime contractor for Lunar Dawn team. SpaceX to deliver first unit 2029. Commercial availability unclear.",
+        "source_url": "https://investors.lockheedmartin.com/news-releases/news-release-details/lunar-dawn-team-awarded-nasa-lunar-terrain-vehicle-contract/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed development status. NASA contract awarded April 3, 2024 for feasibility phase. PDR planned spring 2025. First delivery via SpaceX Starship by 2029."
+      },
+      "notes": "Partners: Lunar Outpost (prime), Lockheed Martin, General Motors, Goodyear, MDA Space. Latest prototype called 'Falcon' unveiled 2025. GM designing chassis, suspension, batteries."
+    },
+    {
+      "vendor": "JAXA / Toyota",
+      "model": "Lunar Cruiser",
+      "class": "Pressurized Crew Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://global.toyota/en/newsroom/corporate/33208872.html",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not explicitly stated. Active development since 2019 joint agreement, prototype manufacturing in FY2020. Launch targeted 2029. Inferred TRL 5-6. Checked global.toyota and jaxa.jp - no TRL published."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://global.toyota/en/newsroom/corporate/33208872.html",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Mass not disclosed. Vehicle described as 'size of two minibuses' but specific mass not published. Lightweight hydrogen/water storage mentioned as design challenge. Checked Toyota and JAXA official sources."
+      },
+      "dimensions": {
+        "value": "6.0m L x 5.2m W x 3.8m H",
+        "source_url": "https://mag.toyota.co.uk/toyota-lunar-cruiser/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Toyota UK Magazine: 6.0m long, 5.2m wide, 3.8m tall. Pressurized living area: 13 cubic meters. Size of two microbuses. Toyota official sites do not publish specific dimensions."
+      },
+      "payload_capacity_kg": {
+        "value": null,
+        "source_url": "https://global.toyota/en/newsroom/corporate/33208872.html",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Payload capacity not disclosed. Vehicle designed to accommodate 2 astronauts (4 emergency) with life support for 30-day missions, but specific cargo payload not published."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://mag.toyota.co.uk/toyota-lunar-cruiser/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Specific kW not disclosed. Uses regenerative hydrogen fuel cell technology (derived from Toyota Mirai FCEV). System produces electricity from solar/water during lunar day, generates H2/O2 via electrolysis during lunar night. 1,000 km range per hydrogen fill mentioned."
+      },
+      "speed": {
+        "value": null,
+        "source_url": "https://global.toyota/en/newsroom/corporate/33208872.html",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Speed not disclosed. Checked Toyota official sources and credible publications - maximum speed not published."
+      },
+      "range": {
+        "value": "10000 km",
+        "source_url": "https://mag.toyota.co.uk/toyota-lunar-cruiser/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Toyota UK Magazine: 'around 6,200 miles' total cruising range over 42 days (approximately 10,000 km). Autoevolution states 1,000 km range per hydrogen tank fill. Total range verified."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://global.toyota/en/newsroom/corporate/33208872.html",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Cost not disclosed. Joint JAXA-Toyota development program. No public contract value or per-unit pricing found."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://global.toyota/en/newsroom/corporate/33208872.html",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not disclosed. Launch targeted 2029 (some sources state 2031 for Artemis VII). Commercial procurement lead time not applicable - government development program."
+      },
+      "features": [
+        "Pressurized cabin for crew (2 nominal, 4 emergency)",
+        "Regenerative hydrogen fuel cell power (Toyota Mirai-derived)",
+        "30-day mission duration capability",
+        "13 cubic meters pressurized living area",
+        "Automated off-road driving",
+        "Life support system",
+        "Zero emissions (water only)",
+        "Metal tires (radiation-resistant)",
+        "1,000 km range per hydrogen fill"
+      ],
+      "commercial_availability": {
+        "status": "Government development",
+        "notes": "Joint JAXA-Toyota program for Artemis. Launch targeted 2029. Commercial availability unclear.",
+        "source_url": "https://global.toyota/en/newsroom/corporate/33208872.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Toyota official site. Joint research since 2019. Prototype manufacturing began FY2020. Target launch 'latter half of 2020s' (2029). For US-led Artemis Program."
+      },
+      "notes": "Launch targeted 2029 for US-led Artemis Program. Inspired by Toyota Land Cruiser heritage. Partners: JAXA, Toyota, Mitsubishi Heavy Industries."
+    },
+    {
+      "vendor": "Lunar Outpost",
+      "model": "MAPP Rover (Mobile Autonomous Prospecting Platform)",
+      "class": "Small Robotic Rover",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.lunaroutpost.com/post/lunar-voyage-1-update",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 from vendor official site. Key subsystems achieved TRL 9 on Lunar Voyage 1 mission (Feb-Mar 2025): Stereo Navigation Cameras, Autonomous Thermal Control System (ATCS), Stargate Mission Control Software (99.998% uptime). First US teleoperated rover operated in cislunar space and on lunar surface."
+      },
+      "mass_kg": {
+        "value": 10,
+        "source_url": "https://www.factoriesinspace.com/lunar-outpost",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 10 kg from Factories in Space database. Wikipedia states 5-10 kg range. Vendor site does not publish specific mass."
+      },
+      "dimensions": {
+        "value": "45cm x 38cm x 40cm",
+        "source_url": "https://www.factoriesinspace.com/lunar-outpost",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 45 x 38 x 40 cm from Factories in Space database. Vendor site does not publish specific dimensions."
+      },
+      "payload_capacity_kg": {
+        "value": 15,
+        "source_url": "https://www.lunaroutpost.com/mapp",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 'maximum payload mass of 15kg' from vendor official site. Factories in Space states 50% payload mass fraction."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.factoriesinspace.com/lunar-outpost",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Power specifications not disclosed. Has Autonomous Thermal Control System and lunar night survival capability mentioned, but specific kW not published."
+      },
+      "speed": {
+        "value": "10 cm/s",
+        "source_url": "https://www.factoriesinspace.com/lunar-outpost",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 10 cm/s top speed from Factories in Space database and Wikipedia. Vendor site does not publish speed."
+      },
+      "range": {
+        "value": null,
+        "source_url": "https://www.factoriesinspace.com/lunar-outpost",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Range not disclosed. Mission duration of one lunar day (14 Earth days) mentioned, with optional lunar night survival capability, but specific distance range not published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://www.lunaroutpost.com/mapp",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Per-unit cost not disclosed. Commercial availability mentioned but pricing not public."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.factoriesinspace.com/lunar-outpost",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Procurement lead time not disclosed. First flight model delivered to Johns Hopkins APL in Aug 2023 for 2024 mission, indicating rapid development cycle."
+      },
+      "features": [
+        "Resource prospecting (first commercial lunar prospector)",
+        "Autonomous navigation",
+        "Rocker arm suspension",
+        "Topology-optimized wheels",
+        "Stereo Navigation Cameras (TRL 9)",
+        "Autonomous Thermal Control System (ATCS, TRL 9)",
+        "Dual stereoscopic nav cameras + third redundant camera",
+        "Platform for scientific instruments and commercial payloads",
+        "Mission duration: One lunar day (14 Earth days)",
+        "Lunar night survival capability",
+        "Nokia LSCS device modules (lunar cellular network)",
+        "50% payload mass fraction"
+      ],
+      "commercial_availability": {
+        "status": "Operational - Limited deployment",
+        "notes": "Achieved TRL 9 on Lunar Voyage 1 (IM-2) mission to lunar South Pole (landed Mar 6, 2025). Rover not deployed to surface due to off-nominal landing (lander on its side), but successfully operated in cislunar space and collected data. Commercially available for future missions.",
+        "source_url": "https://www.lunaroutpost.com/post/lunar-voyage-1-update",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "CORRECTED: Previous notes incorrectly stated 'Successfully deployed'. Rover reached Moon and operated but was NOT deployed to surface due to lander tipping over. Confirmed from vendor official update and Wikipedia."
+      },
+      "notes": "TRL 9 achieved for key subsystems. Lunar Voyage 1 mission (Feb-Mar 2025) - reached lunar surface but not deployed due to lander orientation. First US teleoperated rover in cislunar space. Selected for NASA PRISM program."
+    },
+    {
+      "vendor": "Astrobotic Technology",
+      "model": "CubeRover (2U/4U/6U variants)",
+      "class": "Micro Robotic Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://www.astrobotic.com/astrobotics-cuberover-is-flight-ready-for-lunar-mission/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not explicitly stated. CubeRover-1 completed acceptance testing and deemed 'flight-ready' for Griffin Mission One (late 2025). Under NASA Tipping Point contract for full system flight qualification. Multiple units delivered. Inferred TRL 7-8."
+      },
+      "mass_kg": {
+        "value": 10,
+        "source_url": "https://www.electronicsweekly.com/news/nasa-backs-astrobotic-for-moon-power-generation-services-2023-07/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "6U variant: 10-12kg confirmed from credible source. Smaller variants: 4kg range mentioned. Vendor official site does not publish specific masses. Notes show 2U: ~4-5kg, 4U: ~7-8kg, 6U: 10-12kg estimated."
+      },
+      "dimensions": {
+        "value": "Modular: 2U (20x10x10 cm), 4U (20x20x10 cm), 6U (30x20x10 cm)",
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/cuberover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site. Each U = 10cm x 10cm x 10cm payload standard (CubeSat-like). 2U, 4U, 6U standard sizes; larger variants (12U, 24U+) also available."
+      },
+      "payload_capacity_kg": {
+        "value": 6,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/cuberover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: Each unit accommodates ~1 kg payload. 2U: 2kg, 4U: 4kg, 6U: 6kg. Follows CubeSat-like standard."
+      },
+      "power_kw": {
+        "value": 0.003,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/cuberover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 0.5W continuous power per kg of payload = 3W for 6kg (0.003 kW). Additional power available upon request. 28 Vdc interface, lithium-ion battery."
+      },
+      "speed": {
+        "value": "10 cm/s",
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/cuberover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 10 cm/s top speed, can cover multiple kilometers in a single lunar day."
+      },
+      "range": {
+        "value": "Multiple kilometers per lunar day",
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/cuberover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site. Specific distance range not disclosed. Wireless charging for lunar night survival under development via NASA contract."
+      },
+      "cost_usd": {
+        "value": 4500000,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/cuberover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: $4.5M per kilogram of payload for end-to-end delivery service (includes rover, payload integration, launch, surface operations)."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/cuberover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Procurement lead time not disclosed. CubeRover-1 flight-ready for late 2025 Griffin Mission One."
+      },
+      "features": [
+        "Modular design (2U/4U/6U standard, up to 24U+ available)",
+        "30-degree slope capability",
+        "~15cm obstacle clearance",
+        "0.5W per kg continuous power to payload",
+        "10 kbps bandwidth per kg",
+        "Scalable platform",
+        "Lithium-ion battery, 28 Vdc interface",
+        "Thermal protection from lunar environment",
+        "Wireless charging (in development for lunar night survival)"
+      ],
+      "commercial_availability": {
+        "status": "Commercially available - First flight late 2025",
+        "notes": "17 years development history, 11 NASA contracts. CubeRover-1 flight-ready for Griffin Mission One to lunar south pole (late 2025). Full system flight qualification ongoing via NASA Tipping Point.",
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/our-history/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site. Commercially available, multiple units delivered. First lunar flight mission planned late 2025 aboard Griffin-1."
+      },
+      "notes": "Only rover with publicly disclosed pricing ($4.5M/kg payload). Modular CubeSat-like design allows customization. Flight-ready for late 2025 lunar mission."
+    },
+    {
+      "vendor": "Astrobotic Technology",
+      "model": "Polaris Rover",
+      "class": "Medium Robotic Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/polaris-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not stated on vendor official site. Prototype completed 2012, commercially offered but no recent missions announced. No active deployment status found. Checked astrobotic.com - no TRL published."
+      },
+      "mass_kg": {
+        "value": 150,
+        "source_url": "https://www.astrobotic.com/astrobotic-unveils-lunar-polar-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 150 kg (approximately 330 pounds) rover mass from 2012 prototype unveiling."
+      },
+      "dimensions": {
+        "value": "2.44m L x 2.13m W x 1.68m H",
+        "source_url": "https://www.astrobotic.com/astrobotic-unveils-lunar-polar-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from vendor official site. Nearly 8 feet L (2.44m) x 7 feet W (2.13m) x 5.5 feet H (1.68m). Previous JSON had approximate values rounded differently."
+      },
+      "payload_capacity_kg": {
+        "value": 90,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/polaris-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 90 kg payload mass capacity (current specification). Earlier 2012 specs stated 70-80 kg, updated to 90 kg on current product page."
+      },
+      "power_kw": {
+        "value": 0.25,
+        "source_url": "https://www.astrobotic.com/astrobotic-unveils-lunar-polar-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 250 watts solar panel output (0.25 kW). Also provides 0.5W continuous power per kg of payload."
+      },
+      "speed": {
+        "value": "37 cm/s",
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/polaris-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from vendor official site: 37 cm/s top speed (current specification). Earlier 2012 prototype specs stated ~30 cm/s (1 ft/s), updated to 37 cm/s on current product page."
+      },
+      "range": {
+        "value": "Tens of kilometers per lunar day",
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/polaris-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'tens of kilometers in a single lunar day' range capability. Specific distance not quantified."
+      },
+      "cost_usd": {
+        "value": 4500000,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/polaris-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: $4.5M per kilogram of payload for end-to-end delivery service (includes rover, payload integration, launch, surface operations). Same pricing model as CubeRover."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/polaris-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Procurement lead time not disclosed on vendor site. No active missions announced for 2024-2026."
+      },
+      "features": [
+        "Autonomous and teleoperated navigation",
+        "Stereo vision-based navigation",
+        "Inertial, wheel rotation, and Sun sensors",
+        "Can accommodate drills up to 1.2m (4 ft)",
+        "Four-wheel drive skid steer with independent actuators",
+        "Rocker suspension",
+        "55 cm ground clearance",
+        "40 cm obstacle surmounting capability",
+        "Direct-to-Earth communications",
+        "0.5W continuous power per kg payload",
+        "10 kbps bandwidth per kg payload",
+        "Extended operation in permanently shadowed regions",
+        "Compatible with multiple landers including Griffin"
+      ],
+      "commercial_availability": {
+        "status": "Commercially offered - No active missions",
+        "notes": "Prototype completed October 2012 for water prospecting. Listed on Astrobotic's commercial lunar delivery services but no active missions scheduled 2024-2026. Company focus shifted to CubeRover and lander missions.",
+        "source_url": "https://www.astrobotic.com/lunar-delivery/rovers/polaris-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed commercially available per vendor official site. Prototype unveiled 2012, originally planned for 2015 mission that did not occur. Currently offered as commercial service but no active missions found."
+      },
+      "notes": "Designed for polar water prospecting. Original 2015 mission via SpaceX Falcon 9 did not occur. Currently offered commercially alongside CubeRover platform."
+    },
+    {
+      "vendor": "Honeybee Robotics (Blue Origin)",
+      "model": "Firefly Lunar-VISE Rover",
+      "class": "Small Robotic Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-selects-blue-origins-honeybee-robotics-to-provide-rover-for-lunar-mission-to-gruithuisen-domes/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not stated. Honeybee Robotics selected March 2025 to build rover for 2028 mission. Development in progress. Checked Blue Origin, Firefly, and NASA sources - no TRL published."
+      },
+      "mass_kg": {
+        "value": 97,
+        "source_url": "https://www.hou.usra.edu/meetings/lpsc2025/pdf/1750.pdf",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from LPSC 2025 conference paper 'A Commercial Rover for the Lunar Vulkan Imaging and Spectroscopy Explorer': 97 kg rover mass, 100 kg class rover mentioned in press releases."
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-selects-blue-origins-honeybee-robotics-to-provide-rover-for-lunar-mission-to-gruithuisen-domes/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Dimensions not disclosed. Checked Blue Origin, Firefly Aerospace, and NASA sources - no dimensions published."
+      },
+      "payload_capacity_kg": {
+        "value": null,
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-selects-blue-origins-honeybee-robotics-to-provide-rover-for-lunar-mission-to-gruithuisen-domes/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Payload capacity not disclosed. Rover carries NASA Lunar-VISE instruments (infrared multi-spectral camera and gamma ray/neutron spectrometer) but specific payload mass not published."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-selects-blue-origins-honeybee-robotics-to-provide-rover-for-lunar-mission-to-gruithuisen-domes/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Power specifications not disclosed. 14-day lunar day mission mentioned but power system details not published."
+      },
+      "speed": {
+        "value": null,
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-selects-blue-origins-honeybee-robotics-to-provide-rover-for-lunar-mission-to-gruithuisen-domes/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Speed not disclosed. Rover will traverse 1.1 km over one lunar day but speed not specified."
+      },
+      "range": {
+        "value": "1.1 km",
+        "source_url": "https://www.hou.usra.edu/meetings/lpsc2025/pdf/1750.pdf",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from LPSC 2025 conference paper: 'up to 1.1 km traverse over one lunar day' with operations at radius up to 500m from Firefly's lander."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-selects-blue-origins-honeybee-robotics-to-provide-rover-for-lunar-mission-to-gruithuisen-domes/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Rover cost not disclosed. Firefly's overall NASA task order worth $179M for Blue Ghost Mission 3 (includes lander, rover, and six payloads). Rover-specific cost not broken out."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-selects-blue-origins-honeybee-robotics-to-provide-rover-for-lunar-mission-to-gruithuisen-domes/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Procurement lead time not disclosed. Honeybee Robotics selected March 2025 for 2028 launch (approximately 3-year development). Commercial procurement timeline not applicable - NASA contract mission."
+      },
+      "features": [
+        "14-day mission duration (one lunar day)",
+        "Carries NASA Lunar-VISE instruments",
+        "Infrared multi-spectral camera system",
+        "Gamma ray and neutron emissions spectrometer (LV-GRNS)",
+        "Gruithuisen Domes exploration mission",
+        "Boulder field traversal capability",
+        "500m operating radius from lander",
+        "Repeat observation capability at different solar angles"
+      ],
+      "commercial_availability": {
+        "status": "Development - NASA contract",
+        "notes": "Honeybee Robotics (Blue Origin) contracted by Firefly Aerospace March 2025 for 2028 NASA Lunar-VISE mission to Gruithuisen Domes. Part of NASA CLPS CP-21 task order ($179M total). Commercial availability unclear.",
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-selects-blue-origins-honeybee-robotics-to-provide-rover-for-lunar-mission-to-gruithuisen-domes/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Firefly Aerospace official announcement. Contract awarded March 2025, launch targeted 2028 on Blue Ghost Mission 3 to Gruithuisen Gamma Dome."
+      },
+      "notes": "Mission: Lunar Vulkan Imaging and Spectroscopy Explorer (Lunar-VISE) for NASA. Launch 2028 on Firefly Blue Ghost Mission 3. Investigating non-mare silicic volcanism at Gruithuisen Domes."
+    },
+    {
+      "vendor": "ispace Europe",
+      "model": "TENACIOUS Rover",
+      "class": "Micro Robotic Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://ispace-inc.com/news-en/?p=7097",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not stated. Flight model completed July 2024, launched Jan 15 2025, currently in transit to Moon (landing scheduled June 6, 2025). Inferred TRL 7-8 based on operational flight status. Checked ispace-inc.com - no TRL published."
+      },
+      "mass_kg": {
+        "value": 5,
+        "source_url": "https://ispace-inc.com/news-en/?p=5593",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'approximately 5 kg' mass. First European-designed and manufactured lunar micro rover."
+      },
+      "dimensions": {
+        "value": "54cm L x 31.5cm W x 26cm H",
+        "source_url": "https://ispace-inc.com/news-en/?p=5593",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 54 cm long x 31.5 cm wide x 26 cm tall. Compact micro rover design."
+      },
+      "payload_capacity_kg": {
+        "value": 1,
+        "source_url": "https://ispace-inc.com/news-en/?p=5593",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Payload capacity not explicitly stated. Rover carries forward-mounted HD camera, shovel for regolith collection, and Mikael Genberg model house. Estimated 1 kg payload based on described instruments. Vendor site does not publish specific payload capacity."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://ispace-inc.com/news-en/?p=5593",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Power specifications not disclosed. Checked vendor official announcements - power system details not published."
+      },
+      "speed": {
+        "value": null,
+        "source_url": "https://ispace-inc.com/news-en/?p=5593",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Speed not disclosed. Wheels designed for stable lunar regolith traversal mentioned but speed not specified. Checked vendor official site."
+      },
+      "range": {
+        "value": null,
+        "source_url": "https://ispace-inc.com/news-en/?p=5593",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Range not disclosed. Mission focused on landing site exploration around lander but specific distance range not published. Checked vendor official site."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://ispace-inc.com/news-en/?p=5593",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Cost not disclosed. Development co-funded by LuxIMPULSE and Luxembourg Space Agency. Commercial pricing not published."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://ispace-inc.com/news-en/?p=5593",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Procurement lead time not disclosed. Flight model completed July 2024 for Jan 2025 launch (~6 month integration). Commercial procurement timeline not published."
+      },
+      "features": [
+        "Smallest and lightest European planetary rover",
+        "First European-built lunar rover",
+        "Designed and manufactured in Luxembourg",
+        "Carbon fiber-reinforced plastic (CFRP) frame",
+        "Forward-mounted HD camera",
+        "Shovel for regolith collection",
+        "Specially designed wheels for lunar regolith traversal",
+        "Commands/telemetry via RESILIENCE lander",
+        "Carries Mikael Genberg model house payload"
+      ],
+      "commercial_availability": {
+        "status": "Operational - In transit to Moon",
+        "notes": "Launched January 15, 2025 on SpaceX Falcon 9 as part of ispace HAKUTO-R Mission 2. Landing scheduled June 6, 2025. First European lunar micro rover. Commercial availability for future missions unclear.",
+        "source_url": "https://ispace-inc.com/news-en/?p=7097",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site. Launched Jan 15 2025, completed lunar flyby Feb 15 2025, 5 of 10 mission milestones achieved as of late May 2025. Landing scheduled June 6 2025 at Mare Frigoris."
+      },
+      "notes": "Built by ispace EUROPE S.A. in Luxembourg with LuxIMPULSE and Luxembourg Space Agency co-funding. Mission objectives: technological demonstration of regolith extraction and mobility on lunar surface."
+    },
+    {
+      "vendor": "Space Applications Services",
+      "model": "LUVMI-M (Lunar Volatiles Mobile Instrumentation)",
+      "class": "Small Robotic Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://moon.spaceapplications.com/lunar-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not stated. Development ongoing, planned deployment Q4 2027 or Q3 2028 (conflicting sources). Building on rover heritage since 2016 with extensive regolith analogue testing. Checked spaceapplications.com - no TRL published."
+      },
+      "mass_kg": {
+        "value": 25,
+        "source_url": "https://moon.spaceapplications.com/lunar-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: '20-30 kg' rover mass. Midpoint 25 kg used. Vendor specifies mass range, not exact value."
+      },
+      "dimensions": {
+        "value": "Up to 0.6m x 0.6m x 0.5m",
+        "source_url": "https://moon.spaceapplications.com/lunar-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'Up to 0.6m × 0.6m × 0.5m' dimensions. Compact small rover design."
+      },
+      "payload_capacity_kg": {
+        "value": 30,
+        "source_url": "https://moon.spaceapplications.com/lunar-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 20-30 kg payload capacity. Earlier sources stated 20 kg, current spec shows up to 30 kg maximum."
+      },
+      "power_kw": {
+        "value": 0.03,
+        "source_url": "https://moon.spaceapplications.com/lunar-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 30W (max) power output to payloads (0.03 kW). Voltage options: 5V, 12V, 28V."
+      },
+      "speed": {
+        "value": "5 cm/s",
+        "source_url": "https://moon.spaceapplications.com/lunar-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 5 cm/s top speed. Designed for deliberate, safe navigation on lunar surface."
+      },
+      "range": {
+        "value": "Multiple kilometers",
+        "source_url": "https://moon.spaceapplications.com/lunar-rover/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official site: 'multiple kilometers' range with traversal to 'many payload sites of interest' baselined per mission. Specific distance not quantified."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://moon.spaceapplications.com/lunar-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Cost not disclosed. Offered as turnkey lunar transport service with payload hosting. Vendor offers 'commercial access to lunar surface' but pricing not published. Contact required."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://moon.spaceapplications.com/lunar-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Procurement lead time not disclosed. First mission planned Q4 2027 or Q3 2028. Commercial procurement timeline available via moon.spaceapplications.com but not publicly stated."
+      },
+      "features": [
+        "Combination of on-board autonomy and teleoperations",
+        "Stereo cameras provide 3D lunar surface map",
+        "Hazard detection cameras for safe driving",
+        "15-degree slope capability",
+        "10-14 day mission duration",
+        "30W max power output (5V, 12V, 28V)",
+        "100 kbps data downlink",
+        "UART, SpaceWire, Ethernet, CAN interfaces",
+        "Waypoint planning navigation",
+        "YAMCS mission control system",
+        "Scientific instruments, technological testbeds, or commercial payloads",
+        "Customer option for independent payload control or full operations delegation"
+      ],
+      "commercial_availability": {
+        "status": "Development - Commercial mission",
+        "notes": "Planned deployment Q4 2027 or Q3 2028 (sources vary). Commercially driven lunar mobility solution offering turnkey transport and operations. Belgian company building on rover heritage since 2016.",
+        "source_url": "https://www.spaceapplications.com/news/space-applications-services-expands-lunar-rover-development-with-new-commercial-and-esa-funded-missions",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from vendor official announcement. First mission targeted Q3 2028 per April 2025 press release. Earlier sources mentioned Q4 2027. Commercially available for payload hosting bookings."
+      },
+      "notes": "Belgian company. Building on rover heritage since 2016 (LUVMI, LUVMI-X, Alchemist, ECMS, ArgoNET projects). Also developing LPSR (Lunar Prospecting & Scouting Rover) for ESA 2030 mission as prime contractor."
+    },
+    {
+      "vendor": "Venturi Space (France/Monaco)",
+      "model": "Mona Luna",
+      "class": "Medium Robotic/Crew-Capable Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://spacenews.com/venturi-space-announces-european-lunar-rover-design/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL not stated. Prototype unveiled June 2025 at Paris Air Show. Receiving ESA technological support for key components. Seeking additional ESA funding at Nov 2025 ministerial conference. Inferred TRL 5-6. Checked venturi.space and SpaceNews - no TRL published."
+      },
+      "mass_kg": {
+        "value": 750,
+        "source_url": "https://spacenews.com/venturi-space-announces-european-lunar-rover-design/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceNews (credible source): 750 kg mass. Confirmed by multiple sources including Monaco media and aerospace publications."
+      },
+      "dimensions": {
+        "value": "2.5m L x 1.64m W",
+        "source_url": "https://spacenews.com/venturi-space-announces-european-lunar-rover-design/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceNews: 2.5 meters long × 1.64 meters wide. Height not disclosed. Multiple sources confirm same dimensions."
+      },
+      "payload_capacity_kg": {
+        "value": null,
+        "source_url": "https://www.hellomonaco.com/news/latest-news/monaco-aims-for-the-moon-venturi-unveils-europes-most-ambitious-lunar-rover-yet/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Payload capacity not disclosed. Rover features robotic arm for scientific payloads placement and experiment module transport but specific capacity not published. Checked venturi.space and credible sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.hellomonaco.com/news/latest-news/monaco-aims-for-the-moon-venturi-unveils-europes-most-ambitious-lunar-rover-yet/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Power specifications not disclosed. Electric motors with solar panel recharging and three high-performance batteries (Monaco-developed) mentioned but kW not specified."
+      },
+      "speed": {
+        "value": "20 km/h",
+        "source_url": "https://spacenews.com/venturi-space-announces-european-lunar-rover-design/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceNews: up to 20 km/h maximum speed on ideal terrain. Multiple sources confirm same specification."
+      },
+      "range": {
+        "value": null,
+        "source_url": "https://spacenews.com/venturi-space-announces-european-lunar-rover-design/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Range not disclosed. Three batteries for lunar night survival mentioned but specific distance range not published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://spacenews.com/venturi-space-announces-european-lunar-rover-design/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Cost not disclosed. ESA partnership and seeking ministerial conference funding mentioned. Commercial pricing not published."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://spacenews.com/venturi-space-announces-european-lunar-rover-design/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Procurement lead time not disclosed. Target deployment 2030 via ESA Argonaut lander. Commercial procurement not applicable - government partnership program."
+      },
+      "features": [
+        "20-degree slope capability with 10% max slip rate",
+        "Four-wheel configuration (simpler than six-wheel)",
+        "Robotic arm for payload manipulation and astronaut evacuation support",
+        "Autonomous movement",
+        "Lunar night survival (three Monaco-developed batteries)",
+        "Temperature tolerance: -130°C to +120°C",
+        "Can survive temperatures to -250°C in lunar craters",
+        "14-day hibernation mode",
+        "Hyper-deformable wheels (Swiss-designed)",
+        "Puncture-proof, radiation and vacuum resistant wheels",
+        "Internal suspension and steering systems",
+        "Components positioned for improved thermal management",
+        "100% European design and manufacturing (Monaco, Switzerland, France)"
+      ],
+      "commercial_availability": {
+        "status": "Development - ESA partnership",
+        "notes": "Prototype unveiled June 2025 at Paris Air Show. Receiving ESA technological support, seeking additional funding at Nov 2025 ministerial conference. Designed for ESA Argonaut lander delivery via Ariane 64. Target: Moon's South Pole by 2030.",
+        "source_url": "https://spacenews.com/venturi-space-announces-european-lunar-rover-design/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SpaceNews. Prototype unveiled June 2025, development ongoing with ESA support. Target deployment 2030. For ESA and CNES missions. Organizational separation from Venturi Astrolab (US partner)."
+      },
+      "notes": "Entirely European project, lifecycle managed from Toulouse. Designed by French designer Sacha Lakic. Support for ESA and CNES missions. Manufacturing spans Monaco (batteries), Switzerland (wheels), France (assembly/testing in Toulouse)."
+    },
+    {
+      "vendor": "GITAI",
+      "model": "R1.5 Lunar Rover",
+      "class": "Medium Robotic Rover",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.robotatta.com/products/475",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "TRL 7 stated on RobotATTA database (robot industry catalog). Self-reported by GITAI, not NASA-verified. Vendor planned 2026 lunar surface demonstration to achieve TRL 7 through operational environment testing, but current status shows TRL 7 designation as of April 2023 datasheet release."
+      },
+      "mass_kg": {
+        "value": 280,
+        "source_url": "https://www.robotatta.com/products/475",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed 280 kg from RobotATTA database. Different from R1 model (220 kg per Factories in Space). Vendor official datasheet PDF exists but content not extractable via WebFetch."
+      },
+      "dimensions": {
+        "value": "1492mm W x 2400mm D x 942.5mm H",
+        "source_url": "https://www.robotatta.com/products/475",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed W1492 x D2400 x H942.5mm from RobotATTA database. Converted to standard format: 1.492m W x 2.4m D (Length) x 0.9425m H. Different dimensions from R1 model (1.6x1.4x1.9m per Factories in Space)."
+      },
+      "payload_capacity_kg": {
+        "value": null,
+        "source_url": "https://www.robotatta.com/products/475",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Payload capacity not disclosed. Checked RobotATTA database, gitai.tech vendor site, and Factories in Space - no payload capacity specified. Rover designed for manipulation tasks with dual 1.5m arms rather than cargo transport."
+      },
+      "power_kw": {
+        "value": 1.5,
+        "source_url": "https://www.robotatta.com/products/475",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed 115-1500W power consumption range from RobotATTA database. Using maximum 1500W = 1.5 kW. Battery-powered with 36-48 Vdc input voltage. Power varies by operational mode."
+      },
+      "speed": {
+        "value": "24 cm/s",
+        "source_url": "https://www.robotatta.com/products/475",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed 0.24 m/s maximum velocity from RobotATTA database (= 24 cm/s). Steering capability: 143 deg/sec @24V, 285 deg/sec @48V for actuators."
+      },
+      "range": {
+        "value": null,
+        "source_url": "https://www.robotatta.com/products/475",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Range not disclosed. Checked RobotATTA, gitai.tech vendor site, and Factories in Space - operational range not specified. Battery-powered but capacity and range not published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://www.robotatta.com/products/475",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Cost not announced per RobotATTA database. Available for testing in Japan only. Commercial pricing not disclosed. Vendor positioning as affordable solution but no specific pricing published."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://gitai.tech/lunar-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Procurement lead time not disclosed. Vendor planned lunar launch by 2025, with 2026 demonstration mission mentioned. Currently available for testing in Japan only. Commercial procurement timeline not published."
+      },
+      "features": [
+        "Four-legged rolling robot design",
+        "Two robotic arms with claw-like hands",
+        "Omni-directional steering on all wheels",
+        "Two cameras for vision",
+        "Multiple sensors",
+        "Autonomous operation and teleoperation",
+        "15-20 degree slope climbing capability",
+        "Demonstrated: solar panel assembly, regolith collection",
+        "EtherCAT and ethernet connectivity",
+        "IMU sensor: VN-100"
+      ],
+      "commercial_availability": {
+        "status": "Development - Testing phase",
+        "notes": "Available for testing in Japan only per RobotATTA. R1.5 datasheet released April 2023. Vendor planned 2025 lunar launch with 2026 demonstration mission. Also developing robotic arm for JAXA/Toyota crewed pressurized lunar rover under contract.",
+        "source_url": "https://www.robotatta.com/products/475",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed development status from RobotATTA and gitai.tech. Successfully demonstrated in JAXA simulated environment (Dec 2021) and regolith chamber tests (June 2023). TRL 7 designation but lunar surface mission not yet flown. Commercial availability limited to testing in Japan."
+      },
+      "notes": "Japanese company. TRL 7 achieved. General-purpose tasks: exploration, mining, inspection, maintenance, assembly. Combines affordability with state-of-the-art technology."
+    },
+    {
+      "vendor": "Canadensys Aerospace Corporation",
+      "model": "Canadian Lunar Rover",
+      "class": "Small Robotic Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/first-canadian-rover-to-explore-the-moon.asp",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "TRL not disclosed. CSA official site states 'Rover status: in development'. Contract awarded Nov 2022, Phase A conceptual design executed. Planned launch no earlier than 2029. Inferred TRL 5-6 based on development status."
+      },
+      "mass_kg": {
+        "value": 35,
+        "source_url": "https://spaceq.ca/canadian-lunar-rover-and-utility-vehicle-on-display/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed 35 kg (including science instruments) from SpaceQ Dec 2024 article. Note: CSA official website states 42 kg, creating discrepancy. Using more recent SpaceQ source (35 kg) which aligns with earlier reports."
+      },
+      "dimensions": {
+        "value": "0.5 square metres footprint",
+        "source_url": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/first-canadian-rover-to-explore-the-moon.asp",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed '0.5 square metres' size from CSA official site. Specific length/width/height dimensions not disclosed. Small rover design for 35-42 kg class vehicle."
+      },
+      "payload_capacity_kg": {
+        "value": null,
+        "source_url": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/first-canadian-rover-to-explore-the-moon.asp",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Payload capacity not disclosed. Rover carries 6 scientific instruments (5 Canadian, 1 American) but total payload mass not published. Mass of 35-42 kg includes science instruments."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://spaceq.ca/canadian-lunar-rover-and-utility-vehicle-on-display/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Power specifications not disclosed. Solar energy with lithium battery confirmed, but specific kW not published. Checked CSA and SpaceQ sources."
+      },
+      "speed": {
+        "value": "20 cm/s (0.72 km/h)",
+        "source_url": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/first-canadian-rover-to-explore-the-moon.asp",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed maximum speed 20 cm/s (0.72 km/h) from CSA official site. Consistent across multiple authoritative sources."
+      },
+      "range": {
+        "value": null,
+        "source_url": "https://www.factoriesinspace.com/canadensys-aerospace-corporation",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Range not disclosed. Can operate inside permanently shadowed regions for up to one hour. Survives 14 Earth day lunar nights. Specific distance range not published."
+      },
+      "cost_usd": {
+        "value": 43000000,
+        "source_url": "https://www.canada.ca/en/space-agency/news/2022/10/first-canadian-rover-to-set-wheels-on-the-moon.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed $43 million CAD contract value from Canada.ca official government announcement (Nov 14, 2022). This is total contract value, not per-unit pricing. Contract awarded to Canadensys Aerospace Corporation."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/first-canadian-rover-to-explore-the-moon.asp",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Procurement lead time not disclosed. Contract awarded Nov 2022, launch no earlier than 2029 (originally 2026). Approximately 7-year development cycle. Commercial procurement not applicable - government contract."
+      },
+      "features": [
+        "Designed for 14-day lunar nights below -200°C",
+        "Six scientific payloads",
+        "Radiation Micro-Dosimeter",
+        "Multispectral Imager (MSI) for minerals and water ice",
+        "Stereo-Cameras for 3D navigation",
+        "NISA-1000 for mafic minerals and surface water ice detection",
+        "LAFORGE (NASA infrared radiometer)"
+      ],
+      "commercial_availability": {
+        "status": "Development - Government contract",
+        "notes": "CSA $43M CAD contract awarded Nov 2022 via NASA CLPS program. Launch timeline updated from 'as early as 2026' to 'no earlier than 2029' per CSA official site. Mission to lunar south pole. Involves 40+ Canadian companies and universities. Commercial availability to non-government customers unclear.",
+        "source_url": "https://www.canada.ca/en/space-agency/news/2022/10/first-canadian-rover-to-set-wheels-on-the-moon.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from Canada.ca official announcement and CSA website. Contract to Canadensys Aerospace (Bolton, Ontario). Part of Canada's $150M Lunar Exploration Accelerator Program (LEAP). First Canadian rover mission."
+      },
+      "notes": "Canadian Space Agency rover. Partners: Canadensys Aerospace and academic/industrial partners. Canada also developing larger Lunar Utility Rover for 2030s ($14.6M CAD awarded July 2025)."
+    },
+    {
+      "vendor": "Mohammed bin Rashid Space Centre (UAE)",
+      "model": "Rashid 2 Rover",
+      "class": "Micro Robotic Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://www.mbrsc.ae/rashid-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "TRL not disclosed. Rashid 2 development completed and dispatched to US for integration. Scheduled for 2026 launch via Firefly Blue Ghost Mission 2. Inferred TRL 6-7 based on flight readiness. Checked MBRSC and Firefly sources - no TRL published."
+      },
+      "mass_kg": {
+        "value": 10,
+        "source_url": "https://gulfnews.com/uae/science/heres-all-you-need-to-know-about-uaes-rashid-rover-1.88613619",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Rashid 2 specifications not publicly disclosed. Using Rashid 1 mass (approximately 10 kg with payload) from Gulf News as proxy. MBRSC stated Rashid 2 specs 'will be determined' but has not published them. Assume similar design to Rashid 1."
+      },
+      "dimensions": {
+        "value": "70cm H x 50cm L x 50cm W",
+        "source_url": "https://gulfnews.com/uae/science/heres-all-you-need-to-know-about-uaes-rashid-rover-1.88613619",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Rashid 2 dimensions not publicly disclosed. Using Rashid 1 dimensions (70cm H x 50cm L x 50cm W) from Gulf News as proxy. MBRSC has not published Rashid 2 specifications. Likely similar design to Rashid 1."
+      },
+      "payload_capacity_kg": {
+        "value": null,
+        "source_url": "https://www.mbrsc.ae/rashid-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Payload capacity not disclosed. Rashid 1 had science instruments but mass breakdown not published. Rashid 2 carries multiple cameras and probes but specific payload capacity not disclosed. Checked MBRSC and Firefly sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://gulfnews.com/uae/science/heres-all-you-need-to-know-about-uaes-rashid-rover-1.88613619",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Power not disclosed. Rashid 1 was solar-powered but specific kW not published. Assume Rashid 2 uses similar solar power system. Specific power output not disclosed by MBRSC."
+      },
+      "speed": {
+        "value": null,
+        "source_url": "https://www.mbrsc.ae/rashid-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Speed not disclosed. Mission focuses on 'demonstrating lunar surface mobility' but specific speed not published. Checked MBRSC official site and Firefly announcement."
+      },
+      "range": {
+        "value": null,
+        "source_url": "https://www.mbrsc.ae/rashid-rover/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Range not disclosed. Mission objectives mention mobility demonstration and studying plasma/geology at landing site but operational range not specified. Checked MBRSC and Firefly sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-adds-uaes-rashid-2-rover-to-blue-ghost-mission-to-the-far-side-of-the-moon/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Cost not disclosed. MBRSC-Firefly partnership announced May 2025 but financial terms not published. Government-funded development program. Commercial pricing not applicable."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-adds-uaes-rashid-2-rover-to-blue-ghost-mission-to-the-far-side-of-the-moon/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Procurement lead time not applicable. Development completed and rover dispatched to US for integration. Launch scheduled 2026 via Firefly Blue Ghost Mission 2. Government development program, not commercial product."
+      },
+      "features": [
+        "Four wheels",
+        "Climb 10cm obstacles",
+        "Descend 20-degree slopes",
+        "Demonstrate lunar surface mobility",
+        "In-situ resource utilization (ISRU) technologies",
+        "First Arab-built lunar rover"
+      ],
+      "commercial_availability": {
+        "status": "Development - Commercial partnership",
+        "notes": "Development completed, rover dispatched to US for integration (2025). Delivery via Firefly Aerospace Blue Ghost Mission 2 to far side of Moon (2026). MBRSC developed, commercial delivery via NASA CLPS. Part of Emirates Lunar Mission. Commercial availability to non-government customers unclear.",
+        "source_url": "https://fireflyspace.com/news/firefly-aerospace-adds-uaes-rashid-2-rover-to-blue-ghost-mission-to-the-far-side-of-the-moon/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from Firefly Aerospace official announcement (May 2025) and MBRSC sources. Rashid 1 crashed during ispace landing attempt Apr 25 2023. Rashid 2 represents second attempt, targeting lunar far side. Flight-ready status confirmed."
+      },
+      "notes": "Emirates Lunar Mission. Rashid 1 crashed on landing attempt (Apr 25, 2023). Rashid 2 represents second attempt, targeting far side of Moon."
+    },
+    {
+      "vendor": "Unmanned Exploration Laboratory (UEL, South Korea)",
+      "model": "Haetae-Class Rover",
+      "class": "Micro Robotic Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "TRL not disclosed. Prototypes functional for Earth-based testing but require 'space-level' component upgrades for launch. Target 2032 Korean lunar mission. Inferred TRL 4-5 based on development status. Checked UEL and Korea Herald sources."
+      },
+      "mass_kg": {
+        "value": 8,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed 8 kg from Korea Herald (May 2023). Note: OpenPR press release states 10-15 kg for Haetae large rover variant. Using Korea Herald 8 kg as more specific. Discrepancy may reflect different Haetae configurations or development updates."
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": "https://www.openpr.com/news/3485123/multi-functionality-rovers-for-lunar-exploration-uel",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Dimensions not disclosed. Four-wheel configuration with rocker-bogie suspension confirmed. External solar panel array mentioned. Specific L x W x H not published. Checked OpenPR and Korea Herald sources."
+      },
+      "payload_capacity_kg": {
+        "value": null,
+        "source_url": "https://www.openpr.com/news/3485123/multi-functionality-rovers-for-lunar-exploration-uel",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Payload capacity not quantified. Described as carrying 'medium-sized payloads' for terrain exploration and experimental equipment operation. Specific kg capacity not disclosed."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Power not disclosed. External solar panel array confirmed but specific kW not published. Checked OpenPR and Korea Herald sources."
+      },
+      "speed": {
+        "value": null,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Speed not disclosed. 60m operational range mentioned but traversal speed not specified. Checked OpenPR and Korea Herald sources."
+      },
+      "range": {
+        "value": "60 meters",
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed 60-meter operational range from Korea Herald (May 2023). Note: OpenPR press release states 400m maximum range for Haetae. Using Korea Herald 60m as more conservative. Discrepancy may reflect different mission scenarios or Haetae variants."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Cost not disclosed. UEL startup receives less than 10% government funding. Commercial pricing not published. Checked UEL, OpenPR, and Korea Herald sources."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Procurement lead time not disclosed. Target 2032 Korean lunar mission. MOU with ispace Oct 2024 for commercial missions (no earlier than 2027 for 2-wheeled Scarab rovers, not Haetae). Commercial procurement timeline not published."
+      },
+      "features": [
+        "Four wheels",
+        "External solar panel array",
+        "Terrain exploration",
+        "Experiment conduction",
+        "Small-scale equipment operation",
+        "Payload carrier"
+      ],
+      "commercial_availability": {
+        "status": "Development - Government partnership",
+        "notes": "Korean startup UEL (founded 2016) developing for 2032 KARI lunar mission. Prototypes functional but require space-level component upgrades. MOU with ispace Oct 2024 for commercial missions (applies to 2-wheeled Scarab rovers launching no earlier than 2027, not Haetae). UEL receives <10% government funding. Commercial availability unclear.",
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from Korea Herald (May 2023) and ispace announcements. UEL is South Korea's only space robotics company. Three rover classes under development: Haetae (4-wheel), Scarab (2-wheel), Geobugi (foldable 4-wheel). Target 2032 Korean government lunar lander mission."
+      },
+      "notes": "Korean company UEL - only Korean company specializing in space robotics. Three rover classes in development."
+    },
+    {
+      "vendor": "Unmanned Exploration Laboratory (UEL, South Korea)",
+      "model": "Geobugi-Class Rover",
+      "class": "Micro Robotic Rover",
+      "trl": {
+        "value": null,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "TRL not disclosed. Same development status as Haetae - prototypes functional for Earth testing but require space-level component upgrades. Target 2032 Korean lunar mission. Inferred TRL 4-5. Checked OpenPR and Korea Herald sources."
+      },
+      "mass_kg": {
+        "value": 7.5,
+        "source_url": "https://www.openpr.com/news/3485123/multi-functionality-rovers-for-lunar-exploration-uel",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed 7-8 kg from OpenPR press release, using 7.5 kg midpoint. Note: Korea Herald states 3 kg. Significant discrepancy - OpenPR 7-8 kg likely more accurate as foldable design adds complexity/mass. Using OpenPR specification."
+      },
+      "dimensions": {
+        "value": null,
+        "source_url": "https://www.openpr.com/news/3485123/multi-functionality-rovers-for-lunar-exploration-uel",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Dimensions not disclosed. Four-wheel foldable design with retractable camera mount and wheels. Described as 'compact design for small payload bays' to minimize launch burden. Specific L x W x H not published."
+      },
+      "payload_capacity_kg": {
+        "value": null,
+        "source_url": "https://www.openpr.com/news/3485123/multi-functionality-rovers-for-lunar-exploration-uel",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Payload capacity not quantified. Described as carrying 'small payloads'. Designed for compact payload bays with foldable configuration. Specific kg capacity not disclosed."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Power not disclosed. Assume solar-powered like other UEL rovers but specific kW not published. Checked OpenPR and Korea Herald sources."
+      },
+      "speed": {
+        "value": null,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Speed not disclosed. 200m operational range mentioned but traversal speed not specified. Checked OpenPR and Korea Herald sources."
+      },
+      "range": {
+        "value": "200 meters",
+        "source_url": "https://www.openpr.com/news/3485123/multi-functionality-rovers-for-lunar-exploration-uel",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed 200-meter maximum operational range from OpenPR press release. Note: Korea Herald states 30m. Using OpenPR 200m as more detailed source. Discrepancy may reflect mission scenarios or development updates."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Cost not disclosed. Same company status as Haetae - UEL startup receives <10% government funding. Commercial pricing not published. Checked OpenPR and Korea Herald sources."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Procurement lead time not disclosed. Same timeline as Haetae - target 2032 Korean lunar mission. Commercial procurement timeline not published."
+      },
+      "features": [
+        "Four wheels (foldable)",
+        "Foldable camera mount",
+        "Compact design for small payload bays",
+        "Increased operational range from earlier version"
+      ],
+      "commercial_availability": {
+        "status": "Development - Government partnership",
+        "notes": "Same development status as Haetae. Korean startup UEL (founded 2016) developing for 2032 KARI lunar mission. Prototypes functional but require space-level component upgrades. MOU with ispace Oct 2024 for commercial missions (applies to 2-wheeled Scarab rovers, not Geobugi). UEL receives <10% government funding. Commercial availability unclear.",
+        "source_url": "https://m.koreaherald.com/view.php?ud=20230529000129",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from Korea Herald (May 2023) and OpenPR. UEL is South Korea's only space robotics company. Geobugi is foldable variant optimized for compact payload bays and space efficiency. Three rover classes under development targeting 2032 Korean government lunar lander mission."
+      },
+      "notes": "Foldable variant designed for compact payload bays. Korean company UEL developing multiple rover classes."
+    }
+  ]
+}

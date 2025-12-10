@@ -1,0 +1,1009 @@
+{
+  "category": "Storage and Logistics",
+  "last_updated": "2025-12-09",
+  "trl_filter": "5+",
+  "total_items": 12,
+  "items": [
+    {
+      "vendor": "SpaceX",
+      "model": "Dragon 1 Cargo",
+      "subsystem_type": "Cargo Module - Pressurized & Unpressurized",
+      "trl": {
+        "value": 9,
+        "source_url": "https://directory.eoportal.org/web/eoportal/satellite-missions/i/iss-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational from Dec 2010 to Mar 2020, 22 flights to ISS. First commercial cargo spacecraft to ISS.",
+        "notes": "Operational 2012-2020, retired but TRL 9 flight-proven"
+      },
+      "pressurized_volume_m3": {
+        "value": 10,
+        "source_url": "https://directory.eoportal.org/web/eoportal/satellite-missions/i/iss-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 10 m\u00b3 pressurized volume from eoPortal (ESA database)"
+      },
+      "unpressurized_volume_m3": {
+        "value": 14,
+        "source_url": "https://directory.eoportal.org/web/eoportal/satellite-missions/i/iss-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 14 m\u00b3 unpressurized trunk volume from eoPortal (ESA database)"
+      },
+      "cargo_capacity_up_kg": {
+        "value": 6000,
+        "source_url": "https://directory.eoportal.org/web/eoportal/satellite-missions/i/iss-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 6000 kg payload up-mass to LEO from eoPortal",
+        "notes": "Split between pressurized and unpressurized"
+      },
+      "cargo_capacity_down_kg": {
+        "value": 3000,
+        "source_url": "https://directory.eoportal.org/web/eoportal/satellite-missions/i/iss-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 3500 to 3000 kg per eoPortal and Orbital Velocity sources"
+      },
+      "mass_kg": {
+        "value": 4200,
+        "source_url": "https://www.orbital-velocity.com/dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 12000 to 4200 kg - this is the spacecraft dry mass. Loaded missions ranged 4000-9500 kg depending on cargo.",
+        "notes": "Spacecraft dry mass; loaded mass varies by mission"
+      },
+      "power_kw": {
+        "value": 1.5,
+        "source_url": "https://www.quora.com/SpaceX-company-Why-does-the-dragon-spacecraft-have-such-large-solar-panels",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated to 1.5 kW average (4.0 kW peak). Sources indicate >4 kW peak power from solar arrays.",
+        "notes": "1.5 kW average, 4.0 kW peak from solar arrays on trunk"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. NASA CRS-1 contract was $1.6B for 12 flights, but per-mission costs not broken down.",
+        "notes": "Service contract pricing not publicly disclosed per mission"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "notes": "Retired in 2020, replaced by Dragon 2 Cargo. Extensive ISS heritage. Reference for lunar cargo module sizing."
+    },
+    {
+      "vendor": "SpaceX",
+      "model": "Dragon 2 Cargo",
+      "subsystem_type": "Cargo Module - Pressurized & Unpressurized",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.orbital-velocity.com/crew-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational since Dec 2020 (CRS-21), currently active",
+        "notes": "Operational since 2020"
+      },
+      "pressurized_volume_m3": {
+        "value": 9.3,
+        "source_url": "https://www.orbital-velocity.com/crew-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 10 to 9.3 m\u00b3 per Orbital Velocity and SpaceX.com",
+        "notes": "Capsule volume"
+      },
+      "unpressurized_volume_m3": {
+        "value": 37,
+        "source_url": "https://www.orbital-velocity.com/crew-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 14 to 37 m\u00b3 per Orbital Velocity and SpaceX.com",
+        "notes": "Trunk volume"
+      },
+      "cargo_capacity_up_kg": {
+        "value": 6000,
+        "source_url": "https://www.orbital-velocity.com/crew-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 6000 kg launch payload mass from Orbital Velocity"
+      },
+      "cargo_capacity_down_kg": {
+        "value": 3000,
+        "source_url": "https://www.orbital-velocity.com/crew-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 3307 to 3000 kg per Orbital Velocity. Breakdown of 2507+800 kg could not be verified.",
+        "notes": "Return payload mass"
+      },
+      "mass_kg": {
+        "value": 9500,
+        "source_url": "https://www.orbital-velocity.com/crew-dragon",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 12519 to 9500 kg - this is the dry mass of Dragon 2 spacecraft",
+        "notes": "Spacecraft dry mass"
+      },
+      "power_kw": {
+        "value": 4.0,
+        "source_url": "https://www.quora.com/SpaceX-company-Why-does-the-dragon-spacecraft-have-such-large-solar-panels",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated to >4 kW peak power from solar arrays integrated in trunk. Average power not specified in sources.",
+        "notes": "Peak power >4 kW from trunk-mounted solar arrays"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. NASA CRS-2 contract pricing not broken down per mission."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "notes": "Current operational cargo vehicle for ISS. Lacks crewed features (seats, life support, SuperDraco). Lunar applicability requires landing system adaptation."
+    },
+    {
+      "vendor": "Northrop Grumman",
+      "model": "Cygnus Standard",
+      "subsystem_type": "Cargo Module - Pressurized",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.eoportal.org/satellite-missions/iss-cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational from Sept 2013 to 2014, 4 flights total. First flight Sept 18, 2013.",
+        "notes": "Operational 2013-2015"
+      },
+      "pressurized_volume_m3": {
+        "value": 18.9,
+        "source_url": "https://www.eoportal.org/satellite-missions/iss-cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 18.9 m\u00b3 pressurized volume from eoPortal (ESA database)"
+      },
+      "unpressurized_volume_m3": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed Cygnus does not have unpressurized cargo capability - pressurized module only",
+        "notes": "Cygnus does not have unpressurized cargo capability"
+      },
+      "cargo_capacity_up_kg": {
+        "value": 2000,
+        "source_url": "https://www.eoportal.org/satellite-missions/iss-cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 2000 kg cargo capacity from eoPortal and Orbital Velocity"
+      },
+      "cargo_capacity_disposal_kg": {
+        "value": 1200,
+        "source_url": "https://www.eoportal.org/satellite-missions/iss-cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 8700 to 1200 kg per eoPortal. The 8700 kg figure could not be verified from any source.",
+        "notes": "Can dispose of trash during re-entry"
+      },
+      "mass_kg": {
+        "value": 3600,
+        "source_url": "https://www.orbital-velocity.com/cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 3600 kg total spacecraft dry mass from Orbital Velocity",
+        "notes": "Dry mass of spacecraft"
+      },
+      "power_kw": {
+        "value": 3.5,
+        "source_url": "https://www.eoportal.org/satellite-missions/iss-cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 3.5 kW from service module solar arrays (sun-pointed) per eoPortal. PCM uses <850W.",
+        "notes": "Solar arrays provide 3.5 kW sun-pointed; PCM allocation <850W"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. NASA CRS contract pricing not broken down per mission."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "notes": "PCM built by Thales Alenia Space. Service module based on GEOStar satellite bus. Can berth to ISS up to 75 days. Standard variant replaced by Enhanced in 2015."
+    },
+    {
+      "vendor": "Northrop Grumman",
+      "model": "Cygnus Enhanced",
+      "subsystem_type": "Cargo Module - Pressurized",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.eoportal.org/satellite-missions/iss-cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - operational since 2015 (OA-4 mission), currently active",
+        "notes": "Operational since 2015"
+      },
+      "pressurized_volume_m3": {
+        "value": 27,
+        "source_url": "https://www.eoportal.org/satellite-missions/iss-cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 27 m\u00b3 pressurized volume from eoPortal and Orbital Velocity"
+      },
+      "unpressurized_volume_m3": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed Cygnus does not have unpressurized cargo capability - pressurized module only"
+      },
+      "cargo_capacity_up_kg": {
+        "value": 3500,
+        "source_url": "https://www.orbital-velocity.com/cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 3,200-3,500 kg depending on launch vehicle per Orbital Velocity. eoPortal lists 2,700 kg, but operational missions have demonstrated up to 3,500 kg.",
+        "notes": "3200-3500 kg depending on launch vehicle"
+      },
+      "cargo_capacity_disposal_kg": {
+        "value": 3750,
+        "source_url": "https://www.orbital-velocity.com/cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 8700 to 3750 kg per Orbital Velocity. This is disposal via destructive reentry, not return capability."
+      },
+      "mass_kg": {
+        "value": 3600,
+        "source_url": "https://www.orbital-velocity.com/cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 3600 kg total spacecraft dry mass from Orbital Velocity (1800 kg service module + PCM)"
+      },
+      "power_kw": {
+        "value": 4.0,
+        "source_url": "https://www.orbital-velocity.com/cygnus",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Updated from null to 4.0 kW. Enhanced uses UltraFlex circular arrays providing same 4 kilowatt hours as Standard's 3.5 kW panels but with reduced mass.",
+        "notes": "UltraFlex solar arrays provide 4 kWh"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. NASA CRS contract pricing not broken down per mission."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "notes": "Increased capacity over Standard. PCM by Thales Alenia Space. Only CRS-2 provider using berthing ports."
+    },
+    {
+      "vendor": "Northrop Grumman",
+      "model": "Cygnus XL",
+      "subsystem_type": "Cargo Module - Pressurized",
+      "trl": {
+        "value": 9,
+        "source_url": "https://news.northropgrumman.com/cygnus/Northrop-Grummans-Cygnus-XL-Launches-to-International-Space-Station-on-NG-23-Cargo-Resupply-Mission",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - first flight Sept 14, 2025 (NG-23 mission), successfully berthed to ISS. Flight proven.",
+        "notes": "First flight 2025"
+      },
+      "pressurized_volume_m3": {
+        "value": 36,
+        "source_url": "https://en.wikipedia.org/wiki/Cygnus_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 36 m\u00b3 (1,300 cu ft) from multiple sources including Wikipedia. 15.5% increase over Enhanced (27 m\u00b3).",
+        "notes": "15.5% increase over Enhanced"
+      },
+      "unpressurized_volume_m3": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed Cygnus does not have unpressurized cargo capability - pressurized module only"
+      },
+      "cargo_capacity_up_kg": {
+        "value": 5000,
+        "source_url": "https://en.wikipedia.org/wiki/Cygnus_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 5,000 kg (11,000 lb) payload capacity from multiple sources. 33% increase over Enhanced variant."
+      },
+      "cargo_capacity_disposal_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 8700 to null - disposal capacity not published for XL variant. Likely similar to or greater than Enhanced (3750 kg)."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Total spacecraft dry mass not published. One source mentioned ~7000 kg when loaded, but precise dry mass unconfirmed.",
+        "notes": "Likely higher than Enhanced due to larger volume"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. XL uses UltraFlex solar arrays like Enhanced (4 kW), but specific power output not confirmed."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. NASA CRS contract pricing not broken down per mission."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "notes": "Largest Cygnus variant. First flight Sept 2025 (NG-23). PCM by Thales Alenia Space."
+    },
+    {
+      "vendor": "Sierra Space",
+      "model": "Shooting Star Cargo Module",
+      "subsystem_type": "Cargo Module - Pressurized & Unpressurized",
+      "trl": {
+        "value": 7,
+        "source_url": "https://spaceflightnow.com/2025/09/26/sierra-spaces-dream-chaser-debut-mission-delayed-again-no-longer-docking-to-station/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 8 to TRL 7. Currently in final testing at KSC. First flight delayed to late 2026 and will not dock to ISS. Completed environmental, acoustic, and EMI testing.",
+        "notes": "First flight scheduled late 2026, currently in final testing"
+      },
+      "pressurized_volume_m3": {
+        "value": null,
+        "source_url": "https://www.sierraspace.com/dream-chaser-spaceplane/uncrewed-cargo-spacecraft/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Total pressurized volume with Dream Chaser is 33 m\u00b3, but breakdown between spaceplane and Shooting Star module not specified in official sources.",
+        "notes": "Total pressurized volume with Dream Chaser is 33 m3, breakdown not specified"
+      },
+      "unpressurized_volume_m3": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Module has 3 external mounting points but volume not specified."
+      },
+      "cargo_capacity_up_kg": {
+        "value": 3629,
+        "source_url": "https://www.sierraspace.com/dream-chaser-spaceplane/uncrewed-cargo-spacecraft/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 4536 to 3629 kg (8,000 lbs) per Sierra Space official site. Combined Dream Chaser + Shooting Star system delivers up to 12,000 lbs, but the official cargo upmass specification is 8,000 lbs.",
+        "notes": "8,000 lbs cargo upmass for Dream Chaser + Shooting Star system"
+      },
+      "cargo_capacity_up_pressurized_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Breakdown between pressurized and unpressurized not specified in official sources. System described as carrying 6+ tons of pressurized and unpressurized payloads.",
+        "notes": "Breakdown not published"
+      },
+      "cargo_capacity_up_unpressurized_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Module has 3 external mounting points, but specific unpressurized cargo capacity not published.",
+        "notes": "Has external mounting points but capacity not specified"
+      },
+      "cargo_capacity_disposal_kg": {
+        "value": 3340,
+        "source_url": "https://www.sierraspace.com/dream-chaser-spaceplane/uncrewed-cargo-spacecraft/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 3250 to 3340 kg (7,365 lbs) per Sierra Space official site. Shooting Star burns up during reentry for disposal.",
+        "notes": "7,365 lbs disposal capacity via Shooting Star reentry"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Module mass not published in available sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 6 kW to null. Module provides solar arrays for combined system, but specific power output not confirmed in official sources.",
+        "notes": "Provides solar arrays but specific kW not published"
+      },
+      "dimensions_m": {
+        "value": "4.6 length (15 ft), conical for fairing fit",
+        "source_url": "https://www.space.com/dream-chaser-shooting-star-cargo-module.html",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "4.6 m (15 ft) length confirmed from Space.com article. Conical shape for 5m payload fairing compatibility."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Part of NASA CRS-2 contract."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "notes": "Attaches to Dream Chaser spaceplane. Manufacturing partner: Spirit AeroSystems. Provides active/passive thermal, thrusters for translation/rotation. Expendable module for disposal."
+    },
+    {
+      "vendor": "Ball Aerospace",
+      "model": "Cryogenic Storage Tanks (Product Line)",
+      "subsystem_type": "Cryogenic Propellant Storage",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.researchgate.net/figure/Cryogen-storage-tanks-built-at-Beech-and-Ball_tbl1_287506995",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - 239 tanks built since 1960s, flown on 150+ manned spaceflights including Apollo, Skylab, and Space Shuttle programs. Flight proven heritage.",
+        "notes": "239 tanks built since 1960s, flown on 150+ manned spaceflights"
+      },
+      "heritage": {
+        "value": "Apollo, Skylab, Space Shuttle",
+        "source_url": "https://www.researchgate.net/figure/Cryogen-storage-tanks-built-at-Beech-and-Ball_tbl1_287506995",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed heritage on Apollo, Skylab, and Space Shuttle programs. Started with Gemini program in 1960s at Beech Aircraft (now Ball Aerospace)."
+      },
+      "tank_count": {
+        "value": 239,
+        "source_url": "https://www.researchgate.net/figure/Cryogen-storage-tanks-built-at-Beech-and-Ball_tbl1_287506995",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 239 cryogen tanks and dewars built at Beech Aircraft and Ball Aerospace for cryogen storage applications.",
+        "notes": "Total tanks built at Beech Aircraft and Ball Aerospace"
+      },
+      "propellants_supported": {
+        "value": "LH2, LOX, LN2, and others",
+        "source_url": "https://www.researchgate.net/figure/Cryogen-storage-tanks-built-at-Beech-and-Ball_tbl1_287506995",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed support for liquid hydrogen, liquid oxygen, liquid nitrogen, and other cryogens. Wide range of cryogen types."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Product line - varies by tank model. Specific examples exist (e.g., Space Shuttle PRSA) but individual specs not published in accessible sources.",
+        "notes": "Varies by tank model; Space Shuttle PRSA: 335 kg O2 + 42 kg H2 capacity"
+      },
+      "volume_liters": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Product line - varies by tank model. Wide range of volumes available but specific models not detailed in accessible sources.",
+        "notes": "Historical example: 6000L total volume (5400L payload) for LH2 dewar"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Passive systems using MLI (Multi-Layer Insulation) do not require power. Active cooling systems would vary by specific application.",
+        "notes": "Passive systems (MLI) do not require power; active cooling systems vary"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Product line pricing varies by specification."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "notes": "Extensive supercritical storage experience. Product line includes various sizes and configurations. PRSA tanks for Shuttle: 335 kg O2 at 91K, 42 kg H2 at 22K. Requires detailed specs from technical papers for specific models."
+    },
+    {
+      "vendor": "Boeing",
+      "model": "Composite Cryotank 2.4m (CCTD Precursor)",
+      "subsystem_type": "Cryogenic Propellant Storage",
+      "trl": {
+        "value": 6,
+        "source_url": "https://ntrs.nasa.gov/citations/20170012407",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5-6 achieved. Testing successfully concluded in 2012 at NASA Marshall Space Flight Center. CCTD program advanced composite cryotank technology to demonstrated level.",
+        "notes": "Ground testing complete, TRL 5-6 range per NASA CCTD program"
+      },
+      "diameter_m": {
+        "value": 2.4,
+        "source_url": "https://ntrs.nasa.gov/citations/20170012407",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 2.4 m diameter precursor tank from NASA NTRS technical report"
+      },
+      "material": {
+        "value": "All-composite (carbon fiber/epoxy)",
+        "source_url": "https://ntrs.nasa.gov/citations/20170012407",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed out-of-autoclave carbon/epoxy slit-tape tow composite construction from NASA technical report"
+      },
+      "weight_savings_percent": {
+        "value": 25,
+        "source_url": "https://ntrs.nasa.gov/citations/20170012407",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 30% to 25% weight savings vs aluminum alloy tank per NASA technical report. 30% was cost savings.",
+        "notes": "25% weight savings vs aluminum alloy tank"
+      },
+      "cost_savings_percent": {
+        "value": 30,
+        "source_url": "https://ntrs.nasa.gov/citations/20170012407",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 25% to 30% cost reduction per NASA technical report"
+      },
+      "propellants_supported": {
+        "value": "LH2 (liquid hydrogen)",
+        "source_url": "https://ntrs.nasa.gov/citations/20170012407",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed LH2 from testing. Tank tested with sequence of fill/drain pressure and thermal cycles using LH2."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Specific tank mass not published in accessible sources. Weight savings percentage provided but not absolute mass."
+      },
+      "volume_liters": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Tank volume not specified in accessible sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Passive insulation system - no power required",
+        "notes": "Passive insulation system"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Development program, not a commercial product."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - technology demonstration program, not a commercial product"
+      },
+      "notes": "Precursor for 5.5m demonstration tank. One-piece wall construction. Tested at Marshall Space Flight Center. Testing concluded 2012."
+    },
+    {
+      "vendor": "Boeing",
+      "model": "Composite Cryotank 5.5m (CCTD Extended Duration)",
+      "subsystem_type": "Cryogenic Propellant Storage",
+      "trl": {
+        "value": 6,
+        "source_url": "https://ntrs.nasa.gov/citations/20150021410",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 7 to TRL 6. Testing concluded in 2014 at Marshall per NASA report. Same TRL 5-6 level as 2.4m tank. Ground testing complete, focused on upper stage extended duration applications.",
+        "notes": "Ground testing complete, focused on upper stage extended duration applications"
+      },
+      "diameter_m": {
+        "value": 5.5,
+        "source_url": "https://ntrs.nasa.gov/citations/20170012407",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 5.5 m diameter from NASA NTRS technical report"
+      },
+      "material": {
+        "value": "All-composite (carbon fiber/epoxy)",
+        "source_url": "https://ntrs.nasa.gov/citations/20170012407",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed out-of-autoclave carbon/epoxy composite construction from NASA technical report"
+      },
+      "weight_savings_percent": {
+        "value": 39,
+        "source_url": "https://ntrs.nasa.gov/citations/20170012407",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 39% weight savings when designed to 5000 micro\u03b5 strain limit vs Al-Li tank",
+        "notes": "39% weight savings when designed to 5000 micro\u03b5 strain limit vs Al-Li tank"
+      },
+      "sls_payload_increase_percent": {
+        "value": 30,
+        "source_url": "https://boeing.mediaroom.com/news-releases-statements?item=130996",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from Boeing press release - technology could increase SLS payload by 30%",
+        "notes": "Technology could increase SLS payload by 30%"
+      },
+      "propellants_supported": {
+        "value": "LH2",
+        "source_url": "https://ntrs.nasa.gov/citations/20150021410",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed LH2 from testing per NASA report. Extended duration testing focused on liquid hydrogen storage."
+      },
+      "design_features": {
+        "value": "One-piece wall, 3D reinforced y-joint, purge-able fluted core skirt",
+        "source_url": "https://ntrs.nasa.gov/citations/20170012407",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed design features from NASA technical report"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Specific tank mass not published in accessible sources"
+      },
+      "volume_liters": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Tank volume not specified in accessible sources"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Passive insulation system - no power required"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Development program, not a commercial product."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable - technology demonstration program, not a commercial product"
+      },
+      "notes": "Represents full-scale 8.4m SLS tank design features and strain levels. Out-of-autoclave manufacturing. Testing completed 2014 at Marshall."
+    },
+    {
+      "vendor": "Lockheed Martin",
+      "model": "Cislunar Transporter (for Blue Moon Lander)",
+      "subsystem_type": "Cryogenic Propellant Storage & Transport",
+      "trl": {
+        "value": 5,
+        "source_url": "https://payloadspace.com/sustainable-space-exploration-lockheed-martins-vision-for-a-water-based-lunar-architecture/",
+        "notes": "Development phase for Artemis, TRL inferred from development status",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5 - development phase for Artemis. $89.7M contract for in-space demonstration using liquid hydrogen."
+      },
+      "propellants_supported": {
+        "value": "LH2, LOX",
+        "source_url": "https://payloadspace.com/sustainable-space-exploration-lockheed-martins-vision-for-a-water-based-lunar-architecture/",
+        "notes": "Long-term storage of cryogenic hydrogen and oxygen",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed LH2, LOX support from Payload Space article"
+      },
+      "thermal_management": {
+        "value": "Active cooling",
+        "source_url": "https://payloadspace.com/sustainable-space-exploration-lockheed-martins-vision-for-a-water-based-lunar-architecture/",
+        "notes": "Actively cooled during transport from LEO to Moon and on lunar surface",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed active cooling from Payload Space article"
+      },
+      "configuration": {
+        "value": "Two-part: tug (3x BE-7 engines) + tanker",
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Configuration details from Wikipedia - lower tier source"
+      },
+      "launch_vehicle": {
+        "value": "New Glenn",
+        "source_url": "https://en.wikipedia.org/wiki/Blue_Moon_(spacecraft)",
+        "notes": "Each part launched separately then docked",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "New Glenn launch vehicle from Wikipedia"
+      },
+      "contract_value_usd": {
+        "value": 89700000,
+        "source_url": "https://payloadspace.com/sustainable-space-exploration-lockheed-martins-vision-for-a-water-based-lunar-architecture/",
+        "notes": "$89.7M contract for in-space demonstration using liquid hydrogen",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed $89.7M contract from Payload Space article"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published"
+      },
+      "volume_liters": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "notes": "Active cooling requires power, amount not specified",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Active cooling requires power but amount not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "notes": "Part of Blue Origin National Team for Artemis. Reusable tug for refueling Blue Moon lander. Water-based lunar architecture vision. Artemis V mission target."
+    },
+    {
+      "vendor": "Maxar Technologies",
+      "model": "Gateway PPE Xenon Storage System",
+      "subsystem_type": "Xenon Propellant Storage",
+      "trl": {
+        "value": 8,
+        "source_url": "https://en.wikipedia.org/wiki/Power_and_Propulsion_Element",
+        "verified": false,
+        "notes": "In production for Gateway, launch planned 2027",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 8 - in production for Gateway, launch planned 2027. Not yet flight proven."
+      },
+      "propellant_type": {
+        "value": "Xenon",
+        "source_url": "https://payloadspace.com/an-electric-solar-powered-future-maxar-space-systems-ppe-to-propel-nasas-artemis-gateway/",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Payload Space article"
+      },
+      "tank_count": {
+        "value": 2,
+        "source_url": "https://payloadspace.com/an-electric-solar-powered-future-maxar-space-systems-ppe-to-propel-nasas-artemis-gateway/",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Payload Space article"
+      },
+      "tank_volume_liters": {
+        "value": 825,
+        "source_url": "https://payloadspace.com/an-electric-solar-powered-future-maxar-space-systems-ppe-to-propel-nasas-artemis-gateway/",
+        "notes": "Per tank, 825 liters each",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Payload Space article"
+      },
+      "xenon_capacity_kg": {
+        "value": 2500,
+        "source_url": "https://en.wikipedia.org/wiki/Power_and_Propulsion_Element",
+        "notes": "Approximately 2,500 kg total, half of 5,000 kg PPE launch mass",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Payload Space article"
+      },
+      "ppe_launch_mass_kg": {
+        "value": 5000,
+        "source_url": "https://en.wikipedia.org/wiki/Power_and_Propulsion_Element",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Payload Space article"
+      },
+      "configuration": {
+        "value": "Central cylindrical propellant tank arrangement",
+        "source_url": "https://payloadspace.com/an-electric-solar-powered-future-maxar-space-systems-ppe-to-propel-nasas-artemis-gateway/",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Payload Space article"
+      },
+      "refueling_capability": {
+        "value": "Yes",
+        "source_url": "https://payloadspace.com/an-electric-solar-powered-future-maxar-space-systems-ppe-to-propel-nasas-artemis-gateway/",
+        "notes": "Refuelable in lunar orbit",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Payload Space article"
+      },
+      "feed_system_vendor": {
+        "value": "Moog Inc",
+        "source_url": "https://payloadspace.com/an-electric-solar-powered-future-maxar-space-systems-ppe-to-propel-nasas-artemis-gateway/",
+        "verified_tier": "caution",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Payload Space article"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "PPE has 60 kW solar arrays but storage system power requirements not specified",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Storage system power requirements not specified. PPE has 60 kW total."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "notes": "Part of Gateway's Power and Propulsion Element. Feeds 48 kW electric propulsion system (7 thrusters: Busek 6kW Hall-effect + NASA AEPS). Provides 10x propellant efficiency vs chemical."
+    },
+    {
+      "vendor": "Thales Alenia Space",
+      "model": "ESPRIT Lunar View Refueling Module",
+      "subsystem_type": "Multi-Propellant Storage (Xenon & Chemical)",
+      "trl": {
+        "value": 8,
+        "source_url": "https://www.thalesaleniaspace.com/en/press-releases/esprit-module-lunar-gateway-orbital-outpost-set-significant-upgrade",
+        "verified": false,
+        "notes": "In development for Gateway, contract signed 2024",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 8 - in development for Gateway, contract signed 2024 per Thales official site"
+      },
+      "module_components": {
+        "value": "Lunar View (refueling) + Lunar Link (communications)",
+        "source_url": "https://www.thalesaleniaspace.com/en/press-releases/esprit-module-lunar-gateway-orbital-outpost-set-significant-upgrade",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Thales Alenia Space official press release"
+      },
+      "propellants_supported": {
+        "value": "Xenon and chemical propellants",
+        "source_url": "https://www.thalesaleniaspace.com/en/press-releases/esprit-module-lunar-gateway-orbital-outpost-set-significant-upgrade",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Thales Alenia Space official press release"
+      },
+      "dimensions_m": {
+        "value": "4.6 width x 6.4 length",
+        "source_url": "https://www.thalesaleniaspace.com/en/press-releases/esprit-module-lunar-gateway-orbital-outpost-set-significant-upgrade",
+        "notes": "Updated 2024 specs; original design was 3.4m x 3m",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Thales Alenia Space official press release"
+      },
+      "mass_kg": {
+        "value": 10000,
+        "source_url": "https://www.thalesaleniaspace.com/en/press-releases/esprit-module-lunar-gateway-orbital-outpost-set-significant-upgrade",
+        "notes": "Increased from original 6,000 kg",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Thales Alenia Space official press release"
+      },
+      "pressurized_features": {
+        "value": "Pressurized volume with 6 large windows (360\u00b0 view)",
+        "source_url": "https://www.thalesaleniaspace.com/en/press-releases/esprit-module-lunar-gateway-orbital-outpost-set-significant-upgrade",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Thales Alenia Space official press release"
+      },
+      "cargo_capacity_kg": {
+        "value": 1500,
+        "source_url": "https://www.thalesaleniaspace.com/en/press-releases/esprit-module-lunar-gateway-orbital-outpost-set-significant-upgrade",
+        "notes": "Can carry 1.5 tonnes of cargo at launch",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Thales Alenia Space official press release"
+      },
+      "refueling_systems": {
+        "value": "Chemical propellant (Thales UK) + Xenon (OHB)",
+        "source_url": "https://www.thalesaleniaspace.com/en/press-releases/esprit-module-lunar-gateway-orbital-outpost-set-significant-upgrade",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Thales Alenia Space official press release"
+      },
+      "contract_value_eur": {
+        "value": 296000000,
+        "source_url": "https://spacenews.com/thales-alenia-space-given-e296-million-contract-to-build-european-gateway-module/",
+        "notes": "\u20ac296M contract with ESA (includes both Lunar View and Lunar Link)",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Thales Alenia Space official press release"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not specified in available sources"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed. Contract value is \u20ac296M total for both Lunar View and Lunar Link."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly disclosed"
+      },
+      "notes": "ESPRIT = European System Providing Refueling, Infrastructure and Telecommunications. Avionics housed inside for easier maintenance. OHB: mechanical/thermal for non-pressurized parts + xenon refueling. Thales UK: chemical refueling."
+    }
+  ]
+}

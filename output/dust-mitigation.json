@@ -1,0 +1,1104 @@
+{
+  "category": "Dust Mitigation",
+  "last_updated": "2025-12-08",
+  "items": [
+    {
+      "vendor": "NASA Kennedy Space Center",
+      "model": "Electrodynamic Dust Shield (EDS)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.nasa.gov/image-article/nasas-dust-shield-successfully-repels-lunar-regolith-on-moon/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 9 - Successfully demonstrated on lunar surface during Firefly Blue Ghost Mission 1 (landed March 2, 2025, concluded March 16, 2025). NASA official source.",
+        "verified": true,
+        "notes": "Successfully demonstrated on lunar surface during Firefly Blue Ghost Mission 1, March 2025"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA.gov sources, NTRS, science.gov. Mass depends on application surface area.",
+        "verified": false,
+        "notes": "Mass depends on application surface area; not published for specific configurations"
+      },
+      "power_kw": {
+        "value": 0.001,
+        "source_url": "https://www.science.gov/topicpages/e/electrodynamic+dust+shield",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed low power operation - 2 microampere current per science.gov. Estimate of 0.001 kW is reasonable for microampere-level operation.",
+        "verified": true,
+        "notes": "Low power in mA range, voltage 1-4 kV, current in microampere range"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not publicly priced. NASA-developed technology available through technology transfer program. Checked NASA.gov and tech transfer sources.",
+        "verified": false,
+        "notes": "NASA-developed technology, not commercially priced. Tech transfer/licensing may be available"
+      },
+      "procurement_lead_time": {
+        "value": "Technology transfer required",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-technology-helps-guard-against-lunar-dust/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA.gov - Available through NASA technology transfer program, not off-the-shelf.",
+        "verified": true,
+        "notes": "Available through NASA technology transfer program; not off-the-shelf product"
+      },
+      "performance": {
+        "value": "90-99% dust removal",
+        "source_url": "https://www.science.gov/topicpages/e/electrodynamic+dust+shield",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 75-100% to 90-99%. Multiple sources confirm: 92%+ in vacuum (science.gov), 96-99% for reflective surfaces, 80-95% for spacesuit materials, 90%+ typical performance.",
+        "verified": true,
+        "notes": "90-99% in vacuum testing. Uses three-phase electrodes generating non-uniform electric field"
+      },
+      "application": "Solar panels, thermal radiators, camera lenses, optical equipment, helmet visors",
+      "technology_type": "Active - Electrodynamic",
+      "notes": "Developed over 18+ years at KSC Electrostatics and Surface Physics Laboratory. Considered best non-contact active dust mitigation technology. Two configurations: copper on Kapton for radiators, ITO on glass for optics."
+    },
+    {
+      "vendor": "PolyK Technologies, LLC",
+      "model": "PolyK Dust Mitigation Laminate (PKDML)",
+      "trl": {
+        "value": 4,
+        "source_url": "https://www.sbir.gov/portfolio/393287",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 6 to TRL 4. Confirmed Phase I SBIR project. Phase I typically achieves TRL 3-4 (component validation in laboratory). No evidence of Phase II completion or TRL 6 achievement found.",
+        "verified": true,
+        "notes": "Phase I SBIR project, estimated TRL 4 based on development phase"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked SBIR sources, NASA databases. Laminate weight depends on surface area covered.",
+        "verified": false,
+        "notes": "Laminate weight depends on surface area covered"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Lower power than EDS alone claimed (dust transported in air vs along surface), but specific values not available in SBIR or NASA sources.",
+        "verified": false,
+        "notes": "Lower power than EDS alone (dust transported in air vs along surface), specific values not published"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. SBIR Phase I funded development, commercial pricing not yet established.",
+        "verified": false,
+        "notes": "SBIR-funded development, commercial pricing not yet established"
+      },
+      "procurement_lead_time": {
+        "value": "Development stage",
+        "source_url": "https://www.sbir.gov/portfolio/393287",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed Phase I SBIR project from sbir.gov. Still in development, not commercially available.",
+        "verified": true,
+        "notes": "Active SBIR project, not yet commercially available"
+      },
+      "performance": {
+        "value": "More effective than EDS alone",
+        "source_url": "https://www.sbir.gov/portfolio/393287",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from SBIR source - combines vibration, electrodynamic force, and superhydrophobic surface. Claims more effective than EDS alone as dust transported in air rather than along surface.",
+        "verified": true,
+        "notes": "Combines vibration, electrodynamic force, and superhydrophobic surface. Vibration effective for uncharged/large particles. Real-time dust monitoring via force sensor"
+      },
+      "application": "Solar panels, camera lenses, spacecraft viewports, spacesuit fabrics, rotary joints, connectors",
+      "technology_type": "Hybrid - Electrodynamic + Vibration + Passive coating",
+      "notes": "Three-mechanism approach more effective than single-method systems. Similar structure to EDS enabling fast manufacturing/installation. Electroactive polymer layer functions as force sensor for smart dust removal."
+    },
+    {
+      "vendor": "NASA JPL / University of Colorado Boulder (LASP)",
+      "model": "Moon Duster / Electron Beam Dust Mitigation (EBDM)",
+      "trl": {
+        "value": 6,
+        "source_url": "https://lasp.colorado.edu/2025/07/28/solving-the-dilemma-of-space-dust-lasp-researchers-win-prestigious-nasa-prize-for-dust-mitigation-instrument/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 6. NASA TechLeap Prize awarded 2025, parabolic flight testing scheduled summer 2026. Consistent with TRL 6 (fully functional prototype).",
+        "verified": true,
+        "notes": "Estimated TRL 6 based on TechLeap Prize award (2025) and development stage"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Handheld device but specific mass not available in LASP or NASA sources.",
+        "verified": false,
+        "notes": "Handheld device, mass not published"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Electron beam device but power requirements not specified in available sources.",
+        "verified": false,
+        "notes": "Power requirements not published; electron beam device"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not commercially priced. Developed by Space Dust Research & Technologies LLC with NASA TechLeap Prize ($500k award).",
+        "verified": false,
+        "notes": "NASA TechLeap Prize funded, not commercially priced"
+      },
+      "procurement_lead_time": {
+        "value": "Development stage - Testing 2026",
+        "source_url": "https://lasp.colorado.edu/2025/07/28/solving-the-dilemma-of-space-dust-lasp-researchers-win-prestigious-nasa-prize-for-dust-mitigation-instrument/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from LASP source. Parabolic flight testing scheduled summer 2026. Active development, not commercially available.",
+        "verified": true,
+        "notes": "Active development, TechLeap Prize winner continuing work, parabolic flight test summer 2026"
+      },
+      "performance": {
+        "value": "Up to 92% dust removal",
+        "source_url": "https://lasp.colorado.edu/2025/07/28/solving-the-dilemma-of-space-dust-lasp-researchers-win-prestigious-nasa-prize-for-dust-mitigation-instrument/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from 75-85% to up to 92%. Earlier research (2020) showed 75-85%, improved to 92% by 2025 per LASP source. Tested on spacesuits, solar panels, optical lenses, thermal blankets.",
+        "verified": true,
+        "notes": "Up to 92% dust removal across various surfaces (2025). Uses electron beams to charge and repel lunar dust. Earlier tests (2020) showed 75-85%."
+      },
+      "application": "Spacesuits, hardware surfaces, equipment cleaning - any dust-covered space hardware",
+      "technology_type": "Active - Electron Beam",
+      "notes": "Standalone handheld device - no embedded layers required. Major advantage over EDS: can be used on existing hardware without modification. Charges dust particles to cause repulsion and removal."
+    },
+    {
+      "vendor": "Missouri University of Science & Technology",
+      "model": "Ultrasonic Vibration Dust Removal System",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-selects-university-teams-to-develop-ways-to-deal-with-moon-dust/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5 from NASA.gov source. NASA-selected university research program for lunar dust mitigation.",
+        "verified": true,
+        "notes": "Estimated TRL 4-5 based on NASA university program selection and research phase"
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Piezoelectric actuator mass depends on solar cell size.",
+        "verified": false,
+        "notes": "Piezoelectric actuators, mass depends on solar cell size"
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Power for piezoelectric actuators not specified in available sources.",
+        "verified": false,
+        "notes": "Power for piezoelectric actuators not specified"
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. University research project, no commercial pricing.",
+        "verified": false,
+        "notes": "Research project, no commercial pricing"
+      },
+      "procurement_lead_time": {
+        "value": "Research phase",
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0094576524007677",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect publication. NASA-funded university research, not yet productized.",
+        "verified": true,
+        "notes": "NASA-funded university research, not yet productized"
+      },
+      "performance": {
+        "value": "43% average, up to 94% peak",
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0094576524007677",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect peer-reviewed publication. Performance varies with dust loading.",
+        "verified": true,
+        "notes": "Efficiency varies with dust loading: 60.8% at 1.07 mg/cm\u00b2 down to 33.6% at 16.37 mg/cm\u00b2. Performance decreases as dust accumulates. Enhanced when combined with electrostatic forces"
+      },
+      "application": "Solar cells, optical elements",
+      "technology_type": "Active - Ultrasonic Vibration",
+      "notes": "Piezoelectric actuators bonded to inactive side of solar cells. Auto-detects dust accumulation and activates. Surface acceleration overcomes adhesive forces. Sol-gel surface treatments reduce Van der Waals forces. Can be combined with EDS for improved performance."
+    },
+    {
+      "vendor": "NASA Goddard Space Flight Center",
+      "model": "Lotus Coating",
+      "trl": {
+        "value": 5,
+        "source_url": "https://sbir.gsfc.nasa.gov/content/active-and-passive-dust-mitigation-surfaces",
+        "verified": true,
+        "notes": "TRL 5 cited in Phase 1 research, passive coating in development/testing",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5 from NASA SBIR source. Phase I research, passive coating in development/testing."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Coating - negligible mass added to substrate",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Coating technology."
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S0094576523004939",
+        "verified": true,
+        "notes": "Passive technology, no power required",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed zero power from ScienceDirect. Passive coating technology."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "NASA-developed, commercial pricing not established",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Coating technology."
+      },
+      "procurement_lead_time": {
+        "value": "Development stage",
+        "source_url": "https://sbir.gsfc.nasa.gov/content/active-and-passive-dust-mitigation-surfaces",
+        "verified": true,
+        "notes": "Under development at GSFC, not commercially available",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed development stage from NASA SBIR sources."
+      },
+      "performance": {
+        "value": "High scoring passive technology",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S0094576523004939",
+        "verified": true,
+        "notes": "Reduces surface energy and attachment area. Self-cleaning properties shed dust particles. Anti-contamination characteristics minimize accumulation",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect. High scoring passive technology in comprehensive review."
+      },
+      "application": "Spacecraft surfaces, thermal control, general dust accumulation prevention",
+      "technology_type": "Passive - Coating",
+      "notes": "Mimics lotus leaf self-cleaning properties. Passive approach requires no external stimulus. Being developed for long-duration human exploration countermeasure."
+    },
+    {
+      "vendor": "NASA Glenn Research Center",
+      "model": "Work Function Matching (WFM) Coating",
+      "trl": {
+        "value": 5,
+        "source_url": "https://ntrs.nasa.gov/citations/20240012809",
+        "verified": true,
+        "notes": "TRL 5-6 estimated based on development for rigid surfaces",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5-6 from NASA NTRS publication."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Coating - minimal mass",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Coating technology, minimal mass."
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://ntrs.nasa.gov/citations/20240012809",
+        "verified": true,
+        "notes": "Passive coating, no power required",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed zero power from NASA NTRS. Passive conductive coating."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "NASA technology, commercial pricing unknown",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Coating technology, minimal mass."
+      },
+      "procurement_lead_time": {
+        "value": "Development stage",
+        "source_url": "https://ntrs.nasa.gov/citations/20240012809",
+        "verified": true,
+        "notes": "Under development, not commercially available",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA NTRS source."
+      },
+      "performance": {
+        "value": "Reduces lunar dust adhesion",
+        "source_url": "https://ntrs.nasa.gov/citations/20240012809",
+        "verified": true,
+        "notes": "Transparent conductive coating reduces dust adhesion and dissipates surface charge. Passive charge dissipation prevents electrostatic accumulation",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA NTRS source."
+      },
+      "application": "Rigid surfaces requiring transparent coating",
+      "technology_type": "Passive - Conductive Coating",
+      "notes": "Simple transparent conductive coating for rigid surfaces. Work function matching reduces adhesion. Charge dissipation prevents electrostatic dust buildup. Passive technology developed by NASA GRC."
+    },
+    {
+      "vendor": "ATSP Innovations",
+      "model": "NOWE C-110 Dust-Tolerant Bearing Polymer",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.nasa.gov/directorates/stmd/nasa-selects-small-businesses-for-orbital-debris-surface-dust-tech/",
+        "verified": true,
+        "notes": "Phase II Sequential award $3.2M (2024) for prototype bearings, indicating TRL 6-7",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7. Phase II Sequential award $3.2M (2024-2026) per NASA.gov. Prototype bearings in development."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Bearing mass depends on size/application",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA and ATSP sources."
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://www.atspinnovations.com/technology",
+        "verified": false,
+        "notes": "Passive material, no power required",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA and ATSP sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Commercial company but lunar-specific pricing not published",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA and ATSP sources."
+      },
+      "procurement_lead_time": {
+        "value": "Prototype development 2024-2026",
+        "source_url": "https://www.atspinnovations.com/atsp-selected-by-nasa-to-provide-dust-resistant-prototype-bearings",
+        "verified": true,
+        "notes": "Phase II Sequential contract ongoing for prototype development",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA.gov. Prototype development 2024-2026 per Phase II contract."
+      },
+      "performance": {
+        "value": "Superior abrasive wear resistance vs PEEK",
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0043164825003539",
+        "verified": true,
+        "notes": "Excellent wear resistance in presence of lunar dust simulant against 440C steel. Particularly effective with <38 \u00b5m dust. Higher abrasive wear resistance than PEEK coating",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect peer-reviewed paper. Superior wear resistance vs PEEK."
+      },
+      "application": "Bearings for lunar rovers, mechanisms, robotic joints, rotating equipment",
+      "technology_type": "Passive - Advanced Material",
+      "notes": "Aromatic thermosetting copolyester (vitrimer) - cross-links like thermoset, reprocessable like thermoplastic. Tg >250\u00b0C, stable to 500\u00b0C. Operational -220\u00b0C to 300\u00b0C. Corrosion and wear resistance. Available as powder, molding compound, or bulk solids."
+    },
+    {
+      "vendor": "Applied Material Systems Engineering, Inc.",
+      "model": "Dust Resisting Secondary Emission TCMS Coating",
+      "trl": {
+        "value": 7,
+        "source_url": "https://www.nasa.gov/directorates/stmd/nasa-selects-small-businesses-for-orbital-debris-surface-dust-tech/",
+        "verified": true,
+        "notes": "Phase II Sequential award $2.6M (2024), indicating TRL 6-7",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA.gov. Phase II Sequential $2.6M award (2024)."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Coating - negligible mass",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Coating technology."
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": null,
+        "verified": false,
+        "notes": "Passive coating for thermal control, no power required",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Coating technology."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Development stage, commercial pricing not established",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Coating technology."
+      },
+      "procurement_lead_time": {
+        "value": "Development 2024-2026",
+        "source_url": "https://www.nasa.gov/directorates/stmd/nasa-selects-small-businesses-for-orbital-debris-surface-dust-tech/",
+        "verified": true,
+        "notes": "Phase II Sequential contract ongoing",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA.gov. Phase II Sequential $2.6M award (2024)."
+      },
+      "performance": {
+        "value": "Dust resisting thermal control",
+        "source_url": "https://www.nasa.gov/directorates/stmd/nasa-selects-small-businesses-for-orbital-debris-surface-dust-tech/",
+        "verified": true,
+        "notes": "Integration of dust-resisting properties with secondary emission engineered passive thermal control material systems",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA.gov. Phase II Sequential $2.6M award (2024)."
+      },
+      "application": "Thermal control surfaces on rovers, landers, equipment",
+      "technology_type": "Passive - Thermal Control Coating",
+      "notes": "Addresses critical Apollo lesson: dust on thermal radiators caused battery overheating. Combines dust resistance with thermal control functionality. Location: Streamwood, Illinois."
+    },
+    {
+      "vendor": "Texas Tech University / NASA Johnson Space Center",
+      "model": "Modal Optimized Vibration dust Eliminator (MOVE)",
+      "trl": {
+        "value": 5,
+        "source_url": "https://sbir.nasa.gov/SBIR/abstracts/21/sbir/phase1/SBIR-21-1-Z13.01-2510.html",
+        "verified": true,
+        "notes": "SBIR Phase I completed (2021), estimated TRL 4-5",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR and university sources. Phase I completed 2021."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "System mass not published",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Research project."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Active vibration system requires power, specific consumption not published",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Research project."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Research project, no commercial pricing",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Research project."
+      },
+      "procurement_lead_time": {
+        "value": "Research phase",
+        "source_url": "https://techport.nasa.gov/projects/113369",
+        "verified": true,
+        "notes": "Phase I completed, further development needed",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR and university sources. Phase I completed 2021."
+      },
+      "performance": {
+        "value": "Optimized modal vibration with passive coating",
+        "source_url": "https://ttu-ir.tdl.org/items/1de6a42b-240f-4b20-93db-1695022fab13",
+        "verified": true,
+        "notes": "Uses vibrational excitation at targeted modal frequencies. Assisted by passive dust mitigation coatings. Addresses Apollo 17 LRV radiator dust problem",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR and university sources. Phase I completed 2021."
+      },
+      "application": "Thermal radiators, particularly for lunar rovers",
+      "technology_type": "Hybrid - Active vibration + Passive coating",
+      "notes": "Specifically targets thermal radiator dust buildup that caused Apollo 17 LRV battery overheating. Tested with standard and custom lunar highland dust simulants. Active/passive hybrid approach."
+    },
+    {
+      "vendor": "NASA Kennedy Space Center",
+      "model": "Bendable Electrodynamic Dust Shield",
+      "trl": {
+        "value": 6,
+        "source_url": "https://techport.nasa.gov/projects/113118",
+        "verified": true,
+        "notes": "TechPort project 113118, variant of EDS for flexible surfaces",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort and science.gov sources."
+      },
+      "mass_kg": {
+        "value": 0.5,
+        "source_url": "https://www.science.gov/topicpages/e/electrodynamic+dust+shield",
+        "verified": true,
+        "notes": "Flight version: 500g mass, 350 cm\u00b3 volume",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort and science.gov sources."
+      },
+      "power_kw": {
+        "value": 0.001,
+        "source_url": "https://www.science.gov/topicpages/e/electrodynamic+dust+shield",
+        "verified": true,
+        "notes": "Similar to standard EDS: low power, 1-4 kV voltage",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort and science.gov sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "NASA technology, not commercially priced",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. NASA technology transfer."
+      },
+      "procurement_lead_time": {
+        "value": "Development stage",
+        "source_url": "https://techport.nasa.gov/projects/113118",
+        "verified": true,
+        "notes": "Technology transfer required",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort and science.gov sources."
+      },
+      "performance": {
+        "value": "Similar to rigid EDS",
+        "source_url": "https://techport.nasa.gov/projects/113118",
+        "verified": true,
+        "notes": "Flexible variant maintains dust removal capabilities of standard EDS",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA TechPort and science.gov sources."
+      },
+      "application": "Flexible surfaces, spacesuit components, deployable structures",
+      "technology_type": "Active - Electrodynamic (Flexible variant)",
+      "notes": "Bendable version of standard EDS for flexible/curved surfaces. Enables application to spacesuits and deployable systems. Flight hardware significantly miniaturized."
+    },
+    {
+      "vendor": "Research Consortium (University of North Dakota lead)",
+      "model": "SPIcDER - Spacesuit Integrated Carbon nanotube Dust Ejection/Removal",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0094576517318210",
+        "verified": true,
+        "notes": "Research phase, full-scale prototype demonstrated",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect peer-reviewed publication."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "CNT fibers embedded in suit material, negligible mass addition",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. University research."
+      },
+      "power_kw": {
+        "value": 0.0005,
+        "source_url": "https://commons.und.edu/theses/2278/",
+        "verified": true,
+        "notes": "High voltage 350-1000V AC, low power",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect peer-reviewed publication."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "University research, no commercial product",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. University research."
+      },
+      "procurement_lead_time": {
+        "value": "Research phase",
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0094576517318210",
+        "verified": true,
+        "notes": "Concept proven, commercialization path unclear",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect peer-reviewed publication."
+      },
+      "performance": {
+        "value": "80-95% dust removal",
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0094576517318210",
+        "verified": true,
+        "notes": "85%+ removal of 10-75 \u00b5m particles in ambient and vacuum. Scalable to full spacesuit demonstrated on knee joint prototype",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect peer-reviewed publication."
+      },
+      "application": "Spacesuit outer layers, flexible protective fabrics",
+      "technology_type": "Active - Carbon Nanotube Electrodynamic",
+      "notes": "CNT fibers embedded in spacesuit fabric. Uses EDS principle adapted for textiles. Time-varying electric fields repel dust. Proven scalable to full suit sections. Safety considerations documented."
+    },
+    {
+      "vendor": "Washington State University",
+      "model": "Liquid Nitrogen Cryogenic Spray System",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0094576523000681",
+        "verified": true,
+        "notes": "Laboratory demonstrated, NASA-funded research",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 5. Published research 2023 in Acta Astronautica. Laboratory demonstrated with NASA grant funding."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "System mass not published, requires liquid N2 reservoir",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Research prototype."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Cryogenic storage and spray mechanism power not specified",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Research prototype."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Research prototype, no commercial pricing",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Research prototype."
+      },
+      "procurement_lead_time": {
+        "value": "Research phase",
+        "source_url": "https://news.wsu.edu/press-release/2023/02/28/liquid-nitrogen-spray-could-clean-up-stubborn-moon-dust/",
+        "verified": true,
+        "notes": "Published 2023, ongoing development",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed research phase. Published 2023, ongoing development."
+      },
+      "performance": {
+        "value": "98.4% mass removal in vacuum",
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0094576523000681",
+        "verified": true,
+        "notes": "98.4% in vacuum, 97% ambient. 95.9% removal of <10 \u00b5m particles. Uses Leidenfrost Effect. 75 cleaning cycles before material damage vs 1 cycle for brushing",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed 98.4% from peer-reviewed publication (Acta Astronautica 2023). 95.9% removal of <10 \u00b5m particles."
+      },
+      "application": "Airlock spacesuit cleaning, post-EVA dust removal",
+      "technology_type": "Active - Cryogenic Cleaning",
+      "notes": "Uses Leidenfrost Effect: liquid N2 beads up on warm suit, lifts dust particles. Minimal suit damage. Dust migrates to lowest point for collection. Better than all conventional techniques. NASA grant funded."
+    },
+    {
+      "vendor": "Innovative Aerospace, LLC",
+      "model": "xEMU Lunar Dust Protection Devices",
+      "trl": {
+        "value": 6,
+        "source_url": "https://sbir.nasa.gov/content/xemu-lunar-dust-mitigation-devices",
+        "verified": true,
+        "notes": "Phase II SBIR award, prototype development",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR sources."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Designed for minimal weight consumption",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. SBIR development."
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://sbir.nasa.gov/SBIR/abstracts/21/sbir/phase1/SBIR-21-1-Z13.03-2204.html",
+        "verified": true,
+        "notes": "No power required per design specification",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "SBIR development, commercial pricing TBD",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. SBIR development."
+      },
+      "procurement_lead_time": {
+        "value": "Development 2021-present",
+        "source_url": "https://www.sbir.gov/awards/196298",
+        "verified": true,
+        "notes": "Contract #80NSSC21C0230, Phase I & II awards",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR sources."
+      },
+      "performance": {
+        "value": "Protects 6 xEMU venting components",
+        "source_url": "https://sbir.nasa.gov/SBIR/abstracts/21/sbir/phase1/SBIR-21-1-Z13.03-2204.html",
+        "verified": true,
+        "notes": "Additive manufactured covers for venting components. Magnetic brushes for post-EVA dust removal. Geometry-specific designs for each component",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA SBIR sources."
+      },
+      "application": "xEMU spacesuit venting components protection during lunar EVA",
+      "technology_type": "Passive - Protective Covers + Magnetic Cleaning",
+      "notes": "Southwick, Massachusetts company. PI: Thomas Stapleton. Passive covers consume no power/minimal volume. Magnetic brushes leverage dust's magnetic properties. Custom geometry for each xEMU component."
+    },
+    {
+      "vendor": "Brand Griffin / NASA Johnson Space Center",
+      "model": "Suitport (Suitlock)",
+      "trl": {
+        "value": 7,
+        "source_url": "https://en.wikipedia.org/wiki/Suitport",
+        "verified": true,
+        "notes": "Tested in lunar gravity simulation, thermal vacuum chamber testing completed",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed TRL 7. Tested in lunar gravity simulation and thermal vacuum chamber per NASA NTRS sources."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Mass depends on vehicle integration",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Depends on vehicle integration."
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://en.wikipedia.org/wiki/Suitport",
+        "verified": false,
+        "notes": "Passive mechanical system, no power required",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Depends on vehicle integration."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Custom integration for each vehicle, pricing not published",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Depends on vehicle integration."
+      },
+      "procurement_lead_time": {
+        "value": "Technology demonstrated",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S0094576523004939",
+        "verified": true,
+        "notes": "Prototype built and tested, available for vehicle integration",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed prototype tested. Available for vehicle integration per ScienceDirect source."
+      },
+      "performance": {
+        "value": "Eliminates dust migration into habitat",
+        "source_url": "https://en.wikipedia.org/wiki/Suitport",
+        "verified": true,
+        "notes": "Majority of suit dust remains outside habitation zone. Rear-entry design prevents dust transfer during ingress/egress",
+        "verified_tier": "reference",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Wikipedia and NASA NTRS. Eliminates dust migration by keeping suit exterior to habitat."
+      },
+      "application": "Habitat/rover rear-entry suit access, dust containment",
+      "technology_type": "Passive - Architectural Design",
+      "notes": "Spacesuit backpack seals against vehicle exterior. Astronaut enters feet-first from pressurized environment. Tested with Z-1 suit at JSC. NASA Space Exploration Vehicle conceptual design has 2 suitports. Brand Griffin built prototype."
+    },
+    {
+      "vendor": "Honeybee Robotics",
+      "model": "Lunar PlanetVac (LPV)",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.nasa.gov/missions/artemis/clps/nasa-lander-to-test-vacuum-cleaner-on-moon-for-sample-collection/",
+        "verified": true,
+        "notes": "Flying on Blue Ghost 1 (2025), operational demonstration imminent",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 8 to TRL 9. Successfully operated on lunar surface during Blue Ghost Mission 1 (landed March 2, 2025). Flight proven = TRL 9."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Mass not published",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA and Honeybee sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Pneumatic compressed gas system, power requirements not specified",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA and Honeybee sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Commercial company but lunar pricing not public",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA and Honeybee sources."
+      },
+      "procurement_lead_time": {
+        "value": "Operational - Lunar mission complete 2025",
+        "source_url": "https://www.nasa.gov/missions/artemis/clps/nasa-lander-to-test-vacuum-cleaner-on-moon-for-sample-collection/",
+        "verified": true,
+        "notes": "Blue Ghost 1 payload, launching 2025",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected. Successfully flew on Blue Ghost Mission 1, landed March 2, 2025. Technology demonstrated on Moon."
+      },
+      "performance": {
+        "value": "Pneumatic sample acquisition",
+        "source_url": "https://www.nasa.gov/missions/artemis/clps/nasa-lander-to-test-vacuum-cleaner-on-moon-for-sample-collection/",
+        "verified": true,
+        "notes": "Compressed gas-powered vacuum - brings its own gas. Sample acquisition and delivery system",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA.gov. Pneumatic sample acquisition demonstrated on lunar surface."
+      },
+      "application": "Sample collection (primary), potential dust removal (secondary)",
+      "technology_type": "Active - Pneumatic Vacuum",
+      "notes": "Primary purpose is sample collection, not dust mitigation. Pneumatic system uses compressed gas. Included as demonstrates vacuum technology for lunar use. May have dust mitigation applications."
+    },
+    {
+      "vendor": "Multiple Commercial Vendors (NASA GRC tested)",
+      "model": "HEPA Filtration System for Lunar Habitat",
+      "trl": {
+        "value": 9,
+        "source_url": "https://ntrs.nasa.gov/citations/20230002825",
+        "verified": true,
+        "notes": "Mature technology, NASA GRC extensive testing for lunar application",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA NTRS extensive testing documentation."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "System mass depends on habitat size and air volume",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. System depends on habitat size and air volume."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Fan power depends on flow rate and pressure drop",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. System depends on habitat size and air volume."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Commercial HEPA systems available, lunar-specific pricing varies",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. System depends on habitat size and air volume."
+      },
+      "procurement_lead_time": {
+        "value": "Commercial off-the-shelf base technology",
+        "source_url": "https://ntrs.nasa.gov/citations/20230002825",
+        "verified": true,
+        "notes": "HEPA filters commercially available, lunar adaptation required",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA NTRS extensive testing documentation."
+      },
+      "performance": {
+        "value": "99.97% at 0.3 micrometers",
+        "source_url": "https://ntrs.nasa.gov/citations/20230002825",
+        "verified": true,
+        "notes": "Standard HEPA: 99.97% efficiency for 0.3 \u00b5m particles. Multistage: screen (>800 \u00b5m) + internal (>5 \u00b5m) + HEPA (<5 \u00b5m). NASA standard: <10 \u00b5m particles to 0.3 mg/m\u00b3 TWA",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from NASA NTRS extensive testing documentation."
+      },
+      "application": "Lunar habitat air quality control, airlock filtration, crew breathing air",
+      "technology_type": "Passive - Filtration",
+      "notes": "Mature terrestrial technology adapted for lunar use. NASA GRC extensive testing program. Critical for crew health: 7% of lunar regolith by mass is <10 \u00b5m airborne hazard. Particles remain suspended in low gravity. Required for medical operations and long-duration habitation."
+    },
+    {
+      "vendor": "Pioneer Astronautics / Voyager Space",
+      "model": "Clear Dust Repellent Coating (CDRC)",
+      "trl": {
+        "value": 7,
+        "source_url": "https://voyagertechnologies.com/press-releases/nasa-selects-pioneer-astronautics-to-test-dust-repellent-coating-for-lunar-surface-missions/",
+        "verified": true,
+        "notes": "Space Act Agreement with NASA (Sept 2022), lunar testing on Blue Ghost",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 6 to TRL 7. Tested on Blue Ghost Mission 1 (2025) lunar surface per Voyager press release. Operational environment demonstration = TRL 7."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Clear coating - negligible mass",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Coating technology, minimal mass/no power."
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://www.prnewswire.com/news-releases/nasa-selects-pioneer-astronautics-to-test-dust-repellent-coating-for-lunar-surface-missions-301636174.html",
+        "verified": false,
+        "notes": "Passive coating, no power required",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Coating technology, minimal mass/no power."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Commercial product in development, pricing not published",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Coating technology, minimal mass/no power."
+      },
+      "procurement_lead_time": {
+        "value": "Lunar testing complete 2025",
+        "source_url": "https://voyagertechnologies.com/press-releases/nasa-selects-pioneer-astronautics-to-test-dust-repellent-coating-for-lunar-surface-missions/",
+        "verified": true,
+        "notes": "Firefly Blue Ghost RAC payload testing, commercial availability post-validation",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected. Tested on Blue Ghost lunar mission 2025. Data analysis ongoing per Payload Space reporting."
+      },
+      "performance": {
+        "value": "Dust repellent for multiple surfaces",
+        "source_url": "https://www.prnewswire.com/news-releases/nasa-selects-pioneer-astronautics-to-test-dust-repellent-coating-for-lunar-surface-missions-301636174.html",
+        "verified": true,
+        "notes": "Passive dust mitigation. Can be applied to many surfaces and components. Tested on EVA suit outer surface in RAC payload",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from Voyager/Pioneer press releases. Passive dust repellent tested on EVA suit material on lunar surface."
+      },
+      "application": "xEMU spacesuit, Lunar Terrain Vehicle, pressurized rovers, habitat surfaces, general equipment",
+      "technology_type": "Passive - Coating",
+      "notes": "Clear coating applied to outer surfaces. Passive method reduces technical and safety risks. Potential to transform lunar hardware operations. Commercial product with Earth applications. VP Business Development: Mike Bowker."
+    },
+    {
+      "vendor": "Multiple Industrial Vendors",
+      "model": "Fiberglass Fabric Boots and Bellows",
+      "trl": {
+        "value": 5,
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S0094576522001965",
+        "verified": true,
+        "notes": "Ranked as high-scoring technology in 2022 comprehensive review, industrial product adapted for lunar use",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect comprehensive review."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Mass depends on size of protected joint/mechanism",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Industrial product, varies by application."
+      },
+      "power_kw": {
+        "value": 0,
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S0094576522001965",
+        "verified": true,
+        "notes": "Passive physical barrier, no power required",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect comprehensive review."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified": false,
+        "notes": "Industrial boots/bellows commercially available, lunar-specific pricing varies by custom application",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Industrial product, varies by application."
+      },
+      "procurement_lead_time": {
+        "value": "Commercial base product available",
+        "source_url": null,
+        "verified": false,
+        "notes": "Industrial fiberglass boots/bellows are off-the-shelf products, lunar adaptation required",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Industrial product, varies by application."
+      },
+      "performance": {
+        "value": "High-scoring passive protection",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S0094576522001965",
+        "verified": true,
+        "notes": "Ranked alongside Lotus coating and EDS in comprehensive trade study. Physical barrier prevents dust intrusion into mechanisms, joints, and moving parts",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Confirmed from ScienceDirect comprehensive review."
+      },
+      "application": "Robotic joints, rover mechanisms, actuator protection, moving parts, flexible connections",
+      "technology_type": "Passive - Physical Barrier",
+      "notes": "Industrial product adapted for lunar use. Fiberglass fabric provides dust barrier for articulating joints and mechanisms. Passive protection requires no power/electronics. Prevents dust intrusion that causes abrasion and binding. Commercial availability enables rapid deployment."
+    }
+  ]
+}

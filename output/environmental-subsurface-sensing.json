@@ -1,0 +1,1255 @@
+{
+  "category": "Environmental and Subsurface Sensing",
+  "last_updated": "2025-12-08T14:30:00Z",
+  "scope": "Sensors and instruments for environmental monitoring, geological exploration, resource prospecting, and subsurface investigation on the lunar surface. TRL 5+ only.",
+  "items": [
+    {
+      "vendor": "McMaster University / Canadian Space Agency",
+      "model": "CNP-TEPC (Charged Particle Tissue Equivalent Proportional Counter)",
+      "description": "Ionizing radiation sensor, part of LEOS environmental monitoring package",
+      "trl": {
+        "value": 9,
+        "source_url": "https://brighterworld.mcmaster.ca/articles/mcmaster-satellite-lifts-off-from-kennedy-space-center/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 7 to TRL 9. Flight proven on NEUDOSE CubeSat: launched March 14, 2023, deployed from ISS April 24, 2023. McMaster official source confirmed."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://ntrs.nasa.gov/citations/20250009036",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Part of ~5kg LEOS package, individual CNP-TEPC mass not published. Checked NASA NTRS, McMaster sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://ntrs.nasa.gov/citations/20250009036",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Individual CNP-TEPC power not published. LEOS total is 3W peak/1.5W operational. Checked NASA NTRS, McMaster sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Research instrument, no commercial pricing found."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Research instrument developed by McMaster/CSA."
+      },
+      "capabilities": {
+        "value": "Ionizing radiation detection for charged and neutral particles in LEO and lunar environments, tissue-equivalent proportional counter simulates human cell response",
+        "source_url": "https://mcmasterneudose.ca/updates/2019/3/17/tissue-equivalence",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from McMaster NEUDOSE official site. Measures radiation dose equivalent for astronaut protection."
+      },
+      "notes": "Part of LEOS (Lunar Environmental Observation Station) COTS-based sensor package (TRL 6). CNP-TEPC separately flight proven at TRL 9 on NEUDOSE mission. Passed thermal vacuum (-55°C to +80°C at 10^-6 torr) and GEVS vibration (14.1G) testing."
+    },
+    {
+      "vendor": "ADVACAM",
+      "model": "Space radiation detectors (HERA series)",
+      "description": "Single particle radiation detectors with ISS and Artemis flight heritage, Timepix-based",
+      "trl": {
+        "value": 9,
+        "source_url": "https://advacam.com/application/space/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified TRL 9. Flight proven: ISS (2012-present, 6+ units operational), Artemis I HERA (Nov 2022). Gateway planned but not yet flown. ADVACAM vendor site confirmed."
+      },
+      "mass_kg": {
+        "value": 0.05,
+        "source_url": "https://advacam.com/application/space/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Vendor states 'weight in the order of tens of grams' and 'size of a USB drive'. Estimated ~50g (0.05 kg) for MiniPIX series."
+      },
+      "power_kw": {
+        "value": 0.002,
+        "source_url": "https://advacam.com/application/space/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Vendor states 'roughly 2 watts' power consumption. 2W = 0.002 kW."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Commercial vendor but pricing not published. Contact required for quote."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published on vendor site."
+      },
+      "capabilities": {
+        "value": "Single particle identification (protons, electrons, X-rays, gamma rays, neutrons), energy measurement, directional analysis, real-time dose rate monitoring with alarm system, particle tracking and characterization",
+        "source_url": "https://advacam.com/application/space/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from ADVACAM vendor site. Distinguishes particle types, measures energy spectrum, identifies origin direction."
+      },
+      "notes": "Czech commercial vendor with Timepix hybrid pixel detector technology. HERA integrated into Artemis I Orion (2022). ISS deployment: 5+ Timepix USB Lite devices (2012), MiniPIX cameras across modules, REM2 (2021). Planned for Artemis II and Gateway ERSA/IDA."
+    },
+    {
+      "vendor": "Lunar Outpost Inc.",
+      "model": "Space Canary",
+      "description": "Air-quality sensor for detecting ultra-fine lunar dust particles inside habitats",
+      "trl": {
+        "value": 6,
+        "source_url": "https://spinoff.nasa.gov/moon-dust-sensor-pollution",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 6 estimated. Tested in Lockheed Martin NextSTEP lunar habitat prototype, exceeded NASA requirements. Commercially available (Canary-S variant) deployed in 15 states. NASA Spinoff official source."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://spinoff.nasa.gov/moon-dust-sensor-pollution",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Self-contained solar-powered unit, mass specs not in NASA Spinoff or vendor sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://spinoff.nasa.gov/moon-dust-sensor-pollution",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Solar-powered with battery backup mentioned but no power consumption specified."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Commercial product but pricing not published. Contact vendor required."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Commercial availability confirmed but lead time not published."
+      },
+      "capabilities": {
+        "value": "Detects ultra-fine lunar dust particles inside habitats, measures particulate matter, carbon monoxide, methane, sulfur dioxide, volatile organic compounds, alerts to elevated contamination levels",
+        "source_url": "https://spinoff.nasa.gov/moon-dust-sensor-pollution",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA Spinoff. Multi-gas sensor with cloud data transmission every minute."
+      },
+      "notes": "Founded Denver, 2017. Integrated into Lockheed Martin NextSTEP habitat environmental control system. Earth variant (Canary-S) deployed in 15 states for air quality monitoring. Solar-powered, cellular data transmission."
+    },
+    {
+      "vendor": "NASA (available for licensing)",
+      "model": "PADS (Planetary Accumulation of Dust Sensor)",
+      "description": "Dust accumulation sensor for measuring in-situ lunar dust deposition",
+      "trl": {
+        "value": 6,
+        "source_url": "https://technology.nasa.gov/patent/MSC-TOPS-143",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified TRL 6. System/subsystem prototype demonstrated in operational environment. Poised for lander integration for flight testing. NASA Technology Transfer official source."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://technology.nasa.gov/patent/MSC-TOPS-143",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Described as 'light-weight' and 'compact, puck-shaped' but no numerical mass specification published. Patent MSC-27660-1."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://technology.nasa.gov/patent/MSC-TOPS-143",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Described as 'low power' with 'minimal power draw' supporting continuous or intermittent operations, but no numerical specification published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://technology.nasa.gov/patent/MSC-TOPS-143",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Available for patent licensing from NASA. Licensing terms not published."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Patent licensing process timeline not specified."
+      },
+      "capabilities": {
+        "value": "In-situ dust accumulation monitoring via thermal emittance measurement, tunable optical coating sensor disc, embedded precision temperature sensors, no moving parts, distinguishes dust from radiation effects, continuous or intermittent operation",
+        "source_url": "https://technology.nasa.gov/patent/MSC-TOPS-143",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA Technology Transfer. Ground tested in simulated lunar environment. Calibration plots for emittance degradation vs dust accumulation."
+      },
+      "notes": "Available for patent licensing from NASA (MSC-TOPS-143, MSC-27660-1). Compact puck-shaped form factor. Ground testing completed in simulated lunar environment. Poised for lander integration. Applications: radiators, solar arrays monitoring."
+    },
+    {
+      "vendor": "University of Oxford / Lockheed Martin",
+      "model": "LTM (Lunar Thermal Mapper)",
+      "description": "Miniaturized thermal infrared multispectral imager for lunar surface temperature mapping",
+      "trl": {
+        "value": 9,
+        "source_url": "https://scitechdaily.com/nasas-lunar-trailblazer-moon-mission-lost-just-a-day-after-launch/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "TRL 9 confirmed - launched Feb 27, 2025 on Lunar Trailblazer. Mission FAILED: contact lost 2 hours after launch, mission ended July 31, 2025. Flight proven but unsuccessful. NASA JPL official sources."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://www.eoportal.org/satellite-missions/lunar-trailblazer",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Shoebox-sized. Total Lunar Trailblazer science payload 20kg for both instruments (LTM + HVM3). Individual LTM mass not specified."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked JPL, Oxford, eoPortal sources."
+      },
+      "cost_usd": {
+        "value": 3875000,
+        "source_url": "https://www.physics.ox.ac.uk/news/lunar-thermal-mapper-ready-launch",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "£3.1 million from UK Space Agency and DSIT for development. Converted at $1.25/GBP = $3,875,000. Oxford University official source."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Custom research instrument. Development timeline not published."
+      },
+      "capabilities": {
+        "value": "Temperature mapping 110-400K (-163°C to +127°C) at 2K precision, 25m/pixel spatial resolution, 11 spectral bands 7-10 μm, 4 broad-band channels 6-100 μm",
+        "source_url": "https://www.eoportal.org/satellite-missions/lunar-trailblazer",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from eoPortal and LPSC proceedings. Five-mirror telescope with uncooled microbolometer detector array."
+      },
+      "notes": "University of Oxford development. Launched Feb 27, 2025 on Lunar Trailblazer mission but MISSION FAILED - contact lost 2hrs after launch, ended July 31, 2025. Five-mirror telescope, uncooled microbolometer. Intended to map water distribution and temperature."
+    },
+    {
+      "vendor": "CNSA (China National Space Agency)",
+      "model": "LPR (Lunar Penetrating Radar) - Chang'E missions",
+      "description": "Dual-frequency ground-penetrating radar for subsurface exploration",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.cnsa.gov.cn/english/n6465652/n6465653/c6805049/content.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified TRL 9. Operational on Yutu-2 rover, Chang'e-4 mission landed January 3, 2019 on lunar far side. CNSA official source confirms successful deployment and operations."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Individual LPR mass not published. Yutu-2 rover total mass is 140 kg but includes multiple instruments. Checked CNSA official site, NASA NSSDC, eoPortal, scientific papers - no individual instrument mass specification found."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Power consumption not published. Checked CNSA official sources, NASA NSSDC, eoPortal, and multiple scientific publications - no LPR power specification found."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Chinese government space technology, commercial availability uncertain. No pricing information available."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. CNSA technology with uncertain commercial availability for non-Chinese entities."
+      },
+      "capabilities": {
+        "value": "Dual-frequency system (60 MHz and 500 MHz channels), Channel-1 (60 MHz) penetrates 52-328m depth with ~3m vertical resolution, Channel-2 (500 MHz) penetrates to 40m with <30cm vertical resolution, reveals subsurface structure including low-loss porous granular materials and embedded boulders",
+        "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020JE006564",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified dual-frequency specifications from multiple scientific sources. 60 MHz low-frequency channel for deep penetration (52-328m), 500 MHz high-frequency channel for shallow high-resolution imaging (up to 40m). Published in peer-reviewed AGU journal."
+      },
+      "notes": "Flight heritage: Chang'E-3 and Chang'E-4 missions. Due to low dielectric loss of lunar materials, GPR waves can penetrate tens to hundreds of meters. Commercial availability uncertain (Chinese technology)."
+    },
+    {
+      "vendor": "JAXA (Japan Aerospace Exploration Agency)",
+      "model": "LRS (Lunar Radar Sounder) - SELENE/Kaguya",
+      "description": "FM/CW ground-penetrating radar for few-km depth geologic subsurface investigation",
+      "trl": {
+        "value": 9,
+        "source_url": "https://science.nasa.gov/mission/kaguya/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified TRL 9. Operational on SELENE/Kaguya mission: launched Sep 14, 2007, entered lunar orbit Oct 3, 2007, fully operational from Dec 21, 2007 to Jun 10, 2009. Collected 2,363 hours of radar sounder data. NASA Science official source."
+      },
+      "mass_kg": {
+        "value": 23.182,
+        "source_url": "https://www.kaguya.jaxa.jp/en/equipment/lrs_e.htm",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from JAXA official Kaguya mission site. LRS instrument mass is 23.182 kg including electronics and antenna systems."
+      },
+      "power_kw": {
+        "value": 0.0567,
+        "source_url": "https://www.kaguya.jaxa.jp/en/equipment/lrs_e.htm",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from JAXA official Kaguya mission site. Power consumption is 56.7 W = 0.0567 kW. Radar radiation power is 800 W."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Japanese space agency technology, commercial availability uncertain."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. JAXA mission technology with uncertain commercial availability."
+      },
+      "capabilities": {
+        "value": "5 MHz center frequency FM/CW radar, 30m tip-to-tip dipole antennas (two sets), maximum penetration depth 5 km, range resolution <100 m, 800W radiation power, 200 microsecond pulse width, 10 kHz/microsecond modulation, coverage area several tens of km horizontal scale, also observes plasma waves 10 Hz-30 MHz",
+        "source_url": "https://www.kaguya.jaxa.jp/en/equipment/lrs_e.htm",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from JAXA official Kaguya mission site. Comprehensive specifications including radar parameters, antenna configuration, and dual-mode capabilities (subsurface radar + plasma wave observation)."
+      },
+      "notes": "Part of SELENE/Kaguya lunar orbiter. Commercial availability uncertain (Japanese space agency technology)."
+    },
+    {
+      "vendor": "CNES (French Space Agency) / NASA JPL",
+      "model": "FSS VBB (Farside Seismic Suite Very Broadband Seismometer)",
+      "description": "Most sensitive seismometer ever built for space, InSight Mars mission flight spare",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.seis-insight.eu/en/seis-news",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified TRL 9. VBB seismometer flight-proven on InSight Mars mission: launched May 5, 2018, landed Nov 26, 2018, deployed Dec 19, 2018, operated Feb 2019 to Dec 21, 2022. Detected 1,319 marsquakes. FSS VBB is adapted flight spare scheduled for 2026 lunar deployment. CNES/IPGP official source."
+      },
+      "mass_kg": {
+        "value": 45,
+        "source_url": "https://cnes.fr/en/projects/fss",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from CNES official source. Total FSS suite mass is 45 kg including VBB seismometer, SP seismometer, power system, communications, and thermal enclosure (40x40x40 cm cube). Individual VBB mass not separately specified."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://fss.cnes.fr/en/fss-0",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Power consumption not numerically specified. Solar-powered with independent power system including solar panels and battery for thermal control enabling survival through 4.5+ month mission. Specific wattage not published. Checked CNES, JPL, and NASA sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. NASA PRISM-funded research instrument collaboration between CNES and JPL."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. Research instrument built as InSight flight spare, adapted for lunar mission."
+      },
+      "capabilities": {
+        "value": "Detects ground motions smaller than single hydrogen atom (few tenths of nanometer per second squared acceleration), vertical pendulum seismometer with spring mount, 14 cm diameter fat cylinder, adapted from InSight Mars heritage for lunar gravity (<1/2 Mars, ~1/6 Earth), first lunar seismic data since Apollo, measures moonquakes and meteor impacts",
+        "source_url": "https://www.jpl.nasa.gov/news/nasa-to-measure-moonquakes-with-help-from-insight-mars-mission/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA JPL official source. VBB is most sensitive space seismometer ever built. Adapted from InSight SEIS design for lunar gravity environment. Comprehensive capabilities confirmed."
+      },
+      "notes": "40cm cube, scheduled landing 2026 at Schrödinger basin (~300 miles from South Pole). Originally built as InSight flight spare. Part of NASA PRISM program."
+    },
+    {
+      "vendor": "Kinemetrics / University of Oxford / Imperial College London",
+      "model": "FSS SP (Farside Seismic Suite Short Period Sensor)",
+      "description": "Short period seismic sensor based on InSight design",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.seis-insight.eu/en/public-2/seis-instrument/sp-seismometer",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified TRL 9. SP seismometer flight-proven on InSight Mars mission SEIS instrument: launched May 5, 2018, landed Nov 26, 2018, deployed Dec 19, 2018, operated Feb 2019 to Dec 21, 2022. FSS SP is adapted version scheduled for 2026 lunar deployment. SEIS/InSight official source."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://cnes.fr/en/projects/fss",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Individual SP mass not published. Part of 45 kg total FSS suite mass (includes VBB, SP, power, communications, thermal enclosure). Checked FSS sources, Kinemetrics, NASA JPL - no separate SP mass specification found."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Power consumption not published. Part of FSS solar-powered suite. Individual SP power draw not specified in available sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Research instrument collaboration, part of NASA PRISM-funded FSS payload."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. Custom research instrument for FSS mission."
+      },
+      "capabilities": {
+        "value": "Three-axis short period seismic detection, frequency range 0.1-50 Hz, MEMS technology with silicon chip sensors (25mm square chips), puck-shaped device, measures motion in three directions, InSight SEIS-SP heritage adapted for lunar gravity, high-frequency moonquake monitoring",
+        "source_url": "https://www.seis-insight.eu/en/public-2/seis-instrument/sp-seismometer",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from SEIS/InSight official source. Kinemetrics patented MEMS technology, electronics by Oxford University and Kinemetrics, sensors designed by Imperial College. Frequency range 0.1-50 Hz confirmed from InSight heritage design."
+      },
+      "notes": "Built by Kinemetrics in collaboration with University of Oxford and Imperial College London. Part of FSS package."
+    },
+    {
+      "vendor": "NASA Goddard / Arizona State University",
+      "model": "SUBLIME (Molecular Electronic Transducer seismometer)",
+      "description": "Pathfinder planetary seismometer based on MET technology with ionic liquid sensor",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.nasa.gov/centers-and-facilities/goddard/nasa-scientists-tapped-to-mature-more-rugged-seismometer-system-to-measure-moonquakes/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified TRL 6 target. DALI (Development and Advancement of Lunar Instrumentation) program supporting maturation to TRL 6 from prior development. Expected nearly ready for deployment after DALI funding completion (~2023 from 2020 award). NASA Goddard official source."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/centers-and-facilities/goddard/nasa-scientists-tapped-to-mature-more-rugged-seismometer-system-to-measure-moonquakes/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Mass not numerically specified. Advanced rad-hard ASIC design minimizes mass and power requirements. Checked NASA sources, TechPort (requires JavaScript), no specific mass published."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/centers-and-facilities/goddard/nasa-scientists-tapped-to-mature-more-rugged-seismometer-system-to-measure-moonquakes/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Power consumption not numerically specified. Advanced rad-hard ASIC minimizes power requirements. Checked NASA sources, no specific wattage published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. NASA DALI-funded research instrument under development."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. Research instrument under development for future lunar missions."
+      },
+      "capabilities": {
+        "value": "Molecular Electronic Transducer (MET) technology using fluid responding to seismic accelerations, three sensors oriented in different directions, arbitrary installation angle tolerance (no precise positioning required), high shock tolerance, excellent environmental survival, high sensitivity and wide dynamic range, no moving parts, easy to fabricate, radiation-hardened ASIC readout electronics, cost-effective deployment",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/goddard/nasa-scientists-tapped-to-mature-more-rugged-seismometer-system-to-measure-moonquakes/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA Goddard official source. MET technology from Arizona State University uses ionic liquid sensor. Fluid flows through sensing element generating measurable current for precise ground-motion data. Designed to map lunar interior and alert astronauts to seismic events."
+      },
+      "notes": "MET technology uses ionic liquid responding to seismic accelerations. Repackaged and matured for lunar environment under DALI program."
+    },
+    {
+      "vendor": "NASA Ames Research Center",
+      "model": "NIRVSS (Near-InfraRed Volatiles Spectrometer System)",
+      "description": "Infrared spectrometer for detecting water ice, CO2, NH3, CH4 and differentiating H2O from OH",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.nasa.gov/image-article/first-science-instrument-nasas-upcoming-moon-rover-delivered/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified TRL 6. Matured to TRL 6 through NASA R&D programs. Developed for VIPER rover which was fully assembled and vibration tested before mission cancellation in July 2024. Instrument delivered to VIPER integration. Technology mature but never flown. NASA official source."
+      },
+      "mass_kg": {
+        "value": 3.6,
+        "source_url": "https://ui.adsabs.harvard.edu/abs/2021LPI....52.1678R/abstract",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from LPSC 2021 proceedings abstract. 3.6 kg mass specification from NASA Ames VIPER NIRVSS presentation. Cannot access full PDF but abstract confirms this is official NIRVSS specification."
+      },
+      "power_kw": {
+        "value": 0.0298,
+        "source_url": "https://ui.adsabs.harvard.edu/abs/2021LPI....52.1678R/abstract",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from LPSC 2021 proceedings. 29.8W total: Spectrometer 12W + bracket 5.3W + IR lamp 12.3W = 29.8W (0.0298 kW). Source is NASA Ames official VIPER NIRVSS presentation."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. NASA Ames instrument developed for cancelled VIPER mission ($450M spent before cancellation, rover complete)."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not applicable. VIPER mission cancelled July 2024. Instrument components may be reused for other lunar missions."
+      },
+      "capabilities": {
+        "value": "Near-infrared spectrometer analyzes light emitted/absorbed by materials, detects minerals and ices (CO2, NH3, CH4, H2O), differentiates water (H2O) from hydroxyl (OH-), normal data rate 47.15 kbps (59.1 kbps while drilling), partnered with Brimrose Corporation for spectrometer development, includes Spectrometer Context Imager for seven-color composition imaging",
+        "source_url": "https://www.nasa.gov/solar-system/moon/wheres-the-water-two-resource-hunting-tools-for-the-moons-surface/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA official source. NIRVSS uses spectrometer to identify hydrogen forms (water vs hydroxyl vs atomic hydrogen) and detect various volatiles. Developed by NASA Ames with Brimrose Corporation. Capabilities confirmed for resource prospecting."
+      },
+      "notes": "Spectrometer: 18x18x8.5 cm, bracket: 20.4x13x15.1 cm. Developed for VIPER rover (mission cancelled July 2024 but technology mature at TRL 6, rover fully built)."
+    },
+    {
+      "vendor": "NASA (various centers)",
+      "model": "NSS (Neutron Spectrometer System)",
+      "description": "Neutron spectrometer for indirect water/hydrogen detection up to 1m below surface",
+      "trl": {
+        "value": 9,
+        "source_url": "https://en.wikipedia.org/wiki/Lunar_Prospector",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "TRL 9 confirmed. Lunar Prospector neutron spectrometer successfully operated Jan 1998-Jul 1999 in lunar orbit. VIPER-adapted version flew on Peregrine Mission 1 (Jan 2024) - instrument worked successfully but mission failed due to propulsion leak, never reached Moon. VIPER mission cancelled July 2024 but later revived with Blue Origin in Sept 2025."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://science.nasa.gov/mission/viper/rover-and-instruments/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Mass not published. Described as 'low-mass' with two helium-3 proportional counter detectors at 15 atmospheres pressure. Lunar Prospector version: two cylindrical canisters 5.7cm diameter x 29cm long each, but VIPER version dimensions not specified. Checked NASA VIPER site, NSSDC (connection failed), scientific papers."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://science.nasa.gov/mission/viper/rover-and-instruments/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Power consumption not published. Described as 'low-power' front-end with preamp and HVPS. Checked NASA sources and technical papers - no numerical specification found."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. NASA instrument developed by Ames Research Center and Lockheed Martin Advanced Technology Center."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. NASA research instrument. VIPER mission revived Sept 2025 with Blue Origin."
+      },
+      "capabilities": {
+        "value": "Helium-3 gas proportional counter detects thermal and epithermal neutrons, measures hydrogen content in lunar subsurface to 1m (~3 feet) depth, one bare sensor (both neutron types) and one cadmium-wrapped sensor (epithermal only), operates continuously during rover traverse, sensitivity 10+ ppm hydrogen at poles",
+        "source_url": "https://science.nasa.gov/mission/viper/rover-and-instruments/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified from NASA VIPER official site and Lunar Prospector heritage documentation. Two-detector system (bare and cadmium-wrapped) measures neutron suppression indicating hydrogen presence. Lunar Prospector achieved 150km surface resolution and 10 ppm sensitivity at poles."
+      },
+      "notes": "Heritage from Lunar Prospector (1998-1999). Adapted for Resource Prospector (cancelled), then VIPER (cancelled July 2024, revived Sept 2025 with Blue Origin). Flew on Peregrine Mission 1 (Jan 2024) - instrument operated successfully but spacecraft failed to reach Moon due to propulsion leak."
+    },
+    {
+      "vendor": "NASA Kennedy Space Center / INFICON",
+      "model": "MSOLO (Mass Spectrometer for Observing Lunar Operations)",
+      "description": "Modified COTS quadrupole mass spectrometer for volatile analysis, 1-100 amu",
+      "trl": {
+        "value": 9,
+        "source_url": "https://spacenews.com/im-2-lunar-lander-mission-ends/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Corrected from TRL 8 to TRL 9. Flew on PRIME-1 aboard IM-2 ATHENA lander: launched Feb 27, 2025, landed March 6, 2025 at Mons Mouton plateau near south pole. Lander tipped on side due to altimeter failure. MSOLO operated successfully in space environment and detected elements from lander propulsion, but drill couldn't penetrate surface due to lander orientation. Mission ended March 7, 2025 (13 hours surface ops). Flight proven despite mission complications."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://www.inficon.com/en/news/inficon-technology-prepares-for-takeoff-to-the-moon",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Mass not published. Based on modified INFICON Transpector MPH quadrupole mass spectrometer. Checked INFICON vendor site, NASA KSC sources, NSSDC, NTRS - no specific mass specification found."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.inficon.com/en/news/inficon-technology-prepares-for-takeoff-to-the-moon",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Power consumption not published. Modified COTS instrument. Checked vendor documentation and NASA sources - no numerical specification available."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. NASA Kennedy Space Center developed instrument using INFICON Transpector MPH base unit."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. Custom NASA instrument for PRIME-1 mission (completed March 2025)."
+      },
+      "capabilities": {
+        "value": "Quadrupole mass spectrometer detects volatiles 1-100 amu with unit mass resolution, Faraday cup detector for high pressure analysis, electron multiplier for low pressure, crossbeam ionization source, measures isotopic ratios (D/H, O18/O16), analyzes water and volatiles in regolith samples, first US mass spectrometer on Moon since Apollo 17 (1972)",
+        "source_url": "https://www.inficon.com/en/news/inficon-technology-prepares-for-takeoff-to-the-moon",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified from INFICON vendor site and NASA sources. Modified COTS Transpector MPH with two detector types and crossbeam ion source. Designed to analyze drill cuttings from TRIDENT drill up to 1m depth. First commercial mass spectrometer for lunar surface exploration."
+      },
+      "notes": "Modified COTS INFICON Transpector MPH. Flew on PRIME-1/IM-2 ATHENA mission (Feb-Mar 2025). Landed March 6, 2025 near south pole but lander tipped over. Instrument functioned successfully detecting propulsion elements, but TRIDENT drill couldn't penetrate surface due to lander orientation. Mission ended after 13 hours. Southernmost lunar landing achieved."
+    },
+    {
+      "vendor": "Ball Aerospace / University of Colorado Boulder",
+      "model": "L-CIRiS (Lunar Compact InfraRed Imaging System)",
+      "description": "Multispectral infrared imaging radiometer for mineralogical and thermophysical measurements",
+      "trl": {
+        "value": 6,
+        "source_url": "https://lasp.colorado.edu/instruments/l-ciris/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "TRL 6 estimated. Selected for NASA CLPS CP-22 mission scheduled late 2027. Instrument delivered to LASP by Ball Aerospace in 2022. Derived from CIRiS CubeSat technology (Earth-observing mission) which matured from TRL 5 to 6. L-CIRiS scheduled for deployment but not yet flown. LASP official site and CU Boulder sources."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://lasp.colorado.edu/instruments/l-ciris/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Mass not published. Described as 'compact', 'low-cost', 'very small package' but no numerical specification. Derived from CIRiS CubeSat instrument (6U platform). Checked LASP, CU Boulder, Ball Aerospace sources - no mass specification found."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://lasp.colorado.edu/instruments/l-ciris/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Power consumption not published. Uncooled detector technology (low power design). Checked LASP and vendor sources - no numerical specification available."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. Developed by Ball Aerospace (now BAE Systems) for LASP/NASA CLPS program."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Mission scheduled late 2027 on CP-22 (Intuitive Machines lander). Development timeline not published."
+      },
+      "capabilities": {
+        "value": "Four spectral bands 7.5-13.5 μm thermal infrared, panoramic imaging from 4m to horizon, spatial resolution <1cm at foreground, temperature range -170°C to +100°C, uncooled microbolometer detector, surface composition mapping, mineral identification, thermophysical properties measurement, identifies cold traps for potential water ice",
+        "source_url": "https://lasp.colorado.edu/instruments/l-ciris/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified from LASP official site and CU Boulder sources. Four-band thermal IR imager with uncooled detector derived from CIRiS technology. First lunar surface infrared panoramic camera. Carbon nanotube blackbody calibration source. Ball Aerospace used recycled aluminum (ReAl alloy) for Zenith mirror."
+      },
+      "notes": "Built by Ball Aerospace (now BAE Systems Boulder) with LASP (PI: Dr. Paul Hayne), UCF, and UCLA. Selected for NASA CLPS CP-22 mission, scheduled late 2027 with Intuitive Machines. Instrument delivered 2022. Derived from CIRiS Earth-observing CubeSat technology. Resource prospecting for lunar poles."
+    },
+    {
+      "vendor": "NASA Langley Research Center / Teledyne",
+      "model": "LETS (Linear Energy Transfer Spectrometer)",
+      "description": "Solid-state silicon Timepix radiation sensor for measuring galactic cosmic rays and solar events",
+      "trl": {
+        "value": 8,
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=PEREGRN-1",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Corrected from TRL 9 to TRL 8. Flown on Peregrine Mission 1 which FAILED (Jan 8-18, 2024, propellant leak, never reached Moon). Flight qualified but mission unsuccessful. Heritage from Orion EFT-1 and EM-1. NASA NSSDC source."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA NSSDC, LPSC proceedings."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA research instrument, not commercially available."
+      },
+      "capabilities": {
+        "value": "Pixellated semiconductor sensor (256x256 array, 1.4x1.4 cm chip, 2 cm² area), 55x55 micron pixels (500 microns thick), dynamic energy range 5 keV photons to >2 GeV heavy ions",
+        "source_url": "https://ui.adsabs.harvard.edu/abs/2020LPICo2241.5145M/abstract",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from LPSC proceedings. Timepix ASIC detector technology."
+      },
+      "notes": "Timepix ASIC detector, NASA Langley/Teledyne. Flown on Peregrine Mission 1 (Jan 2024) which failed due to propellant leak - never reached Moon. Flight qualified hardware with Orion heritage but lunar mission unsuccessful."
+    },
+    {
+      "vendor": "NASA Goddard / NASA Ames",
+      "model": "PITMS (Peregrine Ion-Trap Mass Spectrometer)",
+      "description": "Ion trap mass spectrometer for lunar exosphere volatile characterization",
+      "trl": {
+        "value": 8,
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=PEREGRN-1",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified TRL 8. Flown on Peregrine Mission 1 which FAILED (Jan 8-18, 2024, propellant leak, never reached Moon). Flight qualified but mission unsuccessful. NASA NSSDC source."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published. Checked NASA sources, LPSC proceedings."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Not published."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-09",
+        "verification_notes": "NASA research instrument, not commercially available."
+      },
+      "capabilities": {
+        "value": "Characterizes lunar exosphere volatiles (water, argon, nitrogen, CO2, CO, methane), passive sampling mode with zenith-facing aperture, radiofrequency field ion trap, sequential mass-to-charge ratio release",
+        "source_url": "https://science.nasa.gov/lunar-science/deliveries/to2-astrobotic/",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-09",
+        "verification_notes": "Verified from NASA Science official site. Ion trap mass spectrometer for exosphere analysis."
+      },
+      "notes": "NASA Goddard/Ames ion trap mass spectrometer. Flown on Peregrine Mission 1 (Jan 2024) which failed - never reached Moon. Intended to analyze molecules close to Moon's surface and investigate volatile species movement."
+    },
+    {
+      "vendor": "Southwest Research Institute / NASA Goddard / Heliospace Corp",
+      "model": "LMS (Lunar Magnetotelluric Sounder)",
+      "description": "Magnetotelluric sounder for characterizing lunar interior structure via electric/magnetic field measurements",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.swri.org/newsroom/press-releases/swri-led-sounder-instrument-deploys-across-lunar-surface",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified TRL 9. Successfully deployed on Blue Ghost 1 mission: landed March 2, 2025 at Mare Crisium, operated ~14 days until March 16, 2025. First extraterrestrial magnetotellurics application. Four electrodes successfully deployed 60+ feet from lander, all sensors functioned properly. SwRI official press release."
+      },
+      "mass_kg": {
+        "value": 6.35,
+        "source_url": "https://universemagazine.com/en/the-blue-ghost-spacecraft-will-carry-an-instrument-to-study-the-interior-of-the-moon/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified 14 pounds (6.35 kg) for five subsystems plus connecting cables. Confirmed by Dr. Robert Grimm, LMS principal investigator. Each electrode assembly softball-sized when stowed."
+      },
+      "power_kw": {
+        "value": 0.011,
+        "source_url": "https://universemagazine.com/en/the-blue-ghost-spacecraft-will-carry-an-instrument-to-study-the-interior-of-the-moon/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified 11 Watts (0.011 kW) power consumption. Confirmed by Dr. Robert Grimm, LMS principal investigator."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. SwRI instrument for NASA CLPS program."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. Mission completed March 2025."
+      },
+      "capabilities": {
+        "value": "Magnetotelluric sounding to 700 miles depth (two-thirds lunar radius), measures electric and magnetic fields simultaneously, four spring-deployed electrodes at 90-degree angles up to 60 feet distance (80 feet confirmed deployment), fluxgate magnetometer on extendable mast (NASA GSFC), characterizes lunar interior structure, mantle composition, thermal history, potential water signatures, minimum penetration depth ~200 km (or <100 km with searchcoil)",
+        "source_url": "https://www.swri.org/newsroom/press-releases/swri-led-sounder-instrument-deploys-across-lunar-surface",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified from SwRI official sources. First extraterrestrial magnetotellurics application. Five-component system: central electronics box, four electrodes (Heliospace Corp), and fluxgate magnetometer (NASA Goddard). Deployment verified successful March 2, 2025 on Blue Ghost 1."
+      },
+      "notes": "SwRI principal instrument. Central electronics box, fluxgate magnetometer (NASA GSFC), four spring-deployed electrodes (Heliospace Corp). Deployed March 2, 2025 on Blue Ghost 1 at Mare Crisium, operated ~14 days. Electrodes deployed 60+ feet covering area half the size of football field. First fully successful CLPS mission."
+    },
+    {
+      "vendor": "NASA Marshall / Texas Tech University / Honeybee Robotics",
+      "model": "LISTER (Lunar Instrumentation for Subsurface Thermal Exploration with Rapidity)",
+      "description": "Pneumatic drill-based subsurface thermal probe for heat flow measurements",
+      "trl": {
+        "value": 9,
+        "source_url": "https://iopscience.iop.org/article/10.3847/PSJ/ae0465",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified TRL 9. Successfully deployed on Blue Ghost Mission 1: landed March 2, 2025 at Mare Crisium, operated March 4-6 and additional days. Reached 98 cm depth (design target 1m), obtained eight thermal measurements at depths 0.288, 0.329, 0.394, 0.6, 0.783, 0.947, 0.956, 0.971m. First robotic pneumatic excavation on Moon. Peer-reviewed Planetary Science Journal publication."
+      },
+      "mass_kg": {
+        "value": 12.9,
+        "source_url": "https://iopscience.iop.org/article/10.3847/PSJ/ae0465",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Corrected from 4.3 kg to 12.9 kg. Complete flight system mass including avionics verified from peer-reviewed PSJ paper. Earlier TRL 5 prototypes weighed ~2 kg. Two nitrogen tanks (130g each), stainless steel tube (6.4mm diameter), needle sensor (2.8mm diameter), spacer-nozzle assembly."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://iopscience.iop.org/article/10.3847/PSJ/ae0465",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Power consumption not numerically specified in PSJ paper. Pneumatic system uses two nitrogen tanks at 30.3 MPa pressure, 12-15 standard liters per minute flow rate, ~12 minutes excavation time per tank. Checked PSJ paper and NASA sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. NASA Marshall/Texas Tech/Honeybee Robotics collaboration, ~20 years development (2008-2025)."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. Mission completed March 2025."
+      },
+      "capabilities": {
+        "value": "Pneumatic excavation using pressurized nitrogen jets (30.3 MPa, 12-15 L/min), design depth 2-3m (achieved 98cm on Blue Ghost), thermal gradient and conductivity measurements, eight successful measurements at depths 0.288-0.971m, stainless steel tube 6.4mm diameter, needle sensor 2.8mm diameter x 28mm length, calculates heat flow from thermal gradient and conductivity, two nitrogen tanks (130g each, ~12 min excavation time), hole diameter 2-7cm, first robotic pneumatic drill on Moon",
+        "source_url": "https://iopscience.iop.org/article/10.3847/PSJ/ae0465",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified from peer-reviewed PSJ paper documenting Blue Ghost 1 mission results. Nearly 20 years development (2008-2025) progressing through TRL 5-6. Subsurface obstacles prevented reaching full 1m design depth but obtained successful thermal measurements. Deepest robotic planetary subsurface thermal probe."
+      },
+      "notes": "NASA Marshall/Texas Tech/Honeybee Robotics. Deployed March 2-6, 2025 on Blue Ghost 1 at Mare Crisium. Achieved 98cm depth (vs 1m target) due to subsurface obstacles. First robotic pneumatic lunar excavation. ~20 years development from concept (2008) to flight. Calculates lunar heat flow."
+    },
+    {
+      "vendor": "Aegis Aerospace (formerly Alpha Space)",
+      "model": "RAC (Regolith Adherence Characterization)",
+      "description": "Lunar dust adherence and accumulation rate measurement system using CCD camera",
+      "trl": {
+        "value": 9,
+        "source_url": "https://aegisaero.com/news/lunar-test-facility-arrives-on-moon-to-conduct-regolith-research/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified TRL 9. Successfully deployed on Blue Ghost 1: landed March 2, 2025 at Mare Crisium, operated 14 Earth days (one lunar day). Sample carrier disc exposed to lunar environment during landing and surface operations. Mission completed March 16, 2025. Aegis Aerospace and NASA official sources."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/missions/artemis/clps/nasa-science-payload-to-study-sticky-lunar-dust-challenge/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Mass not published. CCD camera detection system with sample carrier disc containing 15 material samples. Checked NASA CLPS site, Aegis Aerospace sources, NTRS - no mass specification found."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.nasa.gov/missions/artemis/clps/nasa-science-payload-to-study-sticky-lunar-dust-challenge/",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Power consumption not published. CCD camera system for imaging dust accumulation. Checked NASA and Aegis sources - no power specification available."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. Aegis Aerospace (formerly Alpha Space) development for NASA CLPS program."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. Mission completed March 2025."
+      },
+      "capabilities": {
+        "value": "Tests 15 sample materials (fabrics, paint coatings, optical systems, sensors, solar cells), CCD camera detection system measures dust adherence and accumulation rates during landing and surface operations, exposed sample carrier disc, materials include Kapton HN (127 μm thick polyimide film), Teflon FEP (508 μm thick fluoropolymer), carbon fiber reinforced bismaleimide composite (Cycom 5250-1 resin, Toray M30S fabric), Ti-6Al-4V titanium alloy, operated one lunar day (14 Earth days), quantifies dust tenacity for spacecraft/spacesuit/habitat design",
+        "source_url": "https://ntrs.nasa.gov/citations/20210024439",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified from NASA NTRS technical paper and NASA CLPS site. Four materials detailed in NTRS paper (Kapton HN, Teflon FEP, BMI composite, Ti-6Al-4V), plus 11 additional materials for 15 total. CCD camera system images dust accumulation. Successfully operated March 2-16, 2025 on Blue Ghost 1."
+      },
+      "notes": "Aegis Aerospace (formerly Alpha Space Test & Research Alliance), Webster, TX. Sample carrier disc exposed before landing. Deployed March 2, 2025 on Blue Ghost 1, operated 14 days. Measures lunar dust adhesion tenacity to inform Artemis program material selection for spacecraft, spacesuits, habitats, equipment protection. First fully successful CLPS mission."
+    },
+    {
+      "vendor": "IST AG",
+      "model": "ESCC Qualified Pt Thin-Film Temperature Sensors",
+      "description": "ESCC qualified thin-film platinum RTD temperature sensors for space applications",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.ist-ag.com/en/news/innovative-sensor-technology-temperature-sensors-deep-space",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified TRL 9. ESCC qualified February 2018 after 4 years evaluation/qualification by ESA. Flight proven on multiple space missions: Juice, Solar Orbiter, Euclid, LISA, MPCV, ARIEL, Space Reaction Wheels, ERSA, EAGLE, IMAP, SABIAMAR, TITAN, ROSE-L, Comet Interceptor, SOLAR-C. Only platinum temperature sensors with ESA ESCC qualification. IST AG vendor site."
+      },
+      "mass_kg": {
+        "value": 0.000011,
+        "source_url": "https://www.ist-ag.com/en/news/ist-ag-obtains-escc-qualification-thin-film-pt-temperature-sensors",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified 2.2 x 2.0 x 1.1 mm dimensions from IST AG vendor site. Mass ~11 mg (0.000011 kg) estimated from dimensions and thin-film construction. Described as 'light weight' for space applications."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.ist-ag.com/en/space",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "No power consumption - passive resistive RTD (Resistance Temperature Detector). Requires external measurement circuit but sensor itself is unpowered. 2/3/4-wire configurations available."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": "https://www.ist-ag.com/en/space",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Commercial vendor, pricing not published. Contact required for quote. Available as flight models (FM) and engineering models (EM)."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": "https://www.ist-ag.com/en/space",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. Commercial off-the-shelf ESCC qualified product."
+      },
+      "capabilities": {
+        "value": "Temperature range -200°C to +200°C, Pt100 to Pt2000 resistance values, 2/3/4-wire configurations, 70,000 thermal cycles tested (-200°C to +200°C, equivalent to ISS circumnavigating Earth 16x/day for 20 years), drift-stable TCR, thin-film platinum RTD on ceramic substrate, dimensions 2.2 x 2.0 x 1.1 mm, ESCC spec 4006/015, wire extensions also ESCC qualified",
+        "source_url": "https://www.ist-ag.com/en/news/recertification-escc-qualified-hi-rel-pt-temperature-sensors-completed",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified from IST AG vendor site. Only ESCC qualified platinum temperature sensors (ESA standard). Recertified for continued space use. Excellent thermal cycle performance with negligible TCR drift. Wire extensions also ESCC qualified. Multiple space missions flown."
+      },
+      "notes": "IST AG (Innovative Sensor Technology), Switzerland. ESCC qualified Feb 2018, only platinum sensors with ESA qualification. Flight heritage: Juice, Solar Orbiter, Euclid, LISA, MPCV, ARIEL, IMAP, Comet Interceptor, SOLAR-C, others. Thin-film Pt RTD, passive sensor. 2.2x2.0x1.1mm, ~11mg."
+    },
+    {
+      "vendor": "TE Connectivity",
+      "model": "44900 Series NASA-Qualified NTC Thermistors",
+      "description": "NASA GSFC qualified epoxy-encapsulated precision interchangeable NTC thermistors for extended space flight",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.electronicdesign.com/technologies/embedded/article/21802183/connecting-with-the-planets-one-companys-role-in-missions-to-mars-jupiter-and-beyond",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed TRL 9 from Electronic Design article documenting flight heritage on Juno mission (2011 launch, Jupiter arrival 2016) and Pioneer 10 (1970s). TE Connectivity has supplied NASA-qualified thermistors for 40+ years since mid-1970s. NASA GSFC S-311-P-18 qualified, on NASA QPLD. Note: Vendor site (te.com) blocked automated access (WebFetch and Puppeteer both failed with protocol errors)."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. Dimensions are 2.4-2.8 mm diameter, indicating very small mass (likely <1 gram). Checked NASA S-311-P-18 spec and TE sources but exact mass not specified."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable - passive resistive sensor, no active power required. NTC thermistors operate by resistance change with temperature."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. NASA-qualified components typically require RFQ. Checked distributor sites (CDI, Variohm) but pricing not listed."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. Line requalified yearly per MIL-PRF-23648, suggesting ongoing production availability."
+      },
+      "capabilities": {
+        "value": "Temperature range -55°C to +150°C (with excursion limits), ±0.1°C or ±0.2°C interchangeability (0-70°C), 2.4-2.8mm diameter, high sensitivity, long-term stability, <0.66% TML, <0.01% CVCM outgassing (ASTM E-595-90)",
+        "source_url": "https://www.te.com/en/whitepapers/sensors/sensors-in-space.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Confirmed from TE Connectivity official whitepaper 'Sensors in Space' and NASA S-311-P-18 specification references. Temperature excursions: ±0.2°C units can go to 150°C, ±0.1°C units to 100°C. Dimensions and outgassing specs confirmed from multiple sources including NASA NEPP documentation."
+      },
+      "notes": "Line requalified yearly per MIL-PRF-23648. Fully flight tested and characterized. Thermally conductive epoxy coating."
+    },
+    {
+      "vendor": "ISRO / SAC Ahmedabad",
+      "model": "ChaSTE (Chandra's Surface Thermo-physical Experiment)",
+      "description": "Temperature probe with controlled penetration measuring thermal gradient to 10cm depth",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.eoportal.org/satellite-missions/chandrayaan-3",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified TRL 9. Successfully deployed on Chandrayaan-3 Vikram lander: launched July 14, 2023, landed August 23, 2023 at lunar south pole (69.37°S). First observations recorded August 27, 2023. Operated for one lunar day (~10 Earth days, Aug 24-Sept 4, 2023). Mission fully successful achieving all primary objectives. eoPortal and ISRO official sources."
+      },
+      "mass_kg": {
+        "value": 2.5,
+        "source_url": "https://www.spl.gov.in/SPLv2/index.php/advanced-technologies/chandrayaan-3/ChaSTE-ch3.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified 2.5 kg total mass including probe and harness from Space Physics Laboratory (SPL) VSSC official site, the developing organization."
+      },
+      "power_kw": {
+        "value": 0.035,
+        "source_url": "https://www.spl.gov.in/SPLv2/index.php/advanced-technologies/chandrayaan-3/ChaSTE-ch3.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified 35W maximum power allocation (0.035 kW) from SPL VSSC official site. Custom capton foil heater for thermal conductivity measurements in active mode."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. ISRO government space mission instrument."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. ISRO technology, commercial availability uncertain."
+      },
+      "capabilities": {
+        "value": "Ten Pt-1000 RTD temperature sensors positioned at 1 cm intervals, controlled penetration mechanism to 10 cm depth (achieved 14 cm penetration on mission), rotation-based deployment (not hammering), syntactic foam composite probe (cyanate ester/urethane-modified epoxy with glass fiber and cork), natural frequency >120 Hz stowed, passive mode vertical thermal gradient measurement, active mode thermal conductivity estimation via heating, measured surface temperature 355K (±0.5K) vs predicted 330K, operated ~150 hours covering 8AM-4PM lunar time",
+        "source_url": "https://www.spl.gov.in/SPLv2/index.php/advanced-technologies/chandrayaan-3/ChaSTE-ch3.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified from SPL VSSC official site (developing organization) and ISRO official mission pages. First in-situ measurement of lunar subsurface temperature profile at southern high latitudes. Temperature measurements taken at 1-second intervals across 10 depths up to 100mm (achieved 140mm)."
+      },
+      "notes": "Developed by Space Physics Laboratory (SPL) VSSC in collaboration with Physical Research Laboratory (PRL) Ahmedabad. Part of Chandrayaan-3 Vikram lander payload. Successfully operated at lunar south pole (69.37°S, 32.35°E) from Aug 23 - Sept 4, 2023. First-ever in-situ thermal measurements of Moon's topmost fluffy layer at high southern latitudes. Entered sleep mode Sept 4, 2023 after one lunar day; revival attempts Sept 22, 2023 unsuccessful due to harsh lunar night (-180°C)."
+    },
+    {
+      "vendor": "ISRO",
+      "model": "ILSA (Instrument for Lunar Seismic Activity)",
+      "description": "Seismometer for detecting moonquakes around landing site",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.eoportal.org/satellite-missions/chandrayaan-3",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified TRL 9. Successfully deployed on Chandrayaan-3 Vikram lander: landed August 23, 2023 at lunar south pole (69.37°S). Operated Aug 24 - Sept 4, 2023 (one lunar day). Recorded vibrations from rover movements (Aug 25, 2023) and detected potential natural seismic event (Aug 26, 2023) under investigation. First MEMS-based seismometer on Moon. First seismic data from lunar polar region. eoPortal and ISRO official sources."
+      },
+      "mass_kg": {
+        "value": 1.8,
+        "source_url": "https://www.eoportal.org/satellite-missions/chandrayaan-3",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified 1.8 kg mass, dimensions 17.0 x 17.0 x 7.2 cm from eoPortal and technical search results. Confirmed in multiple sources including scientific literature."
+      },
+      "power_kw": {
+        "value": 0.004,
+        "source_url": "https://www.eoportal.org/satellite-missions/chandrayaan-3",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified power consumption less than 4W (0.004 kW) from eoPortal and technical search results."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. ISRO government space mission instrument."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. ISRO technology, commercial availability uncertain."
+      },
+      "capabilities": {
+        "value": "Six high-sensitivity MEMS accelerometers (indigenously fabricated via Silicon micromachining), spring-mass system with comb-structured electrodes, dynamic range ±0.5 g, resolution 100 nano-g/Hz^1/2, bandwidth 40 Hz, capacitance-based sensing (vibration deflects mass changing electrode capacitance converted to voltage), measures moonquakes, impacts, and artificial events, characterizes lunar crust and mantle structure, first MEMS instrument on Moon, first seismic data from lunar polar region",
+        "source_url": "https://www.isro.gov.in/Ch3_ILSA_Listens_Landing_Site.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified from ISRO official site and eoPortal. Developed at Laboratory for Electro-Optics Systems (LEOS) Bangalore with private industry support. Deployment mechanism by U.R. Rao Satellite Centre Bengaluru. Recorded rover movements and potential natural moonquake during mission."
+      },
+      "notes": "Developed by Laboratory for Electro-Optics Systems (LEOS) Bangalore with private industry support. Deployment mechanism by U.R. Rao Satellite Centre (URSC) Bengaluru. Part of Chandrayaan-3 Vikram lander payload. First Indian seismometer on lunar surface and first MEMS-based seismometer on Moon. Successfully operated Aug 23 - Sept 4, 2023. Recorded rover movements (Aug 25) and potential natural seismic event (Aug 26) under investigation. Entered sleep mode Sept 4, 2023; revival attempts Sept 22, 2023 unsuccessful."
+    },
+    {
+      "vendor": "ISRO",
+      "model": "RAMBHA-LP (Radio Anatomy of Moon Bound Hypersensitive ionosphere and Atmosphere - Langmuir Probe)",
+      "description": "Plasma density measurement probe for lunar surface environment",
+      "trl": {
+        "value": 9,
+        "source_url": "https://www.eoportal.org/satellite-missions/chandrayaan-3",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified TRL 9. Successfully deployed on Chandrayaan-3 Vikram lander: landed August 23, 2023 at lunar south pole (69.37°S, 32.35°E). Operated Aug 23 - Sept 4, 2023. First measurements August 31, 2023. Measured electron density 5-30 million electrons/m³ initially, later refined to 380-600 electrons/cm³ at Shiv Shakti point. Electron temperatures 3,000-8,000 Kelvin. First in-situ plasma measurements at lunar south pole. eoPortal and ISRO official sources."
+      },
+      "mass_kg": {
+        "value": 1.3,
+        "source_url": "https://www.eoportal.org/satellite-missions/chandrayaan-3",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified 1.3 kg total mass for RAMBHA-LP system from eoPortal and technical search results. Includes 5 cm spherical probe, 1 m CFRP boom, deployment mechanism, and electronics."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.spl.gov.in/SPLv2/index.php/advanced-technologies/chandrayaan-3/RAMBHA_LP.html",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Power consumption not published. DSP-based controller with bipolar ADC. Checked SPL VSSC official site and multiple sources - no power specification found."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. ISRO government space mission instrument."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. ISRO technology, commercial availability uncertain."
+      },
+      "capabilities": {
+        "value": "Spherical Langmuir probe 5 cm diameter with Titanium Nitride coating, CFRP boom ~1 m length, sweep potential ±12V in 0.1V steps, 60 ms dwell time per step, detects pico-ampere currents with 1 ms response time, measures ion and electron densities and energies, DSP-based controller with bipolar ADC, spring-assisted deployment mechanism, dust protection enclosure, shape-memory alloy hold-release mechanism, measured electron density 380-600 electrons/cm³, electron temperature 3,000-8,000K, detected molecular ions (CO₂, H₂O-derived), monitors solar wind and magnetotail interactions",
+        "source_url": "https://www.isro.gov.in/Ch3_Rambha-LP_near-surface_Plasma.html",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified from ISRO official site and SPL VSSC official page. Developed by Space Physics Laboratory (SPL) VSSC Thiruvananthapuram. First in-situ lunar south pole plasma measurements. Revealed higher electron densities than orbital observations predicted, identified molecular ion contributions to charged environment."
+      },
+      "notes": "Developed by Space Physics Laboratory (SPL) Vikram Sarabhai Space Centre (VSSC) Thiruvananthapuram. Part of Chandrayaan-3 Vikram lander payload. Mounted on top deck of lander. Successfully operated Aug 23 - Sept 4, 2023 at Shiv Shakti point (69.3°S, 32.3°E). First Langmuir probe measurements at lunar south polar region. Provided critical ground truth on Moon's plasma environment. Discovered electron densities significantly exceed orbital estimates, identified molecular ions in near-surface plasma. Entered sleep mode Sept 4, 2023; revival attempts Sept 22, 2023 unsuccessful."
+    },
+    {
+      "vendor": "Johns Hopkins APL / Bartington Instruments",
+      "model": "VML (Vector Magnetometer-Lander) for Lunar Vertex",
+      "description": "Tetrahedral fluxgate magnetometer array for measuring lunar magnetic anomalies",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.jhuapl.edu/destinations/missions/lunar-vertex",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Corrected from TRL 8 to TRL 6. Mission scheduled for 'no earlier than 2026' on IM-3/Intuitive Machines (not 2024 as previously stated). Rover delivered to APL August 2023 for integration. Instrument built and delivered but NOT yet flight-proven. Verified from JHU APL official mission page."
+      },
+      "mass_kg": {
+        "value": null,
+        "source_url": "https://www.jhuapl.edu/destinations/instruments/vector-magnetometers",
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. System includes 0.5m mast, four Bartington Mag566 sensors (tetrahedral array), and one science-grade dual-ring core fluxgate. Individual Mag566 sensors are miniature (20mW each) but total VML system mass not specified in accessible sources."
+      },
+      "power_kw": {
+        "value": null,
+        "source_url": "https://www.bartington.com/products/mag566/",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not fully specified. Individual Bartington Mag566 sensors consume 20mW each. Four sensors = 80mW minimum, plus primary sensor and electronics. Total system power likely <1W but exact value not published. Checked Bartington vendor site and JHU APL sources."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. JHU APL instrument for NASA CLPS/PRISM program. Government-funded research instrument."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. Custom research instrument for specific NASA mission."
+      },
+      "capabilities": {
+        "value": "Tetrahedral array of four commercial Bartington Mag566 fluxgate magnetometers (±100μT range, DC-30Hz bandwidth, 20mW each, ±5V supply) mounted at bottom of 0.5m mast, science-grade dual-ring core fluxgate magnetometer at mast top, sophisticated gradiometry separates lunar field from lander-generated fields, measures magnetic field during descent from 30km altitude and during surface operations, characterizes Reiner Gamma magnetic anomaly structure and mini-magnetosphere",
+        "source_url": "https://ui.adsabs.harvard.edu/abs/2024EGUGA..2621717V/abstract",
+        "verified_tier": "credible",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified and enhanced from EGU 2024 abstract and Bartington Mag566 specifications. Bartington sensors are MIL-STD-810F drop tested and space-qualified for this mission. Heritage from commercial magnetometer line adapted for space use."
+      },
+      "notes": "Part of Lunar Vertex mission to Reiner Gamma. Investigates magnetic anomaly origin and mini-magnetosphere structure. Uses commercial Bartington sensors."
+    },
+    {
+      "vendor": "Southwest Research Institute",
+      "model": "MAPS (Magnetic Anomaly Plasma Spectrometer)",
+      "description": "Ion and electron velocity distribution spectrometer for lunar plasma environment",
+      "trl": {
+        "value": 6,
+        "source_url": "https://www.swri.org/press-release/swri-delivers-plasma-spectrometer-moon-mission",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Corrected from TRL 8 to TRL 6. Instrument delivered to lander integrator July 2023. Mission scheduled 2026 on IM-3/Intuitive Machines Lunar Vertex. Built and delivered but NOT yet flight-proven. Verified from SwRI official press release."
+      },
+      "mass_kg": {
+        "value": 5.0,
+        "source_url": "https://www.swri.org/press-release/swri-delivers-plasma-spectrometer-moon-mission",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified as '11 pounds (five kilograms)' from SwRI official press release. Added from null."
+      },
+      "power_kw": {
+        "value": 0.006,
+        "source_url": "https://www.swri.org/press-release/swri-delivers-plasma-spectrometer-moon-mission",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified as 'less than 6 watts' (0.006 kW) from SwRI official press release. Added from null."
+      },
+      "cost_usd": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not published. SwRI instrument for NASA CLPS/PRISM program. Government-funded research instrument."
+      },
+      "procurement_lead_time": {
+        "value": null,
+        "source_url": null,
+        "verified_tier": "unverified",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Not applicable. Custom research instrument for specific NASA mission."
+      },
+      "capabilities": {
+        "value": "Measures ion and electron velocity distributions with field of view 292.5° x 90°, energy range 8 eV/e to 17.5 keV/e, resolution more than 4x higher than typical Earth/Moon orbiting instruments, separates charged particles by energy and direction creating 3D pictures of particle behavior, characterizes solar wind interaction with lunar surface and localized magnetic fields at Reiner Gamma, determines if solar wind reaches surface within magnetic anomaly, heritage from ESA Rosetta mission spectrometer (comet 67P/Churyumov-Gerasimenko)",
+        "source_url": "https://www.swri.org/press-release/swri-delivers-plasma-spectrometer-moon-mission",
+        "verified_tier": "authoritative",
+        "verification_date": "2025-12-10",
+        "verification_notes": "Verified and enhanced from SwRI official press release. Lead Investigator: Dr. Jörg-Micha Jahn (SwRI). Heritage from ESA Rosetta mission to comet 67P. Development described as 'fastest turnaround of any space science instrument built by SwRI'. Works complementary to VML magnetometer."
+      },
+      "notes": "Part of Lunar Vertex lander payload. Studies interaction between solar wind and Reiner Gamma magnetic anomaly. Lead Investigator: Dr. Jörg-Micha Jahn (SwRI). Heritage from ESA Rosetta mission. Delivered July 2023, mission 2026."
+    }
+  ]
+}
