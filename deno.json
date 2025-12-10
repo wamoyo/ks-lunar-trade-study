@@ -1,13 +1,22 @@
 {
   "tasks": {
-    "serve": "deno run --allow-net --allow-read --watch server.js"
+    "serve": "deno run --allow-net --allow-read --watch server.js",
+    "start": "deno run --allow-net --allow-read --watch server.js",
+    "dev": "deno run --allow-net --allow-read --watch server.js"
   },
   "deploy": {
     "project": "a7b28359-9751-4553-9dbc-8c8032e0b8c7",
-    "exclude": [
-      "**/node_modules"
+    "entrypoint": "server.js",
+    "include": [
+      "server.js",
+      "output/**/*.json",
+      "research-instructions/**/*.md"
     ],
-    "include": [],
-    "entrypoint": "server.js"
+    "exclude": [
+      "**/node_modules",
+      "**/.git",
+      "**/.vscode",
+      "**/.DS_Store"
+    ]
   }
 }

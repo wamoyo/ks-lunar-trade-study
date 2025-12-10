@@ -461,15 +461,40 @@ async function handler (req) {
     })
   }
 
+  // Serve social sharing image
+  if (url.pathname === "/Luna-Trade-Study.png") {
+    try {
+      var imageData = await Deno.readFile("Luna-Trade-Study.png")
+      return new Response(imageData, {
+        headers: { "Content-Type": "image/png" }
+      })
+    } catch (e) {
+      return new Response("Image not found", { status: 404 })
+    }
+  }
+
   return new Response("Not Found", { status: 404 })
 }
 
 var dashboardHTML = `<!DOCTYPE html>
 <html>
 <head>
-  <title>Lunar Trade Study Dashboard</title>
+  <title>Lunar Trade Study</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Comprehensive trade study analyzing 252 hardware systems across 18 categories for lunar missions. Verified specifications for launch vehicles, landers, rovers, power systems, life support, and more.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lunar Trade Study">
+  <meta property="og:description" content="Comprehensive trade study analyzing 252 hardware systems across 18 categories for lunar missions. Verified specifications for launch vehicles, landers, rovers, power systems, life support, and more.">
+  <meta property="og:image" content="/Luna-Trade-Study.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Lunar Trade Study">
+  <meta property="twitter:description" content="Comprehensive trade study analyzing 252 hardware systems across 18 categories for lunar missions. Verified specifications for launch vehicles, landers, rovers, power systems, life support, and more.">
+  <meta property="twitter:image" content="/Luna-Trade-Study.png">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
